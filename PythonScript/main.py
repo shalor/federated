@@ -208,7 +208,7 @@ def main():
             if args.attack_strength != 0:
                 attack_coefficient = args.attack_strength
             else:
-                attack_coefficient = 10 * (1 - 1 / math.sqrt(epoch-args.delayed_attack+1)) * (epoch >= args.delayed_attack)  # math.sqrt((epoch + 1 - args.delayed_attack))
+                attack_coefficient = 4 * (1 - 1 / math.sqrt(epoch-args.delayed_attack+1)) * (epoch >= args.delayed_attack)  # math.sqrt((epoch + 1 - args.delayed_attack))
                 print("Epoch {}, Attack delay: {}, Coefficient is: {}".format(epoch, args.delayed_attack, attack_coefficient))
 
         # Prior to training, need to keep the local models data for the attack detection process
