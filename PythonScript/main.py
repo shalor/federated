@@ -146,6 +146,8 @@ def main():
                         help='Insert the attack with a delay')
     parser.add_argument('--attack-type', default="", metavar='STRING',
                         help='Insert an attack type')
+    parser.add_argument('--results-file', default="results_dictionary", metavar='STRING',
+                        help='Insert an attack type')
     parser.add_argument('--allow-detection', action='store_true', default=False,
                         help='Apply attacker detection algorithm')
     args = parser.parse_args()
@@ -343,9 +345,10 @@ def main():
                     print(p.name, p.data)
                     # print(p.size())
 
-        if epoch % 10 == 0:
+        if epoch % 10 == 0 or epoch == args.epochs:
             print("Finished Running epoch {}, printing results dictionary to file.".format(epoch))
-            with open("results_dictionary.json", "w") as fp:
+            file_name = "{}.json".format(args.results_file)
+            with open(file_name, "w") as fp:
                 json.dump(results_dic, fp)
             print("Finished printing results dictionary to file after epoch {}.".format(epoch))
             torch.save(joint_model.state_dict(), "joint_model.pt")
