@@ -200,7 +200,7 @@ def main():
         dic["prev_model{0}".format(agent)] = Net().to(device)
         dic["optimizer{0}".format(agent)] = optim.Adadelta(dic["model{0}".format(agent)].parameters(), lr=args.lr)
         dic["scheduler{0}".format(agent)] = StepLR(dic["optimizer{0}".format(agent)], step_size=1, gamma=args.gamma)
-
+    attack_coefficient = 0
     for epoch in range(1, args.epochs + 1):
 
         if args.attack and epoch >= args.delayed_attack:
@@ -211,7 +211,7 @@ def main():
                 attack_coefficient = args.attack_strength
             else:
                 attack_coefficient =  math.sqrt((epoch + 1 - args.delayed_attack))
-#                attack_coefficient = attack_coefficient if attack_coefficient < 7.5 else 6
+                attack_coefficient = attack_coefficient if attack_coefficient < 6 else 6
                 print("Epoch {}, Attack delay: {}, Coefficient is: {}".format(epoch, args.delayed_attack, attack_coefficient))
 
         # Prior to training, need to keep the local models data for the attack detection process
@@ -262,6 +262,7 @@ def main():
         for agent in range(args.agents):
             agent_coefficient = 1
             if args.attack and epoch >= args.delayed_attack:
+                #agent_coefficient = 1
                 if agent == attacking_agent:
                     agent_coefficient = attack_coefficient
             else:
@@ -292,7 +293,8 @@ def main():
             print("Epoch {}: Current delta (median) is: {}".format(epoch, delta))
 
         for agent in range(args.agents):
-            if args.allow_detection and (epoch >= args.delayed_attack) and (dic["agent{0}_norm".format(agent)].tolist() > delta * math.sqrt(args.agents)):
+            #if args.allow_detection and (epoch >= args.delayed_attack) and (dic["agent{0}_norm".format(agent)].tolist()) > delta * math.sqrt(args.agents)):
+            if args.allow_detection and (epoch >= args.delayed_attack) and (abs(dic["agent{0}_norm".format(agent)].tolist() - delta) > delta * math.sqrt(args.agents)):
                 attack_detected = 1
                 print("Detected an attacker: {}".format(agent))
                 if assumed_attacker_agent != -1:
