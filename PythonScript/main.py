@@ -107,6 +107,19 @@ def test(model, device, test_loader, epoch, results_dic):
         100. * correct / len(test_loader.dataset)))
 
 
+def save_model(model, epoch, suffix, agent):
+    """
+    Saves the model if necessary.
+    """
+    #self.args.get_logger().debug("Saving model to flat file storage. Save #{}", epoch)
+    
+    if not os.path.exists("model_save/"):
+        os.mkdir("model_save/")
+    
+    full_save_path = os.path.join("model_save/", "model_" + str(agent) + "_" + str(epoch) + "_" + suffix + ".model")
+    torch.save(model.state_dict(), full_save_path)
+
+
 def main():
     # Training settings
     parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
@@ -216,6 +229,7 @@ def main():
 
         # Prior to training, need to keep the local models data for the attack detection process
         for agent in range(args.agents):
+            save_model(dic["model{0}".format(agent)], epoch, "start", agent)
             if use_cuda:
                 dic["model{0}".format(agent)].conv1.cuda()
                 dic["model{0}".format(agent)].conv2.cuda()
@@ -238,6 +252,7 @@ def main():
             train(args, dic["model{0}".format(agent)], device, train_loader, dic["optimizer{0}".format(agent)], epoch, agent, attacking_agent, train_loader_length)
             # test(dic["model{0}".format(agent)], device, test_loader)
             dic["scheduler{0}".format(agent)].step()
+            save_model(dic["model{0}".format(agent)], epoch, "end", agent)
 
         # Reset the joint model parameters in each epoch
         for p in joint_model.parameters():
