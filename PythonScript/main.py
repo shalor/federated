@@ -128,7 +128,9 @@ def main():
     parser.add_argument('--test-batch-size', type=int, default=1000, metavar='N',
                         help='input batch size for testing (default: 1000)')
     parser.add_argument('--epochs', type=int, default=14, metavar='N',
-                        help='number of epochs to train (default: 14)')
+                        help='number of epochs to train (default: 1)')
+    parser.add_argument('--num-exp', type=int, default=1, metavar='N',
+                        help='number of experiments (default: 14)')
     parser.add_argument('--lr', type=float, default=1.0, metavar='LR',
                         help='learning rate (default: 1.0)')
     parser.add_argument('--gamma', type=float, default=0.7, metavar='M',
@@ -167,6 +169,9 @@ def main():
     use_cuda = not args.no_cuda and torch.cuda.is_available()
     use_mps = not args.no_mps and torch.backends.mps.is_available()
     torch.manual_seed(args.seed)
+
+    if not os.path.exists("experiment_results"):
+        os.mkdir("experiment_results/")
 
     if use_cuda:
         device = torch.device("cuda")
@@ -208,169 +213,174 @@ def main():
 
     joint_model = Net().to(device)
 
-    for agent in range(args.agents):
-        dic["model{0}".format(agent)] = Net().to(device)
-        dic["prev_model{0}".format(agent)] = Net().to(device)
-        dic["optimizer{0}".format(agent)] = optim.Adadelta(dic["model{0}".format(agent)].parameters(), lr=args.lr)
-        dic["scheduler{0}".format(agent)] = StepLR(dic["optimizer{0}".format(agent)], step_size=1, gamma=args.gamma)
-    attack_coefficient = 0
-    for epoch in range(1, args.epochs + 1):
-
-        if args.attack and epoch >= args.delayed_attack:
-            # Set attacking agent as agent 0
-            active_attacker = 0
-            # Set attack coefficient to be taken
-            if args.attack_strength != 0:
-                attack_coefficient = args.attack_strength
-            else:
-                attack_coefficient =  math.sqrt((epoch + 1 - args.delayed_attack))
-                attack_coefficient = attack_coefficient if attack_coefficient < 3 else 3
-                #attack_coefficient = attack_coefficient if attack_coefficient < 6 else 6
-                print("Epoch {}, Attack delay: {}, Coefficient is: {}".format(epoch, args.delayed_attack, attack_coefficient))
-
-        # Prior to training, need to keep the local models data for the attack detection process
+    model_prefix = "_experiment_"
+    for num_exp in range(1,args.num_exp+1):
+        print("###############################################") 
+        print("Running experiment {} out of {}".format(num_exp,args.num_exp))
+        print("###############################################") 
         for agent in range(args.agents):
-            save_model(dic["model{0}".format(agent)], epoch, "start", agent)
-            if use_cuda:
-                dic["model{0}".format(agent)].conv1.cuda()
-                dic["model{0}".format(agent)].conv2.cuda()
-                dic["model{0}".format(agent)].fc1.cuda()
-                dic["model{0}".format(agent)].fc2.cuda()
-                dic["prev_model{0}".format(agent)].conv1.cuda()
-                dic["prev_model{0}".format(agent)].conv2.cuda()
-                dic["prev_model{0}".format(agent)].fc1.cuda()
-                dic["prev_model{0}".format(agent)].fc2.cuda()
-            dic["prev_model{0}".format(agent)].conv1.weight.data = dic["model{0}".format(agent)].conv1.weight.data.clone()
-            dic["prev_model{0}".format(agent)].conv2.weight.data = dic["model{0}".format(agent)].conv2.weight.data.clone()
-            dic["prev_model{0}".format(agent)].fc1.weight.data = dic["model{0}".format(agent)].fc1.weight.data.clone()
-            dic["prev_model{0}".format(agent)].fc2.weight.data = dic["model{0}".format(agent)].fc2.weight.data.clone()
-
-        # Perform training for each agent
-        print("Running epoch {} out of {}.".format(epoch,args.epochs))
-        train_loader_length = math.floor(len(train_loader.dataset) / args.agents / args.batch_size)
-        for agent in range(args.agents):
-            print("Running training on agent {}.".format(agent))
-            train(args, dic["model{0}".format(agent)], device, train_loader, dic["optimizer{0}".format(agent)], epoch, agent, attacking_agent, train_loader_length)
-            # test(dic["model{0}".format(agent)], device, test_loader)
-            dic["scheduler{0}".format(agent)].step()
-            save_model(dic["model{0}".format(agent)], epoch, "end", agent)
-
-        # Reset the joint model parameters in each epoch
-        for p in joint_model.parameters():
-            if p.requires_grad:
-                # print(p.name, p.data)
-                p.data = torch.zeros(p.size())
-
-        if args.attack_type == "Randomized" and epoch >= args.delayed_attack:
-            print("Current attacking agent is {}, running a randomized attack.".format(active_attacker))
-            for p in dic["model{0}".format(active_attacker)].parameters():
+            dic["model{0}".format(agent)] = Net().to(device)
+            dic["prev_model{0}".format(agent)] = Net().to(device)
+            dic["optimizer{0}".format(agent)] = optim.Adadelta(dic["model{0}".format(agent)].parameters(), lr=args.lr)
+            dic["scheduler{0}".format(agent)] = StepLR(dic["optimizer{0}".format(agent)], step_size=1, gamma=args.gamma)
+        attack_coefficient = 0
+        for epoch in range(1, args.epochs + 1):
+    
+            if args.attack and epoch >= args.delayed_attack:
+                # Set attacking agent as agent 0
+                active_attacker = 0
+                # Set attack coefficient to be taken
+                if args.attack_strength != 0:
+                    attack_coefficient = args.attack_strength
+                else:
+                    attack_coefficient =  math.sqrt((epoch + 1 - args.delayed_attack))
+                    #attack_coefficient = attack_coefficient if attack_coefficient < 3 else 3
+                    attack_coefficient = attack_coefficient if attack_coefficient < 6 else 6
+                    print("Epoch {}, Attack delay: {}, Coefficient is: {}".format(epoch, args.delayed_attack, attack_coefficient))
+    
+            # Prior to training, need to keep the local models data for the attack detection process
+            for agent in range(args.agents):
+                #save_model(dic["model{0}".format(agent)], epoch, "start", agent)
+                if use_cuda:
+                    dic["model{0}".format(agent)].conv1.cuda()
+                    dic["model{0}".format(agent)].conv2.cuda()
+                    dic["model{0}".format(agent)].fc1.cuda()
+                    dic["model{0}".format(agent)].fc2.cuda()
+                    dic["prev_model{0}".format(agent)].conv1.cuda()
+                    dic["prev_model{0}".format(agent)].conv2.cuda()
+                    dic["prev_model{0}".format(agent)].fc1.cuda()
+                    dic["prev_model{0}".format(agent)].fc2.cuda()
+                dic["prev_model{0}".format(agent)].conv1.weight.data = dic["model{0}".format(agent)].conv1.weight.data.clone()
+                dic["prev_model{0}".format(agent)].conv2.weight.data = dic["model{0}".format(agent)].conv2.weight.data.clone()
+                dic["prev_model{0}".format(agent)].fc1.weight.data = dic["model{0}".format(agent)].fc1.weight.data.clone()
+                dic["prev_model{0}".format(agent)].fc2.weight.data = dic["model{0}".format(agent)].fc2.weight.data.clone()
+    
+            # Perform training for each agent
+            print("Running epoch {} out of {}.".format(epoch,args.epochs))
+            train_loader_length = math.floor(len(train_loader.dataset) / args.agents / args.batch_size)
+            for agent in range(args.agents):
+                print("Running training on agent {}.".format(agent))
+                train(args, dic["model{0}".format(agent)], device, train_loader, dic["optimizer{0}".format(agent)], epoch, agent, attacking_agent, train_loader_length)
+                # test(dic["model{0}".format(agent)], device, test_loader)
+                dic["scheduler{0}".format(agent)].step()
+                #save_model(dic["model{0}".format(agent)], epoch, "end", agent)
+    
+            # Reset the joint model parameters in each epoch
+            for p in joint_model.parameters():
                 if p.requires_grad:
                     # print(p.name, p.data)
-                    p.data = args.attack_strength * torch.randn(p.size())
-
-        # Update the join model parameters with each agent parameters
-
-        attack_detected = 0
-        assumed_attacker_agent = -1
-        delta = 1e6
-
-        norm_list = []
-        for agent in range(args.agents):
-            agent_coefficient = 1
-            if args.attack and epoch >= args.delayed_attack:
-                #agent_coefficient = 1
-                if agent == attacking_agent:
-                    agent_coefficient = attack_coefficient
+                    p.data = torch.zeros(p.size())
+    
+            if args.attack_type == "Randomized" and epoch >= args.delayed_attack:
+                print("Current attacking agent is {}, running a randomized attack.".format(active_attacker))
+                for p in dic["model{0}".format(active_attacker)].parameters():
+                    if p.requires_grad:
+                        # print(p.name, p.data)
+                        p.data = args.attack_strength * torch.randn(p.size())
+    
+            # Update the join model parameters with each agent parameters
+    
+            attack_detected = 0
+            assumed_attacker_agent = -1
+            delta = 1e6
+    
+            norm_list = []
+            for agent in range(args.agents):
+                agent_coefficient = 1
+                if args.attack and epoch >= args.delayed_attack:
+                    #agent_coefficient = 1
+                    if agent == attacking_agent:
+                        agent_coefficient = attack_coefficient
+                else:
+                    continue
+                if use_cuda:
+                    dic["prev_model{0}".format(agent)].conv1.cuda()
+                    dic["prev_model{0}".format(agent)].conv2.cuda()
+                    dic["prev_model{0}".format(agent)].fc1.cuda()
+                    dic["prev_model{0}".format(agent)].fc2.cuda()
+                    dic["model{0}".format(agent)].conv1.cuda()
+                    dic["model{0}".format(agent)].conv2.cuda()
+                    dic["model{0}".format(agent)].fc1.cuda()
+                    dic["model{0}".format(agent)].fc2.cuda()
+    
+                dic["agent{0}_conv1_norm".format(agent)] = agent_coefficient * (dic["model{0}".format(agent)].conv1.weight.data - dic["prev_model{0}".format(agent)].conv1.weight.data).norm()
+                dic["agent{0}_conv2_norm".format(agent)] = agent_coefficient * (dic["model{0}".format(agent)].conv2.weight.data - dic["prev_model{0}".format(agent)].conv2.weight.data).norm()
+                dic["agent{0}_fc1_norm".format(agent)] = agent_coefficient * (dic["model{0}".format(agent)].fc1.weight.data - dic["prev_model{0}".format(agent)].fc1.weight.data).norm()
+                dic["agent{0}_fc2_norm".format(agent)] = agent_coefficient * (dic["model{0}".format(agent)].fc2.weight.data - dic["prev_model{0}".format(agent)].fc2.weight.data).norm()
+    
+                if args.allow_detection:
+                    dic["agent{0}_norm".format(agent)] = torch.tensor([dic["agent{0}_conv1_norm".format(agent)].tolist(),dic["agent{0}_conv2_norm".format(agent)].tolist(),dic["agent{0}_fc1_norm".format(agent)].tolist(),dic["agent{0}_fc2_norm".format(agent)].tolist()]).norm()
+                    # dic["agent{0}_norm".format(agent)] = torch.cat([dic["agent{0}_conv1_norm".format(agent)],dic["agent{0}_conv2_norm".format(agent)],dic["agent{0}_fc1_norm".format(agent)],dic["agent{0}_fc2_norm".format(agent)]]).norm()
+                    norm_list.append(dic["agent{0}_norm".format(agent)].tolist())
+                    print("Agent{} - norm = {}".format(agent, dic["agent{0}_norm".format(agent)]))
+    
+            if args.allow_detection and (epoch >= args.delayed_attack):
+                delta = statistics.median(norm_list)
+                print("Epoch {}: Current delta (median) is: {}".format(epoch, delta))
+    
+            for agent in range(args.agents):
+                #if args.allow_detection and (epoch >= args.delayed_attack) and (dic["agent{0}_norm".format(agent)].tolist()) > delta * math.sqrt(args.agents)):
+                if args.allow_detection and (epoch >= args.delayed_attack) and (abs(dic["agent{0}_norm".format(agent)].tolist() - delta) > delta * math.sqrt(args.agents)):
+                    attack_detected = 1
+                    print("Detected an attacker: {}".format(agent))
+                    if assumed_attacker_agent != -1:
+                        print("Found multiple attackers: {}, {}".format(assumed_attacker_agent, agent))
+                    assumed_attacker_agent = agent
+    
+            if attack_detected:
+                trustworthy_agents_amount = args.agents - 1
             else:
-                continue
-            if use_cuda:
-                dic["prev_model{0}".format(agent)].conv1.cuda()
-                dic["prev_model{0}".format(agent)].conv2.cuda()
-                dic["prev_model{0}".format(agent)].fc1.cuda()
-                dic["prev_model{0}".format(agent)].fc2.cuda()
-                dic["model{0}".format(agent)].conv1.cuda()
-                dic["model{0}".format(agent)].conv2.cuda()
-                dic["model{0}".format(agent)].fc1.cuda()
-                dic["model{0}".format(agent)].fc2.cuda()
-
-            dic["agent{0}_conv1_norm".format(agent)] = agent_coefficient * (dic["model{0}".format(agent)].conv1.weight.data - dic["prev_model{0}".format(agent)].conv1.weight.data).norm()
-            dic["agent{0}_conv2_norm".format(agent)] = agent_coefficient * (dic["model{0}".format(agent)].conv2.weight.data - dic["prev_model{0}".format(agent)].conv2.weight.data).norm()
-            dic["agent{0}_fc1_norm".format(agent)] = agent_coefficient * (dic["model{0}".format(agent)].fc1.weight.data - dic["prev_model{0}".format(agent)].fc1.weight.data).norm()
-            dic["agent{0}_fc2_norm".format(agent)] = agent_coefficient * (dic["model{0}".format(agent)].fc2.weight.data - dic["prev_model{0}".format(agent)].fc2.weight.data).norm()
-
-            if args.allow_detection:
-                dic["agent{0}_norm".format(agent)] = torch.tensor([dic["agent{0}_conv1_norm".format(agent)].tolist(),dic["agent{0}_conv2_norm".format(agent)].tolist(),dic["agent{0}_fc1_norm".format(agent)].tolist(),dic["agent{0}_fc2_norm".format(agent)].tolist()]).norm()
-                # dic["agent{0}_norm".format(agent)] = torch.cat([dic["agent{0}_conv1_norm".format(agent)],dic["agent{0}_conv2_norm".format(agent)],dic["agent{0}_fc1_norm".format(agent)],dic["agent{0}_fc2_norm".format(agent)]]).norm()
-                norm_list.append(dic["agent{0}_norm".format(agent)].tolist())
-                print("Agent{} - norm = {}".format(agent, dic["agent{0}_norm".format(agent)]))
-
-        if args.allow_detection and (epoch >= args.delayed_attack):
-            delta = statistics.median(norm_list)
-            print("Epoch {}: Current delta (median) is: {}".format(epoch, delta))
-
-        for agent in range(args.agents):
-            #if args.allow_detection and (epoch >= args.delayed_attack) and (dic["agent{0}_norm".format(agent)].tolist()) > delta * math.sqrt(args.agents)):
-            if args.allow_detection and (epoch >= args.delayed_attack) and (abs(dic["agent{0}_norm".format(agent)].tolist() - delta) > delta * math.sqrt(args.agents)):
-                attack_detected = 1
-                print("Detected an attacker: {}".format(agent))
-                if assumed_attacker_agent != -1:
-                    print("Found multiple attackers: {}, {}".format(assumed_attacker_agent, agent))
-                assumed_attacker_agent = agent
-
-        if attack_detected:
-            trustworthy_agents_amount = args.agents - 1
-        else:
-            trustworthy_agents_amount = args.agents
-
-        for agent in range(args.agents):
-            if agent == assumed_attacker_agent:
-                continue
-            # agent_coefficient is used for randomized attack only, other attacks are using the attackers' trained model
-            agent_coefficient = 1
-            if args.attack and epoch >= args.delayed_attack:
-                if agent == attacking_agent:
-                    agent_coefficient = attack_coefficient
-                    print("Current attacking agent is {}, coefficient is {}.".format(agent, agent_coefficient))
-
-            if use_cuda:
-                joint_model.conv1.cuda()
-                joint_model.conv2.cuda()
-                joint_model.fc1.cuda()
-                joint_model.fc2.cuda()
-            joint_model.conv1.weight.data = joint_model.conv1.weight.data + agent_coefficient * (dic["model{0}".format(agent)].conv1.weight.data) / trustworthy_agents_amount
-            joint_model.conv2.weight.data = joint_model.conv2.weight.data + agent_coefficient * (dic["model{0}".format(agent)].conv2.weight.data) / trustworthy_agents_amount
-            joint_model.fc1.weight.data = joint_model.fc1.weight.data + agent_coefficient * (dic["model{0}".format(agent)].fc1.weight.data) / trustworthy_agents_amount
-            joint_model.fc2.weight.data = joint_model.fc2.weight.data + agent_coefficient * (dic["model{0}".format(agent)].fc2.weight.data) / trustworthy_agents_amount
-
-        # Send the updated params to the agents, keep the previous transmission
-        for agent in range(args.agents):
-            dic["model{0}".format(agent)].conv1.weight.data = joint_model.conv1.weight.data.clone()
-            dic["model{0}".format(agent)].conv2.weight.data = joint_model.conv2.weight.data.clone()
-            dic["model{0}".format(agent)].fc1.weight.data = joint_model.fc1.weight.data.clone()
-            dic["model{0}".format(agent)].fc2.weight.data = joint_model.fc2.weight.data.clone()
-
-            # dic["model{0}".format(agent)] = copy.deepcopy(joint_model)
-
-        test(joint_model, device, test_loader, epoch, results_dic)
-        # print(results_dic)
-        # correct += pred.eq(target.view_as(pred)).sum().item()
-
-        if args.save_model:
-            torch.save(joint_model.state_dict(), "mnist_cnn.pt")
-
-        if args.print_model:
-            for p in dic["model{0}".format(agent)].parameters():
-                if p.requires_grad:
-                    print(p.name, p.data)
-                    # print(p.size())
-
-        if epoch % 10 == 0 or epoch == args.epochs:
-            print("Finished Running epoch {}, printing results dictionary to file.".format(epoch))
-            file_name = "{}.json".format(args.results_file)
-            with open(file_name, "w") as fp:
-                json.dump(results_dic, fp)
-            print("Finished printing results dictionary to file after epoch {}.".format(epoch))
-            torch.save(joint_model.state_dict(), "joint_model.pt")
+                trustworthy_agents_amount = args.agents
+    
+            for agent in range(args.agents):
+                if agent == assumed_attacker_agent:
+                    continue
+                # agent_coefficient is used for randomized attack only, other attacks are using the attackers' trained model
+                agent_coefficient = 1
+                if args.attack and epoch >= args.delayed_attack:
+                    if agent == attacking_agent:
+                        agent_coefficient = attack_coefficient
+                        print("Current attacking agent is {}, coefficient is {}.".format(agent, agent_coefficient))
+    
+                if use_cuda:
+                    joint_model.conv1.cuda()
+                    joint_model.conv2.cuda()
+                    joint_model.fc1.cuda()
+                    joint_model.fc2.cuda()
+                joint_model.conv1.weight.data = joint_model.conv1.weight.data + agent_coefficient * (dic["model{0}".format(agent)].conv1.weight.data) / trustworthy_agents_amount
+                joint_model.conv2.weight.data = joint_model.conv2.weight.data + agent_coefficient * (dic["model{0}".format(agent)].conv2.weight.data) / trustworthy_agents_amount
+                joint_model.fc1.weight.data = joint_model.fc1.weight.data + agent_coefficient * (dic["model{0}".format(agent)].fc1.weight.data) / trustworthy_agents_amount
+                joint_model.fc2.weight.data = joint_model.fc2.weight.data + agent_coefficient * (dic["model{0}".format(agent)].fc2.weight.data) / trustworthy_agents_amount
+    
+            # Send the updated params to the agents, keep the previous transmission
+            for agent in range(args.agents):
+                dic["model{0}".format(agent)].conv1.weight.data = joint_model.conv1.weight.data.clone()
+                dic["model{0}".format(agent)].conv2.weight.data = joint_model.conv2.weight.data.clone()
+                dic["model{0}".format(agent)].fc1.weight.data = joint_model.fc1.weight.data.clone()
+                dic["model{0}".format(agent)].fc2.weight.data = joint_model.fc2.weight.data.clone()
+    
+                # dic["model{0}".format(agent)] = copy.deepcopy(joint_model)
+    
+            test(joint_model, device, test_loader, epoch, results_dic)
+            # print(results_dic)
+            # correct += pred.eq(target.view_as(pred)).sum().item()
+    
+            if args.save_model:
+                torch.save(joint_model.state_dict(), "mnist_cnn.pt")
+    
+            if args.print_model:
+                for p in dic["model{0}".format(agent)].parameters():
+                    if p.requires_grad:
+                        print(p.name, p.data)
+                        # print(p.size())
+    
+            if epoch % 10 == 0 or epoch == args.epochs:
+                print("Finished Running epoch {}, printing results dictionary to file.".format(epoch))
+                file_name = "experiment_results/{}{}{}.json".format(args.results_file,model_prefix,num_exp)
+                with open(file_name, "w") as fp:
+                    json.dump(results_dic, fp)
+                print("Finished printing results dictionary to file after epoch {}.".format(epoch))
+                torch.save(joint_model.state_dict(), "joint_model.pt")
 
 
 if __name__ == '__main__':

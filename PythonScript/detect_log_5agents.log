@@ -1,0 +1,2583 @@
+Epoch 1, Attack delay: 0, Coefficient is: 1.4142135623730951
+Running epoch 1 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 2.4962494373321533
+Agent1 - norm = 7.739342212677002
+Agent2 - norm = 7.673391342163086
+Agent3 - norm = 7.623133659362793
+Agent4 - norm = 7.441717624664307
+Epoch 1: Current delta (median) is: 7.623133659362793
+Current attacking agent is 0, coefficient is 1.4142135623730951.
+
+Joint model, Test set: Average loss: 2.2940, Accuracy: 2976/10000 (30%)
+
+Epoch 2, Attack delay: 0, Coefficient is: 1.7320508075688772
+Running epoch 2 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 2.7101826667785645
+Agent1 - norm = 5.644774913787842
+Agent2 - norm = 5.732988357543945
+Agent3 - norm = 5.711355686187744
+Agent4 - norm = 5.752823352813721
+Epoch 2: Current delta (median) is: 5.711355686187744
+Current attacking agent is 0, coefficient is 1.7320508075688772.
+
+Joint model, Test set: Average loss: 0.4178, Accuracy: 8493/10000 (85%)
+
+Epoch 3, Attack delay: 0, Coefficient is: 2.0
+Running epoch 3 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 2.3911635875701904
+Agent1 - norm = 2.773448944091797
+Agent2 - norm = 2.8313350677490234
+Agent3 - norm = 2.749088764190674
+Agent4 - norm = 2.812739372253418
+Epoch 3: Current delta (median) is: 2.773448944091797
+Current attacking agent is 0, coefficient is 2.0.
+
+Joint model, Test set: Average loss: 0.4303, Accuracy: 8925/10000 (89%)
+
+Epoch 4, Attack delay: 0, Coefficient is: 2.23606797749979
+Running epoch 4 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 3.0185904502868652
+Agent1 - norm = 1.7515034675598145
+Agent2 - norm = 1.6808016300201416
+Agent3 - norm = 1.7247401475906372
+Agent4 - norm = 1.7299546003341675
+Epoch 4: Current delta (median) is: 1.7299546003341675
+Current attacking agent is 0, coefficient is 2.23606797749979.
+
+Joint model, Test set: Average loss: 0.7015, Accuracy: 8859/10000 (89%)
+
+Epoch 5, Attack delay: 0, Coefficient is: 2.449489742783178
+Running epoch 5 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 3.244112014770508
+Agent1 - norm = 1.412568211555481
+Agent2 - norm = 1.4229116439819336
+Agent3 - norm = 1.4073656797409058
+Agent4 - norm = 1.4368436336517334
+Epoch 5: Current delta (median) is: 1.4229116439819336
+Current attacking agent is 0, coefficient is 2.449489742783178.
+
+Joint model, Test set: Average loss: 1.0572, Accuracy: 8867/10000 (89%)
+
+Epoch 6, Attack delay: 0, Coefficient is: 2.6457513110645907
+Running epoch 6 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 3.8613765239715576
+Agent1 - norm = 1.2624958753585815
+Agent2 - norm = 1.240559697151184
+Agent3 - norm = 1.2990176677703857
+Agent4 - norm = 1.2205041646957397
+Epoch 6: Current delta (median) is: 1.2624958753585815
+Current attacking agent is 0, coefficient is 2.6457513110645907.
+
+Joint model, Test set: Average loss: 2.5377, Accuracy: 8437/10000 (84%)
+
+Epoch 7, Attack delay: 0, Coefficient is: 2.8284271247461903
+Running epoch 7 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 4.002098560333252
+Agent1 - norm = 1.144311547279358
+Agent2 - norm = 1.1436526775360107
+Agent3 - norm = 1.1924041509628296
+Agent4 - norm = 1.1864633560180664
+Epoch 7: Current delta (median) is: 1.1864633560180664
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.1076, Accuracy: 9800/10000 (98%)
+
+Epoch 8, Attack delay: 0, Coefficient is: 3.0
+Running epoch 8 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 5.155043601989746
+Agent1 - norm = 0.4643356204032898
+Agent2 - norm = 0.45537805557250977
+Agent3 - norm = 0.4560965597629547
+Agent4 - norm = 0.42649605870246887
+Epoch 8: Current delta (median) is: 0.4560965597629547
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0872, Accuracy: 9806/10000 (98%)
+
+Epoch 9, Attack delay: 0, Coefficient is: 3.1622776601683795
+Running epoch 9 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 4.913010597229004
+Agent1 - norm = 0.30652356147766113
+Agent2 - norm = 0.30068907141685486
+Agent3 - norm = 0.30987465381622314
+Agent4 - norm = 0.3083798289299011
+Epoch 9: Current delta (median) is: 0.3083798289299011
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0792, Accuracy: 9813/10000 (98%)
+
+Epoch 10, Attack delay: 0, Coefficient is: 3.3166247903554
+Running epoch 10 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 4.834070205688477
+Agent1 - norm = 0.20925213396549225
+Agent2 - norm = 0.21440690755844116
+Agent3 - norm = 0.21841761469841003
+Agent4 - norm = 0.21559004485607147
+Epoch 10: Current delta (median) is: 0.21559004485607147
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0759, Accuracy: 9808/10000 (98%)
+
+Finished Running epoch 10, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 10.
+Epoch 11, Attack delay: 0, Coefficient is: 3.4641016151377544
+Running epoch 11 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 4.714322090148926
+Agent1 - norm = 0.15531735122203827
+Agent2 - norm = 0.15481610596179962
+Agent3 - norm = 0.14772571623325348
+Agent4 - norm = 0.15071417391300201
+Epoch 11: Current delta (median) is: 0.15481610596179962
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0740, Accuracy: 9814/10000 (98%)
+
+Epoch 12, Attack delay: 0, Coefficient is: 3.605551275463989
+Running epoch 12 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 4.523168563842773
+Agent1 - norm = 0.10477348417043686
+Agent2 - norm = 0.10885890573263168
+Agent3 - norm = 0.11005441844463348
+Agent4 - norm = 0.10897329449653625
+Epoch 12: Current delta (median) is: 0.10897329449653625
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0724, Accuracy: 9815/10000 (98%)
+
+Epoch 13, Attack delay: 0, Coefficient is: 3.7416573867739413
+Running epoch 13 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 4.3161444664001465
+Agent1 - norm = 0.077205590903759
+Agent2 - norm = 0.07553979009389877
+Agent3 - norm = 0.07413370162248611
+Agent4 - norm = 0.08040890842676163
+Epoch 13: Current delta (median) is: 0.077205590903759
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0717, Accuracy: 9820/10000 (98%)
+
+Epoch 14, Attack delay: 0, Coefficient is: 3.872983346207417
+Running epoch 14 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 3.946770429611206
+Agent1 - norm = 0.053846508264541626
+Agent2 - norm = 0.05674843117594719
+Agent3 - norm = 0.05496950075030327
+Agent4 - norm = 0.05120570585131645
+Epoch 14: Current delta (median) is: 0.05496950075030327
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0709, Accuracy: 9820/10000 (98%)
+
+Epoch 15, Attack delay: 0, Coefficient is: 4.0
+Running epoch 15 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 3.469881534576416
+Agent1 - norm = 0.03888959065079689
+Agent2 - norm = 0.04290016368031502
+Agent3 - norm = 0.03830808401107788
+Agent4 - norm = 0.03740150108933449
+Epoch 15: Current delta (median) is: 0.03888959065079689
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0703, Accuracy: 9822/10000 (98%)
+
+Epoch 16, Attack delay: 0, Coefficient is: 4.123105625617661
+Running epoch 16 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 2.8548648357391357
+Agent1 - norm = 0.028881331905722618
+Agent2 - norm = 0.02853425405919552
+Agent3 - norm = 0.02928321808576584
+Agent4 - norm = 0.02508908323943615
+Epoch 16: Current delta (median) is: 0.028881331905722618
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0703, Accuracy: 9820/10000 (98%)
+
+Epoch 17, Attack delay: 0, Coefficient is: 4.242640687119285
+Running epoch 17 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 2.276919364929199
+Agent1 - norm = 0.019539518281817436
+Agent2 - norm = 0.01922711730003357
+Agent3 - norm = 0.018190473318099976
+Agent4 - norm = 0.01805770769715309
+Epoch 17: Current delta (median) is: 0.01922711730003357
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0701, Accuracy: 9821/10000 (98%)
+
+Epoch 18, Attack delay: 0, Coefficient is: 4.358898943540674
+Running epoch 18 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 1.7391579151153564
+Agent1 - norm = 0.012928247451782227
+Agent2 - norm = 0.013966765254735947
+Agent3 - norm = 0.012723207473754883
+Agent4 - norm = 0.012192369438707829
+Epoch 18: Current delta (median) is: 0.012928247451782227
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9821/10000 (98%)
+
+Epoch 19, Attack delay: 0, Coefficient is: 4.47213595499958
+Running epoch 19 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 1.312258243560791
+Agent1 - norm = 0.009330464527010918
+Agent2 - norm = 0.010509073734283447
+Agent3 - norm = 0.009595866315066814
+Agent4 - norm = 0.008654845878481865
+Epoch 19: Current delta (median) is: 0.009595866315066814
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9822/10000 (98%)
+
+Epoch 20, Attack delay: 0, Coefficient is: 4.58257569495584
+Running epoch 20 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.966666579246521
+Agent1 - norm = 0.0066691855899989605
+Agent2 - norm = 0.007167994510382414
+Agent3 - norm = 0.006488910876214504
+Agent4 - norm = 0.006738770753145218
+Epoch 20: Current delta (median) is: 0.006738770753145218
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9824/10000 (98%)
+
+Finished Running epoch 20, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 20.
+Epoch 21, Attack delay: 0, Coefficient is: 4.69041575982343
+Running epoch 21 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.709667444229126
+Agent1 - norm = 0.004890298005193472
+Agent2 - norm = 0.0048621660098433495
+Agent3 - norm = 0.005095936357975006
+Agent4 - norm = 0.0046987333334982395
+Epoch 21: Current delta (median) is: 0.004890298005193472
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 22, Attack delay: 0, Coefficient is: 4.795831523312719
+Running epoch 22 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.5128775835037231
+Agent1 - norm = 0.0033349450677633286
+Agent2 - norm = 0.0035784768406301737
+Agent3 - norm = 0.003405107883736491
+Agent4 - norm = 0.0030904999002814293
+Epoch 22: Current delta (median) is: 0.003405107883736491
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9822/10000 (98%)
+
+Epoch 23, Attack delay: 0, Coefficient is: 4.898979485566356
+Running epoch 23 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.37320446968078613
+Agent1 - norm = 0.0022813144605606794
+Agent2 - norm = 0.0023287825752049685
+Agent3 - norm = 0.0021863807924091816
+Agent4 - norm = 0.0022152727469801903
+Epoch 23: Current delta (median) is: 0.0022813144605606794
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 24, Attack delay: 0, Coefficient is: 5.0
+Running epoch 24 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.26812979578971863
+Agent1 - norm = 0.0014955948572605848
+Agent2 - norm = 0.0018033748492598534
+Agent3 - norm = 0.0016368321375921369
+Agent4 - norm = 0.0016372686950489879
+Epoch 24: Current delta (median) is: 0.0016372686950489879
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 25, Attack delay: 0, Coefficient is: 5.0990195135927845
+Running epoch 25 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.19284600019454956
+Agent1 - norm = 0.0011614413233473897
+Agent2 - norm = 0.0012443129671737552
+Agent3 - norm = 0.0011786514660343528
+Agent4 - norm = 0.0010723696323111653
+Epoch 25: Current delta (median) is: 0.0011786514660343528
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 26, Attack delay: 0, Coefficient is: 5.196152422706632
+Running epoch 26 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.1383095681667328
+Agent1 - norm = 0.0007877934840507805
+Agent2 - norm = 0.0008123532170429826
+Agent3 - norm = 0.0007305016624741256
+Agent4 - norm = 0.0007421888876706362
+Epoch 26: Current delta (median) is: 0.0007877934840507805
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 27, Attack delay: 0, Coefficient is: 5.291502622129181
+Running epoch 27 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.09943424165248871
+Agent1 - norm = 0.0005444519338198006
+Agent2 - norm = 0.0005743099027313292
+Agent3 - norm = 0.0005466633592732251
+Agent4 - norm = 0.0005157056148163974
+Epoch 27: Current delta (median) is: 0.0005466633592732251
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 28, Attack delay: 0, Coefficient is: 5.385164807134504
+Running epoch 28 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.07109488546848297
+Agent1 - norm = 0.0003997224266640842
+Agent2 - norm = 0.0003992573474533856
+Agent3 - norm = 0.00037053340929560363
+Agent4 - norm = 0.0003582807257771492
+Epoch 28: Current delta (median) is: 0.0003992573474533856
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 29, Attack delay: 0, Coefficient is: 5.477225575051661
+Running epoch 29 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.051097847521305084
+Agent1 - norm = 0.00026102978154085577
+Agent2 - norm = 0.0003028929349966347
+Agent3 - norm = 0.0002687186934053898
+Agent4 - norm = 0.000244938739342615
+Epoch 29: Current delta (median) is: 0.0002687186934053898
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 30, Attack delay: 0, Coefficient is: 5.5677643628300215
+Running epoch 30 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.03636084124445915
+Agent1 - norm = 0.00018342760449741036
+Agent2 - norm = 0.00021883699810132384
+Agent3 - norm = 0.00018649450794328004
+Agent4 - norm = 0.00017995695816352963
+Epoch 30: Current delta (median) is: 0.00018649450794328004
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Finished Running epoch 30, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 30.
+Epoch 31, Attack delay: 0, Coefficient is: 5.656854249492381
+Running epoch 31 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.02579652890563011
+Agent1 - norm = 0.00012954429257661104
+Agent2 - norm = 0.00012308548321016133
+Agent3 - norm = 0.00013046438107267022
+Agent4 - norm = 0.00011972915672231466
+Epoch 31: Current delta (median) is: 0.00012954429257661104
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 32, Attack delay: 0, Coefficient is: 5.744562646538029
+Running epoch 32 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.018413495272397995
+Agent1 - norm = 9.433233935851604e-05
+Agent2 - norm = 8.87607311597094e-05
+Agent3 - norm = 9.500919259153306e-05
+Agent4 - norm = 8.771991269895807e-05
+Epoch 32: Current delta (median) is: 9.433233935851604e-05
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 33, Attack delay: 0, Coefficient is: 5.830951894845301
+Running epoch 33 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.013133667409420013
+Agent1 - norm = 7.136526983231306e-05
+Agent2 - norm = 6.020687578711659e-05
+Agent3 - norm = 6.077615398680791e-05
+Agent4 - norm = 6.168700929265469e-05
+Epoch 33: Current delta (median) is: 6.168700929265469e-05
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 34, Attack delay: 0, Coefficient is: 5.916079783099616
+Running epoch 34 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.009352761320769787
+Agent1 - norm = 4.698618795373477e-05
+Agent2 - norm = 4.874289516010322e-05
+Agent3 - norm = 4.434219590621069e-05
+Agent4 - norm = 4.631662159226835e-05
+Epoch 34: Current delta (median) is: 4.698618795373477e-05
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 35, Attack delay: 0, Coefficient is: 6
+Running epoch 35 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.006644355598837137
+Agent1 - norm = 3.35392433044035e-05
+Agent2 - norm = 3.539234967320226e-05
+Agent3 - norm = 3.133027712465264e-05
+Agent4 - norm = 3.100657704635523e-05
+Epoch 35: Current delta (median) is: 3.35392433044035e-05
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 36, Attack delay: 0, Coefficient is: 6
+Running epoch 36 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.004640308674424887
+Agent1 - norm = 2.3485290512326173e-05
+Agent2 - norm = 2.3006341507425532e-05
+Agent3 - norm = 2.153226887458004e-05
+Agent4 - norm = 2.075526754197199e-05
+Epoch 36: Current delta (median) is: 2.3006341507425532e-05
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 37, Attack delay: 0, Coefficient is: 6
+Running epoch 37 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.003295880975201726
+Agent1 - norm = 1.551520290377084e-05
+Agent2 - norm = 1.6754116586525925e-05
+Agent3 - norm = 1.5238293599395547e-05
+Agent4 - norm = 1.4218529940990265e-05
+Epoch 37: Current delta (median) is: 1.551520290377084e-05
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 38, Attack delay: 0, Coefficient is: 6
+Running epoch 38 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.002299993997439742
+Agent1 - norm = 1.1156456821481697e-05
+Agent2 - norm = 1.0555873814155348e-05
+Agent3 - norm = 1.0843142263183836e-05
+Agent4 - norm = 1.099630753742531e-05
+Epoch 38: Current delta (median) is: 1.099630753742531e-05
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 39, Attack delay: 0, Coefficient is: 6
+Running epoch 39 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0016214278293773532
+Agent1 - norm = 8.020342647796497e-06
+Agent2 - norm = 7.5467946771823335e-06
+Agent3 - norm = 7.363926215475658e-06
+Agent4 - norm = 7.180214197433088e-06
+Epoch 39: Current delta (median) is: 7.5467946771823335e-06
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 40, Attack delay: 0, Coefficient is: 6
+Running epoch 40 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0011464363196864724
+Agent1 - norm = 5.468375547934556e-06
+Agent2 - norm = 5.357543159334455e-06
+Agent3 - norm = 5.18531442139647e-06
+Agent4 - norm = 5.235058324615238e-06
+Epoch 40: Current delta (median) is: 5.357543159334455e-06
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Finished Running epoch 40, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 40.
+Epoch 41, Attack delay: 0, Coefficient is: 6
+Running epoch 41 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0007952867308631539
+Agent1 - norm = 3.817690412688535e-06
+Agent2 - norm = 3.741162117876229e-06
+Agent3 - norm = 3.4098184187314473e-06
+Agent4 - norm = 3.495072178338887e-06
+Epoch 41: Current delta (median) is: 3.741162117876229e-06
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 42, Attack delay: 0, Coefficient is: 6
+Running epoch 42 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0005547290784306824
+Agent1 - norm = 2.413310312476824e-06
+Agent2 - norm = 2.355708147661062e-06
+Agent3 - norm = 2.452274429742829e-06
+Agent4 - norm = 2.316669679203187e-06
+Epoch 42: Current delta (median) is: 2.413310312476824e-06
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 43, Attack delay: 0, Coefficient is: 6
+Running epoch 43 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0003830629284493625
+Agent1 - norm = 1.7525746898172656e-06
+Agent2 - norm = 1.6690908068994759e-06
+Agent3 - norm = 1.712268954179308e-06
+Agent4 - norm = 1.6569584886383382e-06
+Epoch 43: Current delta (median) is: 1.712268954179308e-06
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 44, Attack delay: 0, Coefficient is: 6
+Running epoch 44 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0002524813753552735
+Agent1 - norm = 1.091117496798688e-06
+Agent2 - norm = 1.0773819667520002e-06
+Agent3 - norm = 1.0667905598893412e-06
+Agent4 - norm = 1.0599966344670975e-06
+Epoch 44: Current delta (median) is: 1.0773819667520002e-06
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 45, Attack delay: 0, Coefficient is: 6
+Running epoch 45 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.00017067506269086152
+Agent1 - norm = 7.102156587279751e-07
+Agent2 - norm = 7.689462222515431e-07
+Agent3 - norm = 6.803047085668368e-07
+Agent4 - norm = 6.768513003407861e-07
+Epoch 45: Current delta (median) is: 7.102156587279751e-07
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 46, Attack delay: 0, Coefficient is: 6
+Running epoch 46 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.00010528759594308212
+Agent1 - norm = 3.929744423203374e-07
+Agent2 - norm = 4.061304537117394e-07
+Agent3 - norm = 4.0626363784213027e-07
+Agent4 - norm = 4.1064240008381603e-07
+Epoch 46: Current delta (median) is: 4.0626363784213027e-07
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 47, Attack delay: 0, Coefficient is: 6
+Running epoch 47 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 6.641296204179525e-05
+Agent1 - norm = 2.66023931771997e-07
+Agent2 - norm = 2.5881709575514833e-07
+Agent3 - norm = 2.486250991751149e-07
+Agent4 - norm = 2.5085503807531495e-07
+Epoch 47: Current delta (median) is: 2.5881709575514833e-07
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 48, Attack delay: 0, Coefficient is: 6
+Running epoch 48 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 3.885180558427237e-05
+Agent1 - norm = 1.5100587802407972e-07
+Agent2 - norm = 1.5146657972309185e-07
+Agent3 - norm = 1.481591169749663e-07
+Agent4 - norm = 1.4440142592775373e-07
+Epoch 48: Current delta (median) is: 1.5100587802407972e-07
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 49, Attack delay: 0, Coefficient is: 6
+Running epoch 49 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 2.3714048438705504e-05
+Agent1 - norm = 9.285123070412737e-08
+Agent2 - norm = 9.751092022725061e-08
+Agent3 - norm = 9.32139130327414e-08
+Agent4 - norm = 8.628926195797249e-08
+Epoch 49: Current delta (median) is: 9.32139130327414e-08
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 50, Attack delay: 0, Coefficient is: 6
+Running epoch 50 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 1.3728187695960514e-05
+Agent1 - norm = 5.215020593141162e-08
+Agent2 - norm = 5.001760072786965e-08
+Agent3 - norm = 5.0589662237143784e-08
+Agent4 - norm = 5.0234717718922184e-08
+Epoch 50: Current delta (median) is: 5.0589662237143784e-08
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Finished Running epoch 50, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 50.
+Epoch 51, Attack delay: 0, Coefficient is: 6
+Running epoch 51 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 8.265217729785945e-06
+Agent1 - norm = 3.2026054697098516e-08
+Agent2 - norm = 3.31980949397348e-08
+Agent3 - norm = 3.167893680711131e-08
+Agent4 - norm = 3.123224345813469e-08
+Epoch 51: Current delta (median) is: 3.2026054697098516e-08
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 52, Attack delay: 0, Coefficient is: 6
+Running epoch 52 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 4.780382369062863e-06
+Agent1 - norm = 1.851319275658625e-08
+Agent2 - norm = 1.8531236989360877e-08
+Agent3 - norm = 1.7029664789447452e-08
+Agent4 - norm = 1.6793354262745197e-08
+Epoch 52: Current delta (median) is: 1.851319275658625e-08
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 53, Attack delay: 0, Coefficient is: 6
+Running epoch 53 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 2.8934364308952354e-06
+Agent1 - norm = 9.924495003588163e-09
+Agent2 - norm = 1.0280785112115609e-08
+Agent3 - norm = 9.976001358324993e-09
+Agent4 - norm = 1.0243845771640281e-08
+Epoch 53: Current delta (median) is: 1.0243845771640281e-08
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 54, Attack delay: 0, Coefficient is: 6
+Running epoch 54 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 1.6413431467299233e-06
+Agent1 - norm = 6.356825288378332e-09
+Agent2 - norm = 6.481064129815195e-09
+Agent3 - norm = 5.878172615325639e-09
+Agent4 - norm = 5.9632752069660455e-09
+Epoch 54: Current delta (median) is: 6.356825288378332e-09
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 55, Attack delay: 0, Coefficient is: 6
+Running epoch 55 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 9.7853251190827e-07
+Agent1 - norm = 3.5949330179363415e-09
+Agent2 - norm = 3.7174809897067007e-09
+Agent3 - norm = 3.629573530616881e-09
+Agent4 - norm = 3.537323323143937e-09
+Epoch 55: Current delta (median) is: 3.629573530616881e-09
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 56, Attack delay: 0, Coefficient is: 6
+Running epoch 56 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 5.525791948457481e-07
+Agent1 - norm = 1.9836901010705787e-09
+Agent2 - norm = 2.2417070422164898e-09
+Agent3 - norm = 2.041404156827298e-09
+Agent4 - norm = 1.9590282729353703e-09
+Epoch 56: Current delta (median) is: 2.041404156827298e-09
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 57, Attack delay: 0, Coefficient is: 6
+Running epoch 57 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 3.355497995016776e-07
+Agent1 - norm = 1.2013645633857095e-09
+Agent2 - norm = 1.2696564910541497e-09
+Agent3 - norm = 1.1411348532774923e-09
+Agent4 - norm = 1.2204024457673768e-09
+Epoch 57: Current delta (median) is: 1.2204024457673768e-09
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 58, Attack delay: 0, Coefficient is: 6
+Running epoch 58 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 1.9267926631982846e-07
+Agent1 - norm = 7.270982149698568e-10
+Agent2 - norm = 6.785610406900844e-10
+Agent3 - norm = 6.963207233035007e-10
+Agent4 - norm = 7.354385433977484e-10
+Epoch 58: Current delta (median) is: 7.270982149698568e-10
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 59, Attack delay: 0, Coefficient is: 6
+Running epoch 59 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 1.1729346027777865e-07
+Agent1 - norm = 4.2327874538727883e-10
+Agent2 - norm = 4.295261646358739e-10
+Agent3 - norm = 4.0531972222979107e-10
+Agent4 - norm = 3.904912782015657e-10
+Epoch 59: Current delta (median) is: 4.2327874538727883e-10
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 60, Attack delay: 0, Coefficient is: 6
+Running epoch 60 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 6.6536458120936e-08
+Agent1 - norm = 2.5427304706227005e-10
+Agent2 - norm = 2.609607252512802e-10
+Agent3 - norm = 2.526357179011285e-10
+Agent4 - norm = 2.2911580965789824e-10
+Epoch 60: Current delta (median) is: 2.5427304706227005e-10
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Finished Running epoch 60, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 60.
+Epoch 61, Attack delay: 0, Coefficient is: 6
+Running epoch 61 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 3.906494683292294e-08
+Agent1 - norm = 1.395936283232757e-10
+Agent2 - norm = 1.5944497111508582e-10
+Agent3 - norm = 1.4578370455264889e-10
+Agent4 - norm = 1.4870997488980464e-10
+Epoch 61: Current delta (median) is: 1.4870997488980464e-10
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 62, Attack delay: 0, Coefficient is: 6
+Running epoch 62 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 2.2558495516022958e-08
+Agent1 - norm = 8.73301153614392e-11
+Agent2 - norm = 8.40810893132371e-11
+Agent3 - norm = 8.91248672085787e-11
+Agent4 - norm = 7.927480893954453e-11
+Epoch 62: Current delta (median) is: 8.73301153614392e-11
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 63, Attack delay: 0, Coefficient is: 6
+Running epoch 63 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 1.3612577731692e-08
+Agent1 - norm = 5.001329211884453e-11
+Agent2 - norm = 5.0749997954069315e-11
+Agent3 - norm = 4.8899374133215545e-11
+Agent4 - norm = 4.6478897119950346e-11
+Epoch 63: Current delta (median) is: 5.001329211884453e-11
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 64, Attack delay: 0, Coefficient is: 6
+Running epoch 64 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 7.627334319693091e-09
+Agent1 - norm = 2.7623750509242484e-11
+Agent2 - norm = 2.6792333976399796e-11
+Agent3 - norm = 2.6609135034272313e-11
+Agent4 - norm = 3.001298862215229e-11
+Epoch 64: Current delta (median) is: 2.7623750509242484e-11
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 65, Attack delay: 0, Coefficient is: 6
+Running epoch 65 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 4.248979834642341e-09
+Agent1 - norm = 1.6016280315889198e-11
+Agent2 - norm = 1.6457975607342412e-11
+Agent3 - norm = 1.692726514512799e-11
+Agent4 - norm = 1.6032671718013702e-11
+Epoch 65: Current delta (median) is: 1.6457975607342412e-11
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 66, Attack delay: 0, Coefficient is: 6
+Running epoch 66 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 2.568416590520428e-09
+Agent1 - norm = 1.0169439075558007e-11
+Agent2 - norm = 1.1053600743049508e-11
+Agent3 - norm = 8.912911207692442e-12
+Agent4 - norm = 1.1357778433029875e-11
+Epoch 66: Current delta (median) is: 1.1053600743049508e-11
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 67, Attack delay: 0, Coefficient is: 6
+Running epoch 67 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 1.5505395856152404e-09
+Agent1 - norm = 5.227406615210262e-12
+Agent2 - norm = 5.907030507096289e-12
+Agent3 - norm = 5.665014464473206e-12
+Agent4 - norm = 6.014982349006326e-12
+Epoch 67: Current delta (median) is: 5.907030507096289e-12
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 68, Attack delay: 0, Coefficient is: 6
+Running epoch 68 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 7.586401506998186e-10
+Agent1 - norm = 3.284034068989916e-12
+Agent2 - norm = 2.7838430345650256e-12
+Agent3 - norm = 2.803132075415715e-12
+Agent4 - norm = 2.7513078620922116e-12
+Epoch 68: Current delta (median) is: 2.803132075415715e-12
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 69, Attack delay: 0, Coefficient is: 6
+Running epoch 69 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 4.061807001853879e-10
+Agent1 - norm = 1.99611052513482e-12
+Agent2 - norm = 1.5724400947991768e-12
+Agent3 - norm = 1.8983629772317823e-12
+Agent4 - norm = 1.7669420614152553e-12
+Epoch 69: Current delta (median) is: 1.8983629772317823e-12
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 70, Attack delay: 0, Coefficient is: 6
+Running epoch 70 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 2.2458754300735961e-10
+Agent1 - norm = 1.215806968990485e-12
+Agent2 - norm = 9.912278246468342e-13
+Agent3 - norm = 1.2355031277569428e-12
+Agent4 - norm = 1.1245286386102338e-12
+Epoch 70: Current delta (median) is: 1.215806968990485e-12
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Finished Running epoch 70, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 70.
+Epoch 71, Attack delay: 0, Coefficient is: 6
+Running epoch 71 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 1.1739154093248771e-10
+Agent1 - norm = 5.55647704496981e-13
+Agent2 - norm = 7.438758268217549e-13
+Agent3 - norm = 5.053633835190585e-13
+Agent4 - norm = 6.550133699323446e-13
+Epoch 71: Current delta (median) is: 6.550133699323446e-13
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 72, Attack delay: 0, Coefficient is: 6
+Running epoch 72 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 5.676964454082167e-11
+Agent1 - norm = 3.1515193016015686e-13
+Agent2 - norm = 4.768352054353164e-13
+Agent3 - norm = 3.2167267439119074e-13
+Agent4 - norm = 4.4322149574636815e-13
+Epoch 72: Current delta (median) is: 4.4322149574636815e-13
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 73, Attack delay: 0, Coefficient is: 6
+Running epoch 73 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 3.1759886387483505e-11
+Agent1 - norm = 1.5503230481068303e-13
+Agent2 - norm = 1.6388756671203986e-13
+Agent3 - norm = 2.1259956414689668e-13
+Agent4 - norm = 7.528065627468439e-14
+Epoch 73: Current delta (median) is: 1.6388756671203986e-13
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 74, Attack delay: 0, Coefficient is: 6
+Running epoch 74 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 1.9903393169706796e-11
+Agent1 - norm = 1.1836456023216896e-13
+Agent2 - norm = 4.4656918679435165e-14
+Agent3 - norm = 1.0794930758745852e-13
+Agent4 - norm = 5.185014947234855e-14
+Epoch 74: Current delta (median) is: 1.0794930758745852e-13
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 75, Attack delay: 0, Coefficient is: 6
+Running epoch 75 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 1.4535907200130538e-11
+Agent1 - norm = 6.817600818739486e-14
+Agent2 - norm = 6.898122481210911e-14
+Agent3 - norm = 6.404745440599657e-14
+Agent4 - norm = 3.8796219790351513e-14
+Epoch 75: Current delta (median) is: 6.817600818739486e-14
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 76, Attack delay: 0, Coefficient is: 6
+Running epoch 76 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 1.0538207459442894e-11
+Agent1 - norm = 5.936860025942611e-14
+Agent2 - norm = 3.1174935815345486e-14
+Agent3 - norm = 2.56804922785887e-14
+Agent4 - norm = 4.7796873203038645e-14
+Epoch 76: Current delta (median) is: 4.7796873203038645e-14
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 77, Attack delay: 0, Coefficient is: 6
+Running epoch 77 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 7.2664842892811166e-12
+Agent1 - norm = 3.574849021404508e-14
+Agent2 - norm = 5.5067062021407764e-14
+Agent3 - norm = 1.6758116568689127e-14
+Agent4 - norm = 4.173493622634632e-14
+Epoch 77: Current delta (median) is: 4.173493622634632e-14
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 78, Attack delay: 0, Coefficient is: 6
+Running epoch 78 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 4.734578614579155e-12
+Agent1 - norm = 9.565974213112966e-15
+Agent2 - norm = 2.864289344985463e-14
+Agent3 - norm = 1.3873790659336364e-14
+Agent4 - norm = 1.475552739347262e-14
+Epoch 78: Current delta (median) is: 1.475552739347262e-14
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 79, Attack delay: 0, Coefficient is: 6
+Running epoch 79 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 2.700193367510817e-12
+Agent1 - norm = 1.191616368702601e-14
+Agent2 - norm = 1.5888218814056644e-14
+Agent3 - norm = 3.552713678800501e-15
+Agent4 - norm = 1.9131948426225932e-14
+Epoch 79: Current delta (median) is: 1.5888218814056644e-14
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 80, Attack delay: 0, Coefficient is: 6
+Running epoch 80 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 1.2704664794152554e-12
+Agent1 - norm = 3.972054703514161e-15
+Agent2 - norm = 8.881784197001252e-15
+Agent3 - norm = 5.024295781800919e-15
+Agent4 - norm = 3.972054703514161e-15
+Epoch 80: Current delta (median) is: 5.024295781800919e-15
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Finished Running epoch 80, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 80.
+Epoch 81, Attack delay: 0, Coefficient is: 6
+Running epoch 81 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 9.20804231474559e-13
+Agent1 - norm = 1.0658141036401503e-14
+Agent2 - norm = 5.329070518200751e-15
+Agent3 - norm = 7.105427357601002e-15
+Agent4 - norm = 0.0
+Epoch 81: Current delta (median) is: 7.105427357601002e-15
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 82, Attack delay: 0, Coefficient is: 6
+Running epoch 82 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 6.078878719839587e-13
+Agent1 - norm = 5.329070518200751e-15
+Agent2 - norm = 8.881784197001252e-15
+Agent3 - norm = 0.0
+Agent4 - norm = 5.329070518200751e-15
+Epoch 82: Current delta (median) is: 5.329070518200751e-15
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 0.0700, Accuracy: 9823/10000 (98%)
+
+Epoch 83, Attack delay: 0, Coefficient is: 6
+Running epoch 83 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 3.836930773104541e-13
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 1.7763568394002505e-15
+Agent4 - norm = 0.0
+Epoch 83: Current delta (median) is: 0.0
+Detected an attacker: 0
+Detected an attacker: 3
+Found multiple attackers: 0, 3
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 1.4072, Accuracy: 9823/10000 (98%)
+
+Epoch 84, Attack delay: 0, Coefficient is: 6
+Running epoch 84 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 7.460698725481052e-13
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 84: Current delta (median) is: 0.0
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 1.4072, Accuracy: 9823/10000 (98%)
+
+Epoch 85, Attack delay: 0, Coefficient is: 6
+Running epoch 85 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 6.394884621840902e-14
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 85: Current delta (median) is: 0.0
+Detected an attacker: 0
+
+Joint model, Test set: Average loss: 1.4072, Accuracy: 9823/10000 (98%)
+
+Epoch 86, Attack delay: 0, Coefficient is: 6
+Running epoch 86 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 86: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 22.5081, Accuracy: 9823/10000 (98%)
+
+Epoch 87, Attack delay: 0, Coefficient is: 6
+Running epoch 87 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 87: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 360.1297, Accuracy: 9823/10000 (98%)
+
+Epoch 88, Attack delay: 0, Coefficient is: 6
+Running epoch 88 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 88: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 5762.0774, Accuracy: 9823/10000 (98%)
+
+Epoch 89, Attack delay: 0, Coefficient is: 6
+Running epoch 89 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 89: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 92193.2360, Accuracy: 9823/10000 (98%)
+
+Epoch 90, Attack delay: 0, Coefficient is: 6
+Running epoch 90 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 90: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 1475091.8464, Accuracy: 9823/10000 (98%)
+
+Finished Running epoch 90, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 90.
+Epoch 91, Attack delay: 0, Coefficient is: 6
+Running epoch 91 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 91: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 23601470.3616, Accuracy: 9823/10000 (98%)
+
+Epoch 92, Attack delay: 0, Coefficient is: 6
+Running epoch 92 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 92: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 377623502.8480, Accuracy: 9823/10000 (98%)
+
+Epoch 93, Attack delay: 0, Coefficient is: 6
+Running epoch 93 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 93: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 6041976176.6400, Accuracy: 9823/10000 (98%)
+
+Epoch 94, Attack delay: 0, Coefficient is: 6
+Running epoch 94 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 94: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 96671622601.1136, Accuracy: 9823/10000 (98%)
+
+Epoch 95, Attack delay: 0, Coefficient is: 6
+Running epoch 95 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 95: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 1546745901219.8401, Accuracy: 9823/10000 (98%)
+
+Epoch 96, Attack delay: 0, Coefficient is: 6
+Running epoch 96 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 96: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 24747934741639.9883, Accuracy: 9823/10000 (98%)
+
+Epoch 97, Attack delay: 0, Coefficient is: 6
+Running epoch 97 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 97: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 395966952430265.9375, Accuracy: 9823/10000 (98%)
+
+Epoch 98, Attack delay: 0, Coefficient is: 6
+Running epoch 98 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 98: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 6335471128933093.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 99, Attack delay: 0, Coefficient is: 6
+Running epoch 99 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 99: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 101367535644003904.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 100, Attack delay: 0, Coefficient is: 6
+Running epoch 100 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 100: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 1621880637154369280.0000, Accuracy: 9823/10000 (98%)
+
+Finished Running epoch 100, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 100.
+Epoch 101, Attack delay: 0, Coefficient is: 6
+Running epoch 101 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 101: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 25950089406339973120.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 102, Attack delay: 0, Coefficient is: 6
+Running epoch 102 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 102: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 415201441310078730240.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 103, Attack delay: 0, Coefficient is: 6
+Running epoch 103 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 103: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 6643223003315183812608.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 104, Attack delay: 0, Coefficient is: 6
+Running epoch 104 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 104: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 106291567130705743839232.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 105, Attack delay: 0, Coefficient is: 6
+Running epoch 105 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 105: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 1700665051955199035310080.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 106, Attack delay: 0, Coefficient is: 6
+Running epoch 106 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 106: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 27210641185460670422843392.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 107, Attack delay: 0, Coefficient is: 6
+Running epoch 107 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 107: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 435370262745263886343077888.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 108, Attack delay: 0, Coefficient is: 6
+Running epoch 108 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 108: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 6965924052808495248630087680.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 109, Attack delay: 0, Coefficient is: 6
+Running epoch 109 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 109: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 111454784361365590756057677824.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 110, Attack delay: 0, Coefficient is: 6
+Running epoch 110 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 110: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 1783276631021664448234490167296.0000, Accuracy: 9823/10000 (98%)
+
+Finished Running epoch 110, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 110.
+Epoch 111, Attack delay: 0, Coefficient is: 6
+Running epoch 111 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 111: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 28532426282037636877209139412992.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 112, Attack delay: 0, Coefficient is: 6
+Running epoch 112 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 112: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 456518804666969727188854921756672.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 113, Attack delay: 0, Coefficient is: 6
+Running epoch 113 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 113: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 7304301096510370835448497451302912.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 114, Attack delay: 0, Coefficient is: 6
+Running epoch 114 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 114: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 116868813487684004431730110445387776.0000, Accuracy: 9823/10000 (98%)
+
+Epoch 115, Attack delay: 0, Coefficient is: 6
+Running epoch 115 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = 0.0
+Agent1 - norm = 0.0
+Agent2 - norm = 0.0
+Agent3 - norm = 0.0
+Agent4 - norm = 0.0
+Epoch 115: Current delta (median) is: 0.0
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 1450/10000 (14%)
+
+Epoch 116, Attack delay: 0, Coefficient is: 6
+Running epoch 116 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 116: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 117, Attack delay: 0, Coefficient is: 6
+Running epoch 117 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 117: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 118, Attack delay: 0, Coefficient is: 6
+Running epoch 118 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 118: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 119, Attack delay: 0, Coefficient is: 6
+Running epoch 119 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 119: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 120, Attack delay: 0, Coefficient is: 6
+Running epoch 120 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 120: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Finished Running epoch 120, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 120.
+Epoch 121, Attack delay: 0, Coefficient is: 6
+Running epoch 121 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 121: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 122, Attack delay: 0, Coefficient is: 6
+Running epoch 122 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 122: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 123, Attack delay: 0, Coefficient is: 6
+Running epoch 123 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 123: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 124, Attack delay: 0, Coefficient is: 6
+Running epoch 124 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 124: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 125, Attack delay: 0, Coefficient is: 6
+Running epoch 125 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 125: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 126, Attack delay: 0, Coefficient is: 6
+Running epoch 126 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 126: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 127, Attack delay: 0, Coefficient is: 6
+Running epoch 127 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 127: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 128, Attack delay: 0, Coefficient is: 6
+Running epoch 128 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 128: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 129, Attack delay: 0, Coefficient is: 6
+Running epoch 129 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 129: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 130, Attack delay: 0, Coefficient is: 6
+Running epoch 130 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 130: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Finished Running epoch 130, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 130.
+Epoch 131, Attack delay: 0, Coefficient is: 6
+Running epoch 131 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 131: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 132, Attack delay: 0, Coefficient is: 6
+Running epoch 132 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 132: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 133, Attack delay: 0, Coefficient is: 6
+Running epoch 133 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 133: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 134, Attack delay: 0, Coefficient is: 6
+Running epoch 134 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 134: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 135, Attack delay: 0, Coefficient is: 6
+Running epoch 135 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 135: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 136, Attack delay: 0, Coefficient is: 6
+Running epoch 136 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 136: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 137, Attack delay: 0, Coefficient is: 6
+Running epoch 137 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 137: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 138, Attack delay: 0, Coefficient is: 6
+Running epoch 138 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 138: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 139, Attack delay: 0, Coefficient is: 6
+Running epoch 139 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 139: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 140, Attack delay: 0, Coefficient is: 6
+Running epoch 140 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 140: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Finished Running epoch 140, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 140.
+Epoch 141, Attack delay: 0, Coefficient is: 6
+Running epoch 141 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 141: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 142, Attack delay: 0, Coefficient is: 6
+Running epoch 142 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 142: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 143, Attack delay: 0, Coefficient is: 6
+Running epoch 143 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 143: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 144, Attack delay: 0, Coefficient is: 6
+Running epoch 144 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 144: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 145, Attack delay: 0, Coefficient is: 6
+Running epoch 145 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 145: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 146, Attack delay: 0, Coefficient is: 6
+Running epoch 146 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 146: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 147, Attack delay: 0, Coefficient is: 6
+Running epoch 147 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 147: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 148, Attack delay: 0, Coefficient is: 6
+Running epoch 148 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 148: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 149, Attack delay: 0, Coefficient is: 6
+Running epoch 149 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 149: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Epoch 150, Attack delay: 0, Coefficient is: 6
+Running epoch 150 out of 150.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Agent0 - norm = nan
+Agent1 - norm = nan
+Agent2 - norm = nan
+Agent3 - norm = nan
+Agent4 - norm = nan
+Epoch 150: Current delta (median) is: nan
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: nan, Accuracy: 980/10000 (10%)
+
+Finished Running epoch 150, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 150.

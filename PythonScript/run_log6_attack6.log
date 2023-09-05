@@ -1,0 +1,270 @@
+Epoch 1, Attack delay: 0, Coefficient is: 6
+Running epoch 1 out of 200.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Running training on agent 10.
+Running training on agent 11.
+Running training on agent 12.
+Running training on agent 13.
+Running training on agent 14.
+Running training on agent 15.
+Running training on agent 16.
+Running training on agent 17.
+Running training on agent 18.
+Running training on agent 19.
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 2.3017, Accuracy: 1009/10000 (10%)
+
+Epoch 2, Attack delay: 0, Coefficient is: 6
+Running epoch 2 out of 200.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Running training on agent 10.
+Running training on agent 11.
+Running training on agent 12.
+Running training on agent 13.
+Running training on agent 14.
+Running training on agent 15.
+Running training on agent 16.
+Running training on agent 17.
+Running training on agent 18.
+Running training on agent 19.
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 1.3665, Accuracy: 4510/10000 (45%)
+
+Epoch 3, Attack delay: 0, Coefficient is: 6
+Running epoch 3 out of 200.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Running training on agent 10.
+Running training on agent 11.
+Running training on agent 12.
+Running training on agent 13.
+Running training on agent 14.
+Running training on agent 15.
+Running training on agent 16.
+Running training on agent 17.
+Running training on agent 18.
+Running training on agent 19.
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 1.0050, Accuracy: 7302/10000 (73%)
+
+Epoch 4, Attack delay: 0, Coefficient is: 6
+Running epoch 4 out of 200.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Running training on agent 10.
+Running training on agent 11.
+Running training on agent 12.
+Running training on agent 13.
+Running training on agent 14.
+Running training on agent 15.
+Running training on agent 16.
+Running training on agent 17.
+Running training on agent 18.
+Running training on agent 19.
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 0.9616, Accuracy: 8105/10000 (81%)
+
+Epoch 5, Attack delay: 0, Coefficient is: 6
+Running epoch 5 out of 200.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Running training on agent 10.
+Running training on agent 11.
+Running training on agent 12.
+Running training on agent 13.
+Running training on agent 14.
+Running training on agent 15.
+Running training on agent 16.
+Running training on agent 17.
+Running training on agent 18.
+Running training on agent 19.
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 0.9522, Accuracy: 8429/10000 (84%)
+
+Epoch 6, Attack delay: 0, Coefficient is: 6
+Running epoch 6 out of 200.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Running training on agent 10.
+Running training on agent 11.
+Running training on agent 12.
+Running training on agent 13.
+Running training on agent 14.
+Running training on agent 15.
+Running training on agent 16.
+Running training on agent 17.
+Running training on agent 18.
+Running training on agent 19.
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 1.0815, Accuracy: 8497/10000 (85%)
+
+Epoch 7, Attack delay: 0, Coefficient is: 6
+Running epoch 7 out of 200.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Running training on agent 10.
+Running training on agent 11.
+Running training on agent 12.
+Running training on agent 13.
+Running training on agent 14.
+Running training on agent 15.
+Running training on agent 16.
+Running training on agent 17.
+Running training on agent 18.
+Running training on agent 19.
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 1.2810, Accuracy: 8570/10000 (86%)
+
+Epoch 8, Attack delay: 0, Coefficient is: 6
+Running epoch 8 out of 200.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Running training on agent 10.
+Running training on agent 11.
+Running training on agent 12.
+Running training on agent 13.
+Running training on agent 14.
+Running training on agent 15.
+Running training on agent 16.
+Running training on agent 17.
+Running training on agent 18.
+Running training on agent 19.
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 1.7964, Accuracy: 8502/10000 (85%)
+
+Epoch 9, Attack delay: 0, Coefficient is: 6
+Running epoch 9 out of 200.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Running training on agent 10.
+Running training on agent 11.
+Running training on agent 12.
+Running training on agent 13.
+Running training on agent 14.
+Running training on agent 15.
+Running training on agent 16.
+Running training on agent 17.
+Running training on agent 18.
+Running training on agent 19.
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 2.9356, Accuracy: 8299/10000 (83%)
+
+Epoch 10, Attack delay: 0, Coefficient is: 6
+Running epoch 10 out of 200.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Running training on agent 10.
+Running training on agent 11.
+Running training on agent 12.
+Running training on agent 13.
+Running training on agent 14.
+Running training on agent 15.
+Running training on agent 16.
+Running training on agent 17.
+Running training on agent 18.
+Running training on agent 19.
+Current attacking agent is 0, coefficient is 6.
+
+Joint model, Test set: Average loss: 5.3312, Accuracy: 8095/10000 (81%)
+
+Finished Running epoch 10, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 10.
+Epoch 11, Attack delay: 0, Coefficient is: 6
+Running epoch 11 out of 200.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
