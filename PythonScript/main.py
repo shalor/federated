@@ -161,6 +161,8 @@ def main():
                         help='Insert the attack with a delay')
     parser.add_argument('--attack-type', default="", metavar='STRING',
                         help='Insert an attack type')
+    parser.add_argument('--output-dir', default="", metavar='STRING',
+                        help='Insert an attack type')
     parser.add_argument('--results-file', default="results_dictionary", metavar='STRING',
                         help='Insert an attack type')
     parser.add_argument('--allow-detection', action='store_true', default=False,
@@ -170,8 +172,8 @@ def main():
     use_mps = not args.no_mps and torch.backends.mps.is_available()
     torch.manual_seed(args.seed)
 
-    if not os.path.exists("experiment_results"):
-        os.mkdir("experiment_results/")
+    if not os.path.exists(args.output_dir):
+        os.mkdir(args.output_dir)
 
     if use_cuda:
         device = torch.device("cuda")
@@ -376,7 +378,7 @@ def main():
     
             if epoch % 10 == 0 or epoch == args.epochs:
                 print("Finished Running epoch {}, printing results dictionary to file.".format(epoch))
-                file_name = "experiment_results/{}{}{}.json".format(args.results_file,model_prefix,num_exp)
+                file_name = "{}/{}{}{}.json".format(args.output_dir,args.results_file,model_prefix,num_exp)
                 with open(file_name, "w") as fp:
                     json.dump(results_dic, fp)
                 print("Finished printing results dictionary to file after epoch {}.".format(epoch))
