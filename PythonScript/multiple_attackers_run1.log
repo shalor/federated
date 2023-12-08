@@ -1,0 +1,3144 @@
+###############################################
+Running experiment 1 out of 1
+###############################################
+Attack Coefficient Stop = 3.0
+Running epoch 1 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   3.1670620441436768
+Agent1:   3.16489839553833
+Agent2:   3.183314323425293
+Agent3:   3.205765962600708
+Agent4:   3.1770567893981934
+Agent5:   3.185356855392456
+Agent6:   3.1820409297943115
+Agent7:   3.1322317123413086
+Agent8:   3.1740400791168213
+Agent9:   3.141284704208374
+   
+Agent0:   0.3179045021533966
+Agent1:   0.31393975019454956
+Agent2:   0.31747326254844666
+Agent3:   0.3138639032840729
+Agent4:   0.319254994392395
+Agent5:   0.30389726161956787
+Agent6:   0.3194197118282318
+Agent7:   0.3132086396217346
+Agent8:   0.3131784200668335
+Agent9:   0.3212050497531891
+   
+
+Joint model, Test set: Average loss: 2.3017, Accuracy: 3342/10000 (33%)
+
+
+Attacker Joint model, Test set: Average loss: 2.3031, Accuracy: 0/10000 (0%)
+
+Running epoch 2 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   3.028258800506592
+Agent1:   0.9582800269126892
+Agent2:   0.9578220248222351
+Agent3:   0.9581953287124634
+Agent4:   0.9570549726486206
+Agent5:   0.957290768623352
+Agent6:   0.9575390815734863
+Agent7:   0.9573616981506348
+Agent8:   0.9589674472808838
+Agent9:   0.9578126668930054
+   
+Agent0:   0.5766070485115051
+Agent1:   0.9573928117752075
+Agent2:   0.9575310945510864
+Agent3:   0.9575175642967224
+Agent4:   0.9574612379074097
+Agent5:   0.9575377106666565
+Agent6:   0.9575468301773071
+Agent7:   0.9575295448303223
+Agent8:   0.9573649764060974
+Agent9:   0.957539439201355
+   
+
+Joint model, Test set: Average loss: 2.2996, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 2.2896, Accuracy: 10000/10000 (100%)
+
+Running epoch 3 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   2.7401468753814697
+Agent1:   0.90848308801651
+Agent2:   0.9086827635765076
+Agent3:   0.909170925617218
+Agent4:   0.9069303870201111
+Agent5:   0.9072694182395935
+Agent6:   0.9083129167556763
+Agent7:   0.9078448414802551
+Agent8:   0.9089720249176025
+Agent9:   0.9079872965812683
+   
+Agent0:   0.7438563108444214
+Agent1:   0.9739739894866943
+Agent2:   0.9740266799926758
+Agent3:   0.9739354252815247
+Agent4:   0.9741485118865967
+Agent5:   0.9741857051849365
+Agent6:   0.9741429686546326
+Agent7:   0.9741778373718262
+Agent8:   0.9738799929618835
+Agent9:   0.9741755127906799
+   
+
+Joint model, Test set: Average loss: 2.2933, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 2.2312, Accuracy: 10000/10000 (100%)
+
+Running epoch 4 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   2.4395580291748047
+Agent1:   0.8970259428024292
+Agent2:   0.895750880241394
+Agent3:   0.8968336582183838
+Agent4:   0.8947607278823853
+Agent5:   0.8952106833457947
+Agent6:   0.8957595229148865
+Agent7:   0.895240068435669
+Agent8:   0.8972696661949158
+Agent9:   0.8956526517868042
+   
+Agent0:   0.8404410481452942
+Agent1:   0.985660195350647
+Agent2:   0.9859030842781067
+Agent3:   0.9857523441314697
+Agent4:   0.9860585331916809
+Agent5:   0.9860454797744751
+Agent6:   0.9860053658485413
+Agent7:   0.9860482811927795
+Agent8:   0.9854658842086792
+Agent9:   0.986036479473114
+   
+
+Joint model, Test set: Average loss: 2.2713, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 2.0893, Accuracy: 10000/10000 (100%)
+
+Running epoch 5 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   2.1800639629364014
+Agent1:   0.9030545949935913
+Agent2:   0.9012300372123718
+Agent3:   0.9022223353385925
+Agent4:   0.9000207185745239
+Agent5:   0.9011685252189636
+Agent6:   0.9020259976387024
+Agent7:   0.90103679895401
+Agent8:   0.9022524356842041
+Agent9:   0.9003989696502686
+   
+Agent0:   0.8944568037986755
+Agent1:   0.9920541048049927
+Agent2:   0.9923638701438904
+Agent3:   0.9920665621757507
+Agent4:   0.9923397302627563
+Agent5:   0.9923088550567627
+Agent6:   0.9921379685401917
+Agent7:   0.9921621084213257
+Agent8:   0.9920333623886108
+Agent9:   0.9922243356704712
+   
+
+Joint model, Test set: Average loss: 2.2163, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 1.8602, Accuracy: 10000/10000 (100%)
+
+Running epoch 6 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.9703044891357422
+Agent1:   0.9134108424186707
+Agent2:   0.9129905700683594
+Agent3:   0.9140084981918335
+Agent4:   0.9117725491523743
+Agent5:   0.9129624962806702
+Agent6:   0.9126421213150024
+Agent7:   0.9123165607452393
+Agent8:   0.9149165153503418
+Agent9:   0.9114863276481628
+   
+Agent0:   0.9246896505355835
+Agent1:   0.9952737092971802
+Agent2:   0.9953449964523315
+Agent3:   0.995053768157959
+Agent4:   0.9955506920814514
+Agent5:   0.9953737854957581
+Agent6:   0.9954470992088318
+Agent7:   0.9955325722694397
+Agent8:   0.9950048923492432
+Agent9:   0.9953281283378601
+   
+
+Joint model, Test set: Average loss: 2.1077, Accuracy: 1342/10000 (13%)
+
+
+Attacker Joint model, Test set: Average loss: 1.6410, Accuracy: 9665/10000 (97%)
+
+Running epoch 7 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.8054254055023193
+Agent1:   0.9250681400299072
+Agent2:   0.9250578284263611
+Agent3:   0.9244096279144287
+Agent4:   0.9244795441627502
+Agent5:   0.9243481755256653
+Agent6:   0.9251481890678406
+Agent7:   0.923936665058136
+Agent8:   0.9252448678016663
+Agent9:   0.9244590401649475
+   
+Agent0:   0.9429751038551331
+Agent1:   0.9970272779464722
+Agent2:   0.996993362903595
+Agent3:   0.9970829486846924
+Agent4:   0.9971153736114502
+Agent5:   0.9970396161079407
+Agent6:   0.9970376491546631
+Agent7:   0.997066080570221
+Agent8:   0.9969738125801086
+Agent9:   0.9970352053642273
+   
+
+Joint model, Test set: Average loss: 1.9686, Accuracy: 1592/10000 (16%)
+
+
+Attacker Joint model, Test set: Average loss: 1.4568, Accuracy: 9395/10000 (94%)
+
+Running epoch 8 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.6762492656707764
+Agent1:   0.9355911612510681
+Agent2:   0.9355217218399048
+Agent3:   0.9345585107803345
+Agent4:   0.935142993927002
+Agent5:   0.9343775510787964
+Agent6:   0.9347472190856934
+Agent7:   0.9349949359893799
+Agent8:   0.9355466365814209
+Agent9:   0.9345780611038208
+   
+Agent0:   0.955287516117096
+Agent1:   0.9979888200759888
+Agent2:   0.9980054497718811
+Agent3:   0.9980648159980774
+Agent4:   0.9980581402778625
+Agent5:   0.9980828762054443
+Agent6:   0.9981059432029724
+Agent7:   0.9980822801589966
+Agent8:   0.9980294108390808
+Agent9:   0.9980875253677368
+   
+
+Joint model, Test set: Average loss: 1.8464, Accuracy: 1791/10000 (18%)
+
+
+Attacker Joint model, Test set: Average loss: 1.3195, Accuracy: 9178/10000 (92%)
+
+Running epoch 9 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.5744962692260742
+Agent1:   0.9436269998550415
+Agent2:   0.9440016746520996
+Agent3:   0.9434995055198669
+Agent4:   0.9435406923294067
+Agent5:   0.943367063999176
+Agent6:   0.9437164068222046
+Agent7:   0.9433659315109253
+Agent8:   0.9440678954124451
+Agent9:   0.9435791373252869
+   
+Agent0:   0.9643968939781189
+Agent1:   0.9986775517463684
+Agent2:   0.9986822009086609
+Agent3:   0.9986547231674194
+Agent4:   0.9986984133720398
+Agent5:   0.998669445514679
+Agent6:   0.9987072348594666
+Agent7:   0.9987170100212097
+Agent8:   0.998618483543396
+Agent9:   0.9987003207206726
+   
+
+Joint model, Test set: Average loss: 1.7791, Accuracy: 1830/10000 (18%)
+
+
+Attacker Joint model, Test set: Average loss: 1.1902, Accuracy: 9155/10000 (92%)
+
+Running epoch 10 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.4930065870285034
+Agent1:   0.9509970545768738
+Agent2:   0.9509987831115723
+Agent3:   0.9505957365036011
+Agent4:   0.9507933855056763
+Agent5:   0.9507953524589539
+Agent6:   0.9508833885192871
+Agent7:   0.9508002996444702
+Agent8:   0.9509719014167786
+Agent9:   0.9507470726966858
+   
+Agent0:   0.9713971614837646
+Agent1:   0.9990736842155457
+Agent2:   0.9990662336349487
+Agent3:   0.9990694522857666
+Agent4:   0.9991031885147095
+Agent5:   0.9990526437759399
+Agent6:   0.9990954995155334
+Agent7:   0.9990867376327515
+Agent8:   0.9990659952163696
+Agent9:   0.9990950226783752
+   
+
+Joint model, Test set: Average loss: 1.7541, Accuracy: 1770/10000 (18%)
+
+
+Attacker Joint model, Test set: Average loss: 1.1137, Accuracy: 9223/10000 (92%)
+
+Finished Running epoch 10, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 10.
+Running epoch 11 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.4264637231826782
+Agent1:   0.9567684531211853
+Agent2:   0.9570620059967041
+Agent3:   0.9567517042160034
+Agent4:   0.9568429589271545
+Agent5:   0.9568981528282166
+Agent6:   0.9570675492286682
+Agent7:   0.956881582736969
+Agent8:   0.9570589065551758
+Agent9:   0.9567242860794067
+   
+Agent0:   0.9769627451896667
+Agent1:   0.9993447661399841
+Agent2:   0.9993501305580139
+Agent3:   0.9993314146995544
+Agent4:   0.9993358850479126
+Agent5:   0.9993407726287842
+Agent6:   0.9993739724159241
+Agent7:   0.9993612170219421
+Agent8:   0.999321699142456
+Agent9:   0.9993269443511963
+   
+
+Joint model, Test set: Average loss: 1.8015, Accuracy: 1489/10000 (15%)
+
+
+Attacker Joint model, Test set: Average loss: 0.9816, Accuracy: 9516/10000 (95%)
+
+Running epoch 12 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.3713405132293701
+Agent1:   0.9620011448860168
+Agent2:   0.9621960520744324
+Agent3:   0.9619424343109131
+Agent4:   0.9621112942695618
+Agent5:   0.9619285464286804
+Agent6:   0.9621902704238892
+Agent7:   0.9621071815490723
+Agent8:   0.962024450302124
+Agent9:   0.9619750380516052
+   
+Agent0:   0.9812993407249451
+Agent1:   0.9995124936103821
+Agent2:   0.9995301365852356
+Agent3:   0.9995090961456299
+Agent4:   0.9995238780975342
+Agent5:   0.9994990229606628
+Agent6:   0.9995388388633728
+Agent7:   0.9995207786560059
+Agent8:   0.9995129108428955
+Agent9:   0.9995155930519104
+   
+
+Joint model, Test set: Average loss: 1.8754, Accuracy: 1261/10000 (13%)
+
+
+Attacker Joint model, Test set: Average loss: 0.8780, Accuracy: 9747/10000 (97%)
+
+Running epoch 13 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.3250523805618286
+Agent1:   0.9665706157684326
+Agent2:   0.9665448069572449
+Agent3:   0.9663267731666565
+Agent4:   0.9665375351905823
+Agent5:   0.9663699269294739
+Agent6:   0.9665923714637756
+Agent7:   0.9664750099182129
+Agent8:   0.9664578437805176
+Agent9:   0.9664252996444702
+   
+Agent0:   0.9847457408905029
+Agent1:   0.9996356964111328
+Agent2:   0.999647319316864
+Agent3:   0.9996359944343567
+Agent4:   0.9996508955955505
+Agent5:   0.9996247291564941
+Agent6:   0.9996519684791565
+Agent7:   0.9996428489685059
+Agent8:   0.9996287822723389
+Agent9:   0.9996321201324463
+   
+
+Joint model, Test set: Average loss: 1.9961, Accuracy: 1045/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.7539, Accuracy: 9964/10000 (100%)
+
+Running epoch 14 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.285789132118225
+Agent1:   0.9702757596969604
+Agent2:   0.9703692197799683
+Agent3:   0.9702171087265015
+Agent4:   0.970321536064148
+Agent5:   0.97017902135849
+Agent6:   0.9704291224479675
+Agent7:   0.9703551530838013
+Agent8:   0.9702569842338562
+Agent9:   0.9702566862106323
+   
+Agent0:   0.9875162243843079
+Agent1:   0.9997227191925049
+Agent2:   0.999727725982666
+Agent3:   0.9997217059135437
+Agent4:   0.9997299909591675
+Agent5:   0.9997153282165527
+Agent6:   0.9997389316558838
+Agent7:   0.999734103679657
+Agent8:   0.9997208118438721
+Agent9:   0.999716579914093
+   
+
+Joint model, Test set: Average loss: 2.1749, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.6159, Accuracy: 10000/10000 (100%)
+
+Running epoch 15 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.252174735069275
+Agent1:   0.9736295938491821
+Agent2:   0.9736565947532654
+Agent3:   0.9735566973686218
+Agent4:   0.9736592173576355
+Agent5:   0.9735001921653748
+Agent6:   0.9737111926078796
+Agent7:   0.9736395478248596
+Agent8:   0.9735880494117737
+Agent9:   0.9735752940177917
+   
+Agent0:   0.9897492527961731
+Agent1:   0.9997902512550354
+Agent2:   0.9997947216033936
+Agent3:   0.9997829794883728
+Agent4:   0.9997936487197876
+Agent5:   0.999772846698761
+Agent6:   0.9997968673706055
+Agent7:   0.9997940063476562
+Agent8:   0.9997881054878235
+Agent9:   0.9997797608375549
+   
+
+Joint model, Test set: Average loss: 2.4143, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.4781, Accuracy: 10000/10000 (100%)
+
+Running epoch 16 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.2231853008270264
+Agent1:   0.976514995098114
+Agent2:   0.9765502214431763
+Agent3:   0.9764500856399536
+Agent4:   0.9765185117721558
+Agent5:   0.9764444828033447
+Agent6:   0.9766183495521545
+Agent7:   0.9765399694442749
+Agent8:   0.9764663577079773
+Agent9:   0.976478636264801
+   
+Agent0:   0.9915653467178345
+Agent1:   0.9998348355293274
+Agent2:   0.999839723110199
+Agent3:   0.9998325109481812
+Agent4:   0.9998385906219482
+Agent5:   0.9998284578323364
+Agent6:   0.9998440146446228
+Agent7:   0.9998377561569214
+Agent8:   0.9998316168785095
+Agent9:   0.9998275637626648
+   
+
+Joint model, Test set: Average loss: 2.7193, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.3533, Accuracy: 10000/10000 (100%)
+
+Running epoch 17 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.1979941129684448
+Agent1:   0.9790578484535217
+Agent2:   0.9790762066841125
+Agent3:   0.9790229201316833
+Agent4:   0.9790642261505127
+Agent5:   0.9789817929267883
+Agent6:   0.9791167974472046
+Agent7:   0.9790619611740112
+Agent8:   0.9790052771568298
+Agent9:   0.9790442585945129
+   
+Agent0:   0.9930806159973145
+Agent1:   0.9998705387115479
+Agent2:   0.9998703598976135
+Agent3:   0.9998720288276672
+Agent4:   0.9998756051063538
+Agent5:   0.9998687505722046
+Agent6:   0.9998769164085388
+Agent7:   0.9998706579208374
+Agent8:   0.9998690485954285
+Agent9:   0.9998667240142822
+   
+
+Joint model, Test set: Average loss: 3.1154, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.2424, Accuracy: 10000/10000 (100%)
+
+Running epoch 18 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.1759916543960571
+Agent1:   0.9812873601913452
+Agent2:   0.9813066124916077
+Agent3:   0.9812625646591187
+Agent4:   0.9812970161437988
+Agent5:   0.9812483191490173
+Agent6:   0.9813289642333984
+Agent7:   0.9813075661659241
+Agent8:   0.9812459349632263
+Agent9:   0.9812625050544739
+   
+Agent0:   0.9943460822105408
+Agent1:   0.9998998045921326
+Agent2:   0.999901294708252
+Agent3:   0.9998974800109863
+Agent4:   0.9999006390571594
+Agent5:   0.9998987317085266
+Agent6:   0.9999006390571594
+Agent7:   0.9999001026153564
+Agent8:   0.9998981356620789
+Agent9:   0.9998955130577087
+   
+
+Joint model, Test set: Average loss: 3.5802, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.1577, Accuracy: 10000/10000 (100%)
+
+Running epoch 19 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.1566780805587769
+Agent1:   0.9832584261894226
+Agent2:   0.9832677245140076
+Agent3:   0.9832414984703064
+Agent4:   0.9832707047462463
+Agent5:   0.9832333922386169
+Agent6:   0.9833104014396667
+Agent7:   0.9832664132118225
+Agent8:   0.983245849609375
+Agent9:   0.9832490086555481
+   
+Agent0:   0.9953980445861816
+Agent1:   0.9999218583106995
+Agent2:   0.9999212026596069
+Agent3:   0.999920129776001
+Agent4:   0.9999222755432129
+Agent5:   0.9999201893806458
+Agent6:   0.999923586845398
+Agent7:   0.999920129776001
+Agent8:   0.9999213218688965
+Agent9:   0.9999187588691711
+   
+
+Joint model, Test set: Average loss: 4.1021, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0979, Accuracy: 10000/10000 (100%)
+
+Running epoch 20 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.1396543979644775
+Agent1:   0.9850106239318848
+Agent2:   0.9850302934646606
+Agent3:   0.9850080609321594
+Agent4:   0.9850252270698547
+Agent5:   0.9849952459335327
+Agent6:   0.9850375652313232
+Agent7:   0.9850237369537354
+Agent8:   0.984999418258667
+Agent9:   0.9850161671638489
+   
+Agent0:   0.9962682723999023
+Agent1:   0.9999380707740784
+Agent2:   0.9999388456344604
+Agent3:   0.9999380111694336
+Agent4:   0.9999390244483948
+Agent5:   0.9999375343322754
+Agent6:   0.9999389052391052
+Agent7:   0.999937891960144
+Agent8:   0.9999375343322754
+Agent9:   0.9999371767044067
+   
+
+Joint model, Test set: Average loss: 4.6789, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0582, Accuracy: 10000/10000 (100%)
+
+Finished Running epoch 20, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 20.
+Running epoch 21 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.1246086359024048
+Agent1:   0.9865819215774536
+Agent2:   0.9865853190422058
+Agent3:   0.9865713715553284
+Agent4:   0.9865871071815491
+Agent5:   0.9865622520446777
+Agent6:   0.9865943193435669
+Agent7:   0.9865928888320923
+Agent8:   0.9865588545799255
+Agent9:   0.9865826964378357
+   
+Agent0:   0.9969812631607056
+Agent1:   0.9999517202377319
+Agent2:   0.9999516606330872
+Agent3:   0.999951183795929
+Agent4:   0.9999520182609558
+Agent5:   0.9999509453773499
+Agent6:   0.9999517202377319
+Agent7:   0.9999517202377319
+Agent8:   0.9999510049819946
+Agent9:   0.9999510645866394
+   
+
+Joint model, Test set: Average loss: 5.2925, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0337, Accuracy: 10000/10000 (100%)
+
+Running epoch 22 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.1112772226333618
+Agent1:   0.987969696521759
+Agent2:   0.9879791140556335
+Agent3:   0.9879733324050903
+Agent4:   0.9879807233810425
+Agent5:   0.987964928150177
+Agent6:   0.9879821538925171
+Agent7:   0.9879840016365051
+Agent8:   0.9879610538482666
+Agent9:   0.9879744052886963
+   
+Agent0:   0.9975637197494507
+Agent1:   0.9999620318412781
+Agent2:   0.9999620318412781
+Agent3:   0.9999620318412781
+Agent4:   0.9999622702598572
+Agent5:   0.9999616742134094
+Agent6:   0.9999620318412781
+Agent7:   0.9999620318412781
+Agent8:   0.999961793422699
+Agent9:   0.9999616742134094
+   
+
+Joint model, Test set: Average loss: 5.9304, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0193, Accuracy: 10000/10000 (100%)
+
+Running epoch 23 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0994462966918945
+Agent1:   0.989220142364502
+Agent2:   0.9892218708992004
+Agent3:   0.9892135262489319
+Agent4:   0.9892210364341736
+Agent5:   0.9892144203186035
+Agent6:   0.9892271757125854
+Agent7:   0.9892247915267944
+Agent8:   0.9892124533653259
+Agent9:   0.9892235994338989
+   
+Agent0:   0.9980364441871643
+Agent1:   0.9999701976776123
+Agent2:   0.9999701976776123
+Agent3:   0.9999698400497437
+Agent4:   0.9999701976776123
+Agent5:   0.9999699592590332
+Agent6:   0.9999701976776123
+Agent7:   0.9999699592590332
+Agent8:   0.9999701976776123
+Agent9:   0.9999699592590332
+   
+
+Joint model, Test set: Average loss: 6.5746, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0110, Accuracy: 10000/10000 (100%)
+
+Running epoch 24 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0889308452606201
+Agent1:   0.9903340935707092
+Agent2:   0.9903339743614197
+Agent3:   0.9903308749198914
+Agent4:   0.9903355836868286
+Agent5:   0.9903327226638794
+Agent6:   0.9903358221054077
+Agent7:   0.9903364181518555
+Agent8:   0.9903262853622437
+Agent9:   0.9903351664543152
+   
+Agent0:   0.9984191656112671
+Agent1:   0.9999765157699585
+Agent2:   0.9999765157699585
+Agent3:   0.9999765157699585
+Agent4:   0.9999765157699585
+Agent5:   0.999976396560669
+Agent6:   0.9999765157699585
+Agent7:   0.999976396560669
+Agent8:   0.999976396560669
+Agent9:   0.999976396560669
+   
+
+Joint model, Test set: Average loss: 7.2140, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0063, Accuracy: 10000/10000 (100%)
+
+Running epoch 25 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.079573631286621
+Agent1:   0.9913297891616821
+Agent2:   0.9913296699523926
+Agent3:   0.9913296699523926
+Agent4:   0.9913294315338135
+Agent5:   0.9913246631622314
+Agent6:   0.9913326501846313
+Agent7:   0.9913351535797119
+Agent8:   0.9913257956504822
+Agent9:   0.9913293123245239
+   
+Agent0:   0.9987282156944275
+Agent1:   0.9999814033508301
+Agent2:   0.9999815225601196
+Agent3:   0.9999814033508301
+Agent4:   0.9999814033508301
+Agent5:   0.9999812841415405
+Agent6:   0.9999814033508301
+Agent7:   0.9999815225601196
+Agent8:   0.9999814033508301
+Agent9:   0.9999812841415405
+   
+
+Joint model, Test set: Average loss: 7.8382, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0037, Accuracy: 10000/10000 (100%)
+
+Running epoch 26 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0712368488311768
+Agent1:   0.992220401763916
+Agent2:   0.9922212958335876
+Agent3:   0.9922201037406921
+Agent4:   0.992222011089325
+Agent5:   0.9922189712524414
+Agent6:   0.9922230243682861
+Agent7:   0.9922226667404175
+Agent8:   0.9922188520431519
+Agent9:   0.9922223687171936
+   
+Agent0:   0.9989773631095886
+Agent1:   0.9999852776527405
+Agent2:   0.9999852776527405
+Agent3:   0.9999852776527405
+Agent4:   0.9999852776527405
+Agent5:   0.9999852776527405
+Agent6:   0.9999850988388062
+Agent7:   0.9999852776527405
+Agent8:   0.9999851584434509
+Agent9:   0.9999851584434509
+   
+
+Joint model, Test set: Average loss: 8.4409, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0022, Accuracy: 10000/10000 (100%)
+
+Running epoch 27 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0638046264648438
+Agent1:   0.9930181503295898
+Agent2:   0.993019700050354
+Agent3:   0.9930188059806824
+Agent4:   0.9930188059806824
+Agent5:   0.9930189251899719
+Agent6:   0.9930204749107361
+Agent7:   0.9930214881896973
+Agent8:   0.9930177927017212
+Agent9:   0.9930193424224854
+   
+Agent0:   0.9991778135299683
+Agent1:   0.9999882578849792
+Agent2:   0.9999882578849792
+Agent3:   0.9999882578849792
+Agent4:   0.9999882578849792
+Agent5:   0.9999882578849792
+Agent6:   0.9999882578849792
+Agent7:   0.9999882578849792
+Agent8:   0.9999881982803345
+Agent9:   0.9999882578849792
+   
+
+Joint model, Test set: Average loss: 9.0136, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0014, Accuracy: 10000/10000 (100%)
+
+Running epoch 28 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.057172417640686
+Agent1:   0.9937342405319214
+Agent2:   0.9937336444854736
+Agent3:   0.9937338829040527
+Agent4:   0.9937346577644348
+Agent5:   0.9937344193458557
+Agent6:   0.9937352538108826
+Agent7:   0.993735134601593
+Agent8:   0.9937320947647095
+Agent9:   0.9937352538108826
+   
+Agent0:   0.9993389248847961
+Agent1:   0.9999906420707703
+Agent2:   0.9999907612800598
+Agent3:   0.9999908804893494
+Agent4:   0.9999907612800598
+Agent5:   0.9999907612800598
+Agent6:   0.9999907612800598
+Agent7:   0.9999907612800598
+Agent8:   0.9999907612800598
+Agent9:   0.9999907612800598
+   
+
+Joint model, Test set: Average loss: 9.5552, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0009, Accuracy: 10000/10000 (100%)
+
+Running epoch 29 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0512501001358032
+Agent1:   0.9943743348121643
+Agent2:   0.9943751096725464
+Agent3:   0.9943749904632568
+Agent4:   0.9943754076957703
+Agent5:   0.9943743348121643
+Agent6:   0.9943755269050598
+Agent7:   0.9943758845329285
+Agent8:   0.9943737387657166
+Agent9:   0.9943752288818359
+   
+Agent0:   0.9994683265686035
+Agent1:   0.9999927282333374
+Agent2:   0.9999926090240479
+Agent3:   0.9999926090240479
+Agent4:   0.9999927282333374
+Agent5:   0.9999926090240479
+Agent6:   0.9999926090240479
+Agent7:   0.9999927282333374
+Agent8:   0.9999927282333374
+Agent9:   0.9999927282333374
+   
+
+Joint model, Test set: Average loss: 10.0662, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0006, Accuracy: 10000/10000 (100%)
+
+Running epoch 30 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0459578037261963
+Agent1:   0.9949489235877991
+Agent2:   0.9949489235877991
+Agent3:   0.9949490427970886
+Agent4:   0.994949221611023
+Agent5:   0.9949489235877991
+Agent6:   0.9949496984481812
+Agent7:   0.9949495792388916
+Agent8:   0.9949480295181274
+Agent9:   0.9949493408203125
+   
+Agent0:   0.999572217464447
+Agent1:   0.999994158744812
+Agent2:   0.999994158744812
+Agent3:   0.9999942183494568
+Agent4:   0.999994158744812
+Agent5:   0.999994158744812
+Agent6:   0.9999943375587463
+Agent7:   0.999994158744812
+Agent8:   0.999994158744812
+Agent9:   0.9999940395355225
+   
+
+Joint model, Test set: Average loss: 10.5450, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0004, Accuracy: 10000/10000 (100%)
+
+Finished Running epoch 30, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 30.
+Running epoch 31 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0412256717681885
+Agent1:   0.9954636096954346
+Agent2:   0.9954637885093689
+Agent3:   0.9954637885093689
+Agent4:   0.9954637289047241
+Agent5:   0.9954633712768555
+Agent6:   0.9954644441604614
+Agent7:   0.9954639077186584
+Agent8:   0.9954632520675659
+Agent9:   0.9954641461372375
+   
+Agent0:   0.9996559619903564
+Agent1:   0.9999952912330627
+Agent2:   0.9999954104423523
+Agent3:   0.9999952912330627
+Agent4:   0.999995231628418
+Agent5:   0.9999952912330627
+Agent6:   0.9999954104423523
+Agent7:   0.9999954104423523
+Agent8:   0.9999952912330627
+Agent9:   0.9999954104423523
+   
+
+Joint model, Test set: Average loss: 10.9911, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0003, Accuracy: 10000/10000 (100%)
+
+Running epoch 32 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.036992073059082
+Agent1:   0.9959255456924438
+Agent2:   0.9959255456924438
+Agent3:   0.9959254264831543
+Agent4:   0.9959251880645752
+Agent5:   0.9959251284599304
+Agent6:   0.995925784111023
+Agent7:   0.9959256649017334
+Agent8:   0.9959247708320618
+Agent9:   0.9959254264831543
+   
+Agent0:   0.999722957611084
+Agent1:   0.9999964833259583
+Agent2:   0.9999962449073792
+Agent3:   0.9999963641166687
+Agent4:   0.9999963641166687
+Agent5:   0.9999962449073792
+Agent6:   0.9999962449073792
+Agent7:   0.9999963641166687
+Agent8:   0.9999962449073792
+Agent9:   0.9999963641166687
+   
+
+Joint model, Test set: Average loss: 11.4061, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0002, Accuracy: 10000/10000 (100%)
+
+Running epoch 33 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0332025289535522
+Agent1:   0.9963394403457642
+Agent2:   0.9963394403457642
+Agent3:   0.9963394403457642
+Agent4:   0.9963393211364746
+Agent5:   0.9963392615318298
+Agent6:   0.9963397979736328
+Agent7:   0.9963395595550537
+Agent8:   0.9963390231132507
+Agent9:   0.9963396787643433
+   
+Agent0:   0.9997769594192505
+Agent1:   0.999997079372406
+Agent2:   0.9999970197677612
+Agent3:   0.999997079372406
+Agent4:   0.999997079372406
+Agent5:   0.999997079372406
+Agent6:   0.999997079372406
+Agent7:   0.999997079372406
+Agent8:   0.9999971985816956
+Agent9:   0.9999970197677612
+   
+
+Joint model, Test set: Average loss: 11.7900, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0001, Accuracy: 10000/10000 (100%)
+
+Running epoch 34 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.029808759689331
+Agent1:   0.9967107772827148
+Agent2:   0.9967107772827148
+Agent3:   0.9967108964920044
+Agent4:   0.9967108964920044
+Agent5:   0.9967107176780701
+Agent6:   0.9967108964920044
+Agent7:   0.9967108964920044
+Agent8:   0.9967107176780701
+Agent9:   0.9967108964920044
+   
+Agent0:   0.9998201131820679
+Agent1:   0.9999974966049194
+Agent2:   0.999997615814209
+Agent3:   0.9999974966049194
+Agent4:   0.9999977350234985
+Agent5:   0.9999974966049194
+Agent6:   0.9999977350234985
+Agent7:   0.9999977350234985
+Agent8:   0.999997615814209
+Agent9:   0.999997615814209
+   
+
+Joint model, Test set: Average loss: 12.1433, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0001, Accuracy: 10000/10000 (100%)
+
+Running epoch 35 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0267680883407593
+Agent1:   0.9970442056655884
+Agent2:   0.9970442056655884
+Agent3:   0.9970442056655884
+Agent4:   0.9970442056655884
+Agent5:   0.9970442056655884
+Agent6:   0.9970442056655884
+Agent7:   0.9970442056655884
+Agent8:   0.9970442056655884
+Agent9:   0.9970443248748779
+   
+Agent0:   0.999855101108551
+Agent1:   0.9999980330467224
+Agent2:   0.9999980330467224
+Agent3:   0.9999980330467224
+Agent4:   0.9999980330467224
+Agent5:   0.9999980330467224
+Agent6:   0.9999980926513672
+Agent7:   0.9999982118606567
+Agent8:   0.9999980330467224
+Agent9:   0.9999980926513672
+   
+
+Joint model, Test set: Average loss: 12.4684, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0001, Accuracy: 10000/10000 (100%)
+
+Running epoch 36 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0240426063537598
+Agent1:   0.9973431825637817
+Agent2:   0.9973433017730713
+Agent3:   0.9973433017730713
+Agent4:   0.9973433017730713
+Agent5:   0.9973431825637817
+Agent6:   0.9973434209823608
+Agent7:   0.9973433017730713
+Agent8:   0.9973431825637817
+Agent9:   0.9973433017730713
+   
+Agent0:   0.9998831152915955
+Agent1:   0.9999985098838806
+Agent2:   0.9999983310699463
+Agent3:   0.9999984502792358
+Agent4:   0.9999984502792358
+Agent5:   0.9999985098838806
+Agent6:   0.9999984502792358
+Agent7:   0.9999984502792358
+Agent8:   0.9999983310699463
+Agent9:   0.9999984502792358
+   
+
+Joint model, Test set: Average loss: 12.7662, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0001, Accuracy: 10000/10000 (100%)
+
+Running epoch 37 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0215989351272583
+Agent1:   0.997611939907074
+Agent2:   0.997611939907074
+Agent3:   0.997611939907074
+Agent4:   0.997611939907074
+Agent5:   0.997611939907074
+Agent6:   0.9976120591163635
+Agent7:   0.9976120591163635
+Agent8:   0.997611939907074
+Agent9:   0.9976120591163635
+   
+Agent0:   0.9999057054519653
+Agent1:   0.9999987483024597
+Agent2:   0.9999988079071045
+Agent3:   0.9999987483024597
+Agent4:   0.9999987483024597
+Agent5:   0.9999986290931702
+Agent6:   0.9999986290931702
+Agent7:   0.9999987483024597
+Agent8:   0.9999986290931702
+Agent9:   0.9999987483024597
+   
+
+Joint model, Test set: Average loss: 13.0385, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 38 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.019407033920288
+Agent1:   0.9978532195091248
+Agent2:   0.9978532195091248
+Agent3:   0.9978532195091248
+Agent4:   0.9978532195091248
+Agent5:   0.9978532195091248
+Agent6:   0.9978533387184143
+Agent7:   0.9978532195091248
+Agent8:   0.9978532195091248
+Agent9:   0.9978532195091248
+   
+Agent0:   0.999923825263977
+Agent1:   0.9999990463256836
+Agent2:   0.9999990463256836
+Agent3:   0.9999990463256836
+Agent4:   0.9999990463256836
+Agent5:   0.9999990463256836
+Agent6:   0.9999988079071045
+Agent7:   0.9999991059303284
+Agent8:   0.9999990463256836
+Agent9:   0.9999990463256836
+   
+
+Joint model, Test set: Average loss: 13.2871, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 39 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0174403190612793
+Agent1:   0.9980699419975281
+Agent2:   0.9980699419975281
+Agent3:   0.9980699419975281
+Agent4:   0.9980699419975281
+Agent5:   0.9980699419975281
+Agent6:   0.9980700612068176
+Agent7:   0.9980700612068176
+Agent8:   0.9980699419975281
+Agent9:   0.9980700612068176
+   
+Agent0:   0.9999386668205261
+Agent1:   0.9999992251396179
+Agent2:   0.9999992251396179
+Agent3:   0.9999991059303284
+Agent4:   0.9999992251396179
+Agent5:   0.9999991059303284
+Agent6:   0.9999992251396179
+Agent7:   0.9999991059303284
+Agent8:   0.9999991059303284
+Agent9:   0.9999992251396179
+   
+
+Joint model, Test set: Average loss: 13.5126, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 40 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0156750679016113
+Agent1:   0.998264491558075
+Agent2:   0.998264491558075
+Agent3:   0.998264491558075
+Agent4:   0.998264491558075
+Agent5:   0.998264491558075
+Agent6:   0.998264491558075
+Agent7:   0.998264491558075
+Agent8:   0.998264491558075
+Agent9:   0.998264491558075
+   
+Agent0:   0.9999502301216125
+Agent1:   0.9999993443489075
+Agent2:   0.9999993443489075
+Agent3:   0.9999993443489075
+Agent4:   0.9999993443489075
+Agent5:   0.9999993443489075
+Agent6:   0.9999993443489075
+Agent7:   0.9999993443489075
+Agent8:   0.9999992251396179
+Agent9:   0.9999993443489075
+   
+
+Joint model, Test set: Average loss: 13.7199, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Finished Running epoch 40, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 40.
+Running epoch 41 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0140905380249023
+Agent1:   0.9984394311904907
+Agent2:   0.9984394311904907
+Agent3:   0.9984393119812012
+Agent4:   0.9984394311904907
+Agent5:   0.9984393119812012
+Agent6:   0.9984394311904907
+Agent7:   0.9984394311904907
+Agent8:   0.9984393119812012
+Agent9:   0.9984394311904907
+   
+Agent0:   0.9999600052833557
+Agent1:   0.9999995231628418
+Agent2:   0.9999994039535522
+Agent3:   0.9999996423721313
+Agent4:   0.9999995231628418
+Agent5:   0.9999996423721313
+Agent6:   0.9999994039535522
+Agent7:   0.9999995231628418
+Agent8:   0.9999996423721313
+Agent9:   0.9999995231628418
+   
+
+Joint model, Test set: Average loss: 13.9071, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 42 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0126675367355347
+Agent1:   0.9985964298248291
+Agent2:   0.9985964298248291
+Agent3:   0.9985964298248291
+Agent4:   0.9985964298248291
+Agent5:   0.9985964298248291
+Agent6:   0.9985964298248291
+Agent7:   0.9985964298248291
+Agent8:   0.9985964298248291
+Agent9:   0.9985964298248291
+   
+Agent0:   0.999967634677887
+Agent1:   0.9999995231628418
+Agent2:   0.9999996423721313
+Agent3:   0.9999995231628418
+Agent4:   0.9999995231628418
+Agent5:   0.9999995231628418
+Agent6:   0.9999996423721313
+Agent7:   0.9999995231628418
+Agent8:   0.9999995231628418
+Agent9:   0.9999995231628418
+   
+
+Joint model, Test set: Average loss: 14.0765, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 43 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0113894939422607
+Agent1:   0.9987377524375916
+Agent2:   0.9987377524375916
+Agent3:   0.9987377524375916
+Agent4:   0.9987377524375916
+Agent5:   0.9987377524375916
+Agent6:   0.9987377524375916
+Agent7:   0.9987377524375916
+Agent8:   0.9987377524375916
+Agent9:   0.9987377524375916
+   
+Agent0:   0.9999738335609436
+Agent1:   0.9999995231628418
+Agent2:   0.9999995231628418
+Agent3:   0.9999995231628418
+Agent4:   0.9999995231628418
+Agent5:   0.9999995231628418
+Agent6:   0.9999995231628418
+Agent7:   0.9999995231628418
+Agent8:   0.9999995231628418
+Agent9:   0.9999996423721313
+   
+
+Joint model, Test set: Average loss: 14.2314, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 44 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0102413892745972
+Agent1:   0.9988646507263184
+Agent2:   0.9988646507263184
+Agent3:   0.9988646507263184
+Agent4:   0.9988647699356079
+Agent5:   0.9988646507263184
+Agent6:   0.9988647699356079
+Agent7:   0.9988646507263184
+Agent8:   0.9988646507263184
+Agent9:   0.9988646507263184
+   
+Agent0:   0.9999788403511047
+Agent1:   0.9999998211860657
+Agent2:   0.9999998211860657
+Agent3:   0.9999998211860657
+Agent4:   0.9999996423721313
+Agent5:   0.9999998211860657
+Agent6:   0.9999996423721313
+Agent7:   0.9999997019767761
+Agent8:   0.9999997019767761
+Agent9:   0.9999998211860657
+   
+
+Joint model, Test set: Average loss: 14.3705, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 45 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0092097520828247
+Agent1:   0.9989787340164185
+Agent2:   0.9989787340164185
+Agent3:   0.9989787340164185
+Agent4:   0.9989787340164185
+Agent5:   0.9989787340164185
+Agent6:   0.9989787340164185
+Agent7:   0.9989787340164185
+Agent8:   0.9989787340164185
+Agent9:   0.9989787340164185
+   
+Agent0:   0.9999828338623047
+Agent1:   0.9999998211860657
+Agent2:   0.9999998211860657
+Agent3:   0.9999998211860657
+Agent4:   0.9999998211860657
+Agent5:   0.9999997019767761
+Agent6:   0.9999998211860657
+Agent7:   0.9999998211860657
+Agent8:   0.9999997019767761
+Agent9:   0.9999998211860657
+   
+
+Joint model, Test set: Average loss: 14.4978, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 46 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0082828998565674
+Agent1:   0.9990814328193665
+Agent2:   0.9990814328193665
+Agent3:   0.9990814328193665
+Agent4:   0.9990814328193665
+Agent5:   0.9990814328193665
+Agent6:   0.9990814328193665
+Agent7:   0.9990814328193665
+Agent8:   0.9990814328193665
+Agent9:   0.9990814328193665
+   
+Agent0:   0.9999862313270569
+Agent1:   0.9999998807907104
+Agent2:   0.9999998807907104
+Agent3:   0.9999998807907104
+Agent4:   0.9999998807907104
+Agent5:   0.9999998211860657
+Agent6:   0.9999998807907104
+Agent7:   0.9999998807907104
+Agent8:   0.9999998211860657
+Agent9:   0.9999998211860657
+   
+
+Joint model, Test set: Average loss: 14.6123, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 47 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.007449746131897
+Agent1:   0.999173641204834
+Agent2:   0.999173641204834
+Agent3:   0.999173641204834
+Agent4:   0.999173641204834
+Agent5:   0.999173641204834
+Agent6:   0.999173641204834
+Agent7:   0.999173641204834
+Agent8:   0.999173641204834
+Agent9:   0.999173641204834
+   
+Agent0:   0.9999889135360718
+Agent1:   0.9999998211860657
+Agent2:   0.9999998211860657
+Agent3:   0.9999998211860657
+Agent4:   0.9999998211860657
+Agent5:   0.9999998211860657
+Agent6:   0.9999998211860657
+Agent7:   0.9999998211860657
+Agent8:   0.9999998211860657
+Agent9:   0.9999998211860657
+   
+
+Joint model, Test set: Average loss: 14.7150, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 48 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0067007541656494
+Agent1:   0.9992565512657166
+Agent2:   0.9992565512657166
+Agent3:   0.9992565512657166
+Agent4:   0.9992565512657166
+Agent5:   0.9992565512657166
+Agent6:   0.9992565512657166
+Agent7:   0.9992565512657166
+Agent8:   0.9992565512657166
+Agent9:   0.9992565512657166
+   
+Agent0:   0.9999909400939941
+Agent1:   0.9999998807907104
+Agent2:   0.9999998807907104
+Agent3:   0.9999998807907104
+Agent4:   0.9999998807907104
+Agent5:   0.9999998807907104
+Agent6:   0.9999998807907104
+Agent7:   0.9999998807907104
+Agent8:   0.9999998807907104
+Agent9:   0.9999998807907104
+   
+
+Joint model, Test set: Average loss: 14.8091, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 49 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0060274600982666
+Agent1:   0.9993311762809753
+Agent2:   0.9993311762809753
+Agent3:   0.9993311762809753
+Agent4:   0.9993311762809753
+Agent5:   0.9993311762809753
+Agent6:   0.9993311762809753
+Agent7:   0.9993311762809753
+Agent8:   0.9993311762809753
+Agent9:   0.9993311762809753
+   
+Agent0:   0.9999926686286926
+Agent1:   0.9999998807907104
+Agent2:   0.9999998807907104
+Agent3:   0.9999998807907104
+Agent4:   0.9999998807907104
+Agent5:   0.9999998807907104
+Agent6:   0.9999998807907104
+Agent7:   0.9999998807907104
+Agent8:   0.9999998807907104
+Agent9:   0.9999998807907104
+   
+
+Joint model, Test set: Average loss: 14.8940, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 50 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0054221153259277
+Agent1:   0.9993983507156372
+Agent2:   0.9993983507156372
+Agent3:   0.9993983507156372
+Agent4:   0.9993983507156372
+Agent5:   0.9993983507156372
+Agent6:   0.9993983507156372
+Agent7:   0.9993983507156372
+Agent8:   0.9993983507156372
+Agent9:   0.9993983507156372
+   
+Agent0:   0.9999940991401672
+Agent1:   0.9999998807907104
+Agent2:   0.9999998807907104
+Agent3:   0.9999998807907104
+Agent4:   0.9999998807907104
+Agent5:   0.9999998807907104
+Agent6:   0.9999998807907104
+Agent7:   0.9999998807907104
+Agent8:   0.9999998807907104
+Agent9:   0.9999998807907104
+   
+
+Joint model, Test set: Average loss: 14.9706, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Finished Running epoch 50, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 50.
+Running epoch 51 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0048778057098389
+Agent1:   0.9994586110115051
+Agent2:   0.9994586110115051
+Agent3:   0.9994586110115051
+Agent4:   0.9994586110115051
+Agent5:   0.9994586110115051
+Agent6:   0.9994586110115051
+Agent7:   0.9994586110115051
+Agent8:   0.9994586110115051
+Agent9:   0.9994586110115051
+   
+Agent0:   0.9999952912330627
+Agent1:   1.0000001192092896
+Agent2:   1.0000001192092896
+Agent3:   1.0000001192092896
+Agent4:   1.0000001192092896
+Agent5:   1.0000001192092896
+Agent6:   1.0000001192092896
+Agent7:   1.0000001192092896
+Agent8:   1.0000001192092896
+Agent9:   1.0000001192092896
+   
+
+Joint model, Test set: Average loss: 15.0384, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 52 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0043883323669434
+Agent1:   0.9995128512382507
+Agent2:   0.9995128512382507
+Agent3:   0.9995128512382507
+Agent4:   0.9995128512382507
+Agent5:   0.9995128512382507
+Agent6:   0.9995128512382507
+Agent7:   0.9995128512382507
+Agent8:   0.9995128512382507
+Agent9:   0.9995128512382507
+   
+Agent0:   0.9999960660934448
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.1010, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 53 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0039479732513428
+Agent1:   0.999561607837677
+Agent2:   0.999561607837677
+Agent3:   0.999561607837677
+Agent4:   0.999561607837677
+Agent5:   0.999561607837677
+Agent6:   0.999561607837677
+Agent7:   0.999561607837677
+Agent8:   0.999561607837677
+Agent9:   0.999561607837677
+   
+Agent0:   0.9999967217445374
+Agent1:   0.9999998807907104
+Agent2:   0.9999998807907104
+Agent3:   0.9999998807907104
+Agent4:   0.9999998807907104
+Agent5:   0.9999998807907104
+Agent6:   0.9999998807907104
+Agent7:   0.9999998807907104
+Agent8:   0.9999998807907104
+Agent9:   0.9999998807907104
+   
+
+Joint model, Test set: Average loss: 15.1571, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 54 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0035520792007446
+Agent1:   0.999605655670166
+Agent2:   0.999605655670166
+Agent3:   0.999605655670166
+Agent4:   0.999605655670166
+Agent5:   0.999605655670166
+Agent6:   0.999605655670166
+Agent7:   0.999605655670166
+Agent8:   0.999605655670166
+Agent9:   0.999605655670166
+   
+Agent0:   0.9999975562095642
+Agent1:   0.9999998807907104
+Agent2:   0.9999998807907104
+Agent3:   0.9999998807907104
+Agent4:   0.9999998807907104
+Agent5:   0.9999998807907104
+Agent6:   0.9999998807907104
+Agent7:   0.9999998807907104
+Agent8:   0.9999998807907104
+Agent9:   0.9999998807907104
+   
+
+Joint model, Test set: Average loss: 15.2079, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 55 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.003195881843567
+Agent1:   0.9996451139450073
+Agent2:   0.9996451139450073
+Agent3:   0.9996451139450073
+Agent4:   0.9996451139450073
+Agent5:   0.9996451139450073
+Agent6:   0.9996451139450073
+Agent7:   0.9996451139450073
+Agent8:   0.9996451139450073
+Agent9:   0.9996451139450073
+   
+Agent0:   0.9999978542327881
+Agent1:   0.9999998807907104
+Agent2:   0.9999998807907104
+Agent3:   0.9999998807907104
+Agent4:   0.9999998807907104
+Agent5:   0.9999998807907104
+Agent6:   0.9999998807907104
+Agent7:   0.9999998807907104
+Agent8:   0.9999998807907104
+Agent9:   0.9999998807907104
+   
+
+Joint model, Test set: Average loss: 15.2535, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 56 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0028756856918335
+Agent1:   0.999680757522583
+Agent2:   0.999680757522583
+Agent3:   0.999680757522583
+Agent4:   0.999680757522583
+Agent5:   0.999680757522583
+Agent6:   0.999680757522583
+Agent7:   0.999680757522583
+Agent8:   0.999680757522583
+Agent9:   0.999680757522583
+   
+Agent0:   0.9999983310699463
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.2942, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 57 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0025874376296997
+Agent1:   0.9997126460075378
+Agent2:   0.9997126460075378
+Agent3:   0.9997126460075378
+Agent4:   0.9997126460075378
+Agent5:   0.9997126460075378
+Agent6:   0.9997126460075378
+Agent7:   0.9997126460075378
+Agent8:   0.9997126460075378
+Agent9:   0.9997126460075378
+   
+Agent0:   0.9999986886978149
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.3321, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 58 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0023282766342163
+Agent1:   0.9997414946556091
+Agent2:   0.9997414946556091
+Agent3:   0.9997414946556091
+Agent4:   0.9997414946556091
+Agent5:   0.9997414946556091
+Agent6:   0.9997414946556091
+Agent7:   0.9997414946556091
+Agent8:   0.9997414946556091
+Agent9:   0.9997414946556091
+   
+Agent0:   0.9999989867210388
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.3651, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 59 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0020949840545654
+Agent1:   0.9997672438621521
+Agent2:   0.9997672438621521
+Agent3:   0.9997672438621521
+Agent4:   0.9997672438621521
+Agent5:   0.9997672438621521
+Agent6:   0.9997672438621521
+Agent7:   0.9997672438621521
+Agent8:   0.9997672438621521
+Agent9:   0.9997672438621521
+   
+Agent0:   0.9999990463256836
+Agent1:   0.9999998807907104
+Agent2:   0.9999998807907104
+Agent3:   0.9999998807907104
+Agent4:   0.9999998807907104
+Agent5:   0.9999998807907104
+Agent6:   0.9999998807907104
+Agent7:   0.9999998807907104
+Agent8:   0.9999998807907104
+Agent9:   0.9999998807907104
+   
+
+Joint model, Test set: Average loss: 15.3958, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 60 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.001885175704956
+Agent1:   0.9997906684875488
+Agent2:   0.9997906684875488
+Agent3:   0.9997906684875488
+Agent4:   0.9997906684875488
+Agent5:   0.9997906684875488
+Agent6:   0.9997906684875488
+Agent7:   0.9997906684875488
+Agent8:   0.9997906684875488
+Agent9:   0.9997906684875488
+   
+Agent0:   0.9999993443489075
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.4227, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Finished Running epoch 60, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 60.
+Running epoch 61 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0016964673995972
+Agent1:   0.9998115301132202
+Agent2:   0.9998115301132202
+Agent3:   0.9998115301132202
+Agent4:   0.9998115301132202
+Agent5:   0.9998115301132202
+Agent6:   0.9998115301132202
+Agent7:   0.9998115301132202
+Agent8:   0.9998115301132202
+Agent9:   0.9998115301132202
+   
+Agent0:   0.999999463558197
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.4463, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 62 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0015264749526978
+Agent1:   0.999830424785614
+Agent2:   0.999830424785614
+Agent3:   0.999830424785614
+Agent4:   0.999830424785614
+Agent5:   0.999830424785614
+Agent6:   0.999830424785614
+Agent7:   0.999830424785614
+Agent8:   0.999830424785614
+Agent9:   0.999830424785614
+   
+Agent0:   0.999999463558197
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.4691, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 63 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0013737678527832
+Agent1:   0.9998474717140198
+Agent2:   0.9998474717140198
+Agent3:   0.9998474717140198
+Agent4:   0.9998474717140198
+Agent5:   0.9998474717140198
+Agent6:   0.9998474717140198
+Agent7:   0.9998474717140198
+Agent8:   0.9998474717140198
+Agent9:   0.9998474717140198
+   
+Agent0:   0.9999996423721313
+Agent1:   0.9999998807907104
+Agent2:   0.9999998807907104
+Agent3:   0.9999998807907104
+Agent4:   0.9999998807907104
+Agent5:   0.9999998807907104
+Agent6:   0.9999998807907104
+Agent7:   0.9999998807907104
+Agent8:   0.9999998807907104
+Agent9:   0.9999998807907104
+   
+
+Joint model, Test set: Average loss: 15.4892, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 64 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0012362003326416
+Agent1:   0.9998626708984375
+Agent2:   0.9998626708984375
+Agent3:   0.9998626708984375
+Agent4:   0.9998626708984375
+Agent5:   0.9998626708984375
+Agent6:   0.9998626708984375
+Agent7:   0.9998626708984375
+Agent8:   0.9998626708984375
+Agent9:   0.9998626708984375
+   
+Agent0:   0.9999997019767761
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.5069, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 65 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.001112461090088
+Agent1:   0.9998763203620911
+Agent2:   0.9998763203620911
+Agent3:   0.9998763203620911
+Agent4:   0.9998763203620911
+Agent5:   0.9998763203620911
+Agent6:   0.9998763203620911
+Agent7:   0.9998763203620911
+Agent8:   0.9998763203620911
+Agent9:   0.9998763203620911
+   
+Agent0:   0.9999997019767761
+Agent1:   0.9999998807907104
+Agent2:   0.9999998807907104
+Agent3:   0.9999998807907104
+Agent4:   0.9999998807907104
+Agent5:   0.9999998807907104
+Agent6:   0.9999998807907104
+Agent7:   0.9999998807907104
+Agent8:   0.9999998807907104
+Agent9:   0.9999998807907104
+   
+
+Joint model, Test set: Average loss: 15.5226, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 66 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0010011196136475
+Agent1:   0.9998888373374939
+Agent2:   0.9998888373374939
+Agent3:   0.9998888373374939
+Agent4:   0.9998888373374939
+Agent5:   0.9998888373374939
+Agent6:   0.9998888373374939
+Agent7:   0.9998888373374939
+Agent8:   0.9998888373374939
+Agent9:   0.9998888373374939
+   
+Agent0:   0.9999998211860657
+Agent1:   0.9999998807907104
+Agent2:   0.9999998807907104
+Agent3:   0.9999998807907104
+Agent4:   0.9999998807907104
+Agent5:   0.9999998807907104
+Agent6:   0.9999998807907104
+Agent7:   0.9999998807907104
+Agent8:   0.9999998807907104
+Agent9:   0.9999998807907104
+   
+
+Joint model, Test set: Average loss: 15.5369, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 67 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0009009838104248
+Agent1:   0.9998999238014221
+Agent2:   0.9998999238014221
+Agent3:   0.9998999238014221
+Agent4:   0.9998999238014221
+Agent5:   0.9998999238014221
+Agent6:   0.9998999238014221
+Agent7:   0.9998999238014221
+Agent8:   0.9998999238014221
+Agent9:   0.9998999238014221
+   
+Agent0:   0.9999997019767761
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.5498, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 68 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0008107423782349
+Agent1:   0.9999098777770996
+Agent2:   0.9999098777770996
+Agent3:   0.9999098777770996
+Agent4:   0.9999098777770996
+Agent5:   0.9999098777770996
+Agent6:   0.9999098777770996
+Agent7:   0.9999098777770996
+Agent8:   0.9999098777770996
+Agent9:   0.9999098777770996
+   
+Agent0:   0.9999998211860657
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.5616, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 69 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0007296800613403
+Agent1:   0.9999189376831055
+Agent2:   0.9999189376831055
+Agent3:   0.9999189376831055
+Agent4:   0.9999189376831055
+Agent5:   0.9999189376831055
+Agent6:   0.9999189376831055
+Agent7:   0.9999189376831055
+Agent8:   0.9999189376831055
+Agent9:   0.9999189376831055
+   
+Agent0:   0.9999998807907104
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.5732, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 70 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0006566047668457
+Agent1:   0.9999269843101501
+Agent2:   0.9999269843101501
+Agent3:   0.9999269843101501
+Agent4:   0.9999269843101501
+Agent5:   0.9999269843101501
+Agent6:   0.9999269843101501
+Agent7:   0.9999269843101501
+Agent8:   0.9999269843101501
+Agent9:   0.9999269843101501
+   
+Agent0:   0.9999998807907104
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.5822, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Finished Running epoch 70, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 70.
+Running epoch 71 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0005909204483032
+Agent1:   0.9999343752861023
+Agent2:   0.9999343752861023
+Agent3:   0.9999343752861023
+Agent4:   0.9999343752861023
+Agent5:   0.9999343752861023
+Agent6:   0.9999343752861023
+Agent7:   0.9999343752861023
+Agent8:   0.9999343752861023
+Agent9:   0.9999343752861023
+   
+Agent0:   0.9999998807907104
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.5910, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 72 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0005319118499756
+Agent1:   0.9999409317970276
+Agent2:   0.9999409317970276
+Agent3:   0.9999409317970276
+Agent4:   0.9999409317970276
+Agent5:   0.9999409317970276
+Agent6:   0.9999409317970276
+Agent7:   0.9999409317970276
+Agent8:   0.9999409317970276
+Agent9:   0.9999409317970276
+   
+Agent0:   1.0000001192092896
+Agent1:   1.0000001192092896
+Agent2:   1.0000001192092896
+Agent3:   1.0000001192092896
+Agent4:   1.0000001192092896
+Agent5:   1.0000001192092896
+Agent6:   1.0000001192092896
+Agent7:   1.0000001192092896
+Agent8:   1.0000001192092896
+Agent9:   1.0000001192092896
+   
+
+Joint model, Test set: Average loss: 15.5985, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 73 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0004786252975464
+Agent1:   0.9999467730522156
+Agent2:   0.9999467730522156
+Agent3:   0.9999467730522156
+Agent4:   0.9999467730522156
+Agent5:   0.9999467730522156
+Agent6:   0.9999467730522156
+Agent7:   0.9999467730522156
+Agent8:   0.9999467730522156
+Agent9:   0.9999467730522156
+   
+Agent0:   0.9999998211860657
+Agent1:   1.0000001192092896
+Agent2:   1.0000001192092896
+Agent3:   1.0000001192092896
+Agent4:   1.0000001192092896
+Agent5:   1.0000001192092896
+Agent6:   1.0000001192092896
+Agent7:   1.0000001192092896
+Agent8:   1.0000001192092896
+Agent9:   1.0000001192092896
+   
+
+Joint model, Test set: Average loss: 15.6053, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 74 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.000430703163147
+Agent1:   0.9999521374702454
+Agent2:   0.9999521374702454
+Agent3:   0.9999521374702454
+Agent4:   0.9999521374702454
+Agent5:   0.9999521374702454
+Agent6:   0.9999521374702454
+Agent7:   0.9999521374702454
+Agent8:   0.9999521374702454
+Agent9:   0.9999521374702454
+   
+Agent0:   1.0
+Agent1:   1.0000001192092896
+Agent2:   1.0000001192092896
+Agent3:   1.0000001192092896
+Agent4:   1.0000001192092896
+Agent5:   1.0000001192092896
+Agent6:   1.0000001192092896
+Agent7:   1.0000001192092896
+Agent8:   1.0000001192092896
+Agent9:   1.0000001192092896
+   
+
+Joint model, Test set: Average loss: 15.6114, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 75 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0003876686096191
+Agent1:   0.9999569058418274
+Agent2:   0.9999569058418274
+Agent3:   0.9999569058418274
+Agent4:   0.9999569058418274
+Agent5:   0.9999569058418274
+Agent6:   0.9999569058418274
+Agent7:   0.9999569058418274
+Agent8:   0.9999569058418274
+Agent9:   0.9999569058418274
+   
+Agent0:   1.0
+Agent1:   1.0000001192092896
+Agent2:   1.0000001192092896
+Agent3:   1.0000001192092896
+Agent4:   1.0000001192092896
+Agent5:   1.0000001192092896
+Agent6:   1.0000001192092896
+Agent7:   1.0000001192092896
+Agent8:   1.0000001192092896
+Agent9:   1.0000001192092896
+   
+
+Joint model, Test set: Average loss: 15.6170, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 76 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0003488063812256
+Agent1:   0.999961256980896
+Agent2:   0.999961256980896
+Agent3:   0.999961256980896
+Agent4:   0.999961256980896
+Agent5:   0.999961256980896
+Agent6:   0.999961256980896
+Agent7:   0.999961256980896
+Agent8:   0.999961256980896
+Agent9:   0.999961256980896
+   
+Agent0:   1.0
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.6222, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 77 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0003138780593872
+Agent1:   0.9999650716781616
+Agent2:   0.9999650716781616
+Agent3:   0.9999650716781616
+Agent4:   0.9999650716781616
+Agent5:   0.9999650716781616
+Agent6:   0.9999650716781616
+Agent7:   0.9999650716781616
+Agent8:   0.9999650716781616
+Agent9:   0.9999650716781616
+   
+Agent0:   0.9999998807907104
+Agent1:   1.0
+Agent2:   1.0
+Agent3:   1.0
+Agent4:   1.0
+Agent5:   1.0
+Agent6:   1.0
+Agent7:   1.0
+Agent8:   1.0
+Agent9:   1.0
+   
+
+Joint model, Test set: Average loss: 15.6265, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 78 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.
+Running training on agent 5.
+Running training on agent 6.
+Running training on agent 7.
+Running training on agent 8.
+Running training on agent 9.
+Current attacking agent is 0, coefficient is 1.
+Agent0:   1.0002825260162354
+Agent1:   0.9999686479568481
+Agent2:   0.9999686479568481
+Agent3:   0.9999686479568481
+Agent4:   0.9999686479568481
+Agent5:   0.9999686479568481
+Agent6:   0.9999686479568481
+Agent7:   0.9999686479568481
+Agent8:   0.9999686479568481
+Agent9:   0.9999686479568481
+   
+Agent0:   1.0
+Agent1:   0.9999998807907104
+Agent2:   0.9999998807907104
+Agent3:   0.9999998807907104
+Agent4:   0.9999998807907104
+Agent5:   0.9999998807907104
+Agent6:   0.9999998807907104
+Agent7:   0.9999998807907104
+Agent8:   0.9999998807907104
+Agent9:   0.9999998807907104
+   
+
+Joint model, Test set: Average loss: 15.6305, Accuracy: 1009/10000 (10%)
+
+
+Attacker Joint model, Test set: Average loss: 0.0000, Accuracy: 10000/10000 (100%)
+
+Running epoch 79 out of 1000.
+Running training on agent 0.
+Running training on agent 1.
+Running training on agent 2.
+Running training on agent 3.
+Running training on agent 4.

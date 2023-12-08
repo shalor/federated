@@ -10,6 +10,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 import math
+import numpy as np
 from torchvision import datasets, transforms
 from torch.optim.lr_scheduler import StepLR
 
@@ -42,10 +43,15 @@ class Net(nn.Module):
 
 def train(args, model, device, train_loader, optimizer, epoch, agent, attacking_agent, train_loader_size):
     model.train()
+    iterations_stop = 5
+    selected_iters = np.random.choice(train_loader_size,iterations_stop,replace=False) + agent*train_loader_size
     for batch_idx, (data, target) in enumerate(train_loader):
+        if agent not in attacking_agent and batch_idx not in selected_iters:
+            continue
         if batch_idx < agent * train_loader_size or batch_idx > (agent + 1) * train_loader_size:
             continue
-        if args.attack and agent == attacking_agent and epoch >= args.delayed_attack:
+        #print("Working with agent {} in batch_idx {}".format(agent,batch_idx))
+        if args.attack and agent in attacking_agent and epoch >= args.delayed_attack:
             if args.attack_type == "Randomized":
                 return
             elif args.attack_type == "LabelFlip":
@@ -63,19 +69,22 @@ def train(args, model, device, train_loader, optimizer, epoch, agent, attacking_
                 target[previous_target == 0] = 1
 
             elif args.attack_type == "ConstantOutput":
+                attacker_output = 9 if agent == 0 else 4
                 previous_target = target
-                target = torch.ones(target.size()) * 9
+                target = torch.ones(target.size()) * attacker_output
                 target = target.type_as(previous_target)
             else:
                 os.error("Unsupported attack type was inserted, aborting...")
                 os._exit(1)
 
+        
         data, target = data.to(device), target.to(device)
         optimizer.zero_grad()
         output = model(data)
         loss = F.nll_loss(output, target)
         loss.backward()
         optimizer.step()
+        #print("Working with agent {} in batch_idx {}".format(agent,batch_idx))
         if batch_idx % args.log_interval == 0 and args.print_train:
             print('Agent {}, Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
                 agent, epoch, batch_idx * len(data), len(train_loader.dataset),
@@ -84,7 +93,7 @@ def train(args, model, device, train_loader, optimizer, epoch, agent, attacking_
                 break
 
 
-def test(model, device, test_loader, epoch, results_dic):
+def test(args, model, device, test_loader, epoch, results_dic):
     model.eval()
     test_loss = 0
     correct = 0
@@ -106,22 +115,64 @@ def test(model, device, test_loader, epoch, results_dic):
         test_loss, correct, len(test_loader.dataset),
         100. * correct / len(test_loader.dataset)))
 
+    ##Check for the attacker
+    #if not args.attack:
+    #    return
+    #test_loss = 0
+    #correct = 0
+    #results_dic["Epoch{} target".format(epoch)] = []
+    #results_dic["Epoch{} pred".format(epoch)] = []
+    #with torch.no_grad():
+    #    for data, target in test_loader:
+    #        if args.attack_type == "LabelFlip":
+    #            # Flipping rules: 1->3 ; 3->7 ; 7->9; 9->2 ; 2->4 ; 4->5 ; 5->8 ; 8->6 ; 6->0 ; 0->1
+    #            previous_target = target.clone()
+    #            target[previous_target == 1] = 3
+    #            target[previous_target == 2] = 4
+    #            target[previous_target == 3] = 7
+    #            target[previous_target == 4] = 5
+    #            target[previous_target == 5] = 8
+    #            target[previous_target == 6] = 0
+    #            target[previous_target == 7] = 9
+    #            target[previous_target == 8] = 6
+    #            target[previous_target == 9] = 2
+    #            target[previous_target == 0] = 1
+    #        elif args.attack_type == "ConstantOutput":
+    #            attacker_output = 9
+    #            previous_target = target
+    #            target = torch.ones(target.size()) * attacker_output
+    #            target = target.type_as(previous_target)
+    #        data, target = data.to(device), target.to(device)
+    #        output = model(data)
+    #        test_loss += F.nll_loss(output, target, reduction='sum').item()  # sum up batch loss
+    #        pred = output.argmax(dim=1, keepdim=True)  # get the index of the max log-probability
+    #        results_dic["Epoch{} target".format(epoch)].append(target.tolist())
+    #        results_dic["Epoch{} pred".format(epoch)].append(pred.tolist())
+    #        correct += pred.eq(target.view_as(pred)).sum().item()
 
+    #test_loss /= len(test_loader.dataset)
+
+    #print('\nAttacker Joint model, Test set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n'.format(
+    #    test_loss, correct, len(test_loader.dataset),
+    #    100. * correct / len(test_loader.dataset)))
+
+                           
+                           
 def save_model(model, epoch, suffix, agent):
-    """
+    """                    
     Saves the model if necessary.
-    """
+    """                    
     #self.args.get_logger().debug("Saving model to flat file storage. Save #{}", epoch)
-    
+                           
     if not os.path.exists("model_save/"):
         os.mkdir("model_save/")
-    
+                           
     full_save_path = os.path.join("model_save/", "model_" + str(agent) + "_" + str(epoch) + "_" + suffix + ".model")
     torch.save(model.state_dict(), full_save_path)
-
-
-def main():
-    # Training settings
+                           
+                           
+def main():                
+    # Training settings    
     parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
     parser.add_argument('--batch-size', type=int, default=64, metavar='N',
                         help='input batch size for training (default: 64)')
@@ -204,28 +255,35 @@ def main():
 
     dic = {}
     results_dic = {}
+    coefficient_dic = {}
+    norm_dic = {}
 
     if args.attack_type != "":
         args.attack = True
 
     if args.attack:
-        attacking_agent = 0
+        #Insert multiple attackers with differnt goals
+        #attacking_agent = [0,1]
+        attacking_agent = [0]
     else:
-        attacking_agent = -1
+        attacking_agent = [-1]
 
     joint_model = Net().to(device)
 
     model_prefix = "_experiment_"
     for num_exp in range(1,args.num_exp+1):
+        attack_coefficient_stop = 3 + (num_exp - (num_exp % 10)) / 10
         print("###############################################") 
         print("Running experiment {} out of {}".format(num_exp,args.num_exp))
-        print("###############################################") 
+        print("###############################################")
+        print("Attack Coefficient Stop = {}".format(attack_coefficient_stop))
         for agent in range(args.agents):
             dic["model{0}".format(agent)] = Net().to(device)
             dic["prev_model{0}".format(agent)] = Net().to(device)
             dic["optimizer{0}".format(agent)] = optim.Adadelta(dic["model{0}".format(agent)].parameters(), lr=args.lr)
             dic["scheduler{0}".format(agent)] = StepLR(dic["optimizer{0}".format(agent)], step_size=1, gamma=args.gamma)
         attack_coefficient = 0
+
         for epoch in range(1, args.epochs + 1):
     
             if args.attack and epoch >= args.delayed_attack:
@@ -235,9 +293,10 @@ def main():
                 if args.attack_strength != 0:
                     attack_coefficient = args.attack_strength
                 else:
+                    #attack_coefficient_stop = 3 + (num_exp - (num_exp % 10)) / 10
                     attack_coefficient =  math.sqrt((epoch + 1 - args.delayed_attack))
-                    #attack_coefficient = attack_coefficient if attack_coefficient < 3 else 3
-                    attack_coefficient = attack_coefficient if attack_coefficient < 6 else 6
+                    #attack_coefficient = attack_coefficient if attack_coefficient < 6 else 6
+                    attack_coefficient = attack_coefficient if attack_coefficient < attack_coefficient_stop else attack_coefficient_stop
                     print("Epoch {}, Attack delay: {}, Coefficient is: {}".format(epoch, args.delayed_attack, attack_coefficient))
     
             # Prior to training, need to keep the local models data for the attack detection process
@@ -288,10 +347,12 @@ def main():
     
             norm_list = []
             for agent in range(args.agents):
+                if agent in attacking_agent:
+                    continue
                 agent_coefficient = 1
                 if args.attack and epoch >= args.delayed_attack:
                     #agent_coefficient = 1
-                    if agent == attacking_agent:
+                    if agent in attacking_agent:
                         agent_coefficient = attack_coefficient
                 else:
                     continue
@@ -305,21 +366,41 @@ def main():
                     dic["model{0}".format(agent)].fc1.cuda()
                     dic["model{0}".format(agent)].fc2.cuda()
     
-                dic["agent{0}_conv1_norm".format(agent)] = agent_coefficient * (dic["model{0}".format(agent)].conv1.weight.data - dic["prev_model{0}".format(agent)].conv1.weight.data).norm()
-                dic["agent{0}_conv2_norm".format(agent)] = agent_coefficient * (dic["model{0}".format(agent)].conv2.weight.data - dic["prev_model{0}".format(agent)].conv2.weight.data).norm()
-                dic["agent{0}_fc1_norm".format(agent)] = agent_coefficient * (dic["model{0}".format(agent)].fc1.weight.data - dic["prev_model{0}".format(agent)].fc1.weight.data).norm()
-                dic["agent{0}_fc2_norm".format(agent)] = agent_coefficient * (dic["model{0}".format(agent)].fc2.weight.data - dic["prev_model{0}".format(agent)].fc2.weight.data).norm()
+                dic["agent{0}_conv1_norm".format(agent)] = (dic["model{0}".format(agent)].conv1.weight.data - dic["prev_model{0}".format(agent)].conv1.weight.data).norm()
+                dic["agent{0}_conv2_norm".format(agent)] = (dic["model{0}".format(agent)].conv2.weight.data - dic["prev_model{0}".format(agent)].conv2.weight.data).norm()
+                dic["agent{0}_fc1_norm".format(agent)]   = (dic["model{0}".format(agent)].fc1.weight.data - dic["prev_model{0}".format(agent)].fc1.weight.data).norm()
+                dic["agent{0}_fc2_norm".format(agent)]   = (dic["model{0}".format(agent)].fc2.weight.data - dic["prev_model{0}".format(agent)].fc2.weight.data).norm()
     
                 if args.allow_detection:
                     dic["agent{0}_norm".format(agent)] = torch.tensor([dic["agent{0}_conv1_norm".format(agent)].tolist(),dic["agent{0}_conv2_norm".format(agent)].tolist(),dic["agent{0}_fc1_norm".format(agent)].tolist(),dic["agent{0}_fc2_norm".format(agent)].tolist()]).norm()
                     # dic["agent{0}_norm".format(agent)] = torch.cat([dic["agent{0}_conv1_norm".format(agent)],dic["agent{0}_conv2_norm".format(agent)],dic["agent{0}_fc1_norm".format(agent)],dic["agent{0}_fc2_norm".format(agent)]]).norm()
                     norm_list.append(dic["agent{0}_norm".format(agent)].tolist())
                     print("Agent{} - norm = {}".format(agent, dic["agent{0}_norm".format(agent)]))
-    
+
             if args.allow_detection and (epoch >= args.delayed_attack):
                 delta = statistics.median(norm_list)
                 print("Epoch {}: Current delta (median) is: {}".format(epoch, delta))
-    
+   
+            ### Updates for ROC plots -- comment once done
+            for agent in range(args.agents):
+                dic["agent{0}_conv1_norm".format(agent)] = (dic["model{0}".format(agent)].conv1.weight.data - dic["prev_model{0}".format(agent)].conv1.weight.data).flatten()
+                dic["agent{0}_conv2_norm".format(agent)] = (dic["model{0}".format(agent)].conv2.weight.data - dic["prev_model{0}".format(agent)].conv2.weight.data).flatten()
+                dic["agent{0}_fc1_norm".format(agent)]   = (dic["model{0}".format(agent)].fc1.weight.data - dic["prev_model{0}".format(agent)].fc1.weight.data).flatten()
+                dic["agent{0}_fc2_norm".format(agent)]   = (dic["model{0}".format(agent)].fc2.weight.data - dic["prev_model{0}".format(agent)].fc2.weight.data).flatten()
+
+                dic["agent{0}_norm".format(agent)] = torch.concat((dic["agent{0}_conv1_norm".format(agent)],dic["agent{0}_conv2_norm".format(agent)],dic["agent{0}_fc1_norm".format(agent)],dic["agent{0}_fc2_norm".format(agent)]))
+
+            for agent in range(args.agents):
+                tmp_tensor = torch.Tensor(args.agents-1,len(dic["agent{0}_norm".format(agent)]))
+                if use_cuda:
+                    tmp_tensor.cuda()
+                index = 0
+                for current_agent in range(args.agents):
+                    if agent == current_agent: continue
+                    tmp_tensor[index] = dic["agent{0}_norm".format(current_agent)]
+                norm_dic["E{}_agent{}_norm".format(epoch,agent)] = (dic["agent{0}_norm".format(agent)] - torch.median(tmp_tensor.cuda(),-2).values).norm().tolist()
+
+
             for agent in range(args.agents):
                 #if args.allow_detection and (epoch >= args.delayed_attack) and (dic["agent{0}_norm".format(agent)].tolist()) > delta * math.sqrt(args.agents)):
                 if args.allow_detection and (epoch >= args.delayed_attack) and (abs(dic["agent{0}_norm".format(agent)].tolist() - delta) > delta * math.sqrt(args.agents)):
@@ -340,22 +421,49 @@ def main():
                 # agent_coefficient is used for randomized attack only, other attacks are using the attackers' trained model
                 agent_coefficient = 1
                 if args.attack and epoch >= args.delayed_attack:
-                    if agent == attacking_agent:
+                    if agent in attacking_agent:
                         agent_coefficient = attack_coefficient
                         print("Current attacking agent is {}, coefficient is {}.".format(agent, agent_coefficient))
     
+                agent_coefficient = 1
                 if use_cuda:
                     joint_model.conv1.cuda()
                     joint_model.conv2.cuda()
                     joint_model.fc1.cuda()
                     joint_model.fc2.cuda()
-                joint_model.conv1.weight.data = joint_model.conv1.weight.data + agent_coefficient * (dic["model{0}".format(agent)].conv1.weight.data) / trustworthy_agents_amount
-                joint_model.conv2.weight.data = joint_model.conv2.weight.data + agent_coefficient * (dic["model{0}".format(agent)].conv2.weight.data) / trustworthy_agents_amount
-                joint_model.fc1.weight.data = joint_model.fc1.weight.data + agent_coefficient * (dic["model{0}".format(agent)].fc1.weight.data) / trustworthy_agents_amount
-                joint_model.fc2.weight.data = joint_model.fc2.weight.data + agent_coefficient * (dic["model{0}".format(agent)].fc2.weight.data) / trustworthy_agents_amount
+                joint_model.conv1.weight.data = joint_model.conv1.weight.data + agent_coefficient * (dic["model{0}".format(agent)].conv1.weight.data / trustworthy_agents_amount)
+                joint_model.conv2.weight.data = joint_model.conv2.weight.data + agent_coefficient * (dic["model{0}".format(agent)].conv2.weight.data / trustworthy_agents_amount)
+                joint_model.fc1.weight.data = joint_model.fc1.weight.data + agent_coefficient * (dic["model{0}".format(agent)].fc1.weight.data / trustworthy_agents_amount)
+                joint_model.fc2.weight.data = joint_model.fc2.weight.data + agent_coefficient * (dic["model{0}".format(agent)].fc2.weight.data / trustworthy_agents_amount)
     
+            ## Temporary code for multiple attackers, agents 0,1
+            #torch.concat([model.conv1.weight.data.flatten(),model.conv2.weight.data.flatten(),model.fc1.weight.data.flatten(),model.fc2.weight.data.flatten()])
+            joint_coefficients = torch.concat([joint_model.conv1.weight.data.flatten(),joint_model.conv2.weight.data.flatten(),joint_model.fc1.weight.data.flatten(),joint_model.fc2.weight.data.flatten()])
+            #coefficient_dic["Joint_Epoch{}".format(epoch)] = joint_coefficients[1:100].tolist()
+            for agent in range(args.agents):
+                dic["agent{0}_coefficients".format(agent)] = torch.concat([dic["model{0}".format(agent)].conv1.weight.data.flatten(),dic["model{0}".format(agent)].conv2.weight.data.flatten(),dic["model{0}".format(agent)].fc1.weight.data.flatten(),dic["model{0}".format(agent)].fc2.weight.data.flatten()])
+                #coefficient_dic["Agent{}_Epoch{}".format(agent,epoch)] = dic["agent{0}_coefficients".format(agent)][1:100].tolist()
+            attackers_coefficients = ( dic["agent0_coefficients"] + dic["agent1_coefficients"] ) / 2
+
+            for agent in range(args.agents):
+                print("Agent{}:DIFF   {}".format(agent,1- (dic["agent{0}_coefficients".format(agent)]-attackers_coefficients).norm()))
+            print("   ")
+            for agent in range(args.agents):
+                required_value = 1- ((dic["agent{0}_coefficients".format(agent)]*attackers_coefficients).sum()).norm() / (attackers_coefficients.norm() * dic["agent{0}_coefficients".format(agent)].norm() )
+                #required_value = 1- ((dic["agent{0}_coefficients".format(agent)]*joint_coefficients).sum()).norm() / (joint_coefficients.norm() * dic["agent{0}_coefficients".format(agent)].norm() )
+                print("Agent{}:MP     {}".format(agent, required_value) )
+                coefficient_dic["Agent{}_Epoch{}".format(agent, epoch)] = required_value.tolist()
+            print("   ")
+            #for agent in range(args.agents):
+            #    print("Agent{}:   {}".format(agent,  coefficient_dic["Agent{}_Epoch{}".format(agent,epoch)][1:10] ) )
+            #print("Joint:   {}".format( joint_coefficients[1:10] ) )
+        
+            
+
             # Send the updated params to the agents, keep the previous transmission
             for agent in range(args.agents):
+                if agent in attacking_agent:
+                    continue
                 dic["model{0}".format(agent)].conv1.weight.data = joint_model.conv1.weight.data.clone()
                 dic["model{0}".format(agent)].conv2.weight.data = joint_model.conv2.weight.data.clone()
                 dic["model{0}".format(agent)].fc1.weight.data = joint_model.fc1.weight.data.clone()
@@ -363,7 +471,7 @@ def main():
     
                 # dic["model{0}".format(agent)] = copy.deepcopy(joint_model)
     
-            test(joint_model, device, test_loader, epoch, results_dic)
+            test(args,joint_model, device, test_loader, epoch, results_dic)
             # print(results_dic)
             # correct += pred.eq(target.view_as(pred)).sum().item()
     
@@ -375,12 +483,17 @@ def main():
                     if p.requires_grad:
                         print(p.name, p.data)
                         # print(p.size())
-    
             if epoch % 10 == 0 or epoch == args.epochs:
                 print("Finished Running epoch {}, printing results dictionary to file.".format(epoch))
                 file_name = "{}/{}{}{}.json".format(args.output_dir,args.results_file,model_prefix,num_exp)
                 with open(file_name, "w") as fp:
                     json.dump(results_dic, fp)
+                file_name = "{}/{}_coefficient_{}.json".format(args.output_dir,args.results_file,num_exp)
+                with open(file_name, "w") as fp:
+                    json.dump(coefficient_dic, fp)
+                file_name = "{}/{}_norm_dic_{}.json".format(args.output_dir,args.results_file,num_exp)
+                with open(file_name, "w") as fp:
+                    json.dump(norm_dic, fp)
                 print("Finished printing results dictionary to file after epoch {}.".format(epoch))
                 torch.save(joint_model.state_dict(), "joint_model.pt")
 
