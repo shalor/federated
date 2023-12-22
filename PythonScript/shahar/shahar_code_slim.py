@@ -195,7 +195,7 @@ pai0_values = np.linspace(0.1,0.9,9)
 iter = 500
 
 K_lst = [4,10]
-m_lst = [150,300,600]
+m_lst = [600]
 
 for m in tqdm(m_lst):
     for K in tqdm(K_lst):
