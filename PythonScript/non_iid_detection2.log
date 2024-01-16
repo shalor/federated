@@ -1,0 +1,136 @@
+###############################################
+Running experiment 1 out of 100
+###############################################
+Running epoch 1 out of 30.
+Agent 1: targets [0]
+Agent 1: targets [0, 1]
+Agent 1: targets [1]
+Agent 1: targets [1]
+Agent 1: targets [1]
+Agent 2: targets [2]
+Agent 2: targets [2]
+Agent 2: targets [2]
+Agent 2: targets [3]
+Agent 2: targets [3]
+Agent 3: targets [4]
+Agent 3: targets [4]
+Agent 3: targets [5]
+Agent 3: targets [5]
+Agent 3: targets [5]
+Agent 4: targets [6]
+Agent 4: targets [6]
+Agent 4: targets [7]
+Agent 4: targets [7]
+Agent 4: targets [7]
+Agent 5: targets [8]
+Agent 5: targets [8]
+Agent 5: targets [9]
+Agent 5: targets [9]
+Agent 5: targets [9]
+2.2715044021606445
+2.371413230895996
+2.164273977279663
+2.3636765480041504
+2.1814160346984863
+2.1541154384613037
+Joint model, Test set: Average loss: 2.3027, Accuracy: 974/10000 (10%)
+Running epoch 2 out of 30.
+Agent 1: targets [0]
+Agent 1: targets [0]
+Agent 1: targets [0]
+Agent 1: targets [0]
+Agent 1: targets [1]
+Agent 2: targets [2]
+Agent 2: targets [2]
+Agent 2: targets [2]
+Agent 2: targets [2]
+Agent 2: targets [2]
+Agent 3: targets [4]
+Agent 3: targets [4]
+Agent 3: targets [5]
+Agent 3: targets [5]
+Agent 3: targets [5]
+Agent 4: targets [6]
+Agent 4: targets [7]
+Agent 4: targets [7]
+Agent 4: targets [7]
+Agent 4: targets [7]
+Agent 5: targets [8]
+Agent 5: targets [9]
+Agent 5: targets [9]
+Agent 5: targets [9]
+Agent 5: targets [9]
+0.09721549600362778
+0.6067440509796143
+0.4731631278991699
+0.36783871054649353
+0.31823134422302246
+0.7057892084121704
+Joint model, Test set: Average loss: 2.3030, Accuracy: 1009/10000 (10%)
+Running epoch 3 out of 30.
+Agent 1: targets [0]
+Agent 1: targets [0]
+Agent 1: targets [1]
+Agent 1: targets [1]
+Agent 1: targets [1]
+Agent 2: targets [2]
+Agent 2: targets [2]
+Agent 2: targets [3]
+Agent 2: targets [3]
+Agent 2: targets [3]
+Agent 3: targets [3]
+Agent 3: targets [3]
+Agent 3: targets [4]
+Agent 3: targets [4]
+Agent 3: targets [4]
+Agent 4: targets [6]
+Agent 4: targets [6]
+Agent 4: targets [7]
+Agent 4: targets [7]
+Agent 4: targets [7]
+Agent 5: targets [8]
+Agent 5: targets [8]
+Agent 5: targets [8]
+Agent 5: targets [9]
+Agent 5: targets [9]
+0.2187773436307907
+0.7606314420700073
+0.6823449730873108
+0.5143539905548096
+0.5408915281295776
+1.0416507720947266
+Joint model, Test set: Average loss: 2.3204, Accuracy: 1009/10000 (10%)
+Running epoch 4 out of 30.
+Agent 1: targets [0]
+Agent 1: targets [1]
+Agent 1: targets [1]
+Agent 1: targets [1]
+Agent 1: targets [1]
+Agent 2: targets [2]
+Agent 2: targets [2]
+Agent 2: targets [2]
+Agent 2: targets [3]
+Agent 2: targets [3]
+Agent 3: targets [3]
+Agent 3: targets [4]
+Agent 3: targets [4]
+Agent 3: targets [5]
+Agent 3: targets [5]
+Agent 4: targets [6]
+Agent 4: targets [6]
+Agent 4: targets [7]
+Agent 4: targets [7]
+Agent 4: targets [7]
+Agent 5: targets [8]
+Agent 5: targets [8]
+Agent 5: targets [8]
+Agent 5: targets [8]
+Agent 5: targets [9]
+0.2574104964733124
+0.8472179770469666
+0.8198458552360535
+0.6496249437332153
+0.7030390501022339
+0.8498901128768921
+Joint model, Test set: Average loss: 2.4301, Accuracy: 1009/10000 (10%)
+Running epoch 5 out of 30.

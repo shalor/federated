@@ -1,0 +1,139 @@
+###############################################
+Running experiment 1 out of 100
+###############################################
+Running epoch 1 out of 200.
+Joint model, Test set: Average loss: 2.3028, Accuracy: 1009/10000 (10%)
+Running epoch 2 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.4621, Accuracy: 1010/10000 (10%)
+Running epoch 3 out of 200.
+Joint model, Test set: Average loss: 2.8838, Accuracy: 1010/10000 (10%)
+Running epoch 4 out of 200.
+Joint model, Test set: Average loss: 3.2061, Accuracy: 1010/10000 (10%)
+Running epoch 5 out of 200.
+Joint model, Test set: Average loss: 3.3392, Accuracy: 1010/10000 (10%)
+Running epoch 6 out of 200.
+Joint model, Test set: Average loss: 3.4996, Accuracy: 1010/10000 (10%)
+Running epoch 7 out of 200.
+Joint model, Test set: Average loss: 3.6050, Accuracy: 1010/10000 (10%)
+Running epoch 8 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 3.6096, Accuracy: 1010/10000 (10%)
+Running epoch 9 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 3.5953, Accuracy: 1010/10000 (10%)
+Running epoch 10 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 3.4741, Accuracy: 1010/10000 (10%)
+Finished Running epoch 10, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 10.
+Running epoch 11 out of 200.
+Joint model, Test set: Average loss: 3.2743, Accuracy: 1032/10000 (10%)
+Running epoch 12 out of 200.
+Joint model, Test set: Average loss: 3.0826, Accuracy: 1327/10000 (13%)
+Running epoch 13 out of 200.
+Joint model, Test set: Average loss: 2.8745, Accuracy: 1748/10000 (17%)
+Running epoch 14 out of 200.
+Joint model, Test set: Average loss: 2.7158, Accuracy: 1917/10000 (19%)
+Running epoch 15 out of 200.
+Joint model, Test set: Average loss: 2.5971, Accuracy: 2010/10000 (20%)
+Running epoch 16 out of 200.
+Joint model, Test set: Average loss: 2.4994, Accuracy: 2089/10000 (21%)
+Running epoch 17 out of 200.
+Joint model, Test set: Average loss: 2.4382, Accuracy: 2106/10000 (21%)
+Running epoch 18 out of 200.
+Joint model, Test set: Average loss: 2.3908, Accuracy: 2133/10000 (21%)
+Running epoch 19 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.3637, Accuracy: 2145/10000 (21%)
+Running epoch 20 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.3430, Accuracy: 2171/10000 (22%)
+Finished Running epoch 20, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 20.
+Running epoch 21 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.3287, Accuracy: 2183/10000 (22%)
+Running epoch 22 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.3177, Accuracy: 2191/10000 (22%)
+Running epoch 23 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.3104, Accuracy: 2192/10000 (22%)
+Running epoch 24 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.3052, Accuracy: 2195/10000 (22%)
+Running epoch 25 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.3013, Accuracy: 2201/10000 (22%)
+Running epoch 26 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2985, Accuracy: 2204/10000 (22%)
+Running epoch 27 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2964, Accuracy: 2204/10000 (22%)
+Running epoch 28 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2952, Accuracy: 2205/10000 (22%)
+Running epoch 29 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2942, Accuracy: 2206/10000 (22%)
+Running epoch 30 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2936, Accuracy: 2207/10000 (22%)
+Finished Running epoch 30, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 30.
+Running epoch 31 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2932, Accuracy: 2208/10000 (22%)
+Running epoch 32 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2929, Accuracy: 2209/10000 (22%)
+Running epoch 33 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2927, Accuracy: 2209/10000 (22%)
+Running epoch 34 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2926, Accuracy: 2209/10000 (22%)
+Running epoch 35 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2925, Accuracy: 2209/10000 (22%)
+Running epoch 36 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2924, Accuracy: 2209/10000 (22%)
+Running epoch 37 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2923, Accuracy: 2209/10000 (22%)
+Running epoch 38 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2923, Accuracy: 2209/10000 (22%)
+Running epoch 39 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2923, Accuracy: 2210/10000 (22%)
+Running epoch 40 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2922, Accuracy: 2210/10000 (22%)
+Finished Running epoch 40, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 40.
+Running epoch 41 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2922, Accuracy: 2210/10000 (22%)
+Running epoch 42 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2922, Accuracy: 2210/10000 (22%)
+Running epoch 43 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2922, Accuracy: 2210/10000 (22%)
+Running epoch 44 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2922, Accuracy: 2210/10000 (22%)
+Running epoch 45 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2922, Accuracy: 2210/10000 (22%)
+Running epoch 46 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2922, Accuracy: 2210/10000 (22%)
+Running epoch 47 out of 200.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 2.2922, Accuracy: 2210/10000 (22%)
+Running epoch 48 out of 200.
