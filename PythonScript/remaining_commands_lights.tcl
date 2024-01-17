@@ -1,0 +1,5 @@
+#python3.8 main_traffic_lights.py --epochs 50 --agents 3 --batch-size 128 --results-file lights_initial --output-dir PC1_LIGHTS_INITIAL --seed 123213123 --num-exp 2
+#python3.8 main_traffic_lights.py --epochs 50 --agents 5 --batch-size 128 --results-file lights --attack --attack-type ConstantOutput --num-exp 30 --output-dir PC1_LIGHTS_CONSTANT_STOP  --attack-strength 1 --seed 123213123
+python3.8 main_traffic_lights.py --epochs 50 --agents 5 --batch-size 128 --results-file lights --attack --attack-type ConstantOutput --num-exp 30 --output-dir PC1_LIGHTS_CONSTANT_STOP_DETECT  --attack-strength 1 --seed 123213123 --allow-detection
+#python3.8 main_traffic_lights.py --epochs 50 --agents 3 --batch-size 128 --results-file lights --attack --attack-type LabelFlip --num-exp 50 --output-dir PC1_LIGHTS_FLIP_GO_TO_STOP  --attack-strength 1 --seed 123213123
+

@@ -1,0 +1,1012 @@
+{'goForward': 0, 'warning': 1, 'warningLeft': 2, 'stop': 3, 'stopLeft': 4, 'go': 5, 'goLeft': 6}
+###############################################
+Running experiment 1 out of 30
+###############################################
+Running epoch 1 out of 50.
+Joint model, Test set: Average loss: 2.1538, Accuracy: 1777/3737 (48%)
+Running epoch 2 out of 50.
+Joint model, Test set: Average loss: 1.0832, Accuracy: 2904/3737 (78%)
+Running epoch 3 out of 50.
+Joint model, Test set: Average loss: 1.0240, Accuracy: 2714/3737 (73%)
+Running epoch 4 out of 50.
+Joint model, Test set: Average loss: 0.9729, Accuracy: 2868/3737 (77%)
+Running epoch 5 out of 50.
+Joint model, Test set: Average loss: 1.1229, Accuracy: 2732/3737 (73%)
+Running epoch 6 out of 50.
+Joint model, Test set: Average loss: 1.2554, Accuracy: 2503/3737 (67%)
+Running epoch 7 out of 50.
+Joint model, Test set: Average loss: 1.4423, Accuracy: 1871/3737 (50%)
+Running epoch 8 out of 50.
+Joint model, Test set: Average loss: 1.6619, Accuracy: 1777/3737 (48%)
+Running epoch 9 out of 50.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 0.7403, Accuracy: 3012/3737 (81%)
+Running epoch 10 out of 50.
+Joint model, Test set: Average loss: 0.7162, Accuracy: 3036/3737 (81%)
+Finished Running epoch 10, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 10.
+Running epoch 11 out of 50.
+Joint model, Test set: Average loss: 0.7123, Accuracy: 3047/3737 (82%)
+Running epoch 12 out of 50.
+Joint model, Test set: Average loss: 0.7082, Accuracy: 3053/3737 (82%)
+Running epoch 13 out of 50.
+Joint model, Test set: Average loss: 0.7068, Accuracy: 3052/3737 (82%)
+Running epoch 14 out of 50.
+Joint model, Test set: Average loss: 0.7038, Accuracy: 3053/3737 (82%)
+Running epoch 15 out of 50.
+Joint model, Test set: Average loss: 0.7020, Accuracy: 3056/3737 (82%)
+Running epoch 16 out of 50.
+Joint model, Test set: Average loss: 0.7017, Accuracy: 3055/3737 (82%)
+Running epoch 17 out of 50.
+Joint model, Test set: Average loss: 0.7014, Accuracy: 3056/3737 (82%)
+Running epoch 18 out of 50.
+Joint model, Test set: Average loss: 0.7009, Accuracy: 3054/3737 (82%)
+Running epoch 19 out of 50.
+Joint model, Test set: Average loss: 0.7006, Accuracy: 3054/3737 (82%)
+Running epoch 20 out of 50.
+Joint model, Test set: Average loss: 0.7004, Accuracy: 3056/3737 (82%)
+Finished Running epoch 20, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 20.
+Running epoch 21 out of 50.
+Joint model, Test set: Average loss: 0.7003, Accuracy: 3056/3737 (82%)
+Running epoch 22 out of 50.
+Joint model, Test set: Average loss: 0.7003, Accuracy: 3056/3737 (82%)
+Running epoch 23 out of 50.
+Joint model, Test set: Average loss: 0.7002, Accuracy: 3056/3737 (82%)
+Running epoch 24 out of 50.
+Joint model, Test set: Average loss: 0.7002, Accuracy: 3056/3737 (82%)
+Running epoch 25 out of 50.
+Joint model, Test set: Average loss: 0.7002, Accuracy: 3056/3737 (82%)
+Running epoch 26 out of 50.
+Joint model, Test set: Average loss: 0.7002, Accuracy: 3056/3737 (82%)
+Running epoch 27 out of 50.
+Joint model, Test set: Average loss: 0.7002, Accuracy: 3056/3737 (82%)
+Running epoch 28 out of 50.
+Joint model, Test set: Average loss: 0.7002, Accuracy: 3056/3737 (82%)
+Running epoch 29 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 30 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Finished Running epoch 30, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 30.
+Running epoch 31 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 32 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 33 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 34 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 35 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 36 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 37 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 38 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 39 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 40 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Finished Running epoch 40, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 40.
+Running epoch 41 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 42 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 43 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 44 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 45 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 46 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 47 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 48 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 49 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Running epoch 50 out of 50.
+Joint model, Test set: Average loss: 0.7001, Accuracy: 3056/3737 (82%)
+Finished Running epoch 50, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 50.
+###############################################
+Running experiment 2 out of 30
+###############################################
+Running epoch 1 out of 50.
+Joint model, Test set: Average loss: 2.1308, Accuracy: 1780/3737 (48%)
+Running epoch 2 out of 50.
+Joint model, Test set: Average loss: 1.1976, Accuracy: 2118/3737 (57%)
+Running epoch 3 out of 50.
+Joint model, Test set: Average loss: 0.8945, Accuracy: 2975/3737 (80%)
+Running epoch 4 out of 50.
+Joint model, Test set: Average loss: 0.9920, Accuracy: 2855/3737 (76%)
+Running epoch 5 out of 50.
+Joint model, Test set: Average loss: 1.0783, Accuracy: 2738/3737 (73%)
+Running epoch 6 out of 50.
+Joint model, Test set: Average loss: 1.1171, Accuracy: 2701/3737 (72%)
+Running epoch 7 out of 50.
+Joint model, Test set: Average loss: 1.2286, Accuracy: 2406/3737 (64%)
+Running epoch 8 out of 50.
+Joint model, Test set: Average loss: 1.3794, Accuracy: 1858/3737 (50%)
+Running epoch 9 out of 50.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 0.7564, Accuracy: 3004/3737 (80%)
+Running epoch 10 out of 50.
+Joint model, Test set: Average loss: 0.7375, Accuracy: 3010/3737 (81%)
+Finished Running epoch 10, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 10.
+Running epoch 11 out of 50.
+Joint model, Test set: Average loss: 0.7265, Accuracy: 3013/3737 (81%)
+Running epoch 12 out of 50.
+Joint model, Test set: Average loss: 0.7216, Accuracy: 3017/3737 (81%)
+Running epoch 13 out of 50.
+Joint model, Test set: Average loss: 0.7195, Accuracy: 3019/3737 (81%)
+Running epoch 14 out of 50.
+Joint model, Test set: Average loss: 0.7161, Accuracy: 3018/3737 (81%)
+Running epoch 15 out of 50.
+Joint model, Test set: Average loss: 0.7146, Accuracy: 3018/3737 (81%)
+Running epoch 16 out of 50.
+Joint model, Test set: Average loss: 0.7129, Accuracy: 3017/3737 (81%)
+Running epoch 17 out of 50.
+Joint model, Test set: Average loss: 0.7118, Accuracy: 3020/3737 (81%)
+Running epoch 18 out of 50.
+Joint model, Test set: Average loss: 0.7115, Accuracy: 3020/3737 (81%)
+Running epoch 19 out of 50.
+Joint model, Test set: Average loss: 0.7110, Accuracy: 3020/3737 (81%)
+Running epoch 20 out of 50.
+Joint model, Test set: Average loss: 0.7108, Accuracy: 3021/3737 (81%)
+Finished Running epoch 20, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 20.
+Running epoch 21 out of 50.
+Joint model, Test set: Average loss: 0.7105, Accuracy: 3021/3737 (81%)
+Running epoch 22 out of 50.
+Joint model, Test set: Average loss: 0.7103, Accuracy: 3021/3737 (81%)
+Running epoch 23 out of 50.
+Joint model, Test set: Average loss: 0.7102, Accuracy: 3021/3737 (81%)
+Running epoch 24 out of 50.
+Joint model, Test set: Average loss: 0.7101, Accuracy: 3021/3737 (81%)
+Running epoch 25 out of 50.
+Joint model, Test set: Average loss: 0.7101, Accuracy: 3021/3737 (81%)
+Running epoch 26 out of 50.
+Joint model, Test set: Average loss: 0.7101, Accuracy: 3021/3737 (81%)
+Running epoch 27 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 28 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 29 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 30 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Finished Running epoch 30, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 30.
+Running epoch 31 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 32 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 33 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 34 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 35 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 36 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 37 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 38 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 39 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 40 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Finished Running epoch 40, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 40.
+Running epoch 41 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 42 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 43 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 44 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 45 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 46 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 47 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 48 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 49 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Running epoch 50 out of 50.
+Joint model, Test set: Average loss: 0.7100, Accuracy: 3021/3737 (81%)
+Finished Running epoch 50, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 50.
+###############################################
+Running experiment 3 out of 30
+###############################################
+Running epoch 1 out of 50.
+Joint model, Test set: Average loss: 2.1985, Accuracy: 2937/3737 (79%)
+Running epoch 2 out of 50.
+Joint model, Test set: Average loss: 1.1197, Accuracy: 2623/3737 (70%)
+Running epoch 3 out of 50.
+Joint model, Test set: Average loss: 1.0058, Accuracy: 2826/3737 (76%)
+Running epoch 4 out of 50.
+Joint model, Test set: Average loss: 0.9897, Accuracy: 2869/3737 (77%)
+Running epoch 5 out of 50.
+Joint model, Test set: Average loss: 1.0639, Accuracy: 2825/3737 (76%)
+Running epoch 6 out of 50.
+Joint model, Test set: Average loss: 1.2116, Accuracy: 2615/3737 (70%)
+Running epoch 7 out of 50.
+Joint model, Test set: Average loss: 1.2565, Accuracy: 2490/3737 (67%)
+Running epoch 8 out of 50.
+Joint model, Test set: Average loss: 1.4717, Accuracy: 1825/3737 (49%)
+Running epoch 9 out of 50.
+Joint model, Test set: Average loss: 1.6496, Accuracy: 1777/3737 (48%)
+Running epoch 10 out of 50.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 0.7885, Accuracy: 2996/3737 (80%)
+Finished Running epoch 10, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 10.
+Running epoch 11 out of 50.
+Joint model, Test set: Average loss: 0.7649, Accuracy: 3002/3737 (80%)
+Running epoch 12 out of 50.
+Joint model, Test set: Average loss: 0.7561, Accuracy: 3006/3737 (80%)
+Running epoch 13 out of 50.
+Joint model, Test set: Average loss: 0.7532, Accuracy: 3006/3737 (80%)
+Running epoch 14 out of 50.
+Joint model, Test set: Average loss: 0.7491, Accuracy: 3006/3737 (80%)
+Running epoch 15 out of 50.
+Joint model, Test set: Average loss: 0.7467, Accuracy: 3007/3737 (80%)
+Running epoch 16 out of 50.
+Joint model, Test set: Average loss: 0.7464, Accuracy: 3006/3737 (80%)
+Running epoch 17 out of 50.
+Joint model, Test set: Average loss: 0.7452, Accuracy: 3006/3737 (80%)
+Running epoch 18 out of 50.
+Joint model, Test set: Average loss: 0.7443, Accuracy: 3007/3737 (80%)
+Running epoch 19 out of 50.
+Joint model, Test set: Average loss: 0.7432, Accuracy: 3007/3737 (80%)
+Running epoch 20 out of 50.
+Joint model, Test set: Average loss: 0.7425, Accuracy: 3007/3737 (80%)
+Finished Running epoch 20, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 20.
+Running epoch 21 out of 50.
+Joint model, Test set: Average loss: 0.7421, Accuracy: 3006/3737 (80%)
+Running epoch 22 out of 50.
+Joint model, Test set: Average loss: 0.7418, Accuracy: 3008/3737 (80%)
+Running epoch 23 out of 50.
+Joint model, Test set: Average loss: 0.7418, Accuracy: 3007/3737 (80%)
+Running epoch 24 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3008/3737 (80%)
+Running epoch 25 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3008/3737 (80%)
+Running epoch 26 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 27 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 28 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3006/3737 (80%)
+Running epoch 29 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3006/3737 (80%)
+Running epoch 30 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3006/3737 (80%)
+Finished Running epoch 30, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 30.
+Running epoch 31 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3006/3737 (80%)
+Running epoch 32 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 33 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 34 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 35 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 36 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 37 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 38 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 39 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 40 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Finished Running epoch 40, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 40.
+Running epoch 41 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 42 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 43 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 44 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 45 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 46 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 47 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 48 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 49 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Running epoch 50 out of 50.
+Joint model, Test set: Average loss: 0.7416, Accuracy: 3007/3737 (80%)
+Finished Running epoch 50, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 50.
+###############################################
+Running experiment 4 out of 30
+###############################################
+Running epoch 1 out of 50.
+Joint model, Test set: Average loss: 2.1618, Accuracy: 1777/3737 (48%)
+Running epoch 2 out of 50.
+Joint model, Test set: Average loss: 1.2636, Accuracy: 2850/3737 (76%)
+Running epoch 3 out of 50.
+Joint model, Test set: Average loss: 1.1616, Accuracy: 2145/3737 (57%)
+Running epoch 4 out of 50.
+Joint model, Test set: Average loss: 0.9947, Accuracy: 2867/3737 (77%)
+Running epoch 5 out of 50.
+Joint model, Test set: Average loss: 1.0835, Accuracy: 2789/3737 (75%)
+Running epoch 6 out of 50.
+Joint model, Test set: Average loss: 1.1136, Accuracy: 2772/3737 (74%)
+Running epoch 7 out of 50.
+Joint model, Test set: Average loss: 1.2255, Accuracy: 2522/3737 (67%)
+Running epoch 8 out of 50.
+Joint model, Test set: Average loss: 1.3731, Accuracy: 1922/3737 (51%)
+Running epoch 9 out of 50.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 0.8108, Accuracy: 3030/3737 (81%)
+Running epoch 10 out of 50.
+Joint model, Test set: Average loss: 0.7889, Accuracy: 3033/3737 (81%)
+Finished Running epoch 10, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 10.
+Running epoch 11 out of 50.
+Joint model, Test set: Average loss: 0.7775, Accuracy: 3035/3737 (81%)
+Running epoch 12 out of 50.
+Joint model, Test set: Average loss: 0.7768, Accuracy: 3039/3737 (81%)
+Running epoch 13 out of 50.
+Joint model, Test set: Average loss: 0.7689, Accuracy: 3038/3737 (81%)
+Running epoch 14 out of 50.
+Joint model, Test set: Average loss: 0.7646, Accuracy: 3037/3737 (81%)
+Running epoch 15 out of 50.
+Joint model, Test set: Average loss: 0.7635, Accuracy: 3037/3737 (81%)
+Running epoch 16 out of 50.
+Joint model, Test set: Average loss: 0.7627, Accuracy: 3039/3737 (81%)
+Running epoch 17 out of 50.
+Joint model, Test set: Average loss: 0.7615, Accuracy: 3039/3737 (81%)
+Running epoch 18 out of 50.
+Joint model, Test set: Average loss: 0.7622, Accuracy: 3037/3737 (81%)
+Running epoch 19 out of 50.
+Joint model, Test set: Average loss: 0.7619, Accuracy: 3038/3737 (81%)
+Running epoch 20 out of 50.
+Joint model, Test set: Average loss: 0.7615, Accuracy: 3038/3737 (81%)
+Finished Running epoch 20, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 20.
+Running epoch 21 out of 50.
+Joint model, Test set: Average loss: 0.7609, Accuracy: 3039/3737 (81%)
+Running epoch 22 out of 50.
+Joint model, Test set: Average loss: 0.7609, Accuracy: 3039/3737 (81%)
+Running epoch 23 out of 50.
+Joint model, Test set: Average loss: 0.7608, Accuracy: 3039/3737 (81%)
+Running epoch 24 out of 50.
+Joint model, Test set: Average loss: 0.7606, Accuracy: 3039/3737 (81%)
+Running epoch 25 out of 50.
+Joint model, Test set: Average loss: 0.7606, Accuracy: 3039/3737 (81%)
+Running epoch 26 out of 50.
+Joint model, Test set: Average loss: 0.7605, Accuracy: 3039/3737 (81%)
+Running epoch 27 out of 50.
+Joint model, Test set: Average loss: 0.7605, Accuracy: 3039/3737 (81%)
+Running epoch 28 out of 50.
+Joint model, Test set: Average loss: 0.7605, Accuracy: 3039/3737 (81%)
+Running epoch 29 out of 50.
+Joint model, Test set: Average loss: 0.7605, Accuracy: 3039/3737 (81%)
+Running epoch 30 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Finished Running epoch 30, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 30.
+Running epoch 31 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 32 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 33 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 34 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 35 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 36 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 37 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 38 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 39 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 40 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Finished Running epoch 40, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 40.
+Running epoch 41 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 42 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 43 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 44 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 45 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 46 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 47 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 48 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 49 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Running epoch 50 out of 50.
+Joint model, Test set: Average loss: 0.7604, Accuracy: 3039/3737 (81%)
+Finished Running epoch 50, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 50.
+###############################################
+Running experiment 5 out of 30
+###############################################
+Running epoch 1 out of 50.
+Joint model, Test set: Average loss: 2.2138, Accuracy: 1777/3737 (48%)
+Running epoch 2 out of 50.
+Joint model, Test set: Average loss: 1.3135, Accuracy: 2827/3737 (76%)
+Running epoch 3 out of 50.
+Joint model, Test set: Average loss: 1.0054, Accuracy: 2809/3737 (75%)
+Running epoch 4 out of 50.
+Joint model, Test set: Average loss: 1.0633, Accuracy: 2768/3737 (74%)
+Running epoch 5 out of 50.
+Joint model, Test set: Average loss: 1.0321, Accuracy: 2845/3737 (76%)
+Running epoch 6 out of 50.
+Joint model, Test set: Average loss: 1.0989, Accuracy: 2773/3737 (74%)
+Running epoch 7 out of 50.
+Joint model, Test set: Average loss: 1.3153, Accuracy: 2172/3737 (58%)
+Running epoch 8 out of 50.
+Joint model, Test set: Average loss: 1.4327, Accuracy: 1819/3737 (49%)
+Running epoch 9 out of 50.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 0.7904, Accuracy: 3024/3737 (81%)
+Running epoch 10 out of 50.
+Joint model, Test set: Average loss: 0.7732, Accuracy: 3030/3737 (81%)
+Finished Running epoch 10, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 10.
+Running epoch 11 out of 50.
+Joint model, Test set: Average loss: 0.7647, Accuracy: 3031/3737 (81%)
+Running epoch 12 out of 50.
+Joint model, Test set: Average loss: 0.7587, Accuracy: 3032/3737 (81%)
+Running epoch 13 out of 50.
+Joint model, Test set: Average loss: 0.7558, Accuracy: 3035/3737 (81%)
+Running epoch 14 out of 50.
+Joint model, Test set: Average loss: 0.7553, Accuracy: 3036/3737 (81%)
+Running epoch 15 out of 50.
+Joint model, Test set: Average loss: 0.7540, Accuracy: 3035/3737 (81%)
+Running epoch 16 out of 50.
+Joint model, Test set: Average loss: 0.7517, Accuracy: 3035/3737 (81%)
+Running epoch 17 out of 50.
+Joint model, Test set: Average loss: 0.7500, Accuracy: 3035/3737 (81%)
+Running epoch 18 out of 50.
+Joint model, Test set: Average loss: 0.7497, Accuracy: 3035/3737 (81%)
+Running epoch 19 out of 50.
+Joint model, Test set: Average loss: 0.7497, Accuracy: 3035/3737 (81%)
+Running epoch 20 out of 50.
+Joint model, Test set: Average loss: 0.7494, Accuracy: 3035/3737 (81%)
+Finished Running epoch 20, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 20.
+Running epoch 21 out of 50.
+Joint model, Test set: Average loss: 0.7494, Accuracy: 3035/3737 (81%)
+Running epoch 22 out of 50.
+Joint model, Test set: Average loss: 0.7493, Accuracy: 3035/3737 (81%)
+Running epoch 23 out of 50.
+Joint model, Test set: Average loss: 0.7493, Accuracy: 3035/3737 (81%)
+Running epoch 24 out of 50.
+Joint model, Test set: Average loss: 0.7492, Accuracy: 3035/3737 (81%)
+Running epoch 25 out of 50.
+Joint model, Test set: Average loss: 0.7491, Accuracy: 3035/3737 (81%)
+Running epoch 26 out of 50.
+Joint model, Test set: Average loss: 0.7491, Accuracy: 3035/3737 (81%)
+Running epoch 27 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 28 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 29 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 30 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Finished Running epoch 30, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 30.
+Running epoch 31 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 32 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 33 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 34 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 35 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 36 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 37 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 38 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 39 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 40 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Finished Running epoch 40, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 40.
+Running epoch 41 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 42 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 43 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 44 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 45 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 46 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 47 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 48 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 49 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Running epoch 50 out of 50.
+Joint model, Test set: Average loss: 0.7490, Accuracy: 3035/3737 (81%)
+Finished Running epoch 50, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 50.
+###############################################
+Running experiment 6 out of 30
+###############################################
+Running epoch 1 out of 50.
+Joint model, Test set: Average loss: 2.2076, Accuracy: 1777/3737 (48%)
+Running epoch 2 out of 50.
+Joint model, Test set: Average loss: 1.3704, Accuracy: 2846/3737 (76%)
+Running epoch 3 out of 50.
+Joint model, Test set: Average loss: 1.1297, Accuracy: 2268/3737 (61%)
+Running epoch 4 out of 50.
+Joint model, Test set: Average loss: 0.9878, Accuracy: 2878/3737 (77%)
+Running epoch 5 out of 50.
+Joint model, Test set: Average loss: 1.0342, Accuracy: 2839/3737 (76%)
+Running epoch 6 out of 50.
+Joint model, Test set: Average loss: 1.1059, Accuracy: 2773/3737 (74%)
+Running epoch 7 out of 50.
+Joint model, Test set: Average loss: 1.1331, Accuracy: 2710/3737 (73%)
+Running epoch 8 out of 50.
+Joint model, Test set: Average loss: 1.3358, Accuracy: 1840/3737 (49%)
+Running epoch 9 out of 50.
+Joint model, Test set: Average loss: 1.4225, Accuracy: 1782/3737 (48%)
+Running epoch 10 out of 50.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 0.8479, Accuracy: 3032/3737 (81%)
+Finished Running epoch 10, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 10.
+Running epoch 11 out of 50.
+Joint model, Test set: Average loss: 0.8288, Accuracy: 3041/3737 (81%)
+Running epoch 12 out of 50.
+Joint model, Test set: Average loss: 0.8179, Accuracy: 3046/3737 (82%)
+Running epoch 13 out of 50.
+Joint model, Test set: Average loss: 0.8116, Accuracy: 3048/3737 (82%)
+Running epoch 14 out of 50.
+Joint model, Test set: Average loss: 0.8074, Accuracy: 3047/3737 (82%)
+Running epoch 15 out of 50.
+Joint model, Test set: Average loss: 0.8053, Accuracy: 3048/3737 (82%)
+Running epoch 16 out of 50.
+Joint model, Test set: Average loss: 0.8036, Accuracy: 3048/3737 (82%)
+Running epoch 17 out of 50.
+Joint model, Test set: Average loss: 0.8019, Accuracy: 3047/3737 (82%)
+Running epoch 18 out of 50.
+Joint model, Test set: Average loss: 0.8009, Accuracy: 3048/3737 (82%)
+Running epoch 19 out of 50.
+Joint model, Test set: Average loss: 0.8004, Accuracy: 3047/3737 (82%)
+Running epoch 20 out of 50.
+Joint model, Test set: Average loss: 0.8000, Accuracy: 3048/3737 (82%)
+Finished Running epoch 20, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 20.
+Running epoch 21 out of 50.
+Joint model, Test set: Average loss: 0.7995, Accuracy: 3050/3737 (82%)
+Running epoch 22 out of 50.
+Joint model, Test set: Average loss: 0.7993, Accuracy: 3050/3737 (82%)
+Running epoch 23 out of 50.
+Joint model, Test set: Average loss: 0.7991, Accuracy: 3051/3737 (82%)
+Running epoch 24 out of 50.
+Joint model, Test set: Average loss: 0.7990, Accuracy: 3050/3737 (82%)
+Running epoch 25 out of 50.
+Joint model, Test set: Average loss: 0.7989, Accuracy: 3050/3737 (82%)
+Running epoch 26 out of 50.
+Joint model, Test set: Average loss: 0.7989, Accuracy: 3051/3737 (82%)
+Running epoch 27 out of 50.
+Joint model, Test set: Average loss: 0.7988, Accuracy: 3051/3737 (82%)
+Running epoch 28 out of 50.
+Joint model, Test set: Average loss: 0.7988, Accuracy: 3051/3737 (82%)
+Running epoch 29 out of 50.
+Joint model, Test set: Average loss: 0.7988, Accuracy: 3051/3737 (82%)
+Running epoch 30 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Finished Running epoch 30, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 30.
+Running epoch 31 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 32 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 33 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 34 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 35 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 36 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 37 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 38 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 39 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 40 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Finished Running epoch 40, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 40.
+Running epoch 41 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 42 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 43 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 44 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 45 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 46 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 47 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 48 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 49 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Running epoch 50 out of 50.
+Joint model, Test set: Average loss: 0.7987, Accuracy: 3051/3737 (82%)
+Finished Running epoch 50, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 50.
+###############################################
+Running experiment 7 out of 30
+###############################################
+Running epoch 1 out of 50.
+Joint model, Test set: Average loss: 2.2000, Accuracy: 1777/3737 (48%)
+Running epoch 2 out of 50.
+Joint model, Test set: Average loss: 1.1375, Accuracy: 2166/3737 (58%)
+Running epoch 3 out of 50.
+Joint model, Test set: Average loss: 0.9864, Accuracy: 2858/3737 (76%)
+Running epoch 4 out of 50.
+Joint model, Test set: Average loss: 1.0394, Accuracy: 2870/3737 (77%)
+Running epoch 5 out of 50.
+Joint model, Test set: Average loss: 1.1460, Accuracy: 2760/3737 (74%)
+Running epoch 6 out of 50.
+Joint model, Test set: Average loss: 1.1210, Accuracy: 2783/3737 (74%)
+Running epoch 7 out of 50.
+Joint model, Test set: Average loss: 1.2607, Accuracy: 2458/3737 (66%)
+Running epoch 8 out of 50.
+Joint model, Test set: Average loss: 1.4217, Accuracy: 1842/3737 (49%)
+Running epoch 9 out of 50.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 0.7428, Accuracy: 3039/3737 (81%)
+Running epoch 10 out of 50.
+Joint model, Test set: Average loss: 0.7204, Accuracy: 3036/3737 (81%)
+Finished Running epoch 10, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 10.
+Running epoch 11 out of 50.
+Joint model, Test set: Average loss: 0.7160, Accuracy: 3041/3737 (81%)
+Running epoch 12 out of 50.
+Joint model, Test set: Average loss: 0.7132, Accuracy: 3051/3737 (82%)
+Running epoch 13 out of 50.
+Joint model, Test set: Average loss: 0.7096, Accuracy: 3063/3737 (82%)
+Running epoch 14 out of 50.
+Joint model, Test set: Average loss: 0.7066, Accuracy: 3065/3737 (82%)
+Running epoch 15 out of 50.
+Joint model, Test set: Average loss: 0.7049, Accuracy: 3067/3737 (82%)
+Running epoch 16 out of 50.
+Joint model, Test set: Average loss: 0.7045, Accuracy: 3067/3737 (82%)
+Running epoch 17 out of 50.
+Joint model, Test set: Average loss: 0.7041, Accuracy: 3066/3737 (82%)
+Running epoch 18 out of 50.
+Joint model, Test set: Average loss: 0.7039, Accuracy: 3068/3737 (82%)
+Running epoch 19 out of 50.
+Joint model, Test set: Average loss: 0.7033, Accuracy: 3068/3737 (82%)
+Running epoch 20 out of 50.
+Joint model, Test set: Average loss: 0.7030, Accuracy: 3069/3737 (82%)
+Finished Running epoch 20, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 20.
+Running epoch 21 out of 50.
+Joint model, Test set: Average loss: 0.7029, Accuracy: 3069/3737 (82%)
+Running epoch 22 out of 50.
+Joint model, Test set: Average loss: 0.7027, Accuracy: 3069/3737 (82%)
+Running epoch 23 out of 50.
+Joint model, Test set: Average loss: 0.7025, Accuracy: 3069/3737 (82%)
+Running epoch 24 out of 50.
+Joint model, Test set: Average loss: 0.7026, Accuracy: 3069/3737 (82%)
+Running epoch 25 out of 50.
+Joint model, Test set: Average loss: 0.7025, Accuracy: 3069/3737 (82%)
+Running epoch 26 out of 50.
+Joint model, Test set: Average loss: 0.7025, Accuracy: 3069/3737 (82%)
+Running epoch 27 out of 50.
+Joint model, Test set: Average loss: 0.7025, Accuracy: 3069/3737 (82%)
+Running epoch 28 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 29 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 30 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Finished Running epoch 30, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 30.
+Running epoch 31 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 32 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 33 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 34 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 35 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 36 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 37 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 38 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 39 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 40 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Finished Running epoch 40, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 40.
+Running epoch 41 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 42 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 43 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 44 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 45 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 46 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 47 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 48 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 49 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Running epoch 50 out of 50.
+Joint model, Test set: Average loss: 0.7024, Accuracy: 3069/3737 (82%)
+Finished Running epoch 50, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 50.
+###############################################
+Running experiment 8 out of 30
+###############################################
+Running epoch 1 out of 50.
+Joint model, Test set: Average loss: 2.1430, Accuracy: 1790/3737 (48%)
+Running epoch 2 out of 50.
+Joint model, Test set: Average loss: 1.0690, Accuracy: 2929/3737 (78%)
+Running epoch 3 out of 50.
+Joint model, Test set: Average loss: 1.0046, Accuracy: 2909/3737 (78%)
+Running epoch 4 out of 50.
+Joint model, Test set: Average loss: 1.0435, Accuracy: 2896/3737 (77%)
+Running epoch 5 out of 50.
+Joint model, Test set: Average loss: 1.1574, Accuracy: 2843/3737 (76%)
+Running epoch 6 out of 50.
+Joint model, Test set: Average loss: 1.1693, Accuracy: 2805/3737 (75%)
+Running epoch 7 out of 50.
+Joint model, Test set: Average loss: 1.3873, Accuracy: 2322/3737 (62%)
+Running epoch 8 out of 50.
+Joint model, Test set: Average loss: 1.5488, Accuracy: 1800/3737 (48%)
+Running epoch 9 out of 50.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 0.7837, Accuracy: 3022/3737 (81%)
+Running epoch 10 out of 50.
+Joint model, Test set: Average loss: 0.7658, Accuracy: 3027/3737 (81%)
+Finished Running epoch 10, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 10.
+Running epoch 11 out of 50.
+Joint model, Test set: Average loss: 0.7533, Accuracy: 3033/3737 (81%)
+Running epoch 12 out of 50.
+Joint model, Test set: Average loss: 0.7513, Accuracy: 3033/3737 (81%)
+Running epoch 13 out of 50.
+Joint model, Test set: Average loss: 0.7506, Accuracy: 3031/3737 (81%)
+Running epoch 14 out of 50.
+Joint model, Test set: Average loss: 0.7485, Accuracy: 3037/3737 (81%)
+Running epoch 15 out of 50.
+Joint model, Test set: Average loss: 0.7478, Accuracy: 3040/3737 (81%)
+Running epoch 16 out of 50.
+Joint model, Test set: Average loss: 0.7459, Accuracy: 3051/3737 (82%)
+Running epoch 17 out of 50.
+Joint model, Test set: Average loss: 0.7455, Accuracy: 3052/3737 (82%)
+Running epoch 18 out of 50.
+Joint model, Test set: Average loss: 0.7445, Accuracy: 3054/3737 (82%)
+Running epoch 19 out of 50.
+Joint model, Test set: Average loss: 0.7441, Accuracy: 3055/3737 (82%)
+Running epoch 20 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3056/3737 (82%)
+Finished Running epoch 20, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 20.
+Running epoch 21 out of 50.
+Joint model, Test set: Average loss: 0.7442, Accuracy: 3057/3737 (82%)
+Running epoch 22 out of 50.
+Joint model, Test set: Average loss: 0.7442, Accuracy: 3056/3737 (82%)
+Running epoch 23 out of 50.
+Joint model, Test set: Average loss: 0.7442, Accuracy: 3056/3737 (82%)
+Running epoch 24 out of 50.
+Joint model, Test set: Average loss: 0.7441, Accuracy: 3055/3737 (82%)
+Running epoch 25 out of 50.
+Joint model, Test set: Average loss: 0.7441, Accuracy: 3057/3737 (82%)
+Running epoch 26 out of 50.
+Joint model, Test set: Average loss: 0.7441, Accuracy: 3057/3737 (82%)
+Running epoch 27 out of 50.
+Joint model, Test set: Average loss: 0.7441, Accuracy: 3057/3737 (82%)
+Running epoch 28 out of 50.
+Joint model, Test set: Average loss: 0.7441, Accuracy: 3057/3737 (82%)
+Running epoch 29 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 30 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Finished Running epoch 30, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 30.
+Running epoch 31 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 32 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 33 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 34 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 35 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 36 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 37 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 38 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 39 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 40 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Finished Running epoch 40, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 40.
+Running epoch 41 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 42 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 43 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 44 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 45 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 46 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 47 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 48 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 49 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Running epoch 50 out of 50.
+Joint model, Test set: Average loss: 0.7440, Accuracy: 3057/3737 (82%)
+Finished Running epoch 50, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 50.
+###############################################
+Running experiment 9 out of 30
+###############################################
+Running epoch 1 out of 50.
+Joint model, Test set: Average loss: 2.2459, Accuracy: 1777/3737 (48%)
+Running epoch 2 out of 50.
+Joint model, Test set: Average loss: 1.2573, Accuracy: 1777/3737 (48%)
+Running epoch 3 out of 50.
+Joint model, Test set: Average loss: 0.9366, Accuracy: 2963/3737 (79%)
+Running epoch 4 out of 50.
+Joint model, Test set: Average loss: 0.9393, Accuracy: 2926/3737 (78%)
+Running epoch 5 out of 50.
+Joint model, Test set: Average loss: 1.0434, Accuracy: 2849/3737 (76%)
+Running epoch 6 out of 50.
+Joint model, Test set: Average loss: 1.0975, Accuracy: 2817/3737 (75%)
+Running epoch 7 out of 50.
+Joint model, Test set: Average loss: 1.1614, Accuracy: 2704/3737 (72%)
+Running epoch 8 out of 50.
+Joint model, Test set: Average loss: 1.3493, Accuracy: 1933/3737 (52%)
+Running epoch 9 out of 50.
+Joint model, Test set: Average loss: 1.4974, Accuracy: 1777/3737 (48%)
+Running epoch 10 out of 50.
+Detected an attacker: 0
+Joint model, Test set: Average loss: 0.8115, Accuracy: 3027/3737 (81%)
+Finished Running epoch 10, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 10.
+Running epoch 11 out of 50.
+Joint model, Test set: Average loss: 0.7914, Accuracy: 3028/3737 (81%)
+Running epoch 12 out of 50.
+Joint model, Test set: Average loss: 0.7776, Accuracy: 3031/3737 (81%)
+Running epoch 13 out of 50.
+Joint model, Test set: Average loss: 0.7753, Accuracy: 3032/3737 (81%)
+Running epoch 14 out of 50.
+Joint model, Test set: Average loss: 0.7710, Accuracy: 3032/3737 (81%)
+Running epoch 15 out of 50.
+Joint model, Test set: Average loss: 0.7693, Accuracy: 3031/3737 (81%)
+Running epoch 16 out of 50.
+Joint model, Test set: Average loss: 0.7688, Accuracy: 3035/3737 (81%)
+Running epoch 17 out of 50.
+Joint model, Test set: Average loss: 0.7681, Accuracy: 3034/3737 (81%)
+Running epoch 18 out of 50.
+Joint model, Test set: Average loss: 0.7676, Accuracy: 3035/3737 (81%)
+Running epoch 19 out of 50.
+Joint model, Test set: Average loss: 0.7670, Accuracy: 3033/3737 (81%)
+Running epoch 20 out of 50.
+Joint model, Test set: Average loss: 0.7665, Accuracy: 3034/3737 (81%)
+Finished Running epoch 20, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 20.
+Running epoch 21 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3033/3737 (81%)
+Running epoch 22 out of 50.
+Joint model, Test set: Average loss: 0.7664, Accuracy: 3035/3737 (81%)
+Running epoch 23 out of 50.
+Joint model, Test set: Average loss: 0.7664, Accuracy: 3035/3737 (81%)
+Running epoch 24 out of 50.
+Joint model, Test set: Average loss: 0.7664, Accuracy: 3036/3737 (81%)
+Running epoch 25 out of 50.
+Joint model, Test set: Average loss: 0.7664, Accuracy: 3036/3737 (81%)
+Running epoch 26 out of 50.
+Joint model, Test set: Average loss: 0.7664, Accuracy: 3036/3737 (81%)
+Running epoch 27 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 28 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 29 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 30 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Finished Running epoch 30, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 30.
+Running epoch 31 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 32 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 33 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 34 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 35 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 36 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 37 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 38 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 39 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 40 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Finished Running epoch 40, printing results dictionary to file.
+Finished printing results dictionary to file after epoch 40.
+Running epoch 41 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 42 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 43 out of 50.
+Joint model, Test set: Average loss: 0.7663, Accuracy: 3036/3737 (81%)
+Running epoch 44 out of 50.
