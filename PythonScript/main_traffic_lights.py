@@ -222,7 +222,9 @@ def main():
     parser.add_argument('--epochs', type=int, default=14, metavar='N',
                         help='number of epochs to train (default: 1)')
     parser.add_argument('--num-exp', type=int, default=1, metavar='N',
-                        help='number of experiments (default: 14)')
+                        help='number of experiments (default: 1)')
+    parser.add_argument('--exp-start', type=int, default=1, metavar='N',
+                        help='first experiment (default: 1)')
     parser.add_argument('--lr', type=float, default=1.0, metavar='LR',
                         help='learning rate (default: 1.0)')
     parser.add_argument('--gamma', type=float, default=0.7, metavar='M',
@@ -336,7 +338,7 @@ def main():
 
     attacker_removal_period = 500
     model_prefix = "_experiment_"
-    for num_exp in range(17,args.num_exp+1):
+    for num_exp in range(args.exp_start,args.num_exp+1):
         attack_coefficient_stop = 3 + (num_exp - (num_exp % 10)) / 10
         print("###############################################") 
         print("Running experiment {} out of {}".format(num_exp,args.num_exp))
@@ -577,7 +579,7 @@ def main():
                 with open(file_name, "w") as fp:
                     json.dump(norm_dic, fp)
                 print("Finished printing results dictionary to file after epoch {}.".format(epoch))
-                torch.save(joint_model.state_dict(), "joint_model.pt")
+                torch.save(joint_model.state_dict(), "{}/{}_joint_model.pt".format(args.output_dir,args.results_file))
 
 
 if __name__ == '__main__':
