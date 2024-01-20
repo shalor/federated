@@ -336,7 +336,7 @@ def main():
 
     attacker_removal_period = 500
     model_prefix = "_experiment_"
-    for num_exp in range(1,args.num_exp+1):
+    for num_exp in range(17,args.num_exp+1):
         attack_coefficient_stop = 3 + (num_exp - (num_exp % 10)) / 10
         print("###############################################") 
         print("Running experiment {} out of {}".format(num_exp,args.num_exp))
