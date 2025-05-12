@@ -1,0 +1,12 @@
+2025-05-12 17:41:47,923 - INFO - fl - start - global side iteration 0 -  test accuracy: 61.64
+2025-05-12 17:42:57,479 - INFO - fl - start - global side iteration 1 -  test accuracy: 87.53
+2025-05-12 17:44:06,097 - INFO - fl - start - global side iteration 2 -  test accuracy: 77.68
+2025-05-12 17:45:15,112 - INFO - fl - start - global side iteration 3 -  test accuracy: 51.05
+2025-05-12 17:46:24,778 - INFO - fl - start - global side iteration 4 -  test accuracy: 11.36
+2025-05-12 17:47:33,270 - INFO - fl - start - global side iteration 5 -  test accuracy: 11.35
+2025-05-12 17:48:41,951 - INFO - fl - start - global side iteration 6 -  test accuracy: 10.28
+2025-05-12 17:49:50,841 - INFO - fl - start - global side iteration 7 -  test accuracy: 9.74
+2025-05-12 17:50:59,331 - INFO - fl - start - global side iteration 8 -  test accuracy: 9.8
+2025-05-12 17:52:08,000 - INFO - fl - start - global side iteration 9 -  test accuracy: 9.8
+2025-05-12 17:53:16,856 - INFO - fl - start - global side iteration 10 -  test accuracy: 10.1
+2025-05-12 17:54:25,590 - INFO - fl - start - global side iteration 11 -  test accuracy: 10.28

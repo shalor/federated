@@ -1,0 +1,1135 @@
+2025-05-12 17:40:35,000 - INFO - util_sys - get_available_device - no preferred device is specified, using the available device for pythorch
+2025-05-12 17:40:35,039 - INFO - util_sys - get_available_device - using cuda device for pythorch
+2025-05-12 17:40:35,039 - INFO - util_sys - create_folder_if_not_exists - Folder './data/mnist/' already exists.
+2025-05-12 17:40:35,094 - INFO - util_data - get_client_data - partitioning the data into non-IID setting
+2025-05-12 17:40:36,178 - INFO - util_data - record_data_statistic - Client 0 - total training samples: 6772
+2025-05-12 17:40:36,178 - INFO - util_data - record_data_statistic - Client 0 - training label distribution: defaultdict(<class 'int'>, {0: 408, 1: 790, 3: 1791, 4: 2113, 5: 239, 6: 61, 7: 1370})
+2025-05-12 17:40:36,894 - INFO - util_data - record_data_statistic - Client 1 - total training samples: 5614
+2025-05-12 17:40:36,894 - INFO - util_data - record_data_statistic - Client 1 - training label distribution: defaultdict(<class 'int'>, {0: 373, 1: 5, 3: 2125, 4: 217, 5: 1, 6: 424, 7: 24, 8: 2326, 9: 119})
+2025-05-12 17:40:37,317 - INFO - util_data - record_data_statistic - Client 2 - total training samples: 3411
+2025-05-12 17:40:37,317 - INFO - util_data - record_data_statistic - Client 2 - training label distribution: defaultdict(<class 'int'>, {0: 109, 1: 439, 3: 1527, 4: 61, 7: 463, 8: 807, 9: 5})
+2025-05-12 17:40:37,927 - INFO - util_data - record_data_statistic - Client 3 - total training samples: 4950
+2025-05-12 17:40:37,927 - INFO - util_data - record_data_statistic - Client 3 - training label distribution: defaultdict(<class 'int'>, {0: 118, 1: 768, 2: 394, 3: 240, 4: 2330, 5: 394, 6: 335, 7: 365, 8: 6})
+2025-05-12 17:40:38,782 - INFO - util_data - record_data_statistic - Client 4 - total training samples: 6853
+2025-05-12 17:40:38,782 - INFO - util_data - record_data_statistic - Client 4 - training label distribution: defaultdict(<class 'int'>, {0: 1015, 1: 228, 2: 537, 4: 631, 6: 1, 7: 18, 8: 2, 9: 4421})
+2025-05-12 17:40:39,809 - INFO - util_data - record_data_statistic - Client 5 - total training samples: 8251
+2025-05-12 17:40:39,809 - INFO - util_data - record_data_statistic - Client 5 - training label distribution: defaultdict(<class 'int'>, {0: 746, 1: 2091, 2: 4, 3: 112, 4: 5, 5: 46, 6: 4792, 7: 183, 9: 272})
+2025-05-12 17:40:40,321 - INFO - util_data - record_data_statistic - Client 6 - total training samples: 4100
+2025-05-12 17:40:40,321 - INFO - util_data - record_data_statistic - Client 6 - training label distribution: defaultdict(<class 'int'>, {0: 200, 2: 10, 3: 68, 4: 21, 5: 281, 6: 28, 7: 2404, 8: 426, 9: 662})
+2025-05-12 17:40:41,797 - INFO - util_data - record_data_statistic - Client 7 - total training samples: 11844
+2025-05-12 17:40:41,797 - INFO - util_data - record_data_statistic - Client 7 - training label distribution: defaultdict(<class 'int'>, {0: 25, 1: 2068, 2: 4561, 3: 1, 4: 24, 5: 3353, 6: 2, 7: 30, 8: 1780})
+2025-05-12 17:40:42,428 - INFO - util_data - record_data_statistic - Client 8 - total training samples: 5078
+2025-05-12 17:40:42,428 - INFO - util_data - record_data_statistic - Client 8 - training label distribution: defaultdict(<class 'int'>, {0: 1379, 1: 352, 2: 179, 3: 266, 4: 12, 5: 1102, 7: 1163, 8: 171, 9: 454})
+2025-05-12 17:40:42,817 - INFO - util_data - record_data_statistic - Client 9 - total training samples: 3127
+2025-05-12 17:40:42,818 - INFO - util_data - record_data_statistic - Client 9 - training label distribution: defaultdict(<class 'int'>, {0: 1550, 1: 1, 2: 273, 3: 1, 4: 428, 5: 5, 6: 275, 7: 245, 8: 333, 9: 16})
+2025-05-12 17:40:42,989 - INFO - fl - start - start the FL simulation
+2025-05-12 17:40:42,989 - INFO - fl - start - start training round 0
+2025-05-12 17:40:42,991 - INFO - fl - start - no attack at the round 0
+2025-05-12 17:40:42,991 - INFO - fl - start - start client 0 training
+2025-05-12 17:40:42,991 - INFO - fl - client_local_train - client 0 start local training ...
+2025-05-12 17:40:48,965 - INFO - fl - start - end client 0 training
+2025-05-12 17:40:48,965 - INFO - fl - start - client 0 evaluation metrics: {'train_loss': 0.056223118018780674, 'test_acc': 65.51}
+2025-05-12 17:40:48,965 - INFO - fl - start - start client 1 training
+2025-05-12 17:40:48,965 - INFO - fl - client_local_train - client 1 start local training ...
+2025-05-12 17:40:53,900 - INFO - fl - start - end client 1 training
+2025-05-12 17:40:53,900 - INFO - fl - start - client 1 evaluation metrics: {'train_loss': 0.07405906465878202, 'test_acc': 56.48}
+2025-05-12 17:40:53,900 - INFO - fl - start - start client 2 training
+2025-05-12 17:40:53,900 - INFO - fl - client_local_train - client 2 start local training ...
+2025-05-12 17:40:57,436 - INFO - fl - start - end client 2 training
+2025-05-12 17:40:57,436 - INFO - fl - start - client 2 evaluation metrics: {'train_loss': 0.09564949889425878, 'test_acc': 58.41}
+2025-05-12 17:40:57,436 - INFO - fl - start - start client 3 training
+2025-05-12 17:40:57,437 - INFO - fl - client_local_train - client 3 start local training ...
+2025-05-12 17:41:01,955 - INFO - fl - start - end client 3 training
+2025-05-12 17:41:01,955 - INFO - fl - start - client 3 evaluation metrics: {'train_loss': 0.07691680383271514, 'test_acc': 76.46}
+2025-05-12 17:41:01,955 - INFO - fl - start - start client 4 training
+2025-05-12 17:41:01,955 - INFO - fl - client_local_train - client 4 start local training ...
+2025-05-12 17:41:07,758 - INFO - fl - start - end client 4 training
+2025-05-12 17:41:07,758 - INFO - fl - start - client 4 evaluation metrics: {'train_loss': 0.05023699708679622, 'test_acc': 50.19}
+2025-05-12 17:41:07,758 - INFO - fl - start - start client 5 training
+2025-05-12 17:41:07,759 - INFO - fl - client_local_train - client 5 start local training ...
+2025-05-12 17:41:14,388 - INFO - fl - start - end client 5 training
+2025-05-12 17:41:14,388 - INFO - fl - start - client 5 evaluation metrics: {'train_loss': 0.043496437125312266, 'test_acc': 60.95}
+2025-05-12 17:41:14,388 - INFO - fl - start - start client 6 training
+2025-05-12 17:41:14,388 - INFO - fl - client_local_train - client 6 start local training ...
+2025-05-12 17:41:18,374 - INFO - fl - start - end client 6 training
+2025-05-12 17:41:18,374 - INFO - fl - start - client 6 evaluation metrics: {'train_loss': 0.16203659721291983, 'test_acc': 52.99}
+2025-05-12 17:41:18,374 - INFO - fl - start - start client 7 training
+2025-05-12 17:41:18,374 - INFO - fl - client_local_train - client 7 start local training ...
+2025-05-12 17:41:27,309 - INFO - fl - start - end client 7 training
+2025-05-12 17:41:27,309 - INFO - fl - start - client 7 evaluation metrics: {'train_loss': 0.03770236958500332, 'test_acc': 50.63}
+2025-05-12 17:41:27,309 - INFO - fl - start - start client 8 training
+2025-05-12 17:41:27,309 - INFO - fl - client_local_train - client 8 start local training ...
+2025-05-12 17:41:31,896 - INFO - fl - start - end client 8 training
+2025-05-12 17:41:31,896 - INFO - fl - start - client 8 evaluation metrics: {'train_loss': 0.0855927366996184, 'test_acc': 75.98}
+2025-05-12 17:41:31,896 - INFO - fl - start - start client 9 training
+2025-05-12 17:41:31,896 - INFO - fl - client_local_train - client 9 start local training ...
+2025-05-12 17:41:35,236 - INFO - fl - start - end client 9 training
+2025-05-12 17:41:35,236 - INFO - fl - start - client 9 evaluation metrics: {'train_loss': 0.08589432396146716, 'test_acc': 55.21}
+2025-05-12 17:41:35,236 - INFO - fl - aggregate_model - start model aggregation...fusion method: dual_defense
+2025-05-12 17:41:35,236 - INFO - fl - aggregate_model - start hyper-guard fusion with epsilon 0.01
+2025-05-12 17:41:35,236 - INFO - fl - aggregate_model - round 0 attackers: []
+2025-05-12 17:41:46,173 - DEBUG - util_fusion - fusion_dual_defense - client 0 scores: {0: array([35.46034771]), 1: array([36.51885272]), 2: array([38.44081009]), 3: array([35.72240696]), 4: array([37.40448932]), 5: array([36.43879846]), 6: array([38.31857704]), 7: array([33.99973813]), 8: array([34.57664814]), 9: array([39.07898925])}
+2025-05-12 17:41:46,174 - DEBUG - util_fusion - fusion_dual_defense - client 0 norm scores: {0: array([0.28756396]), 1: array([0.49596181]), 2: array([0.87435566]), 3: array([0.33915803]), 4: array([0.67032543]), 5: array([0.48020078]), 6: array([0.85029049]), 7: array([0.]), 8: array([0.11358171]), 9: array([1.])}
+2025-05-12 17:41:46,174 - DEBUG - util_fusion - fusion_dual_defense - client 0 similarity threshold: 0.511143786792714
+2025-05-12 17:41:46,174 - INFO - util_fusion - fusion_dual_defense - client 0 selected fusion benigns: [2, 4, 6, 9]
+2025-05-12 17:41:46,183 - DEBUG - util_fusion - fusion_dual_defense - client 1 scores: {0: array([35.46034771]), 1: array([36.51885272]), 2: array([38.44081009]), 3: array([35.72240696]), 4: array([37.40448932]), 5: array([36.43879846]), 6: array([38.31857704]), 7: array([33.99973813]), 8: array([34.57664814]), 9: array([39.07898925])}
+2025-05-12 17:41:46,183 - DEBUG - util_fusion - fusion_dual_defense - client 1 norm scores: {0: array([0.28756396]), 1: array([0.49596181]), 2: array([0.87435566]), 3: array([0.33915803]), 4: array([0.67032543]), 5: array([0.48020078]), 6: array([0.85029049]), 7: array([0.]), 8: array([0.11358171]), 9: array([1.])}
+2025-05-12 17:41:46,183 - DEBUG - util_fusion - fusion_dual_defense - client 1 similarity threshold: 0.511143786792714
+2025-05-12 17:41:46,183 - INFO - util_fusion - fusion_dual_defense - client 1 selected fusion benigns: [2, 4, 6, 9]
+2025-05-12 17:41:46,192 - DEBUG - util_fusion - fusion_dual_defense - client 2 scores: {0: array([35.46034771]), 1: array([36.51885272]), 2: array([38.44081009]), 3: array([35.72240696]), 4: array([37.40448932]), 5: array([36.43879846]), 6: array([38.31857704]), 7: array([33.99973813]), 8: array([34.57664814]), 9: array([39.07898925])}
+2025-05-12 17:41:46,192 - DEBUG - util_fusion - fusion_dual_defense - client 2 norm scores: {0: array([0.28756396]), 1: array([0.49596181]), 2: array([0.87435566]), 3: array([0.33915803]), 4: array([0.67032543]), 5: array([0.48020078]), 6: array([0.85029049]), 7: array([0.]), 8: array([0.11358171]), 9: array([1.])}
+2025-05-12 17:41:46,193 - DEBUG - util_fusion - fusion_dual_defense - client 2 similarity threshold: 0.511143786792714
+2025-05-12 17:41:46,193 - INFO - util_fusion - fusion_dual_defense - client 2 selected fusion benigns: [2, 4, 6, 9]
+2025-05-12 17:41:46,201 - DEBUG - util_fusion - fusion_dual_defense - client 3 scores: {0: array([35.46034771]), 1: array([36.51885272]), 2: array([38.44081009]), 3: array([35.72240696]), 4: array([37.40448932]), 5: array([36.43879846]), 6: array([38.31857704]), 7: array([33.99973813]), 8: array([34.57664814]), 9: array([39.07898925])}
+2025-05-12 17:41:46,202 - DEBUG - util_fusion - fusion_dual_defense - client 3 norm scores: {0: array([0.28756396]), 1: array([0.49596181]), 2: array([0.87435566]), 3: array([0.33915803]), 4: array([0.67032543]), 5: array([0.48020078]), 6: array([0.85029049]), 7: array([0.]), 8: array([0.11358171]), 9: array([1.])}
+2025-05-12 17:41:46,202 - DEBUG - util_fusion - fusion_dual_defense - client 3 similarity threshold: 0.511143786792714
+2025-05-12 17:41:46,202 - INFO - util_fusion - fusion_dual_defense - client 3 selected fusion benigns: [2, 4, 6, 9]
+2025-05-12 17:41:46,211 - DEBUG - util_fusion - fusion_dual_defense - client 4 scores: {0: array([35.46034771]), 1: array([36.51885272]), 2: array([38.44081009]), 3: array([35.72240696]), 4: array([37.40448932]), 5: array([36.43879846]), 6: array([38.31857704]), 7: array([33.99973813]), 8: array([34.57664814]), 9: array([39.07898925])}
+2025-05-12 17:41:46,211 - DEBUG - util_fusion - fusion_dual_defense - client 4 norm scores: {0: array([0.28756396]), 1: array([0.49596181]), 2: array([0.87435566]), 3: array([0.33915803]), 4: array([0.67032543]), 5: array([0.48020078]), 6: array([0.85029049]), 7: array([0.]), 8: array([0.11358171]), 9: array([1.])}
+2025-05-12 17:41:46,211 - DEBUG - util_fusion - fusion_dual_defense - client 4 similarity threshold: 0.511143786792714
+2025-05-12 17:41:46,211 - INFO - util_fusion - fusion_dual_defense - client 4 selected fusion benigns: [2, 4, 6, 9]
+2025-05-12 17:41:46,220 - DEBUG - util_fusion - fusion_dual_defense - client 5 scores: {0: array([35.46034771]), 1: array([36.51885272]), 2: array([38.44081009]), 3: array([35.72240696]), 4: array([37.40448932]), 5: array([36.43879846]), 6: array([38.31857704]), 7: array([33.99973813]), 8: array([34.57664814]), 9: array([39.07898925])}
+2025-05-12 17:41:46,220 - DEBUG - util_fusion - fusion_dual_defense - client 5 norm scores: {0: array([0.28756396]), 1: array([0.49596181]), 2: array([0.87435566]), 3: array([0.33915803]), 4: array([0.67032543]), 5: array([0.48020078]), 6: array([0.85029049]), 7: array([0.]), 8: array([0.11358171]), 9: array([1.])}
+2025-05-12 17:41:46,221 - DEBUG - util_fusion - fusion_dual_defense - client 5 similarity threshold: 0.511143786792714
+2025-05-12 17:41:46,221 - INFO - util_fusion - fusion_dual_defense - client 5 selected fusion benigns: [2, 4, 6, 9]
+2025-05-12 17:41:46,229 - DEBUG - util_fusion - fusion_dual_defense - client 6 scores: {0: array([35.46034771]), 1: array([36.51885272]), 2: array([38.44081009]), 3: array([35.72240696]), 4: array([37.40448932]), 5: array([36.43879846]), 6: array([38.31857704]), 7: array([33.99973813]), 8: array([34.57664814]), 9: array([39.07898925])}
+2025-05-12 17:41:46,230 - DEBUG - util_fusion - fusion_dual_defense - client 6 norm scores: {0: array([0.28756396]), 1: array([0.49596181]), 2: array([0.87435566]), 3: array([0.33915803]), 4: array([0.67032543]), 5: array([0.48020078]), 6: array([0.85029049]), 7: array([0.]), 8: array([0.11358171]), 9: array([1.])}
+2025-05-12 17:41:46,230 - DEBUG - util_fusion - fusion_dual_defense - client 6 similarity threshold: 0.511143786792714
+2025-05-12 17:41:46,230 - INFO - util_fusion - fusion_dual_defense - client 6 selected fusion benigns: [2, 4, 6, 9]
+2025-05-12 17:41:46,240 - DEBUG - util_fusion - fusion_dual_defense - client 7 scores: {0: array([35.46034771]), 1: array([36.51885272]), 2: array([38.44081009]), 3: array([35.72240696]), 4: array([37.40448932]), 5: array([36.43879846]), 6: array([38.31857704]), 7: array([33.99973813]), 8: array([34.57664814]), 9: array([39.07898925])}
+2025-05-12 17:41:46,241 - DEBUG - util_fusion - fusion_dual_defense - client 7 norm scores: {0: array([0.28756396]), 1: array([0.49596181]), 2: array([0.87435566]), 3: array([0.33915803]), 4: array([0.67032543]), 5: array([0.48020078]), 6: array([0.85029049]), 7: array([0.]), 8: array([0.11358171]), 9: array([1.])}
+2025-05-12 17:41:46,241 - DEBUG - util_fusion - fusion_dual_defense - client 7 similarity threshold: 0.511143786792714
+2025-05-12 17:41:46,241 - INFO - util_fusion - fusion_dual_defense - client 7 selected fusion benigns: [2, 4, 6, 9]
+2025-05-12 17:41:46,249 - DEBUG - util_fusion - fusion_dual_defense - client 8 scores: {0: array([35.46034771]), 1: array([36.51885272]), 2: array([38.44081009]), 3: array([35.72240696]), 4: array([37.40448932]), 5: array([36.43879846]), 6: array([38.31857704]), 7: array([33.99973813]), 8: array([34.57664814]), 9: array([39.07898925])}
+2025-05-12 17:41:46,250 - DEBUG - util_fusion - fusion_dual_defense - client 8 norm scores: {0: array([0.28756396]), 1: array([0.49596181]), 2: array([0.87435566]), 3: array([0.33915803]), 4: array([0.67032543]), 5: array([0.48020078]), 6: array([0.85029049]), 7: array([0.]), 8: array([0.11358171]), 9: array([1.])}
+2025-05-12 17:41:46,250 - DEBUG - util_fusion - fusion_dual_defense - client 8 similarity threshold: 0.511143786792714
+2025-05-12 17:41:46,250 - INFO - util_fusion - fusion_dual_defense - client 8 selected fusion benigns: [2, 4, 6, 9]
+2025-05-12 17:41:46,259 - DEBUG - util_fusion - fusion_dual_defense - client 9 scores: {0: array([35.46034771]), 1: array([36.51885272]), 2: array([38.44081009]), 3: array([35.72240696]), 4: array([37.40448932]), 5: array([36.43879846]), 6: array([38.31857704]), 7: array([33.99973813]), 8: array([34.57664814]), 9: array([39.07898925])}
+2025-05-12 17:41:46,259 - DEBUG - util_fusion - fusion_dual_defense - client 9 norm scores: {0: array([0.28756396]), 1: array([0.49596181]), 2: array([0.87435566]), 3: array([0.33915803]), 4: array([0.67032543]), 5: array([0.48020078]), 6: array([0.85029049]), 7: array([0.]), 8: array([0.11358171]), 9: array([1.])}
+2025-05-12 17:41:46,259 - DEBUG - util_fusion - fusion_dual_defense - client 9 similarity threshold: 0.511143786792714
+2025-05-12 17:41:46,259 - INFO - util_fusion - fusion_dual_defense - client 9 selected fusion benigns: [2, 4, 6, 9]
+2025-05-12 17:41:46,259 - DEBUG - util_fusion - fusion_dual_defense - final fusion benigns: (2, 4, 6, 9)
+2025-05-12 17:41:47,923 - INFO - fl - start - global side -  test accuracy: 61.64
+2025-05-12 17:41:47,923 - INFO - fl - start - global side iteration 0 -  test accuracy: 61.64
+2025-05-12 17:41:47,923 - INFO - fl - start - start training round 1
+2025-05-12 17:41:47,925 - INFO - fl - start - round 1 attackers: [7, 6]
+2025-05-12 17:41:47,925 - INFO - fl - start - start client 0 training
+2025-05-12 17:41:47,925 - INFO - fl - client_local_train - client 0 start local training ...
+2025-05-12 17:41:53,640 - INFO - fl - start - end client 0 training
+2025-05-12 17:41:53,641 - INFO - fl - start - client 0 evaluation metrics: {'train_loss': 0.04253551169333734, 'test_acc': 66.44}
+2025-05-12 17:41:53,641 - INFO - fl - start - start client 1 training
+2025-05-12 17:41:53,641 - INFO - fl - client_local_train - client 1 start local training ...
+2025-05-12 17:41:58,609 - INFO - fl - start - end client 1 training
+2025-05-12 17:41:58,609 - INFO - fl - start - client 1 evaluation metrics: {'train_loss': 0.04137649420987476, 'test_acc': 64.17}
+2025-05-12 17:41:58,609 - INFO - fl - start - start client 2 training
+2025-05-12 17:41:58,609 - INFO - fl - client_local_train - client 2 start local training ...
+2025-05-12 17:42:02,147 - INFO - fl - start - end client 2 training
+2025-05-12 17:42:02,147 - INFO - fl - start - client 2 evaluation metrics: {'train_loss': 0.04331975836410291, 'test_acc': 59.87}
+2025-05-12 17:42:02,147 - INFO - fl - start - start client 3 training
+2025-05-12 17:42:02,147 - INFO - fl - client_local_train - client 3 start local training ...
+2025-05-12 17:42:06,690 - INFO - fl - start - end client 3 training
+2025-05-12 17:42:06,690 - INFO - fl - start - client 3 evaluation metrics: {'train_loss': 0.04186565359720053, 'test_acc': 78.9}
+2025-05-12 17:42:06,690 - INFO - fl - start - start client 4 training
+2025-05-12 17:42:06,690 - INFO - fl - client_local_train - client 4 start local training ...
+2025-05-12 17:42:12,452 - INFO - fl - start - end client 4 training
+2025-05-12 17:42:12,452 - INFO - fl - start - client 4 evaluation metrics: {'train_loss': 0.025357998803546826, 'test_acc': 55.0}
+2025-05-12 17:42:12,453 - INFO - fl - start - start client 5 training
+2025-05-12 17:42:12,453 - INFO - fl - client_local_train - client 5 start local training ...
+2025-05-12 17:42:19,122 - INFO - fl - start - end client 5 training
+2025-05-12 17:42:19,122 - INFO - fl - start - client 5 evaluation metrics: {'train_loss': 0.023866812321998165, 'test_acc': 66.84}
+2025-05-12 17:42:19,122 - INFO - fl - start - start client 6 training
+2025-05-12 17:42:19,122 - INFO - fl - client_local_train - client 6 start local training ...
+2025-05-12 17:42:21,222 - INFO - fl - client_local_train - client 6 is attacker, start poisoning model
+2025-05-12 17:42:25,011 - INFO - fl - start - end client 6 training
+2025-05-12 17:42:25,012 - INFO - fl - start - client 6 evaluation metrics: {'train_loss': 94.59959094707783, 'test_acc': 74.22}
+2025-05-12 17:42:25,012 - INFO - fl - start - start client 7 training
+2025-05-12 17:42:25,012 - INFO - fl - client_local_train - client 7 start local training ...
+2025-05-12 17:42:31,030 - INFO - fl - client_local_train - client 7 is attacker, start poisoning model
+2025-05-12 17:42:36,903 - INFO - fl - start - end client 7 training
+2025-05-12 17:42:36,903 - INFO - fl - start - client 7 evaluation metrics: {'train_loss': 48.77620996454711, 'test_acc': 62.43}
+2025-05-12 17:42:36,903 - INFO - fl - start - start client 8 training
+2025-05-12 17:42:36,903 - INFO - fl - client_local_train - client 8 start local training ...
+2025-05-12 17:42:41,491 - INFO - fl - start - end client 8 training
+2025-05-12 17:42:41,491 - INFO - fl - start - client 8 evaluation metrics: {'train_loss': 0.052613643812946975, 'test_acc': 82.39}
+2025-05-12 17:42:41,491 - INFO - fl - start - start client 9 training
+2025-05-12 17:42:41,491 - INFO - fl - client_local_train - client 9 start local training ...
+2025-05-12 17:42:44,841 - INFO - fl - start - end client 9 training
+2025-05-12 17:42:44,841 - INFO - fl - start - client 9 evaluation metrics: {'train_loss': 0.04242074682510325, 'test_acc': 58.57}
+2025-05-12 17:42:44,841 - INFO - fl - aggregate_model - start model aggregation...fusion method: dual_defense
+2025-05-12 17:42:44,841 - INFO - fl - aggregate_model - start hyper-guard fusion with epsilon 0.01
+2025-05-12 17:42:44,841 - INFO - fl - aggregate_model - round 1 attackers: [6, 7]
+2025-05-12 17:42:55,689 - DEBUG - util_fusion - fusion_dual_defense - client 0 scores: {0: array([21.28649309]), 1: array([21.15595946]), 2: array([21.99752327]), 3: array([21.17100645]), 4: array([22.05903664]), 5: array([21.54817801]), 6: array([21.71542779]), 7: array([20.18053754]), 8: array([20.60237436]), 9: array([22.82137592])}
+2025-05-12 17:42:55,690 - DEBUG - util_fusion - fusion_dual_defense - client 0 norm scores: {0: array([0.41878956]), 1: array([0.3693607]), 2: array([0.68803367]), 3: array([0.37505851]), 4: array([0.71132679]), 5: array([0.51788117]), 6: array([0.58121324]), 7: array([0.]), 8: array([0.15973595]), 9: array([1.])}
+2025-05-12 17:42:55,690 - DEBUG - util_fusion - fusion_dual_defense - client 0 similarity threshold: 0.4821399596128524
+2025-05-12 17:42:55,690 - INFO - util_fusion - fusion_dual_defense - client 0 selected fusion benigns: [2, 4, 5, 6, 9]
+2025-05-12 17:42:55,698 - DEBUG - util_fusion - fusion_dual_defense - client 1 scores: {0: array([21.28649309]), 1: array([21.15595946]), 2: array([21.99752327]), 3: array([21.17100645]), 4: array([22.05903664]), 5: array([21.54817801]), 6: array([21.71542779]), 7: array([20.18053754]), 8: array([20.60237436]), 9: array([22.82137592])}
+2025-05-12 17:42:55,699 - DEBUG - util_fusion - fusion_dual_defense - client 1 norm scores: {0: array([0.41878956]), 1: array([0.3693607]), 2: array([0.68803367]), 3: array([0.37505851]), 4: array([0.71132679]), 5: array([0.51788117]), 6: array([0.58121324]), 7: array([0.]), 8: array([0.15973595]), 9: array([1.])}
+2025-05-12 17:42:55,699 - DEBUG - util_fusion - fusion_dual_defense - client 1 similarity threshold: 0.4821399596128524
+2025-05-12 17:42:55,699 - INFO - util_fusion - fusion_dual_defense - client 1 selected fusion benigns: [2, 4, 5, 6, 9]
+2025-05-12 17:42:55,708 - DEBUG - util_fusion - fusion_dual_defense - client 2 scores: {0: array([21.28649309]), 1: array([21.15595946]), 2: array([21.99752327]), 3: array([21.17100645]), 4: array([22.05903664]), 5: array([21.54817801]), 6: array([21.71542779]), 7: array([20.18053754]), 8: array([20.60237436]), 9: array([22.82137592])}
+2025-05-12 17:42:55,708 - DEBUG - util_fusion - fusion_dual_defense - client 2 norm scores: {0: array([0.41878956]), 1: array([0.3693607]), 2: array([0.68803367]), 3: array([0.37505851]), 4: array([0.71132679]), 5: array([0.51788117]), 6: array([0.58121324]), 7: array([0.]), 8: array([0.15973595]), 9: array([1.])}
+2025-05-12 17:42:55,708 - DEBUG - util_fusion - fusion_dual_defense - client 2 similarity threshold: 0.4821399596128524
+2025-05-12 17:42:55,708 - INFO - util_fusion - fusion_dual_defense - client 2 selected fusion benigns: [2, 4, 5, 6, 9]
+2025-05-12 17:42:55,717 - DEBUG - util_fusion - fusion_dual_defense - client 3 scores: {0: array([21.28649309]), 1: array([21.15595946]), 2: array([21.99752327]), 3: array([21.17100645]), 4: array([22.05903664]), 5: array([21.54817801]), 6: array([21.71542779]), 7: array([20.18053754]), 8: array([20.60237436]), 9: array([22.82137592])}
+2025-05-12 17:42:55,717 - DEBUG - util_fusion - fusion_dual_defense - client 3 norm scores: {0: array([0.41878956]), 1: array([0.3693607]), 2: array([0.68803367]), 3: array([0.37505851]), 4: array([0.71132679]), 5: array([0.51788117]), 6: array([0.58121324]), 7: array([0.]), 8: array([0.15973595]), 9: array([1.])}
+2025-05-12 17:42:55,717 - DEBUG - util_fusion - fusion_dual_defense - client 3 similarity threshold: 0.4821399596128524
+2025-05-12 17:42:55,717 - INFO - util_fusion - fusion_dual_defense - client 3 selected fusion benigns: [2, 4, 5, 6, 9]
+2025-05-12 17:42:55,726 - DEBUG - util_fusion - fusion_dual_defense - client 4 scores: {0: array([21.28649309]), 1: array([21.15595946]), 2: array([21.99752327]), 3: array([21.17100645]), 4: array([22.05903664]), 5: array([21.54817801]), 6: array([21.71542779]), 7: array([20.18053754]), 8: array([20.60237436]), 9: array([22.82137592])}
+2025-05-12 17:42:55,726 - DEBUG - util_fusion - fusion_dual_defense - client 4 norm scores: {0: array([0.41878956]), 1: array([0.3693607]), 2: array([0.68803367]), 3: array([0.37505851]), 4: array([0.71132679]), 5: array([0.51788117]), 6: array([0.58121324]), 7: array([0.]), 8: array([0.15973595]), 9: array([1.])}
+2025-05-12 17:42:55,726 - DEBUG - util_fusion - fusion_dual_defense - client 4 similarity threshold: 0.4821399596128524
+2025-05-12 17:42:55,727 - INFO - util_fusion - fusion_dual_defense - client 4 selected fusion benigns: [2, 4, 5, 6, 9]
+2025-05-12 17:42:55,735 - DEBUG - util_fusion - fusion_dual_defense - client 5 scores: {0: array([21.28649309]), 1: array([21.15595946]), 2: array([21.99752327]), 3: array([21.17100645]), 4: array([22.05903664]), 5: array([21.54817801]), 6: array([21.71542779]), 7: array([20.18053754]), 8: array([20.60237436]), 9: array([22.82137592])}
+2025-05-12 17:42:55,735 - DEBUG - util_fusion - fusion_dual_defense - client 5 norm scores: {0: array([0.41878956]), 1: array([0.3693607]), 2: array([0.68803367]), 3: array([0.37505851]), 4: array([0.71132679]), 5: array([0.51788117]), 6: array([0.58121324]), 7: array([0.]), 8: array([0.15973595]), 9: array([1.])}
+2025-05-12 17:42:55,736 - DEBUG - util_fusion - fusion_dual_defense - client 5 similarity threshold: 0.4821399596128524
+2025-05-12 17:42:55,736 - INFO - util_fusion - fusion_dual_defense - client 5 selected fusion benigns: [2, 4, 5, 6, 9]
+2025-05-12 17:42:55,744 - DEBUG - util_fusion - fusion_dual_defense - client 6 scores: {0: array([21.28649309]), 1: array([21.15595946]), 2: array([21.99752327]), 3: array([21.17100645]), 4: array([22.05903664]), 5: array([21.54817801]), 6: array([21.71542779]), 7: array([20.18053754]), 8: array([20.60237436]), 9: array([22.82137592])}
+2025-05-12 17:42:55,745 - DEBUG - util_fusion - fusion_dual_defense - client 6 norm scores: {0: array([0.41878956]), 1: array([0.3693607]), 2: array([0.68803367]), 3: array([0.37505851]), 4: array([0.71132679]), 5: array([0.51788117]), 6: array([0.58121324]), 7: array([0.]), 8: array([0.15973595]), 9: array([1.])}
+2025-05-12 17:42:55,745 - DEBUG - util_fusion - fusion_dual_defense - client 6 similarity threshold: 0.4821399596128524
+2025-05-12 17:42:55,745 - INFO - util_fusion - fusion_dual_defense - client 6 selected fusion benigns: [2, 4, 5, 6, 9]
+2025-05-12 17:42:55,753 - DEBUG - util_fusion - fusion_dual_defense - client 7 scores: {0: array([21.28649309]), 1: array([21.15595946]), 2: array([21.99752327]), 3: array([21.17100645]), 4: array([22.05903664]), 5: array([21.54817801]), 6: array([21.71542779]), 7: array([20.18053754]), 8: array([20.60237436]), 9: array([22.82137592])}
+2025-05-12 17:42:55,754 - DEBUG - util_fusion - fusion_dual_defense - client 7 norm scores: {0: array([0.41878956]), 1: array([0.3693607]), 2: array([0.68803367]), 3: array([0.37505851]), 4: array([0.71132679]), 5: array([0.51788117]), 6: array([0.58121324]), 7: array([0.]), 8: array([0.15973595]), 9: array([1.])}
+2025-05-12 17:42:55,754 - DEBUG - util_fusion - fusion_dual_defense - client 7 similarity threshold: 0.4821399596128524
+2025-05-12 17:42:55,754 - INFO - util_fusion - fusion_dual_defense - client 7 selected fusion benigns: [2, 4, 5, 6, 9]
+2025-05-12 17:42:55,762 - DEBUG - util_fusion - fusion_dual_defense - client 8 scores: {0: array([21.28649309]), 1: array([21.15595946]), 2: array([21.99752327]), 3: array([21.17100645]), 4: array([22.05903664]), 5: array([21.54817801]), 6: array([21.71542779]), 7: array([20.18053754]), 8: array([20.60237436]), 9: array([22.82137592])}
+2025-05-12 17:42:55,763 - DEBUG - util_fusion - fusion_dual_defense - client 8 norm scores: {0: array([0.41878956]), 1: array([0.3693607]), 2: array([0.68803367]), 3: array([0.37505851]), 4: array([0.71132679]), 5: array([0.51788117]), 6: array([0.58121324]), 7: array([0.]), 8: array([0.15973595]), 9: array([1.])}
+2025-05-12 17:42:55,763 - DEBUG - util_fusion - fusion_dual_defense - client 8 similarity threshold: 0.4821399596128524
+2025-05-12 17:42:55,763 - INFO - util_fusion - fusion_dual_defense - client 8 selected fusion benigns: [2, 4, 5, 6, 9]
+2025-05-12 17:42:55,771 - DEBUG - util_fusion - fusion_dual_defense - client 9 scores: {0: array([21.28649309]), 1: array([21.15595946]), 2: array([21.99752327]), 3: array([21.17100645]), 4: array([22.05903664]), 5: array([21.54817801]), 6: array([21.71542779]), 7: array([20.18053754]), 8: array([20.60237436]), 9: array([22.82137592])}
+2025-05-12 17:42:55,772 - DEBUG - util_fusion - fusion_dual_defense - client 9 norm scores: {0: array([0.41878956]), 1: array([0.3693607]), 2: array([0.68803367]), 3: array([0.37505851]), 4: array([0.71132679]), 5: array([0.51788117]), 6: array([0.58121324]), 7: array([0.]), 8: array([0.15973595]), 9: array([1.])}
+2025-05-12 17:42:55,772 - DEBUG - util_fusion - fusion_dual_defense - client 9 similarity threshold: 0.4821399596128524
+2025-05-12 17:42:55,772 - INFO - util_fusion - fusion_dual_defense - client 9 selected fusion benigns: [2, 4, 5, 6, 9]
+2025-05-12 17:42:55,772 - DEBUG - util_fusion - fusion_dual_defense - final fusion benigns: (2, 4, 5, 6, 9)
+2025-05-12 17:42:57,479 - INFO - fl - start - global side -  test accuracy: 87.53
+2025-05-12 17:42:57,479 - INFO - fl - start - global side iteration 1 -  test accuracy: 87.53
+2025-05-12 17:42:57,480 - INFO - fl - start - start training round 2
+2025-05-12 17:42:57,481 - INFO - fl - start - round 2 attackers: [9, 0]
+2025-05-12 17:42:57,481 - INFO - fl - start - start client 0 training
+2025-05-12 17:42:57,481 - INFO - fl - client_local_train - client 0 start local training ...
+2025-05-12 17:43:00,949 - INFO - fl - client_local_train - client 0 is attacker, start poisoning model
+2025-05-12 17:43:05,470 - INFO - fl - start - end client 0 training
+2025-05-12 17:43:05,470 - INFO - fl - start - client 0 evaluation metrics: {'train_loss': 50.409175944778156, 'test_acc': 69.75}
+2025-05-12 17:43:05,471 - INFO - fl - start - start client 1 training
+2025-05-12 17:43:05,471 - INFO - fl - client_local_train - client 1 start local training ...
+2025-05-12 17:43:10,446 - INFO - fl - start - end client 1 training
+2025-05-12 17:43:10,446 - INFO - fl - start - client 1 evaluation metrics: {'train_loss': 0.03768043098468545, 'test_acc': 64.53}
+2025-05-12 17:43:10,446 - INFO - fl - start - start client 2 training
+2025-05-12 17:43:10,446 - INFO - fl - client_local_train - client 2 start local training ...
+2025-05-12 17:43:14,004 - INFO - fl - start - end client 2 training
+2025-05-12 17:43:14,004 - INFO - fl - start - client 2 evaluation metrics: {'train_loss': 0.030796275060209963, 'test_acc': 63.69}
+2025-05-12 17:43:14,004 - INFO - fl - start - start client 3 training
+2025-05-12 17:43:14,004 - INFO - fl - client_local_train - client 3 start local training ...
+2025-05-12 17:43:18,514 - INFO - fl - start - end client 3 training
+2025-05-12 17:43:18,514 - INFO - fl - start - client 3 evaluation metrics: {'train_loss': 0.02163819821838003, 'test_acc': 82.89}
+2025-05-12 17:43:18,514 - INFO - fl - start - start client 4 training
+2025-05-12 17:43:18,514 - INFO - fl - client_local_train - client 4 start local training ...
+2025-05-12 17:43:24,299 - INFO - fl - start - end client 4 training
+2025-05-12 17:43:24,299 - INFO - fl - start - client 4 evaluation metrics: {'train_loss': 0.015465430087513395, 'test_acc': 60.56}
+2025-05-12 17:43:24,299 - INFO - fl - start - start client 5 training
+2025-05-12 17:43:24,299 - INFO - fl - client_local_train - client 5 start local training ...
+2025-05-12 17:43:30,927 - INFO - fl - start - end client 5 training
+2025-05-12 17:43:30,927 - INFO - fl - start - client 5 evaluation metrics: {'train_loss': 0.009311135433076849, 'test_acc': 76.17}
+2025-05-12 17:43:30,927 - INFO - fl - start - start client 6 training
+2025-05-12 17:43:30,927 - INFO - fl - client_local_train - client 6 start local training ...
+2025-05-12 17:43:34,893 - INFO - fl - start - end client 6 training
+2025-05-12 17:43:34,893 - INFO - fl - start - client 6 evaluation metrics: {'train_loss': 0.024771125401065755, 'test_acc': 79.14}
+2025-05-12 17:43:34,893 - INFO - fl - start - start client 7 training
+2025-05-12 17:43:34,893 - INFO - fl - client_local_train - client 7 start local training ...
+2025-05-12 17:43:43,824 - INFO - fl - start - end client 7 training
+2025-05-12 17:43:43,825 - INFO - fl - start - client 7 evaluation metrics: {'train_loss': 0.019488259314746226, 'test_acc': 63.25}
+2025-05-12 17:43:43,825 - INFO - fl - start - start client 8 training
+2025-05-12 17:43:43,825 - INFO - fl - client_local_train - client 8 start local training ...
+2025-05-12 17:43:48,413 - INFO - fl - start - end client 8 training
+2025-05-12 17:43:48,413 - INFO - fl - start - client 8 evaluation metrics: {'train_loss': 0.02706247794267256, 'test_acc': 83.86}
+2025-05-12 17:43:48,413 - INFO - fl - start - start client 9 training
+2025-05-12 17:43:48,413 - INFO - fl - client_local_train - client 9 start local training ...
+2025-05-12 17:43:49,983 - INFO - fl - client_local_train - client 9 is attacker, start poisoning model
+2025-05-12 17:43:53,493 - INFO - fl - start - end client 9 training
+2025-05-12 17:43:53,493 - INFO - fl - start - client 9 evaluation metrics: {'train_loss': 46.52149496273119, 'test_acc': 73.28}
+2025-05-12 17:43:53,493 - INFO - fl - aggregate_model - start model aggregation...fusion method: dual_defense
+2025-05-12 17:43:53,493 - INFO - fl - aggregate_model - start hyper-guard fusion with epsilon 0.01
+2025-05-12 17:43:53,493 - INFO - fl - aggregate_model - round 2 attackers: [0, 9]
+2025-05-12 17:44:04,314 - DEBUG - util_fusion - fusion_dual_defense - client 0 scores: {0: array([0.64521771]), 1: array([0.6013161]), 2: array([0.6256025]), 3: array([0.62894855]), 4: array([0.63335588]), 5: array([0.63877462]), 6: array([0.64068209]), 7: array([0.62616107]), 8: array([0.65059888]), 9: array([0.62986722])}
+2025-05-12 17:44:04,315 - DEBUG - util_fusion - fusion_dual_defense - client 0 norm scores: {0: array([0.89081051]), 1: array([0.]), 2: array([0.49279689]), 3: array([0.56069178]), 4: array([0.65012123]), 5: array([0.76007332]), 6: array([0.79877786]), 7: array([0.50413081]), 8: array([1.]), 9: array([0.57933261])}
+2025-05-12 17:44:04,315 - DEBUG - util_fusion - fusion_dual_defense - client 0 similarity threshold: 0.6236735009859323
+2025-05-12 17:44:04,315 - INFO - util_fusion - fusion_dual_defense - client 0 selected fusion benigns: [0, 4, 5, 6, 8]
+2025-05-12 17:44:04,324 - DEBUG - util_fusion - fusion_dual_defense - client 1 scores: {0: array([0.64521771]), 1: array([0.6013161]), 2: array([0.6256025]), 3: array([0.62894855]), 4: array([0.63335588]), 5: array([0.63877462]), 6: array([0.64068209]), 7: array([0.62616107]), 8: array([0.65059888]), 9: array([0.62986722])}
+2025-05-12 17:44:04,324 - DEBUG - util_fusion - fusion_dual_defense - client 1 norm scores: {0: array([0.89081051]), 1: array([0.]), 2: array([0.49279689]), 3: array([0.56069178]), 4: array([0.65012123]), 5: array([0.76007332]), 6: array([0.79877786]), 7: array([0.50413081]), 8: array([1.]), 9: array([0.57933261])}
+2025-05-12 17:44:04,324 - DEBUG - util_fusion - fusion_dual_defense - client 1 similarity threshold: 0.6236735009859323
+2025-05-12 17:44:04,325 - INFO - util_fusion - fusion_dual_defense - client 1 selected fusion benigns: [0, 4, 5, 6, 8]
+2025-05-12 17:44:04,333 - DEBUG - util_fusion - fusion_dual_defense - client 2 scores: {0: array([0.64521771]), 1: array([0.6013161]), 2: array([0.6256025]), 3: array([0.62894855]), 4: array([0.63335588]), 5: array([0.63877462]), 6: array([0.64068209]), 7: array([0.62616107]), 8: array([0.65059888]), 9: array([0.62986722])}
+2025-05-12 17:44:04,333 - DEBUG - util_fusion - fusion_dual_defense - client 2 norm scores: {0: array([0.89081051]), 1: array([0.]), 2: array([0.49279689]), 3: array([0.56069178]), 4: array([0.65012123]), 5: array([0.76007332]), 6: array([0.79877786]), 7: array([0.50413081]), 8: array([1.]), 9: array([0.57933261])}
+2025-05-12 17:44:04,334 - DEBUG - util_fusion - fusion_dual_defense - client 2 similarity threshold: 0.6236735009859323
+2025-05-12 17:44:04,334 - INFO - util_fusion - fusion_dual_defense - client 2 selected fusion benigns: [0, 4, 5, 6, 8]
+2025-05-12 17:44:04,342 - DEBUG - util_fusion - fusion_dual_defense - client 3 scores: {0: array([0.64521771]), 1: array([0.6013161]), 2: array([0.6256025]), 3: array([0.62894855]), 4: array([0.63335588]), 5: array([0.63877462]), 6: array([0.64068209]), 7: array([0.62616107]), 8: array([0.65059888]), 9: array([0.62986722])}
+2025-05-12 17:44:04,343 - DEBUG - util_fusion - fusion_dual_defense - client 3 norm scores: {0: array([0.89081051]), 1: array([0.]), 2: array([0.49279689]), 3: array([0.56069178]), 4: array([0.65012123]), 5: array([0.76007332]), 6: array([0.79877786]), 7: array([0.50413081]), 8: array([1.]), 9: array([0.57933261])}
+2025-05-12 17:44:04,343 - DEBUG - util_fusion - fusion_dual_defense - client 3 similarity threshold: 0.6236735009859323
+2025-05-12 17:44:04,343 - INFO - util_fusion - fusion_dual_defense - client 3 selected fusion benigns: [0, 4, 5, 6, 8]
+2025-05-12 17:44:04,351 - DEBUG - util_fusion - fusion_dual_defense - client 4 scores: {0: array([0.64521771]), 1: array([0.6013161]), 2: array([0.6256025]), 3: array([0.62894855]), 4: array([0.63335588]), 5: array([0.63877462]), 6: array([0.64068209]), 7: array([0.62616107]), 8: array([0.65059888]), 9: array([0.62986722])}
+2025-05-12 17:44:04,352 - DEBUG - util_fusion - fusion_dual_defense - client 4 norm scores: {0: array([0.89081051]), 1: array([0.]), 2: array([0.49279689]), 3: array([0.56069178]), 4: array([0.65012123]), 5: array([0.76007332]), 6: array([0.79877786]), 7: array([0.50413081]), 8: array([1.]), 9: array([0.57933261])}
+2025-05-12 17:44:04,352 - DEBUG - util_fusion - fusion_dual_defense - client 4 similarity threshold: 0.6236735009859323
+2025-05-12 17:44:04,352 - INFO - util_fusion - fusion_dual_defense - client 4 selected fusion benigns: [0, 4, 5, 6, 8]
+2025-05-12 17:44:04,360 - DEBUG - util_fusion - fusion_dual_defense - client 5 scores: {0: array([0.64521771]), 1: array([0.6013161]), 2: array([0.6256025]), 3: array([0.62894855]), 4: array([0.63335588]), 5: array([0.63877462]), 6: array([0.64068209]), 7: array([0.62616107]), 8: array([0.65059888]), 9: array([0.62986722])}
+2025-05-12 17:44:04,361 - DEBUG - util_fusion - fusion_dual_defense - client 5 norm scores: {0: array([0.89081051]), 1: array([0.]), 2: array([0.49279689]), 3: array([0.56069178]), 4: array([0.65012123]), 5: array([0.76007332]), 6: array([0.79877786]), 7: array([0.50413081]), 8: array([1.]), 9: array([0.57933261])}
+2025-05-12 17:44:04,361 - DEBUG - util_fusion - fusion_dual_defense - client 5 similarity threshold: 0.6236735009859323
+2025-05-12 17:44:04,361 - INFO - util_fusion - fusion_dual_defense - client 5 selected fusion benigns: [0, 4, 5, 6, 8]
+2025-05-12 17:44:04,369 - DEBUG - util_fusion - fusion_dual_defense - client 6 scores: {0: array([0.64521771]), 1: array([0.6013161]), 2: array([0.6256025]), 3: array([0.62894855]), 4: array([0.63335588]), 5: array([0.63877462]), 6: array([0.64068209]), 7: array([0.62616107]), 8: array([0.65059888]), 9: array([0.62986722])}
+2025-05-12 17:44:04,370 - DEBUG - util_fusion - fusion_dual_defense - client 6 norm scores: {0: array([0.89081051]), 1: array([0.]), 2: array([0.49279689]), 3: array([0.56069178]), 4: array([0.65012123]), 5: array([0.76007332]), 6: array([0.79877786]), 7: array([0.50413081]), 8: array([1.]), 9: array([0.57933261])}
+2025-05-12 17:44:04,370 - DEBUG - util_fusion - fusion_dual_defense - client 6 similarity threshold: 0.6236735009859323
+2025-05-12 17:44:04,370 - INFO - util_fusion - fusion_dual_defense - client 6 selected fusion benigns: [0, 4, 5, 6, 8]
+2025-05-12 17:44:04,378 - DEBUG - util_fusion - fusion_dual_defense - client 7 scores: {0: array([0.64521771]), 1: array([0.6013161]), 2: array([0.6256025]), 3: array([0.62894855]), 4: array([0.63335588]), 5: array([0.63877462]), 6: array([0.64068209]), 7: array([0.62616107]), 8: array([0.65059888]), 9: array([0.62986722])}
+2025-05-12 17:44:04,379 - DEBUG - util_fusion - fusion_dual_defense - client 7 norm scores: {0: array([0.89081051]), 1: array([0.]), 2: array([0.49279689]), 3: array([0.56069178]), 4: array([0.65012123]), 5: array([0.76007332]), 6: array([0.79877786]), 7: array([0.50413081]), 8: array([1.]), 9: array([0.57933261])}
+2025-05-12 17:44:04,379 - DEBUG - util_fusion - fusion_dual_defense - client 7 similarity threshold: 0.6236735009859323
+2025-05-12 17:44:04,379 - INFO - util_fusion - fusion_dual_defense - client 7 selected fusion benigns: [0, 4, 5, 6, 8]
+2025-05-12 17:44:04,387 - DEBUG - util_fusion - fusion_dual_defense - client 8 scores: {0: array([0.64521771]), 1: array([0.6013161]), 2: array([0.6256025]), 3: array([0.62894855]), 4: array([0.63335588]), 5: array([0.63877462]), 6: array([0.64068209]), 7: array([0.62616107]), 8: array([0.65059888]), 9: array([0.62986722])}
+2025-05-12 17:44:04,388 - DEBUG - util_fusion - fusion_dual_defense - client 8 norm scores: {0: array([0.89081051]), 1: array([0.]), 2: array([0.49279689]), 3: array([0.56069178]), 4: array([0.65012123]), 5: array([0.76007332]), 6: array([0.79877786]), 7: array([0.50413081]), 8: array([1.]), 9: array([0.57933261])}
+2025-05-12 17:44:04,388 - DEBUG - util_fusion - fusion_dual_defense - client 8 similarity threshold: 0.6236735009859323
+2025-05-12 17:44:04,388 - INFO - util_fusion - fusion_dual_defense - client 8 selected fusion benigns: [0, 4, 5, 6, 8]
+2025-05-12 17:44:04,398 - DEBUG - util_fusion - fusion_dual_defense - client 9 scores: {0: array([0.64521771]), 1: array([0.6013161]), 2: array([0.6256025]), 3: array([0.62894855]), 4: array([0.63335588]), 5: array([0.63877462]), 6: array([0.64068209]), 7: array([0.62616107]), 8: array([0.65059888]), 9: array([0.62986722])}
+2025-05-12 17:44:04,399 - DEBUG - util_fusion - fusion_dual_defense - client 9 norm scores: {0: array([0.89081051]), 1: array([0.]), 2: array([0.49279689]), 3: array([0.56069178]), 4: array([0.65012123]), 5: array([0.76007332]), 6: array([0.79877786]), 7: array([0.50413081]), 8: array([1.]), 9: array([0.57933261])}
+2025-05-12 17:44:04,399 - DEBUG - util_fusion - fusion_dual_defense - client 9 similarity threshold: 0.6236735009859323
+2025-05-12 17:44:04,399 - INFO - util_fusion - fusion_dual_defense - client 9 selected fusion benigns: [0, 4, 5, 6, 8]
+2025-05-12 17:44:04,399 - DEBUG - util_fusion - fusion_dual_defense - final fusion benigns: (0, 4, 5, 6, 8)
+2025-05-12 17:44:06,096 - INFO - fl - start - global side -  test accuracy: 77.68
+2025-05-12 17:44:06,097 - INFO - fl - start - global side iteration 2 -  test accuracy: 77.68
+2025-05-12 17:44:06,097 - INFO - fl - start - start training round 3
+2025-05-12 17:44:06,099 - INFO - fl - start - round 3 attackers: [5, 8]
+2025-05-12 17:44:06,099 - INFO - fl - start - start client 0 training
+2025-05-12 17:44:06,099 - INFO - fl - client_local_train - client 0 start local training ...
+2025-05-12 17:44:11,787 - INFO - fl - start - end client 0 training
+2025-05-12 17:44:11,787 - INFO - fl - start - client 0 evaluation metrics: {'train_loss': 0.4312927734177068, 'test_acc': 51.19}
+2025-05-12 17:44:11,787 - INFO - fl - start - start client 1 training
+2025-05-12 17:44:11,787 - INFO - fl - client_local_train - client 1 start local training ...
+2025-05-12 17:44:16,733 - INFO - fl - start - end client 1 training
+2025-05-12 17:44:16,733 - INFO - fl - start - client 1 evaluation metrics: {'train_loss': 0.18658470527522944, 'test_acc': 46.44}
+2025-05-12 17:44:16,733 - INFO - fl - start - start client 2 training
+2025-05-12 17:44:16,733 - INFO - fl - client_local_train - client 2 start local training ...
+2025-05-12 17:44:20,253 - INFO - fl - start - end client 2 training
+2025-05-12 17:44:20,254 - INFO - fl - start - client 2 evaluation metrics: {'train_loss': 0.22896366290472173, 'test_acc': 53.97}
+2025-05-12 17:44:20,254 - INFO - fl - start - start client 3 training
+2025-05-12 17:44:20,254 - INFO - fl - client_local_train - client 3 start local training ...
+2025-05-12 17:44:24,757 - INFO - fl - start - end client 3 training
+2025-05-12 17:44:24,758 - INFO - fl - start - client 3 evaluation metrics: {'train_loss': 0.24266117467330053, 'test_acc': 68.83}
+2025-05-12 17:44:24,758 - INFO - fl - start - start client 4 training
+2025-05-12 17:44:24,758 - INFO - fl - client_local_train - client 4 start local training ...
+2025-05-12 17:44:30,518 - INFO - fl - start - end client 4 training
+2025-05-12 17:44:30,518 - INFO - fl - start - client 4 evaluation metrics: {'train_loss': 1.1328909065988328, 'test_acc': 10.09}
+2025-05-12 17:44:30,518 - INFO - fl - start - start client 5 training
+2025-05-12 17:44:30,518 - INFO - fl - client_local_train - client 5 start local training ...
+2025-05-12 17:44:34,690 - INFO - fl - client_local_train - client 5 is attacker, start poisoning model
+2025-05-12 17:44:39,605 - INFO - fl - start - end client 5 training
+2025-05-12 17:44:39,606 - INFO - fl - start - client 5 evaluation metrics: {'train_loss': 213.3127173638159, 'test_acc': 56.25}
+2025-05-12 17:44:39,606 - INFO - fl - start - start client 6 training
+2025-05-12 17:44:39,606 - INFO - fl - client_local_train - client 6 start local training ...
+2025-05-12 17:44:43,599 - INFO - fl - start - end client 6 training
+2025-05-12 17:44:43,599 - INFO - fl - start - client 6 evaluation metrics: {'train_loss': 0.7754154180104916, 'test_acc': 28.15}
+2025-05-12 17:44:43,599 - INFO - fl - start - start client 7 training
+2025-05-12 17:44:43,599 - INFO - fl - client_local_train - client 7 start local training ...
+2025-05-12 17:44:52,530 - INFO - fl - start - end client 7 training
+2025-05-12 17:44:52,530 - INFO - fl - start - client 7 evaluation metrics: {'train_loss': 0.07447817824187598, 'test_acc': 49.09}
+2025-05-12 17:44:52,530 - INFO - fl - start - start client 8 training
+2025-05-12 17:44:52,530 - INFO - fl - client_local_train - client 8 start local training ...
+2025-05-12 17:44:55,108 - INFO - fl - client_local_train - client 8 is attacker, start poisoning model
+2025-05-12 17:44:59,158 - INFO - fl - start - end client 8 training
+2025-05-12 17:44:59,159 - INFO - fl - start - client 8 evaluation metrics: {'train_loss': 390.0528098583221, 'test_acc': 68.52}
+2025-05-12 17:44:59,159 - INFO - fl - start - start client 9 training
+2025-05-12 17:44:59,159 - INFO - fl - client_local_train - client 9 start local training ...
+2025-05-12 17:45:02,500 - INFO - fl - start - end client 9 training
+2025-05-12 17:45:02,500 - INFO - fl - start - client 9 evaluation metrics: {'train_loss': 0.220624500239382, 'test_acc': 59.85}
+2025-05-12 17:45:02,500 - INFO - fl - aggregate_model - start model aggregation...fusion method: dual_defense
+2025-05-12 17:45:02,500 - INFO - fl - aggregate_model - start hyper-guard fusion with epsilon 0.01
+2025-05-12 17:45:02,500 - INFO - fl - aggregate_model - round 3 attackers: [8, 5]
+2025-05-12 17:45:13,332 - DEBUG - util_fusion - fusion_dual_defense - client 0 scores: {0: array([14.19874391]), 1: array([14.20569449]), 2: array([13.95783837]), 3: array([13.94984185]), 4: array([12.69984955]), 5: array([13.61887678]), 6: array([13.77066207]), 7: array([13.77503947]), 8: array([14.37607042]), 9: array([13.6944964])}
+2025-05-12 17:45:13,333 - DEBUG - util_fusion - fusion_dual_defense - client 0 norm scores: {0: array([0.89421053]), 1: array([0.89835711]), 2: array([0.75049108]), 3: array([0.74572052]), 4: array([0.]), 5: array([0.54827335]), 6: array([0.63882543]), 7: array([0.6414369]), 8: array([1.]), 9: array([0.59338651])}
+2025-05-12 17:45:13,333 - DEBUG - util_fusion - fusion_dual_defense - client 0 similarity threshold: 0.671070143593185
+2025-05-12 17:45:13,333 - INFO - util_fusion - fusion_dual_defense - client 0 selected fusion benigns: [0, 1, 2, 3, 8]
+2025-05-12 17:45:13,341 - DEBUG - util_fusion - fusion_dual_defense - client 1 scores: {0: array([14.19874391]), 1: array([14.20569449]), 2: array([13.95783837]), 3: array([13.94984185]), 4: array([12.69984955]), 5: array([13.61887678]), 6: array([13.77066207]), 7: array([13.77503947]), 8: array([14.37607042]), 9: array([13.6944964])}
+2025-05-12 17:45:13,342 - DEBUG - util_fusion - fusion_dual_defense - client 1 norm scores: {0: array([0.89421053]), 1: array([0.89835711]), 2: array([0.75049108]), 3: array([0.74572052]), 4: array([0.]), 5: array([0.54827335]), 6: array([0.63882543]), 7: array([0.6414369]), 8: array([1.]), 9: array([0.59338651])}
+2025-05-12 17:45:13,342 - DEBUG - util_fusion - fusion_dual_defense - client 1 similarity threshold: 0.671070143593185
+2025-05-12 17:45:13,342 - INFO - util_fusion - fusion_dual_defense - client 1 selected fusion benigns: [0, 1, 2, 3, 8]
+2025-05-12 17:45:13,350 - DEBUG - util_fusion - fusion_dual_defense - client 2 scores: {0: array([14.19874391]), 1: array([14.20569449]), 2: array([13.95783837]), 3: array([13.94984185]), 4: array([12.69984955]), 5: array([13.61887678]), 6: array([13.77066207]), 7: array([13.77503947]), 8: array([14.37607042]), 9: array([13.6944964])}
+2025-05-12 17:45:13,351 - DEBUG - util_fusion - fusion_dual_defense - client 2 norm scores: {0: array([0.89421053]), 1: array([0.89835711]), 2: array([0.75049108]), 3: array([0.74572052]), 4: array([0.]), 5: array([0.54827335]), 6: array([0.63882543]), 7: array([0.6414369]), 8: array([1.]), 9: array([0.59338651])}
+2025-05-12 17:45:13,351 - DEBUG - util_fusion - fusion_dual_defense - client 2 similarity threshold: 0.671070143593185
+2025-05-12 17:45:13,351 - INFO - util_fusion - fusion_dual_defense - client 2 selected fusion benigns: [0, 1, 2, 3, 8]
+2025-05-12 17:45:13,359 - DEBUG - util_fusion - fusion_dual_defense - client 3 scores: {0: array([14.19874391]), 1: array([14.20569449]), 2: array([13.95783837]), 3: array([13.94984185]), 4: array([12.69984955]), 5: array([13.61887678]), 6: array([13.77066207]), 7: array([13.77503947]), 8: array([14.37607042]), 9: array([13.6944964])}
+2025-05-12 17:45:13,360 - DEBUG - util_fusion - fusion_dual_defense - client 3 norm scores: {0: array([0.89421053]), 1: array([0.89835711]), 2: array([0.75049108]), 3: array([0.74572052]), 4: array([0.]), 5: array([0.54827335]), 6: array([0.63882543]), 7: array([0.6414369]), 8: array([1.]), 9: array([0.59338651])}
+2025-05-12 17:45:13,360 - DEBUG - util_fusion - fusion_dual_defense - client 3 similarity threshold: 0.671070143593185
+2025-05-12 17:45:13,360 - INFO - util_fusion - fusion_dual_defense - client 3 selected fusion benigns: [0, 1, 2, 3, 8]
+2025-05-12 17:45:13,369 - DEBUG - util_fusion - fusion_dual_defense - client 4 scores: {0: array([14.19874391]), 1: array([14.20569449]), 2: array([13.95783837]), 3: array([13.94984185]), 4: array([12.69984955]), 5: array([13.61887678]), 6: array([13.77066207]), 7: array([13.77503947]), 8: array([14.37607042]), 9: array([13.6944964])}
+2025-05-12 17:45:13,369 - DEBUG - util_fusion - fusion_dual_defense - client 4 norm scores: {0: array([0.89421053]), 1: array([0.89835711]), 2: array([0.75049108]), 3: array([0.74572052]), 4: array([0.]), 5: array([0.54827335]), 6: array([0.63882543]), 7: array([0.6414369]), 8: array([1.]), 9: array([0.59338651])}
+2025-05-12 17:45:13,369 - DEBUG - util_fusion - fusion_dual_defense - client 4 similarity threshold: 0.671070143593185
+2025-05-12 17:45:13,369 - INFO - util_fusion - fusion_dual_defense - client 4 selected fusion benigns: [0, 1, 2, 3, 8]
+2025-05-12 17:45:13,378 - DEBUG - util_fusion - fusion_dual_defense - client 5 scores: {0: array([14.19874391]), 1: array([14.20569449]), 2: array([13.95783837]), 3: array([13.94984185]), 4: array([12.69984955]), 5: array([13.61887678]), 6: array([13.77066207]), 7: array([13.77503947]), 8: array([14.37607042]), 9: array([13.6944964])}
+2025-05-12 17:45:13,378 - DEBUG - util_fusion - fusion_dual_defense - client 5 norm scores: {0: array([0.89421053]), 1: array([0.89835711]), 2: array([0.75049108]), 3: array([0.74572052]), 4: array([0.]), 5: array([0.54827335]), 6: array([0.63882543]), 7: array([0.6414369]), 8: array([1.]), 9: array([0.59338651])}
+2025-05-12 17:45:13,378 - DEBUG - util_fusion - fusion_dual_defense - client 5 similarity threshold: 0.671070143593185
+2025-05-12 17:45:13,378 - INFO - util_fusion - fusion_dual_defense - client 5 selected fusion benigns: [0, 1, 2, 3, 8]
+2025-05-12 17:45:13,387 - DEBUG - util_fusion - fusion_dual_defense - client 6 scores: {0: array([14.19874391]), 1: array([14.20569449]), 2: array([13.95783837]), 3: array([13.94984185]), 4: array([12.69984955]), 5: array([13.61887678]), 6: array([13.77066207]), 7: array([13.77503947]), 8: array([14.37607042]), 9: array([13.6944964])}
+2025-05-12 17:45:13,387 - DEBUG - util_fusion - fusion_dual_defense - client 6 norm scores: {0: array([0.89421053]), 1: array([0.89835711]), 2: array([0.75049108]), 3: array([0.74572052]), 4: array([0.]), 5: array([0.54827335]), 6: array([0.63882543]), 7: array([0.6414369]), 8: array([1.]), 9: array([0.59338651])}
+2025-05-12 17:45:13,387 - DEBUG - util_fusion - fusion_dual_defense - client 6 similarity threshold: 0.671070143593185
+2025-05-12 17:45:13,387 - INFO - util_fusion - fusion_dual_defense - client 6 selected fusion benigns: [0, 1, 2, 3, 8]
+2025-05-12 17:45:13,396 - DEBUG - util_fusion - fusion_dual_defense - client 7 scores: {0: array([14.19874391]), 1: array([14.20569449]), 2: array([13.95783837]), 3: array([13.94984185]), 4: array([12.69984955]), 5: array([13.61887678]), 6: array([13.77066207]), 7: array([13.77503947]), 8: array([14.37607042]), 9: array([13.6944964])}
+2025-05-12 17:45:13,396 - DEBUG - util_fusion - fusion_dual_defense - client 7 norm scores: {0: array([0.89421053]), 1: array([0.89835711]), 2: array([0.75049108]), 3: array([0.74572052]), 4: array([0.]), 5: array([0.54827335]), 6: array([0.63882543]), 7: array([0.6414369]), 8: array([1.]), 9: array([0.59338651])}
+2025-05-12 17:45:13,396 - DEBUG - util_fusion - fusion_dual_defense - client 7 similarity threshold: 0.671070143593185
+2025-05-12 17:45:13,396 - INFO - util_fusion - fusion_dual_defense - client 7 selected fusion benigns: [0, 1, 2, 3, 8]
+2025-05-12 17:45:13,405 - DEBUG - util_fusion - fusion_dual_defense - client 8 scores: {0: array([14.19874391]), 1: array([14.20569449]), 2: array([13.95783837]), 3: array([13.94984185]), 4: array([12.69984955]), 5: array([13.61887678]), 6: array([13.77066207]), 7: array([13.77503947]), 8: array([14.37607042]), 9: array([13.6944964])}
+2025-05-12 17:45:13,405 - DEBUG - util_fusion - fusion_dual_defense - client 8 norm scores: {0: array([0.89421053]), 1: array([0.89835711]), 2: array([0.75049108]), 3: array([0.74572052]), 4: array([0.]), 5: array([0.54827335]), 6: array([0.63882543]), 7: array([0.6414369]), 8: array([1.]), 9: array([0.59338651])}
+2025-05-12 17:45:13,405 - DEBUG - util_fusion - fusion_dual_defense - client 8 similarity threshold: 0.671070143593185
+2025-05-12 17:45:13,405 - INFO - util_fusion - fusion_dual_defense - client 8 selected fusion benigns: [0, 1, 2, 3, 8]
+2025-05-12 17:45:13,414 - DEBUG - util_fusion - fusion_dual_defense - client 9 scores: {0: array([14.19874391]), 1: array([14.20569449]), 2: array([13.95783837]), 3: array([13.94984185]), 4: array([12.69984955]), 5: array([13.61887678]), 6: array([13.77066207]), 7: array([13.77503947]), 8: array([14.37607042]), 9: array([13.6944964])}
+2025-05-12 17:45:13,414 - DEBUG - util_fusion - fusion_dual_defense - client 9 norm scores: {0: array([0.89421053]), 1: array([0.89835711]), 2: array([0.75049108]), 3: array([0.74572052]), 4: array([0.]), 5: array([0.54827335]), 6: array([0.63882543]), 7: array([0.6414369]), 8: array([1.]), 9: array([0.59338651])}
+2025-05-12 17:45:13,414 - DEBUG - util_fusion - fusion_dual_defense - client 9 similarity threshold: 0.671070143593185
+2025-05-12 17:45:13,415 - INFO - util_fusion - fusion_dual_defense - client 9 selected fusion benigns: [0, 1, 2, 3, 8]
+2025-05-12 17:45:13,415 - DEBUG - util_fusion - fusion_dual_defense - final fusion benigns: (0, 1, 2, 3, 8)
+2025-05-12 17:45:15,112 - INFO - fl - start - global side -  test accuracy: 51.05
+2025-05-12 17:45:15,112 - INFO - fl - start - global side iteration 3 -  test accuracy: 51.05
+2025-05-12 17:45:15,112 - INFO - fl - start - start training round 4
+2025-05-12 17:45:15,114 - INFO - fl - start - round 4 attackers: [7, 4]
+2025-05-12 17:45:15,114 - INFO - fl - start - start client 0 training
+2025-05-12 17:45:15,114 - INFO - fl - client_local_train - client 0 start local training ...
+2025-05-12 17:45:20,791 - INFO - fl - start - end client 0 training
+2025-05-12 17:45:20,791 - INFO - fl - start - client 0 evaluation metrics: {'train_loss': 1.64279132294205, 'test_acc': 10.12}
+2025-05-12 17:45:20,791 - INFO - fl - start - start client 1 training
+2025-05-12 17:45:20,791 - INFO - fl - client_local_train - client 1 start local training ...
+2025-05-12 17:45:25,731 - INFO - fl - start - end client 1 training
+2025-05-12 17:45:25,731 - INFO - fl - start - client 1 evaluation metrics: {'train_loss': 1.3715659488331189, 'test_acc': 9.75}
+2025-05-12 17:45:25,731 - INFO - fl - start - start client 2 training
+2025-05-12 17:45:25,731 - INFO - fl - client_local_train - client 2 start local training ...
+2025-05-12 17:45:29,241 - INFO - fl - start - end client 2 training
+2025-05-12 17:45:29,241 - INFO - fl - start - client 2 evaluation metrics: {'train_loss': 1.4609923164049785, 'test_acc': 10.12}
+2025-05-12 17:45:29,242 - INFO - fl - start - start client 3 training
+2025-05-12 17:45:29,242 - INFO - fl - client_local_train - client 3 start local training ...
+2025-05-12 17:45:33,740 - INFO - fl - start - end client 3 training
+2025-05-12 17:45:33,741 - INFO - fl - start - client 3 evaluation metrics: {'train_loss': 1.6877501805623372, 'test_acc': 9.83}
+2025-05-12 17:45:33,741 - INFO - fl - start - start client 4 training
+2025-05-12 17:45:33,741 - INFO - fl - client_local_train - client 4 start local training ...
+2025-05-12 17:45:37,205 - INFO - fl - client_local_train - client 4 is attacker, start poisoning model
+2025-05-12 17:45:41,735 - INFO - fl - start - end client 4 training
+2025-05-12 17:45:41,735 - INFO - fl - start - client 4 evaluation metrics: {'train_loss': 26.40977934554771, 'test_acc': 10.1}
+2025-05-12 17:45:41,735 - INFO - fl - start - start client 5 training
+2025-05-12 17:45:41,735 - INFO - fl - client_local_train - client 5 start local training ...
+2025-05-12 17:45:48,383 - INFO - fl - start - end client 5 training
+2025-05-12 17:45:48,383 - INFO - fl - start - client 5 evaluation metrics: {'train_loss': 1.181078692739324, 'test_acc': 9.59}
+2025-05-12 17:45:48,383 - INFO - fl - start - start client 6 training
+2025-05-12 17:45:48,383 - INFO - fl - client_local_train - client 6 start local training ...
+2025-05-12 17:45:52,348 - INFO - fl - start - end client 6 training
+2025-05-12 17:45:52,348 - INFO - fl - start - client 6 evaluation metrics: {'train_loss': 1.325696816811195, 'test_acc': 10.3}
+2025-05-12 17:45:52,348 - INFO - fl - start - start client 7 training
+2025-05-12 17:45:52,348 - INFO - fl - client_local_train - client 7 start local training ...
+2025-05-12 17:45:58,342 - INFO - fl - client_local_train - client 7 is attacker, start poisoning model
+2025-05-12 17:46:04,205 - INFO - fl - start - end client 7 training
+2025-05-12 17:46:04,205 - INFO - fl - start - client 7 evaluation metrics: {'train_loss': 23.45710919492988, 'test_acc': 10.33}
+2025-05-12 17:46:04,205 - INFO - fl - start - start client 8 training
+2025-05-12 17:46:04,205 - INFO - fl - client_local_train - client 8 start local training ...
+2025-05-12 17:46:08,786 - INFO - fl - start - end client 8 training
+2025-05-12 17:46:08,787 - INFO - fl - start - client 8 evaluation metrics: {'train_loss': 1.8446564719080925, 'test_acc': 9.8}
+2025-05-12 17:46:08,787 - INFO - fl - start - start client 9 training
+2025-05-12 17:46:08,787 - INFO - fl - client_local_train - client 9 start local training ...
+2025-05-12 17:46:12,170 - INFO - fl - start - end client 9 training
+2025-05-12 17:46:12,170 - INFO - fl - start - client 9 evaluation metrics: {'train_loss': 1.5975118826846688, 'test_acc': 9.82}
+2025-05-12 17:46:12,170 - INFO - fl - aggregate_model - start model aggregation...fusion method: dual_defense
+2025-05-12 17:46:12,171 - INFO - fl - aggregate_model - start hyper-guard fusion with epsilon 0.01
+2025-05-12 17:46:12,171 - INFO - fl - aggregate_model - round 4 attackers: [4, 7]
+2025-05-12 17:46:22,997 - DEBUG - util_fusion - fusion_dual_defense - client 0 scores: {0: array([36.89444117]), 1: array([37.16255313]), 2: array([37.02572921]), 3: array([37.04564038]), 4: array([36.99146991]), 5: array([37.07540742]), 6: array([36.99517039]), 7: array([37.01312445]), 8: array([37.0347755]), 9: array([37.01112804])}
+2025-05-12 17:46:22,997 - DEBUG - util_fusion - fusion_dual_defense - client 0 norm scores: {0: array([0.]), 1: array([1.]), 2: array([0.48967617]), 3: array([0.56394056]), 4: array([0.36189635]), 5: array([0.67496524]), 6: array([0.37569834]), 7: array([0.44266315]), 8: array([0.52341691]), 9: array([0.43521697])}
+2025-05-12 17:46:22,997 - DEBUG - util_fusion - fusion_dual_defense - client 0 similarity threshold: 0.4867473707405801
+2025-05-12 17:46:22,998 - INFO - util_fusion - fusion_dual_defense - client 0 selected fusion benigns: [1, 2, 3, 5, 8]
+2025-05-12 17:46:23,006 - DEBUG - util_fusion - fusion_dual_defense - client 1 scores: {0: array([36.89444117]), 1: array([37.16255313]), 2: array([37.02572921]), 3: array([37.04564038]), 4: array([36.99146991]), 5: array([37.07540742]), 6: array([36.99517039]), 7: array([37.01312445]), 8: array([37.0347755]), 9: array([37.01112804])}
+2025-05-12 17:46:23,007 - DEBUG - util_fusion - fusion_dual_defense - client 1 norm scores: {0: array([0.]), 1: array([1.]), 2: array([0.48967617]), 3: array([0.56394056]), 4: array([0.36189635]), 5: array([0.67496524]), 6: array([0.37569834]), 7: array([0.44266315]), 8: array([0.52341691]), 9: array([0.43521697])}
+2025-05-12 17:46:23,007 - DEBUG - util_fusion - fusion_dual_defense - client 1 similarity threshold: 0.4867473707405801
+2025-05-12 17:46:23,007 - INFO - util_fusion - fusion_dual_defense - client 1 selected fusion benigns: [1, 2, 3, 5, 8]
+2025-05-12 17:46:23,015 - DEBUG - util_fusion - fusion_dual_defense - client 2 scores: {0: array([36.89444117]), 1: array([37.16255313]), 2: array([37.02572921]), 3: array([37.04564038]), 4: array([36.99146991]), 5: array([37.07540742]), 6: array([36.99517039]), 7: array([37.01312445]), 8: array([37.0347755]), 9: array([37.01112804])}
+2025-05-12 17:46:23,016 - DEBUG - util_fusion - fusion_dual_defense - client 2 norm scores: {0: array([0.]), 1: array([1.]), 2: array([0.48967617]), 3: array([0.56394056]), 4: array([0.36189635]), 5: array([0.67496524]), 6: array([0.37569834]), 7: array([0.44266315]), 8: array([0.52341691]), 9: array([0.43521697])}
+2025-05-12 17:46:23,016 - DEBUG - util_fusion - fusion_dual_defense - client 2 similarity threshold: 0.4867473707405801
+2025-05-12 17:46:23,016 - INFO - util_fusion - fusion_dual_defense - client 2 selected fusion benigns: [1, 2, 3, 5, 8]
+2025-05-12 17:46:23,024 - DEBUG - util_fusion - fusion_dual_defense - client 3 scores: {0: array([36.89444117]), 1: array([37.16255313]), 2: array([37.02572921]), 3: array([37.04564038]), 4: array([36.99146991]), 5: array([37.07540742]), 6: array([36.99517039]), 7: array([37.01312445]), 8: array([37.0347755]), 9: array([37.01112804])}
+2025-05-12 17:46:23,025 - DEBUG - util_fusion - fusion_dual_defense - client 3 norm scores: {0: array([0.]), 1: array([1.]), 2: array([0.48967617]), 3: array([0.56394056]), 4: array([0.36189635]), 5: array([0.67496524]), 6: array([0.37569834]), 7: array([0.44266315]), 8: array([0.52341691]), 9: array([0.43521697])}
+2025-05-12 17:46:23,025 - DEBUG - util_fusion - fusion_dual_defense - client 3 similarity threshold: 0.4867473707405801
+2025-05-12 17:46:23,025 - INFO - util_fusion - fusion_dual_defense - client 3 selected fusion benigns: [1, 2, 3, 5, 8]
+2025-05-12 17:46:23,033 - DEBUG - util_fusion - fusion_dual_defense - client 4 scores: {0: array([36.89444117]), 1: array([37.16255313]), 2: array([37.02572921]), 3: array([37.04564038]), 4: array([36.99146991]), 5: array([37.07540742]), 6: array([36.99517039]), 7: array([37.01312445]), 8: array([37.0347755]), 9: array([37.01112804])}
+2025-05-12 17:46:23,034 - DEBUG - util_fusion - fusion_dual_defense - client 4 norm scores: {0: array([0.]), 1: array([1.]), 2: array([0.48967617]), 3: array([0.56394056]), 4: array([0.36189635]), 5: array([0.67496524]), 6: array([0.37569834]), 7: array([0.44266315]), 8: array([0.52341691]), 9: array([0.43521697])}
+2025-05-12 17:46:23,034 - DEBUG - util_fusion - fusion_dual_defense - client 4 similarity threshold: 0.4867473707405801
+2025-05-12 17:46:23,034 - INFO - util_fusion - fusion_dual_defense - client 4 selected fusion benigns: [1, 2, 3, 5, 8]
+2025-05-12 17:46:23,042 - DEBUG - util_fusion - fusion_dual_defense - client 5 scores: {0: array([36.89444117]), 1: array([37.16255313]), 2: array([37.02572921]), 3: array([37.04564038]), 4: array([36.99146991]), 5: array([37.07540742]), 6: array([36.99517039]), 7: array([37.01312445]), 8: array([37.0347755]), 9: array([37.01112804])}
+2025-05-12 17:46:23,043 - DEBUG - util_fusion - fusion_dual_defense - client 5 norm scores: {0: array([0.]), 1: array([1.]), 2: array([0.48967617]), 3: array([0.56394056]), 4: array([0.36189635]), 5: array([0.67496524]), 6: array([0.37569834]), 7: array([0.44266315]), 8: array([0.52341691]), 9: array([0.43521697])}
+2025-05-12 17:46:23,043 - DEBUG - util_fusion - fusion_dual_defense - client 5 similarity threshold: 0.4867473707405801
+2025-05-12 17:46:23,043 - INFO - util_fusion - fusion_dual_defense - client 5 selected fusion benigns: [1, 2, 3, 5, 8]
+2025-05-12 17:46:23,051 - DEBUG - util_fusion - fusion_dual_defense - client 6 scores: {0: array([36.89444117]), 1: array([37.16255313]), 2: array([37.02572921]), 3: array([37.04564038]), 4: array([36.99146991]), 5: array([37.07540742]), 6: array([36.99517039]), 7: array([37.01312445]), 8: array([37.0347755]), 9: array([37.01112804])}
+2025-05-12 17:46:23,052 - DEBUG - util_fusion - fusion_dual_defense - client 6 norm scores: {0: array([0.]), 1: array([1.]), 2: array([0.48967617]), 3: array([0.56394056]), 4: array([0.36189635]), 5: array([0.67496524]), 6: array([0.37569834]), 7: array([0.44266315]), 8: array([0.52341691]), 9: array([0.43521697])}
+2025-05-12 17:46:23,052 - DEBUG - util_fusion - fusion_dual_defense - client 6 similarity threshold: 0.4867473707405801
+2025-05-12 17:46:23,052 - INFO - util_fusion - fusion_dual_defense - client 6 selected fusion benigns: [1, 2, 3, 5, 8]
+2025-05-12 17:46:23,060 - DEBUG - util_fusion - fusion_dual_defense - client 7 scores: {0: array([36.89444117]), 1: array([37.16255313]), 2: array([37.02572921]), 3: array([37.04564038]), 4: array([36.99146991]), 5: array([37.07540742]), 6: array([36.99517039]), 7: array([37.01312445]), 8: array([37.0347755]), 9: array([37.01112804])}
+2025-05-12 17:46:23,061 - DEBUG - util_fusion - fusion_dual_defense - client 7 norm scores: {0: array([0.]), 1: array([1.]), 2: array([0.48967617]), 3: array([0.56394056]), 4: array([0.36189635]), 5: array([0.67496524]), 6: array([0.37569834]), 7: array([0.44266315]), 8: array([0.52341691]), 9: array([0.43521697])}
+2025-05-12 17:46:23,061 - DEBUG - util_fusion - fusion_dual_defense - client 7 similarity threshold: 0.4867473707405801
+2025-05-12 17:46:23,061 - INFO - util_fusion - fusion_dual_defense - client 7 selected fusion benigns: [1, 2, 3, 5, 8]
+2025-05-12 17:46:23,069 - DEBUG - util_fusion - fusion_dual_defense - client 8 scores: {0: array([36.89444117]), 1: array([37.16255313]), 2: array([37.02572921]), 3: array([37.04564038]), 4: array([36.99146991]), 5: array([37.07540742]), 6: array([36.99517039]), 7: array([37.01312445]), 8: array([37.0347755]), 9: array([37.01112804])}
+2025-05-12 17:46:23,070 - DEBUG - util_fusion - fusion_dual_defense - client 8 norm scores: {0: array([0.]), 1: array([1.]), 2: array([0.48967617]), 3: array([0.56394056]), 4: array([0.36189635]), 5: array([0.67496524]), 6: array([0.37569834]), 7: array([0.44266315]), 8: array([0.52341691]), 9: array([0.43521697])}
+2025-05-12 17:46:23,070 - DEBUG - util_fusion - fusion_dual_defense - client 8 similarity threshold: 0.4867473707405801
+2025-05-12 17:46:23,070 - INFO - util_fusion - fusion_dual_defense - client 8 selected fusion benigns: [1, 2, 3, 5, 8]
+2025-05-12 17:46:23,078 - DEBUG - util_fusion - fusion_dual_defense - client 9 scores: {0: array([36.89444117]), 1: array([37.16255313]), 2: array([37.02572921]), 3: array([37.04564038]), 4: array([36.99146991]), 5: array([37.07540742]), 6: array([36.99517039]), 7: array([37.01312445]), 8: array([37.0347755]), 9: array([37.01112804])}
+2025-05-12 17:46:23,079 - DEBUG - util_fusion - fusion_dual_defense - client 9 norm scores: {0: array([0.]), 1: array([1.]), 2: array([0.48967617]), 3: array([0.56394056]), 4: array([0.36189635]), 5: array([0.67496524]), 6: array([0.37569834]), 7: array([0.44266315]), 8: array([0.52341691]), 9: array([0.43521697])}
+2025-05-12 17:46:23,079 - DEBUG - util_fusion - fusion_dual_defense - client 9 similarity threshold: 0.4867473707405801
+2025-05-12 17:46:23,079 - INFO - util_fusion - fusion_dual_defense - client 9 selected fusion benigns: [1, 2, 3, 5, 8]
+2025-05-12 17:46:23,079 - DEBUG - util_fusion - fusion_dual_defense - final fusion benigns: (1, 2, 3, 5, 8)
+2025-05-12 17:46:24,778 - INFO - fl - start - global side -  test accuracy: 11.36
+2025-05-12 17:46:24,778 - INFO - fl - start - global side iteration 4 -  test accuracy: 11.36
+2025-05-12 17:46:24,778 - INFO - fl - start - start training round 5
+2025-05-12 17:46:24,780 - INFO - fl - start - round 5 attackers: [3, 2]
+2025-05-12 17:46:24,780 - INFO - fl - start - start client 0 training
+2025-05-12 17:46:24,780 - INFO - fl - client_local_train - client 0 start local training ...
+2025-05-12 17:46:30,443 - INFO - fl - start - end client 0 training
+2025-05-12 17:46:30,443 - INFO - fl - start - client 0 evaluation metrics: {'train_loss': 1.65977957900965, 'test_acc': 9.82}
+2025-05-12 17:46:30,443 - INFO - fl - start - start client 1 training
+2025-05-12 17:46:30,443 - INFO - fl - client_local_train - client 1 start local training ...
+2025-05-12 17:46:35,389 - INFO - fl - start - end client 1 training
+2025-05-12 17:46:35,389 - INFO - fl - start - client 1 evaluation metrics: {'train_loss': 1.3690572611310265, 'test_acc': 9.75}
+2025-05-12 17:46:35,389 - INFO - fl - start - start client 2 training
+2025-05-12 17:46:35,389 - INFO - fl - client_local_train - client 2 start local training ...
+2025-05-12 17:46:37,129 - INFO - fl - client_local_train - client 2 is attacker, start poisoning model
+2025-05-12 17:46:40,732 - INFO - fl - start - end client 2 training
+2025-05-12 17:46:40,732 - INFO - fl - start - client 2 evaluation metrics: {'train_loss': 13.302949198970088, 'test_acc': 10.1}
+2025-05-12 17:46:40,732 - INFO - fl - start - start client 3 training
+2025-05-12 17:46:40,732 - INFO - fl - client_local_train - client 3 start local training ...
+2025-05-12 17:46:43,257 - INFO - fl - client_local_train - client 3 is attacker, start poisoning model
+2025-05-12 17:46:47,269 - INFO - fl - start - end client 3 training
+2025-05-12 17:46:47,269 - INFO - fl - start - client 3 evaluation metrics: {'train_loss': 15.268890882149721, 'test_acc': 9.83}
+2025-05-12 17:46:47,269 - INFO - fl - start - start client 4 training
+2025-05-12 17:46:47,269 - INFO - fl - client_local_train - client 4 start local training ...
+2025-05-12 17:46:53,036 - INFO - fl - start - end client 4 training
+2025-05-12 17:46:53,036 - INFO - fl - start - client 4 evaluation metrics: {'train_loss': 1.143137667466093, 'test_acc': 10.1}
+2025-05-12 17:46:53,036 - INFO - fl - start - start client 5 training
+2025-05-12 17:46:53,036 - INFO - fl - client_local_train - client 5 start local training ...
+2025-05-12 17:46:59,640 - INFO - fl - start - end client 5 training
+2025-05-12 17:46:59,640 - INFO - fl - start - client 5 evaluation metrics: {'train_loss': 1.1898037791252136, 'test_acc': 9.59}
+2025-05-12 17:46:59,640 - INFO - fl - start - start client 6 training
+2025-05-12 17:46:59,640 - INFO - fl - client_local_train - client 6 start local training ...
+2025-05-12 17:47:03,611 - INFO - fl - start - end client 6 training
+2025-05-12 17:47:03,611 - INFO - fl - start - client 6 evaluation metrics: {'train_loss': 1.3846121036089383, 'test_acc': 10.29}
+2025-05-12 17:47:03,611 - INFO - fl - start - start client 7 training
+2025-05-12 17:47:03,611 - INFO - fl - client_local_train - client 7 start local training ...
+2025-05-12 17:47:12,560 - INFO - fl - start - end client 7 training
+2025-05-12 17:47:12,560 - INFO - fl - start - client 7 evaluation metrics: {'train_loss': 1.3662071811255587, 'test_acc': 10.32}
+2025-05-12 17:47:12,560 - INFO - fl - start - start client 8 training
+2025-05-12 17:47:12,560 - INFO - fl - client_local_train - client 8 start local training ...
+2025-05-12 17:47:17,173 - INFO - fl - start - end client 8 training
+2025-05-12 17:47:17,173 - INFO - fl - start - client 8 evaluation metrics: {'train_loss': 1.8614076748490334, 'test_acc': 9.81}
+2025-05-12 17:47:17,173 - INFO - fl - start - start client 9 training
+2025-05-12 17:47:17,173 - INFO - fl - client_local_train - client 9 start local training ...
+2025-05-12 17:47:20,525 - INFO - fl - start - end client 9 training
+2025-05-12 17:47:20,525 - INFO - fl - start - client 9 evaluation metrics: {'train_loss': 1.6219003662771108, 'test_acc': 9.81}
+2025-05-12 17:47:20,525 - INFO - fl - aggregate_model - start model aggregation...fusion method: dual_defense
+2025-05-12 17:47:20,525 - INFO - fl - aggregate_model - start hyper-guard fusion with epsilon 0.01
+2025-05-12 17:47:20,525 - INFO - fl - aggregate_model - round 5 attackers: [2, 3]
+2025-05-12 17:47:31,373 - DEBUG - util_fusion - fusion_dual_defense - client 0 scores: {0: array([10.8435387]), 1: array([10.84542053]), 2: array([10.84466238]), 3: array([10.84319615]), 4: array([10.83742978]), 5: array([10.84232476]), 6: array([10.84170524]), 7: array([10.83677957]), 8: array([10.84203312]), 9: array([10.84221903])}
+2025-05-12 17:47:31,374 - DEBUG - util_fusion - fusion_dual_defense - client 0 norm scores: {0: array([0.7822193]), 1: array([1.]), 2: array([0.91226143]), 3: array([0.74257711]), 4: array([0.07524741]), 5: array([0.64173337]), 6: array([0.57003701]), 7: array([0.]), 8: array([0.60798251]), 9: array([0.62949759])}
+2025-05-12 17:47:31,374 - DEBUG - util_fusion - fusion_dual_defense - client 0 similarity threshold: 0.596155574853124
+2025-05-12 17:47:31,374 - INFO - util_fusion - fusion_dual_defense - client 0 selected fusion benigns: [0, 1, 2, 3, 5, 8, 9]
+2025-05-12 17:47:31,382 - DEBUG - util_fusion - fusion_dual_defense - client 1 scores: {0: array([10.8435387]), 1: array([10.84542053]), 2: array([10.84466238]), 3: array([10.84319615]), 4: array([10.83742978]), 5: array([10.84232476]), 6: array([10.84170524]), 7: array([10.83677957]), 8: array([10.84203312]), 9: array([10.84221903])}
+2025-05-12 17:47:31,383 - DEBUG - util_fusion - fusion_dual_defense - client 1 norm scores: {0: array([0.7822193]), 1: array([1.]), 2: array([0.91226143]), 3: array([0.74257711]), 4: array([0.07524741]), 5: array([0.64173337]), 6: array([0.57003701]), 7: array([0.]), 8: array([0.60798251]), 9: array([0.62949759])}
+2025-05-12 17:47:31,383 - DEBUG - util_fusion - fusion_dual_defense - client 1 similarity threshold: 0.596155574853124
+2025-05-12 17:47:31,383 - INFO - util_fusion - fusion_dual_defense - client 1 selected fusion benigns: [0, 1, 2, 3, 5, 8, 9]
+2025-05-12 17:47:31,393 - DEBUG - util_fusion - fusion_dual_defense - client 2 scores: {0: array([10.8435387]), 1: array([10.84542053]), 2: array([10.84466238]), 3: array([10.84319615]), 4: array([10.83742978]), 5: array([10.84232476]), 6: array([10.84170524]), 7: array([10.83677957]), 8: array([10.84203312]), 9: array([10.84221903])}
+2025-05-12 17:47:31,394 - DEBUG - util_fusion - fusion_dual_defense - client 2 norm scores: {0: array([0.7822193]), 1: array([1.]), 2: array([0.91226143]), 3: array([0.74257711]), 4: array([0.07524741]), 5: array([0.64173337]), 6: array([0.57003701]), 7: array([0.]), 8: array([0.60798251]), 9: array([0.62949759])}
+2025-05-12 17:47:31,394 - DEBUG - util_fusion - fusion_dual_defense - client 2 similarity threshold: 0.596155574853124
+2025-05-12 17:47:31,394 - INFO - util_fusion - fusion_dual_defense - client 2 selected fusion benigns: [0, 1, 2, 3, 5, 8, 9]
+2025-05-12 17:47:31,402 - DEBUG - util_fusion - fusion_dual_defense - client 3 scores: {0: array([10.8435387]), 1: array([10.84542053]), 2: array([10.84466238]), 3: array([10.84319615]), 4: array([10.83742978]), 5: array([10.84232476]), 6: array([10.84170524]), 7: array([10.83677957]), 8: array([10.84203312]), 9: array([10.84221903])}
+2025-05-12 17:47:31,403 - DEBUG - util_fusion - fusion_dual_defense - client 3 norm scores: {0: array([0.7822193]), 1: array([1.]), 2: array([0.91226143]), 3: array([0.74257711]), 4: array([0.07524741]), 5: array([0.64173337]), 6: array([0.57003701]), 7: array([0.]), 8: array([0.60798251]), 9: array([0.62949759])}
+2025-05-12 17:47:31,403 - DEBUG - util_fusion - fusion_dual_defense - client 3 similarity threshold: 0.596155574853124
+2025-05-12 17:47:31,403 - INFO - util_fusion - fusion_dual_defense - client 3 selected fusion benigns: [0, 1, 2, 3, 5, 8, 9]
+2025-05-12 17:47:31,411 - DEBUG - util_fusion - fusion_dual_defense - client 4 scores: {0: array([10.8435387]), 1: array([10.84542053]), 2: array([10.84466238]), 3: array([10.84319615]), 4: array([10.83742978]), 5: array([10.84232476]), 6: array([10.84170524]), 7: array([10.83677957]), 8: array([10.84203312]), 9: array([10.84221903])}
+2025-05-12 17:47:31,412 - DEBUG - util_fusion - fusion_dual_defense - client 4 norm scores: {0: array([0.7822193]), 1: array([1.]), 2: array([0.91226143]), 3: array([0.74257711]), 4: array([0.07524741]), 5: array([0.64173337]), 6: array([0.57003701]), 7: array([0.]), 8: array([0.60798251]), 9: array([0.62949759])}
+2025-05-12 17:47:31,412 - DEBUG - util_fusion - fusion_dual_defense - client 4 similarity threshold: 0.596155574853124
+2025-05-12 17:47:31,412 - INFO - util_fusion - fusion_dual_defense - client 4 selected fusion benigns: [0, 1, 2, 3, 5, 8, 9]
+2025-05-12 17:47:31,420 - DEBUG - util_fusion - fusion_dual_defense - client 5 scores: {0: array([10.8435387]), 1: array([10.84542053]), 2: array([10.84466238]), 3: array([10.84319615]), 4: array([10.83742978]), 5: array([10.84232476]), 6: array([10.84170524]), 7: array([10.83677957]), 8: array([10.84203312]), 9: array([10.84221903])}
+2025-05-12 17:47:31,421 - DEBUG - util_fusion - fusion_dual_defense - client 5 norm scores: {0: array([0.7822193]), 1: array([1.]), 2: array([0.91226143]), 3: array([0.74257711]), 4: array([0.07524741]), 5: array([0.64173337]), 6: array([0.57003701]), 7: array([0.]), 8: array([0.60798251]), 9: array([0.62949759])}
+2025-05-12 17:47:31,421 - DEBUG - util_fusion - fusion_dual_defense - client 5 similarity threshold: 0.596155574853124
+2025-05-12 17:47:31,421 - INFO - util_fusion - fusion_dual_defense - client 5 selected fusion benigns: [0, 1, 2, 3, 5, 8, 9]
+2025-05-12 17:47:31,429 - DEBUG - util_fusion - fusion_dual_defense - client 6 scores: {0: array([10.8435387]), 1: array([10.84542053]), 2: array([10.84466238]), 3: array([10.84319615]), 4: array([10.83742978]), 5: array([10.84232476]), 6: array([10.84170524]), 7: array([10.83677957]), 8: array([10.84203312]), 9: array([10.84221903])}
+2025-05-12 17:47:31,430 - DEBUG - util_fusion - fusion_dual_defense - client 6 norm scores: {0: array([0.7822193]), 1: array([1.]), 2: array([0.91226143]), 3: array([0.74257711]), 4: array([0.07524741]), 5: array([0.64173337]), 6: array([0.57003701]), 7: array([0.]), 8: array([0.60798251]), 9: array([0.62949759])}
+2025-05-12 17:47:31,430 - DEBUG - util_fusion - fusion_dual_defense - client 6 similarity threshold: 0.596155574853124
+2025-05-12 17:47:31,430 - INFO - util_fusion - fusion_dual_defense - client 6 selected fusion benigns: [0, 1, 2, 3, 5, 8, 9]
+2025-05-12 17:47:31,439 - DEBUG - util_fusion - fusion_dual_defense - client 7 scores: {0: array([10.8435387]), 1: array([10.84542053]), 2: array([10.84466238]), 3: array([10.84319615]), 4: array([10.83742978]), 5: array([10.84232476]), 6: array([10.84170524]), 7: array([10.83677957]), 8: array([10.84203312]), 9: array([10.84221903])}
+2025-05-12 17:47:31,439 - DEBUG - util_fusion - fusion_dual_defense - client 7 norm scores: {0: array([0.7822193]), 1: array([1.]), 2: array([0.91226143]), 3: array([0.74257711]), 4: array([0.07524741]), 5: array([0.64173337]), 6: array([0.57003701]), 7: array([0.]), 8: array([0.60798251]), 9: array([0.62949759])}
+2025-05-12 17:47:31,439 - DEBUG - util_fusion - fusion_dual_defense - client 7 similarity threshold: 0.596155574853124
+2025-05-12 17:47:31,439 - INFO - util_fusion - fusion_dual_defense - client 7 selected fusion benigns: [0, 1, 2, 3, 5, 8, 9]
+2025-05-12 17:47:31,448 - DEBUG - util_fusion - fusion_dual_defense - client 8 scores: {0: array([10.8435387]), 1: array([10.84542053]), 2: array([10.84466238]), 3: array([10.84319615]), 4: array([10.83742978]), 5: array([10.84232476]), 6: array([10.84170524]), 7: array([10.83677957]), 8: array([10.84203312]), 9: array([10.84221903])}
+2025-05-12 17:47:31,448 - DEBUG - util_fusion - fusion_dual_defense - client 8 norm scores: {0: array([0.7822193]), 1: array([1.]), 2: array([0.91226143]), 3: array([0.74257711]), 4: array([0.07524741]), 5: array([0.64173337]), 6: array([0.57003701]), 7: array([0.]), 8: array([0.60798251]), 9: array([0.62949759])}
+2025-05-12 17:47:31,448 - DEBUG - util_fusion - fusion_dual_defense - client 8 similarity threshold: 0.596155574853124
+2025-05-12 17:47:31,448 - INFO - util_fusion - fusion_dual_defense - client 8 selected fusion benigns: [0, 1, 2, 3, 5, 8, 9]
+2025-05-12 17:47:31,457 - DEBUG - util_fusion - fusion_dual_defense - client 9 scores: {0: array([10.8435387]), 1: array([10.84542053]), 2: array([10.84466238]), 3: array([10.84319615]), 4: array([10.83742978]), 5: array([10.84232476]), 6: array([10.84170524]), 7: array([10.83677957]), 8: array([10.84203312]), 9: array([10.84221903])}
+2025-05-12 17:47:31,457 - DEBUG - util_fusion - fusion_dual_defense - client 9 norm scores: {0: array([0.7822193]), 1: array([1.]), 2: array([0.91226143]), 3: array([0.74257711]), 4: array([0.07524741]), 5: array([0.64173337]), 6: array([0.57003701]), 7: array([0.]), 8: array([0.60798251]), 9: array([0.62949759])}
+2025-05-12 17:47:31,457 - DEBUG - util_fusion - fusion_dual_defense - client 9 similarity threshold: 0.596155574853124
+2025-05-12 17:47:31,457 - INFO - util_fusion - fusion_dual_defense - client 9 selected fusion benigns: [0, 1, 2, 3, 5, 8, 9]
+2025-05-12 17:47:31,458 - DEBUG - util_fusion - fusion_dual_defense - final fusion benigns: (0, 1, 2, 3, 5, 8, 9)
+2025-05-12 17:47:33,269 - INFO - fl - start - global side -  test accuracy: 11.35
+2025-05-12 17:47:33,270 - INFO - fl - start - global side iteration 5 -  test accuracy: 11.35
+2025-05-12 17:47:33,270 - INFO - fl - start - start training round 6
+2025-05-12 17:47:33,272 - INFO - fl - start - round 6 attackers: [6, 0]
+2025-05-12 17:47:33,272 - INFO - fl - start - start client 0 training
+2025-05-12 17:47:33,272 - INFO - fl - client_local_train - client 0 start local training ...
+2025-05-12 17:47:36,691 - INFO - fl - client_local_train - client 0 is attacker, start poisoning model
+2025-05-12 17:47:41,203 - INFO - fl - start - end client 0 training
+2025-05-12 17:47:41,204 - INFO - fl - start - client 0 evaluation metrics: {'train_loss': 3.891051751262737, 'test_acc': 9.82}
+2025-05-12 17:47:41,204 - INFO - fl - start - start client 1 training
+2025-05-12 17:47:41,204 - INFO - fl - client_local_train - client 1 start local training ...
+2025-05-12 17:47:46,155 - INFO - fl - start - end client 1 training
+2025-05-12 17:47:46,155 - INFO - fl - start - client 1 evaluation metrics: {'train_loss': 1.4261341840028763, 'test_acc': 10.1}
+2025-05-12 17:47:46,155 - INFO - fl - start - start client 2 training
+2025-05-12 17:47:46,155 - INFO - fl - client_local_train - client 2 start local training ...
+2025-05-12 17:47:49,699 - INFO - fl - start - end client 2 training
+2025-05-12 17:47:49,699 - INFO - fl - start - client 2 evaluation metrics: {'train_loss': 1.4984571602609422, 'test_acc': 10.1}
+2025-05-12 17:47:49,699 - INFO - fl - start - start client 3 training
+2025-05-12 17:47:49,699 - INFO - fl - client_local_train - client 3 start local training ...
+2025-05-12 17:47:54,228 - INFO - fl - start - end client 3 training
+2025-05-12 17:47:54,228 - INFO - fl - start - client 3 evaluation metrics: {'train_loss': 1.7301901838718317, 'test_acc': 9.82}
+2025-05-12 17:47:54,228 - INFO - fl - start - start client 4 training
+2025-05-12 17:47:54,228 - INFO - fl - client_local_train - client 4 start local training ...
+2025-05-12 17:47:59,958 - INFO - fl - start - end client 4 training
+2025-05-12 17:47:59,958 - INFO - fl - start - client 4 evaluation metrics: {'train_loss': 1.1994506976118795, 'test_acc': 10.09}
+2025-05-12 17:47:59,958 - INFO - fl - start - start client 5 training
+2025-05-12 17:47:59,958 - INFO - fl - client_local_train - client 5 start local training ...
+2025-05-12 17:48:06,608 - INFO - fl - start - end client 5 training
+2025-05-12 17:48:06,609 - INFO - fl - start - client 5 evaluation metrics: {'train_loss': 1.2173075846923413, 'test_acc': 9.58}
+2025-05-12 17:48:06,609 - INFO - fl - start - start client 6 training
+2025-05-12 17:48:06,609 - INFO - fl - client_local_train - client 6 start local training ...
+2025-05-12 17:48:08,700 - INFO - fl - client_local_train - client 6 is attacker, start poisoning model
+2025-05-12 17:48:12,485 - INFO - fl - start - end client 6 training
+2025-05-12 17:48:12,485 - INFO - fl - start - client 6 evaluation metrics: {'train_loss': 8.755628211681659, 'test_acc': 9.74}
+2025-05-12 17:48:12,485 - INFO - fl - start - start client 7 training
+2025-05-12 17:48:12,485 - INFO - fl - client_local_train - client 7 start local training ...
+2025-05-12 17:48:21,376 - INFO - fl - start - end client 7 training
+2025-05-12 17:48:21,376 - INFO - fl - start - client 7 evaluation metrics: {'train_loss': 1.3923967954933003, 'test_acc': 10.32}
+2025-05-12 17:48:21,376 - INFO - fl - start - start client 8 training
+2025-05-12 17:48:21,376 - INFO - fl - client_local_train - client 8 start local training ...
+2025-05-12 17:48:25,959 - INFO - fl - start - end client 8 training
+2025-05-12 17:48:25,959 - INFO - fl - start - client 8 evaluation metrics: {'train_loss': 1.938853845000267, 'test_acc': 9.8}
+2025-05-12 17:48:25,959 - INFO - fl - start - start client 9 training
+2025-05-12 17:48:25,959 - INFO - fl - client_local_train - client 9 start local training ...
+2025-05-12 17:48:29,288 - INFO - fl - start - end client 9 training
+2025-05-12 17:48:29,288 - INFO - fl - start - client 9 evaluation metrics: {'train_loss': 1.7028917244502477, 'test_acc': 9.8}
+2025-05-12 17:48:29,288 - INFO - fl - aggregate_model - start model aggregation...fusion method: dual_defense
+2025-05-12 17:48:29,288 - INFO - fl - aggregate_model - start hyper-guard fusion with epsilon 0.01
+2025-05-12 17:48:29,288 - INFO - fl - aggregate_model - round 6 attackers: [0, 6]
+2025-05-12 17:48:40,113 - DEBUG - util_fusion - fusion_dual_defense - client 0 scores: {0: array([41.8541275]), 1: array([41.85697603]), 2: array([41.85889096]), 3: array([41.85657898]), 4: array([41.85128054]), 5: array([41.852079]), 6: array([41.85773356]), 7: array([41.84849318]), 8: array([41.85549234]), 9: array([41.8579125])}
+2025-05-12 17:48:40,114 - DEBUG - util_fusion - fusion_dual_defense - client 0 norm scores: {0: array([0.54187713]), 1: array([0.8158331]), 2: array([1.]), 3: array([0.77764659]), 4: array([0.2680725]), 5: array([0.34486398]), 6: array([0.88868825]), 7: array([0.]), 8: array([0.67314003]), 9: array([0.90589762])}
+2025-05-12 17:48:40,114 - DEBUG - util_fusion - fusion_dual_defense - client 0 similarity threshold: 0.6216019192473852
+2025-05-12 17:48:40,114 - INFO - util_fusion - fusion_dual_defense - client 0 selected fusion benigns: [1, 2, 3, 6, 8, 9]
+2025-05-12 17:48:40,122 - DEBUG - util_fusion - fusion_dual_defense - client 1 scores: {0: array([41.8541275]), 1: array([41.85697603]), 2: array([41.85889096]), 3: array([41.85657898]), 4: array([41.85128054]), 5: array([41.852079]), 6: array([41.85773356]), 7: array([41.84849318]), 8: array([41.85549234]), 9: array([41.8579125])}
+2025-05-12 17:48:40,123 - DEBUG - util_fusion - fusion_dual_defense - client 1 norm scores: {0: array([0.54187713]), 1: array([0.8158331]), 2: array([1.]), 3: array([0.77764659]), 4: array([0.2680725]), 5: array([0.34486398]), 6: array([0.88868825]), 7: array([0.]), 8: array([0.67314003]), 9: array([0.90589762])}
+2025-05-12 17:48:40,123 - DEBUG - util_fusion - fusion_dual_defense - client 1 similarity threshold: 0.6216019192473852
+2025-05-12 17:48:40,123 - INFO - util_fusion - fusion_dual_defense - client 1 selected fusion benigns: [1, 2, 3, 6, 8, 9]
+2025-05-12 17:48:40,131 - DEBUG - util_fusion - fusion_dual_defense - client 2 scores: {0: array([41.8541275]), 1: array([41.85697603]), 2: array([41.85889096]), 3: array([41.85657898]), 4: array([41.85128054]), 5: array([41.852079]), 6: array([41.85773356]), 7: array([41.84849318]), 8: array([41.85549234]), 9: array([41.8579125])}
+2025-05-12 17:48:40,132 - DEBUG - util_fusion - fusion_dual_defense - client 2 norm scores: {0: array([0.54187713]), 1: array([0.8158331]), 2: array([1.]), 3: array([0.77764659]), 4: array([0.2680725]), 5: array([0.34486398]), 6: array([0.88868825]), 7: array([0.]), 8: array([0.67314003]), 9: array([0.90589762])}
+2025-05-12 17:48:40,132 - DEBUG - util_fusion - fusion_dual_defense - client 2 similarity threshold: 0.6216019192473852
+2025-05-12 17:48:40,132 - INFO - util_fusion - fusion_dual_defense - client 2 selected fusion benigns: [1, 2, 3, 6, 8, 9]
+2025-05-12 17:48:40,140 - DEBUG - util_fusion - fusion_dual_defense - client 3 scores: {0: array([41.8541275]), 1: array([41.85697603]), 2: array([41.85889096]), 3: array([41.85657898]), 4: array([41.85128054]), 5: array([41.852079]), 6: array([41.85773356]), 7: array([41.84849318]), 8: array([41.85549234]), 9: array([41.8579125])}
+2025-05-12 17:48:40,141 - DEBUG - util_fusion - fusion_dual_defense - client 3 norm scores: {0: array([0.54187713]), 1: array([0.8158331]), 2: array([1.]), 3: array([0.77764659]), 4: array([0.2680725]), 5: array([0.34486398]), 6: array([0.88868825]), 7: array([0.]), 8: array([0.67314003]), 9: array([0.90589762])}
+2025-05-12 17:48:40,141 - DEBUG - util_fusion - fusion_dual_defense - client 3 similarity threshold: 0.6216019192473852
+2025-05-12 17:48:40,141 - INFO - util_fusion - fusion_dual_defense - client 3 selected fusion benigns: [1, 2, 3, 6, 8, 9]
+2025-05-12 17:48:40,149 - DEBUG - util_fusion - fusion_dual_defense - client 4 scores: {0: array([41.8541275]), 1: array([41.85697603]), 2: array([41.85889096]), 3: array([41.85657898]), 4: array([41.85128054]), 5: array([41.852079]), 6: array([41.85773356]), 7: array([41.84849318]), 8: array([41.85549234]), 9: array([41.8579125])}
+2025-05-12 17:48:40,150 - DEBUG - util_fusion - fusion_dual_defense - client 4 norm scores: {0: array([0.54187713]), 1: array([0.8158331]), 2: array([1.]), 3: array([0.77764659]), 4: array([0.2680725]), 5: array([0.34486398]), 6: array([0.88868825]), 7: array([0.]), 8: array([0.67314003]), 9: array([0.90589762])}
+2025-05-12 17:48:40,150 - DEBUG - util_fusion - fusion_dual_defense - client 4 similarity threshold: 0.6216019192473852
+2025-05-12 17:48:40,150 - INFO - util_fusion - fusion_dual_defense - client 4 selected fusion benigns: [1, 2, 3, 6, 8, 9]
+2025-05-12 17:48:40,159 - DEBUG - util_fusion - fusion_dual_defense - client 5 scores: {0: array([41.8541275]), 1: array([41.85697603]), 2: array([41.85889096]), 3: array([41.85657898]), 4: array([41.85128054]), 5: array([41.852079]), 6: array([41.85773356]), 7: array([41.84849318]), 8: array([41.85549234]), 9: array([41.8579125])}
+2025-05-12 17:48:40,159 - DEBUG - util_fusion - fusion_dual_defense - client 5 norm scores: {0: array([0.54187713]), 1: array([0.8158331]), 2: array([1.]), 3: array([0.77764659]), 4: array([0.2680725]), 5: array([0.34486398]), 6: array([0.88868825]), 7: array([0.]), 8: array([0.67314003]), 9: array([0.90589762])}
+2025-05-12 17:48:40,159 - DEBUG - util_fusion - fusion_dual_defense - client 5 similarity threshold: 0.6216019192473852
+2025-05-12 17:48:40,159 - INFO - util_fusion - fusion_dual_defense - client 5 selected fusion benigns: [1, 2, 3, 6, 8, 9]
+2025-05-12 17:48:40,168 - DEBUG - util_fusion - fusion_dual_defense - client 6 scores: {0: array([41.8541275]), 1: array([41.85697603]), 2: array([41.85889096]), 3: array([41.85657898]), 4: array([41.85128054]), 5: array([41.852079]), 6: array([41.85773356]), 7: array([41.84849318]), 8: array([41.85549234]), 9: array([41.8579125])}
+2025-05-12 17:48:40,168 - DEBUG - util_fusion - fusion_dual_defense - client 6 norm scores: {0: array([0.54187713]), 1: array([0.8158331]), 2: array([1.]), 3: array([0.77764659]), 4: array([0.2680725]), 5: array([0.34486398]), 6: array([0.88868825]), 7: array([0.]), 8: array([0.67314003]), 9: array([0.90589762])}
+2025-05-12 17:48:40,168 - DEBUG - util_fusion - fusion_dual_defense - client 6 similarity threshold: 0.6216019192473852
+2025-05-12 17:48:40,168 - INFO - util_fusion - fusion_dual_defense - client 6 selected fusion benigns: [1, 2, 3, 6, 8, 9]
+2025-05-12 17:48:40,177 - DEBUG - util_fusion - fusion_dual_defense - client 7 scores: {0: array([41.8541275]), 1: array([41.85697603]), 2: array([41.85889096]), 3: array([41.85657898]), 4: array([41.85128054]), 5: array([41.852079]), 6: array([41.85773356]), 7: array([41.84849318]), 8: array([41.85549234]), 9: array([41.8579125])}
+2025-05-12 17:48:40,177 - DEBUG - util_fusion - fusion_dual_defense - client 7 norm scores: {0: array([0.54187713]), 1: array([0.8158331]), 2: array([1.]), 3: array([0.77764659]), 4: array([0.2680725]), 5: array([0.34486398]), 6: array([0.88868825]), 7: array([0.]), 8: array([0.67314003]), 9: array([0.90589762])}
+2025-05-12 17:48:40,177 - DEBUG - util_fusion - fusion_dual_defense - client 7 similarity threshold: 0.6216019192473852
+2025-05-12 17:48:40,177 - INFO - util_fusion - fusion_dual_defense - client 7 selected fusion benigns: [1, 2, 3, 6, 8, 9]
+2025-05-12 17:48:40,186 - DEBUG - util_fusion - fusion_dual_defense - client 8 scores: {0: array([41.8541275]), 1: array([41.85697603]), 2: array([41.85889096]), 3: array([41.85657898]), 4: array([41.85128054]), 5: array([41.852079]), 6: array([41.85773356]), 7: array([41.84849318]), 8: array([41.85549234]), 9: array([41.8579125])}
+2025-05-12 17:48:40,186 - DEBUG - util_fusion - fusion_dual_defense - client 8 norm scores: {0: array([0.54187713]), 1: array([0.8158331]), 2: array([1.]), 3: array([0.77764659]), 4: array([0.2680725]), 5: array([0.34486398]), 6: array([0.88868825]), 7: array([0.]), 8: array([0.67314003]), 9: array([0.90589762])}
+2025-05-12 17:48:40,186 - DEBUG - util_fusion - fusion_dual_defense - client 8 similarity threshold: 0.6216019192473852
+2025-05-12 17:48:40,187 - INFO - util_fusion - fusion_dual_defense - client 8 selected fusion benigns: [1, 2, 3, 6, 8, 9]
+2025-05-12 17:48:40,195 - DEBUG - util_fusion - fusion_dual_defense - client 9 scores: {0: array([41.8541275]), 1: array([41.85697603]), 2: array([41.85889096]), 3: array([41.85657898]), 4: array([41.85128054]), 5: array([41.852079]), 6: array([41.85773356]), 7: array([41.84849318]), 8: array([41.85549234]), 9: array([41.8579125])}
+2025-05-12 17:48:40,195 - DEBUG - util_fusion - fusion_dual_defense - client 9 norm scores: {0: array([0.54187713]), 1: array([0.8158331]), 2: array([1.]), 3: array([0.77764659]), 4: array([0.2680725]), 5: array([0.34486398]), 6: array([0.88868825]), 7: array([0.]), 8: array([0.67314003]), 9: array([0.90589762])}
+2025-05-12 17:48:40,196 - DEBUG - util_fusion - fusion_dual_defense - client 9 similarity threshold: 0.6216019192473852
+2025-05-12 17:48:40,196 - INFO - util_fusion - fusion_dual_defense - client 9 selected fusion benigns: [1, 2, 3, 6, 8, 9]
+2025-05-12 17:48:40,196 - DEBUG - util_fusion - fusion_dual_defense - final fusion benigns: (1, 2, 3, 6, 8, 9)
+2025-05-12 17:48:41,951 - INFO - fl - start - global side -  test accuracy: 10.28
+2025-05-12 17:48:41,951 - INFO - fl - start - global side iteration 6 -  test accuracy: 10.28
+2025-05-12 17:48:41,952 - INFO - fl - start - start training round 7
+2025-05-12 17:48:41,953 - INFO - fl - start - round 7 attackers: [0, 1]
+2025-05-12 17:48:41,953 - INFO - fl - start - start client 0 training
+2025-05-12 17:48:41,953 - INFO - fl - client_local_train - client 0 start local training ...
+2025-05-12 17:48:45,373 - INFO - fl - client_local_train - client 0 is attacker, start poisoning model
+2025-05-12 17:48:49,883 - INFO - fl - start - end client 0 training
+2025-05-12 17:48:49,883 - INFO - fl - start - client 0 evaluation metrics: {'train_loss': 3.935645841202646, 'test_acc': 9.82}
+2025-05-12 17:48:49,883 - INFO - fl - start - start client 1 training
+2025-05-12 17:48:49,883 - INFO - fl - client_local_train - client 1 start local training ...
+2025-05-12 17:48:52,726 - INFO - fl - client_local_train - client 1 is attacker, start poisoning model
+2025-05-12 17:48:56,928 - INFO - fl - start - end client 1 training
+2025-05-12 17:48:56,928 - INFO - fl - start - client 1 evaluation metrics: {'train_loss': 7.5513692985881455, 'test_acc': 9.74}
+2025-05-12 17:48:56,928 - INFO - fl - start - start client 2 training
+2025-05-12 17:48:56,928 - INFO - fl - client_local_train - client 2 start local training ...
+2025-05-12 17:49:00,467 - INFO - fl - start - end client 2 training
+2025-05-12 17:49:00,467 - INFO - fl - start - client 2 evaluation metrics: {'train_loss': 1.4574467363180938, 'test_acc': 10.1}
+2025-05-12 17:49:00,467 - INFO - fl - start - start client 3 training
+2025-05-12 17:49:00,467 - INFO - fl - client_local_train - client 3 start local training ...
+2025-05-12 17:49:05,005 - INFO - fl - start - end client 3 training
+2025-05-12 17:49:05,005 - INFO - fl - start - client 3 evaluation metrics: {'train_loss': 2.034256323789939, 'test_acc': 9.82}
+2025-05-12 17:49:05,005 - INFO - fl - start - start client 4 training
+2025-05-12 17:49:05,005 - INFO - fl - client_local_train - client 4 start local training ...
+2025-05-12 17:49:10,753 - INFO - fl - start - end client 4 training
+2025-05-12 17:49:10,753 - INFO - fl - start - client 4 evaluation metrics: {'train_loss': 1.4995691213342879, 'test_acc': 10.09}
+2025-05-12 17:49:10,754 - INFO - fl - start - start client 5 training
+2025-05-12 17:49:10,754 - INFO - fl - client_local_train - client 5 start local training ...
+2025-05-12 17:49:17,400 - INFO - fl - start - end client 5 training
+2025-05-12 17:49:17,400 - INFO - fl - start - client 5 evaluation metrics: {'train_loss': 1.218323973722236, 'test_acc': 9.58}
+2025-05-12 17:49:17,400 - INFO - fl - start - start client 6 training
+2025-05-12 17:49:17,400 - INFO - fl - client_local_train - client 6 start local training ...
+2025-05-12 17:49:21,375 - INFO - fl - start - end client 6 training
+2025-05-12 17:49:21,375 - INFO - fl - start - client 6 evaluation metrics: {'train_loss': 1.417244135416471, 'test_acc': 10.28}
+2025-05-12 17:49:21,375 - INFO - fl - start - start client 7 training
+2025-05-12 17:49:21,375 - INFO - fl - client_local_train - client 7 start local training ...
+2025-05-12 17:49:30,334 - INFO - fl - start - end client 7 training
+2025-05-12 17:49:30,334 - INFO - fl - start - client 7 evaluation metrics: {'train_loss': 1.3946177530032333, 'test_acc': 10.32}
+2025-05-12 17:49:30,334 - INFO - fl - start - start client 8 training
+2025-05-12 17:49:30,334 - INFO - fl - client_local_train - client 8 start local training ...
+2025-05-12 17:49:34,930 - INFO - fl - start - end client 8 training
+2025-05-12 17:49:34,930 - INFO - fl - start - client 8 evaluation metrics: {'train_loss': 2.030335287749767, 'test_acc': 9.8}
+2025-05-12 17:49:34,930 - INFO - fl - start - start client 9 training
+2025-05-12 17:49:34,930 - INFO - fl - client_local_train - client 9 start local training ...
+2025-05-12 17:49:38,289 - INFO - fl - start - end client 9 training
+2025-05-12 17:49:38,289 - INFO - fl - start - client 9 evaluation metrics: {'train_loss': 2.090782012258257, 'test_acc': 9.8}
+2025-05-12 17:49:38,289 - INFO - fl - aggregate_model - start model aggregation...fusion method: dual_defense
+2025-05-12 17:49:38,289 - INFO - fl - aggregate_model - start hyper-guard fusion with epsilon 0.01
+2025-05-12 17:49:38,289 - INFO - fl - aggregate_model - round 7 attackers: [0, 1]
+2025-05-12 17:49:49,116 - DEBUG - util_fusion - fusion_dual_defense - client 0 scores: {0: array([24.42134216]), 1: array([24.42163176]), 2: array([24.4207588]), 3: array([24.42106281]), 4: array([24.42147774]), 5: array([24.42177081]), 6: array([24.42086888]), 7: array([24.42283145]), 8: array([24.42109814]), 9: array([24.42065773])}
+2025-05-12 17:49:49,117 - DEBUG - util_fusion - fusion_dual_defense - client 0 norm scores: {0: array([0.31486642]), 1: array([0.44809543]), 2: array([0.04649796]), 3: array([0.18635393]), 4: array([0.37723969]), 5: array([0.51206517]), 6: array([0.09714088]), 7: array([1.]), 8: array([0.20260685]), 9: array([0.])}
+2025-05-12 17:49:49,117 - DEBUG - util_fusion - fusion_dual_defense - client 0 similarity threshold: 0.3184866338860196
+2025-05-12 17:49:49,117 - INFO - util_fusion - fusion_dual_defense - client 0 selected fusion benigns: [1, 4, 5, 7]
+2025-05-12 17:49:49,125 - DEBUG - util_fusion - fusion_dual_defense - client 1 scores: {0: array([24.42134216]), 1: array([24.42163176]), 2: array([24.4207588]), 3: array([24.42106281]), 4: array([24.42147774]), 5: array([24.42177081]), 6: array([24.42086888]), 7: array([24.42283145]), 8: array([24.42109814]), 9: array([24.42065773])}
+2025-05-12 17:49:49,126 - DEBUG - util_fusion - fusion_dual_defense - client 1 norm scores: {0: array([0.31486642]), 1: array([0.44809543]), 2: array([0.04649796]), 3: array([0.18635393]), 4: array([0.37723969]), 5: array([0.51206517]), 6: array([0.09714088]), 7: array([1.]), 8: array([0.20260685]), 9: array([0.])}
+2025-05-12 17:49:49,126 - DEBUG - util_fusion - fusion_dual_defense - client 1 similarity threshold: 0.3184866338860196
+2025-05-12 17:49:49,126 - INFO - util_fusion - fusion_dual_defense - client 1 selected fusion benigns: [1, 4, 5, 7]
+2025-05-12 17:49:49,134 - DEBUG - util_fusion - fusion_dual_defense - client 2 scores: {0: array([24.42134216]), 1: array([24.42163176]), 2: array([24.4207588]), 3: array([24.42106281]), 4: array([24.42147774]), 5: array([24.42177081]), 6: array([24.42086888]), 7: array([24.42283145]), 8: array([24.42109814]), 9: array([24.42065773])}
+2025-05-12 17:49:49,135 - DEBUG - util_fusion - fusion_dual_defense - client 2 norm scores: {0: array([0.31486642]), 1: array([0.44809543]), 2: array([0.04649796]), 3: array([0.18635393]), 4: array([0.37723969]), 5: array([0.51206517]), 6: array([0.09714088]), 7: array([1.]), 8: array([0.20260685]), 9: array([0.])}
+2025-05-12 17:49:49,135 - DEBUG - util_fusion - fusion_dual_defense - client 2 similarity threshold: 0.3184866338860196
+2025-05-12 17:49:49,135 - INFO - util_fusion - fusion_dual_defense - client 2 selected fusion benigns: [1, 4, 5, 7]
+2025-05-12 17:49:49,143 - DEBUG - util_fusion - fusion_dual_defense - client 3 scores: {0: array([24.42134216]), 1: array([24.42163176]), 2: array([24.4207588]), 3: array([24.42106281]), 4: array([24.42147774]), 5: array([24.42177081]), 6: array([24.42086888]), 7: array([24.42283145]), 8: array([24.42109814]), 9: array([24.42065773])}
+2025-05-12 17:49:49,144 - DEBUG - util_fusion - fusion_dual_defense - client 3 norm scores: {0: array([0.31486642]), 1: array([0.44809543]), 2: array([0.04649796]), 3: array([0.18635393]), 4: array([0.37723969]), 5: array([0.51206517]), 6: array([0.09714088]), 7: array([1.]), 8: array([0.20260685]), 9: array([0.])}
+2025-05-12 17:49:49,144 - DEBUG - util_fusion - fusion_dual_defense - client 3 similarity threshold: 0.3184866338860196
+2025-05-12 17:49:49,144 - INFO - util_fusion - fusion_dual_defense - client 3 selected fusion benigns: [1, 4, 5, 7]
+2025-05-12 17:49:49,152 - DEBUG - util_fusion - fusion_dual_defense - client 4 scores: {0: array([24.42134216]), 1: array([24.42163176]), 2: array([24.4207588]), 3: array([24.42106281]), 4: array([24.42147774]), 5: array([24.42177081]), 6: array([24.42086888]), 7: array([24.42283145]), 8: array([24.42109814]), 9: array([24.42065773])}
+2025-05-12 17:49:49,153 - DEBUG - util_fusion - fusion_dual_defense - client 4 norm scores: {0: array([0.31486642]), 1: array([0.44809543]), 2: array([0.04649796]), 3: array([0.18635393]), 4: array([0.37723969]), 5: array([0.51206517]), 6: array([0.09714088]), 7: array([1.]), 8: array([0.20260685]), 9: array([0.])}
+2025-05-12 17:49:49,153 - DEBUG - util_fusion - fusion_dual_defense - client 4 similarity threshold: 0.3184866338860196
+2025-05-12 17:49:49,153 - INFO - util_fusion - fusion_dual_defense - client 4 selected fusion benigns: [1, 4, 5, 7]
+2025-05-12 17:49:49,161 - DEBUG - util_fusion - fusion_dual_defense - client 5 scores: {0: array([24.42134216]), 1: array([24.42163176]), 2: array([24.4207588]), 3: array([24.42106281]), 4: array([24.42147774]), 5: array([24.42177081]), 6: array([24.42086888]), 7: array([24.42283145]), 8: array([24.42109814]), 9: array([24.42065773])}
+2025-05-12 17:49:49,162 - DEBUG - util_fusion - fusion_dual_defense - client 5 norm scores: {0: array([0.31486642]), 1: array([0.44809543]), 2: array([0.04649796]), 3: array([0.18635393]), 4: array([0.37723969]), 5: array([0.51206517]), 6: array([0.09714088]), 7: array([1.]), 8: array([0.20260685]), 9: array([0.])}
+2025-05-12 17:49:49,162 - DEBUG - util_fusion - fusion_dual_defense - client 5 similarity threshold: 0.3184866338860196
+2025-05-12 17:49:49,162 - INFO - util_fusion - fusion_dual_defense - client 5 selected fusion benigns: [1, 4, 5, 7]
+2025-05-12 17:49:49,170 - DEBUG - util_fusion - fusion_dual_defense - client 6 scores: {0: array([24.42134216]), 1: array([24.42163176]), 2: array([24.4207588]), 3: array([24.42106281]), 4: array([24.42147774]), 5: array([24.42177081]), 6: array([24.42086888]), 7: array([24.42283145]), 8: array([24.42109814]), 9: array([24.42065773])}
+2025-05-12 17:49:49,171 - DEBUG - util_fusion - fusion_dual_defense - client 6 norm scores: {0: array([0.31486642]), 1: array([0.44809543]), 2: array([0.04649796]), 3: array([0.18635393]), 4: array([0.37723969]), 5: array([0.51206517]), 6: array([0.09714088]), 7: array([1.]), 8: array([0.20260685]), 9: array([0.])}
+2025-05-12 17:49:49,171 - DEBUG - util_fusion - fusion_dual_defense - client 6 similarity threshold: 0.3184866338860196
+2025-05-12 17:49:49,171 - INFO - util_fusion - fusion_dual_defense - client 6 selected fusion benigns: [1, 4, 5, 7]
+2025-05-12 17:49:49,180 - DEBUG - util_fusion - fusion_dual_defense - client 7 scores: {0: array([24.42134216]), 1: array([24.42163176]), 2: array([24.4207588]), 3: array([24.42106281]), 4: array([24.42147774]), 5: array([24.42177081]), 6: array([24.42086888]), 7: array([24.42283145]), 8: array([24.42109814]), 9: array([24.42065773])}
+2025-05-12 17:49:49,180 - DEBUG - util_fusion - fusion_dual_defense - client 7 norm scores: {0: array([0.31486642]), 1: array([0.44809543]), 2: array([0.04649796]), 3: array([0.18635393]), 4: array([0.37723969]), 5: array([0.51206517]), 6: array([0.09714088]), 7: array([1.]), 8: array([0.20260685]), 9: array([0.])}
+2025-05-12 17:49:49,180 - DEBUG - util_fusion - fusion_dual_defense - client 7 similarity threshold: 0.3184866338860196
+2025-05-12 17:49:49,180 - INFO - util_fusion - fusion_dual_defense - client 7 selected fusion benigns: [1, 4, 5, 7]
+2025-05-12 17:49:49,189 - DEBUG - util_fusion - fusion_dual_defense - client 8 scores: {0: array([24.42134216]), 1: array([24.42163176]), 2: array([24.4207588]), 3: array([24.42106281]), 4: array([24.42147774]), 5: array([24.42177081]), 6: array([24.42086888]), 7: array([24.42283145]), 8: array([24.42109814]), 9: array([24.42065773])}
+2025-05-12 17:49:49,189 - DEBUG - util_fusion - fusion_dual_defense - client 8 norm scores: {0: array([0.31486642]), 1: array([0.44809543]), 2: array([0.04649796]), 3: array([0.18635393]), 4: array([0.37723969]), 5: array([0.51206517]), 6: array([0.09714088]), 7: array([1.]), 8: array([0.20260685]), 9: array([0.])}
+2025-05-12 17:49:49,189 - DEBUG - util_fusion - fusion_dual_defense - client 8 similarity threshold: 0.3184866338860196
+2025-05-12 17:49:49,189 - INFO - util_fusion - fusion_dual_defense - client 8 selected fusion benigns: [1, 4, 5, 7]
+2025-05-12 17:49:49,198 - DEBUG - util_fusion - fusion_dual_defense - client 9 scores: {0: array([24.42134216]), 1: array([24.42163176]), 2: array([24.4207588]), 3: array([24.42106281]), 4: array([24.42147774]), 5: array([24.42177081]), 6: array([24.42086888]), 7: array([24.42283145]), 8: array([24.42109814]), 9: array([24.42065773])}
+2025-05-12 17:49:49,198 - DEBUG - util_fusion - fusion_dual_defense - client 9 norm scores: {0: array([0.31486642]), 1: array([0.44809543]), 2: array([0.04649796]), 3: array([0.18635393]), 4: array([0.37723969]), 5: array([0.51206517]), 6: array([0.09714088]), 7: array([1.]), 8: array([0.20260685]), 9: array([0.])}
+2025-05-12 17:49:49,198 - DEBUG - util_fusion - fusion_dual_defense - client 9 similarity threshold: 0.3184866338860196
+2025-05-12 17:49:49,198 - INFO - util_fusion - fusion_dual_defense - client 9 selected fusion benigns: [1, 4, 5, 7]
+2025-05-12 17:49:49,198 - DEBUG - util_fusion - fusion_dual_defense - final fusion benigns: (1, 4, 5, 7)
+2025-05-12 17:49:50,840 - INFO - fl - start - global side -  test accuracy: 9.74
+2025-05-12 17:49:50,841 - INFO - fl - start - global side iteration 7 -  test accuracy: 9.74
+2025-05-12 17:49:50,841 - INFO - fl - start - start training round 8
+2025-05-12 17:49:50,843 - INFO - fl - start - round 8 attackers: [9, 8]
+2025-05-12 17:49:50,843 - INFO - fl - start - start client 0 training
+2025-05-12 17:49:50,843 - INFO - fl - client_local_train - client 0 start local training ...
+2025-05-12 17:49:56,539 - INFO - fl - start - end client 0 training
+2025-05-12 17:49:56,539 - INFO - fl - start - client 0 evaluation metrics: {'train_loss': 1.6533207690940712, 'test_acc': 9.82}
+2025-05-12 17:49:56,539 - INFO - fl - start - start client 1 training
+2025-05-12 17:49:56,539 - INFO - fl - client_local_train - client 1 start local training ...
+2025-05-12 17:50:01,470 - INFO - fl - start - end client 1 training
+2025-05-12 17:50:01,470 - INFO - fl - start - client 1 evaluation metrics: {'train_loss': 1.4154609468850223, 'test_acc': 9.74}
+2025-05-12 17:50:01,470 - INFO - fl - start - start client 2 training
+2025-05-12 17:50:01,470 - INFO - fl - client_local_train - client 2 start local training ...
+2025-05-12 17:50:05,007 - INFO - fl - start - end client 2 training
+2025-05-12 17:50:05,007 - INFO - fl - start - client 2 evaluation metrics: {'train_loss': 1.4838493642983612, 'test_acc': 10.1}
+2025-05-12 17:50:05,007 - INFO - fl - start - start client 3 training
+2025-05-12 17:50:05,007 - INFO - fl - client_local_train - client 3 start local training ...
+2025-05-12 17:50:09,516 - INFO - fl - start - end client 3 training
+2025-05-12 17:50:09,516 - INFO - fl - start - client 3 evaluation metrics: {'train_loss': 2.379709561665853, 'test_acc': 9.82}
+2025-05-12 17:50:09,516 - INFO - fl - start - start client 4 training
+2025-05-12 17:50:09,516 - INFO - fl - client_local_train - client 4 start local training ...
+2025-05-12 17:50:15,272 - INFO - fl - start - end client 4 training
+2025-05-12 17:50:15,272 - INFO - fl - start - client 4 evaluation metrics: {'train_loss': 1.8324472539954715, 'test_acc': 10.09}
+2025-05-12 17:50:15,272 - INFO - fl - start - start client 5 training
+2025-05-12 17:50:15,272 - INFO - fl - client_local_train - client 5 start local training ...
+2025-05-12 17:50:21,904 - INFO - fl - start - end client 5 training
+2025-05-12 17:50:21,905 - INFO - fl - start - client 5 evaluation metrics: {'train_loss': 1.24337712091993, 'test_acc': 9.58}
+2025-05-12 17:50:21,905 - INFO - fl - start - start client 6 training
+2025-05-12 17:50:21,905 - INFO - fl - client_local_train - client 6 start local training ...
+2025-05-12 17:50:25,881 - INFO - fl - start - end client 6 training
+2025-05-12 17:50:25,881 - INFO - fl - start - client 6 evaluation metrics: {'train_loss': 1.5194729988391582, 'test_acc': 10.28}
+2025-05-12 17:50:25,881 - INFO - fl - start - start client 7 training
+2025-05-12 17:50:25,881 - INFO - fl - client_local_train - client 7 start local training ...
+2025-05-12 17:50:34,822 - INFO - fl - start - end client 7 training
+2025-05-12 17:50:34,822 - INFO - fl - start - client 7 evaluation metrics: {'train_loss': 1.4065073138924056, 'test_acc': 10.32}
+2025-05-12 17:50:34,822 - INFO - fl - start - start client 8 training
+2025-05-12 17:50:34,822 - INFO - fl - client_local_train - client 8 start local training ...
+2025-05-12 17:50:37,390 - INFO - fl - client_local_train - client 8 is attacker, start poisoning model
+2025-05-12 17:50:41,446 - INFO - fl - start - end client 8 training
+2025-05-12 17:50:41,446 - INFO - fl - start - client 8 evaluation metrics: {'train_loss': 7.77771270275116, 'test_acc': 9.8}
+2025-05-12 17:50:41,446 - INFO - fl - start - start client 9 training
+2025-05-12 17:50:41,446 - INFO - fl - client_local_train - client 9 start local training ...
+2025-05-12 17:50:43,031 - INFO - fl - client_local_train - client 9 is attacker, start poisoning model
+2025-05-12 17:50:46,560 - INFO - fl - start - end client 9 training
+2025-05-12 17:50:46,560 - INFO - fl - start - client 9 evaluation metrics: {'train_loss': 14.51831292132942, 'test_acc': 9.8}
+2025-05-12 17:50:46,560 - INFO - fl - aggregate_model - start model aggregation...fusion method: dual_defense
+2025-05-12 17:50:46,560 - INFO - fl - aggregate_model - start hyper-guard fusion with epsilon 0.01
+2025-05-12 17:50:46,560 - INFO - fl - aggregate_model - round 8 attackers: [8, 9]
+2025-05-12 17:50:57,382 - DEBUG - util_fusion - fusion_dual_defense - client 0 scores: {0: array([4.63489823]), 1: array([4.63490532]), 2: array([4.63490774]), 3: array([4.63491116]), 4: array([4.63490337]), 5: array([4.63489141]), 6: array([4.63490619]), 7: array([4.63482592]), 8: array([4.6349102]), 9: array([4.63491018])}
+2025-05-12 17:50:57,383 - DEBUG - util_fusion - fusion_dual_defense - client 0 norm scores: {0: array([0.84833659]), 1: array([0.93140973]), 2: array([0.95982769]), 3: array([1.]), 4: array([0.90857459]), 5: array([0.7683117]), 6: array([0.94160914]), 7: array([0.]), 8: array([0.98872281]), 9: array([0.98846444])}
+2025-05-12 17:50:57,383 - DEBUG - util_fusion - fusion_dual_defense - client 0 similarity threshold: 0.8335256682600299
+2025-05-12 17:50:57,383 - INFO - util_fusion - fusion_dual_defense - client 0 selected fusion benigns: [0, 1, 2, 3, 4, 6, 8, 9]
+2025-05-12 17:50:57,391 - DEBUG - util_fusion - fusion_dual_defense - client 1 scores: {0: array([4.63489823]), 1: array([4.63490532]), 2: array([4.63490774]), 3: array([4.63491116]), 4: array([4.63490337]), 5: array([4.63489141]), 6: array([4.63490619]), 7: array([4.63482592]), 8: array([4.6349102]), 9: array([4.63491018])}
+2025-05-12 17:50:57,392 - DEBUG - util_fusion - fusion_dual_defense - client 1 norm scores: {0: array([0.84833659]), 1: array([0.93140973]), 2: array([0.95982769]), 3: array([1.]), 4: array([0.90857459]), 5: array([0.7683117]), 6: array([0.94160914]), 7: array([0.]), 8: array([0.98872281]), 9: array([0.98846444])}
+2025-05-12 17:50:57,392 - DEBUG - util_fusion - fusion_dual_defense - client 1 similarity threshold: 0.8335256682600299
+2025-05-12 17:50:57,392 - INFO - util_fusion - fusion_dual_defense - client 1 selected fusion benigns: [0, 1, 2, 3, 4, 6, 8, 9]
+2025-05-12 17:50:57,402 - DEBUG - util_fusion - fusion_dual_defense - client 2 scores: {0: array([4.63489823]), 1: array([4.63490532]), 2: array([4.63490774]), 3: array([4.63491116]), 4: array([4.63490337]), 5: array([4.63489141]), 6: array([4.63490619]), 7: array([4.63482592]), 8: array([4.6349102]), 9: array([4.63491018])}
+2025-05-12 17:50:57,403 - DEBUG - util_fusion - fusion_dual_defense - client 2 norm scores: {0: array([0.84833659]), 1: array([0.93140973]), 2: array([0.95982769]), 3: array([1.]), 4: array([0.90857459]), 5: array([0.7683117]), 6: array([0.94160914]), 7: array([0.]), 8: array([0.98872281]), 9: array([0.98846444])}
+2025-05-12 17:50:57,403 - DEBUG - util_fusion - fusion_dual_defense - client 2 similarity threshold: 0.8335256682600299
+2025-05-12 17:50:57,403 - INFO - util_fusion - fusion_dual_defense - client 2 selected fusion benigns: [0, 1, 2, 3, 4, 6, 8, 9]
+2025-05-12 17:50:57,411 - DEBUG - util_fusion - fusion_dual_defense - client 3 scores: {0: array([4.63489823]), 1: array([4.63490532]), 2: array([4.63490774]), 3: array([4.63491116]), 4: array([4.63490337]), 5: array([4.63489141]), 6: array([4.63490619]), 7: array([4.63482592]), 8: array([4.6349102]), 9: array([4.63491018])}
+2025-05-12 17:50:57,412 - DEBUG - util_fusion - fusion_dual_defense - client 3 norm scores: {0: array([0.84833659]), 1: array([0.93140973]), 2: array([0.95982769]), 3: array([1.]), 4: array([0.90857459]), 5: array([0.7683117]), 6: array([0.94160914]), 7: array([0.]), 8: array([0.98872281]), 9: array([0.98846444])}
+2025-05-12 17:50:57,412 - DEBUG - util_fusion - fusion_dual_defense - client 3 similarity threshold: 0.8335256682600299
+2025-05-12 17:50:57,412 - INFO - util_fusion - fusion_dual_defense - client 3 selected fusion benigns: [0, 1, 2, 3, 4, 6, 8, 9]
+2025-05-12 17:50:57,420 - DEBUG - util_fusion - fusion_dual_defense - client 4 scores: {0: array([4.63489823]), 1: array([4.63490532]), 2: array([4.63490774]), 3: array([4.63491116]), 4: array([4.63490337]), 5: array([4.63489141]), 6: array([4.63490619]), 7: array([4.63482592]), 8: array([4.6349102]), 9: array([4.63491018])}
+2025-05-12 17:50:57,421 - DEBUG - util_fusion - fusion_dual_defense - client 4 norm scores: {0: array([0.84833659]), 1: array([0.93140973]), 2: array([0.95982769]), 3: array([1.]), 4: array([0.90857459]), 5: array([0.7683117]), 6: array([0.94160914]), 7: array([0.]), 8: array([0.98872281]), 9: array([0.98846444])}
+2025-05-12 17:50:57,421 - DEBUG - util_fusion - fusion_dual_defense - client 4 similarity threshold: 0.8335256682600299
+2025-05-12 17:50:57,421 - INFO - util_fusion - fusion_dual_defense - client 4 selected fusion benigns: [0, 1, 2, 3, 4, 6, 8, 9]
+2025-05-12 17:50:57,429 - DEBUG - util_fusion - fusion_dual_defense - client 5 scores: {0: array([4.63489823]), 1: array([4.63490532]), 2: array([4.63490774]), 3: array([4.63491116]), 4: array([4.63490337]), 5: array([4.63489141]), 6: array([4.63490619]), 7: array([4.63482592]), 8: array([4.6349102]), 9: array([4.63491018])}
+2025-05-12 17:50:57,430 - DEBUG - util_fusion - fusion_dual_defense - client 5 norm scores: {0: array([0.84833659]), 1: array([0.93140973]), 2: array([0.95982769]), 3: array([1.]), 4: array([0.90857459]), 5: array([0.7683117]), 6: array([0.94160914]), 7: array([0.]), 8: array([0.98872281]), 9: array([0.98846444])}
+2025-05-12 17:50:57,430 - DEBUG - util_fusion - fusion_dual_defense - client 5 similarity threshold: 0.8335256682600299
+2025-05-12 17:50:57,430 - INFO - util_fusion - fusion_dual_defense - client 5 selected fusion benigns: [0, 1, 2, 3, 4, 6, 8, 9]
+2025-05-12 17:50:57,438 - DEBUG - util_fusion - fusion_dual_defense - client 6 scores: {0: array([4.63489823]), 1: array([4.63490532]), 2: array([4.63490774]), 3: array([4.63491116]), 4: array([4.63490337]), 5: array([4.63489141]), 6: array([4.63490619]), 7: array([4.63482592]), 8: array([4.6349102]), 9: array([4.63491018])}
+2025-05-12 17:50:57,439 - DEBUG - util_fusion - fusion_dual_defense - client 6 norm scores: {0: array([0.84833659]), 1: array([0.93140973]), 2: array([0.95982769]), 3: array([1.]), 4: array([0.90857459]), 5: array([0.7683117]), 6: array([0.94160914]), 7: array([0.]), 8: array([0.98872281]), 9: array([0.98846444])}
+2025-05-12 17:50:57,439 - DEBUG - util_fusion - fusion_dual_defense - client 6 similarity threshold: 0.8335256682600299
+2025-05-12 17:50:57,439 - INFO - util_fusion - fusion_dual_defense - client 6 selected fusion benigns: [0, 1, 2, 3, 4, 6, 8, 9]
+2025-05-12 17:50:57,447 - DEBUG - util_fusion - fusion_dual_defense - client 7 scores: {0: array([4.63489823]), 1: array([4.63490532]), 2: array([4.63490774]), 3: array([4.63491116]), 4: array([4.63490337]), 5: array([4.63489141]), 6: array([4.63490619]), 7: array([4.63482592]), 8: array([4.6349102]), 9: array([4.63491018])}
+2025-05-12 17:50:57,448 - DEBUG - util_fusion - fusion_dual_defense - client 7 norm scores: {0: array([0.84833659]), 1: array([0.93140973]), 2: array([0.95982769]), 3: array([1.]), 4: array([0.90857459]), 5: array([0.7683117]), 6: array([0.94160914]), 7: array([0.]), 8: array([0.98872281]), 9: array([0.98846444])}
+2025-05-12 17:50:57,448 - DEBUG - util_fusion - fusion_dual_defense - client 7 similarity threshold: 0.8335256682600299
+2025-05-12 17:50:57,448 - INFO - util_fusion - fusion_dual_defense - client 7 selected fusion benigns: [0, 1, 2, 3, 4, 6, 8, 9]
+2025-05-12 17:50:57,456 - DEBUG - util_fusion - fusion_dual_defense - client 8 scores: {0: array([4.63489823]), 1: array([4.63490532]), 2: array([4.63490774]), 3: array([4.63491116]), 4: array([4.63490337]), 5: array([4.63489141]), 6: array([4.63490619]), 7: array([4.63482592]), 8: array([4.6349102]), 9: array([4.63491018])}
+2025-05-12 17:50:57,457 - DEBUG - util_fusion - fusion_dual_defense - client 8 norm scores: {0: array([0.84833659]), 1: array([0.93140973]), 2: array([0.95982769]), 3: array([1.]), 4: array([0.90857459]), 5: array([0.7683117]), 6: array([0.94160914]), 7: array([0.]), 8: array([0.98872281]), 9: array([0.98846444])}
+2025-05-12 17:50:57,457 - DEBUG - util_fusion - fusion_dual_defense - client 8 similarity threshold: 0.8335256682600299
+2025-05-12 17:50:57,457 - INFO - util_fusion - fusion_dual_defense - client 8 selected fusion benigns: [0, 1, 2, 3, 4, 6, 8, 9]
+2025-05-12 17:50:57,466 - DEBUG - util_fusion - fusion_dual_defense - client 9 scores: {0: array([4.63489823]), 1: array([4.63490532]), 2: array([4.63490774]), 3: array([4.63491116]), 4: array([4.63490337]), 5: array([4.63489141]), 6: array([4.63490619]), 7: array([4.63482592]), 8: array([4.6349102]), 9: array([4.63491018])}
+2025-05-12 17:50:57,466 - DEBUG - util_fusion - fusion_dual_defense - client 9 norm scores: {0: array([0.84833659]), 1: array([0.93140973]), 2: array([0.95982769]), 3: array([1.]), 4: array([0.90857459]), 5: array([0.7683117]), 6: array([0.94160914]), 7: array([0.]), 8: array([0.98872281]), 9: array([0.98846444])}
+2025-05-12 17:50:57,466 - DEBUG - util_fusion - fusion_dual_defense - client 9 similarity threshold: 0.8335256682600299
+2025-05-12 17:50:57,466 - INFO - util_fusion - fusion_dual_defense - client 9 selected fusion benigns: [0, 1, 2, 3, 4, 6, 8, 9]
+2025-05-12 17:50:57,466 - DEBUG - util_fusion - fusion_dual_defense - final fusion benigns: (0, 1, 2, 3, 4, 6, 8, 9)
+2025-05-12 17:50:59,331 - INFO - fl - start - global side -  test accuracy: 9.8
+2025-05-12 17:50:59,331 - INFO - fl - start - global side iteration 8 -  test accuracy: 9.8
+2025-05-12 17:50:59,332 - INFO - fl - start - start training round 9
+2025-05-12 17:50:59,333 - INFO - fl - start - round 9 attackers: [9, 8]
+2025-05-12 17:50:59,334 - INFO - fl - start - start client 0 training
+2025-05-12 17:50:59,334 - INFO - fl - client_local_train - client 0 start local training ...
+2025-05-12 17:51:05,015 - INFO - fl - start - end client 0 training
+2025-05-12 17:51:05,015 - INFO - fl - start - client 0 evaluation metrics: {'train_loss': 1.6421416930432589, 'test_acc': 9.82}
+2025-05-12 17:51:05,015 - INFO - fl - start - start client 1 training
+2025-05-12 17:51:05,015 - INFO - fl - client_local_train - client 1 start local training ...
+2025-05-12 17:51:09,962 - INFO - fl - start - end client 1 training
+2025-05-12 17:51:09,962 - INFO - fl - start - client 1 evaluation metrics: {'train_loss': 1.4554017186164856, 'test_acc': 9.74}
+2025-05-12 17:51:09,962 - INFO - fl - start - start client 2 training
+2025-05-12 17:51:09,962 - INFO - fl - client_local_train - client 2 start local training ...
+2025-05-12 17:51:13,528 - INFO - fl - start - end client 2 training
+2025-05-12 17:51:13,529 - INFO - fl - start - client 2 evaluation metrics: {'train_loss': 1.4732600053151448, 'test_acc': 10.1}
+2025-05-12 17:51:13,529 - INFO - fl - start - start client 3 training
+2025-05-12 17:51:13,529 - INFO - fl - client_local_train - client 3 start local training ...
+2025-05-12 17:51:18,073 - INFO - fl - start - end client 3 training
+2025-05-12 17:51:18,074 - INFO - fl - start - client 3 evaluation metrics: {'train_loss': 3.4516845498329554, 'test_acc': 9.82}
+2025-05-12 17:51:18,074 - INFO - fl - start - start client 4 training
+2025-05-12 17:51:18,074 - INFO - fl - client_local_train - client 4 start local training ...
+2025-05-12 17:51:23,822 - INFO - fl - start - end client 4 training
+2025-05-12 17:51:23,822 - INFO - fl - start - client 4 evaluation metrics: {'train_loss': 2.849703886994609, 'test_acc': 10.09}
+2025-05-12 17:51:23,822 - INFO - fl - start - start client 5 training
+2025-05-12 17:51:23,822 - INFO - fl - client_local_train - client 5 start local training ...
+2025-05-12 17:51:30,497 - INFO - fl - start - end client 5 training
+2025-05-12 17:51:30,497 - INFO - fl - start - client 5 evaluation metrics: {'train_loss': 1.2756605388582214, 'test_acc': 9.58}
+2025-05-12 17:51:30,497 - INFO - fl - start - start client 6 training
+2025-05-12 17:51:30,497 - INFO - fl - client_local_train - client 6 start local training ...
+2025-05-12 17:51:34,476 - INFO - fl - start - end client 6 training
+2025-05-12 17:51:34,476 - INFO - fl - start - client 6 evaluation metrics: {'train_loss': 1.6711704639288096, 'test_acc': 10.28}
+2025-05-12 17:51:34,476 - INFO - fl - start - start client 7 training
+2025-05-12 17:51:34,476 - INFO - fl - client_local_train - client 7 start local training ...
+2025-05-12 17:51:43,423 - INFO - fl - start - end client 7 training
+2025-05-12 17:51:43,423 - INFO - fl - start - client 7 evaluation metrics: {'train_loss': 2.2324343548026135, 'test_acc': 8.92}
+2025-05-12 17:51:43,423 - INFO - fl - start - start client 8 training
+2025-05-12 17:51:43,423 - INFO - fl - client_local_train - client 8 start local training ...
+2025-05-12 17:51:45,997 - INFO - fl - client_local_train - client 8 is attacker, start poisoning model
+2025-05-12 17:51:50,044 - INFO - fl - start - end client 8 training
+2025-05-12 17:51:50,044 - INFO - fl - start - client 8 evaluation metrics: {'train_loss': 12.431608054041863, 'test_acc': 9.8}
+2025-05-12 17:51:50,044 - INFO - fl - start - start client 9 training
+2025-05-12 17:51:50,044 - INFO - fl - client_local_train - client 9 start local training ...
+2025-05-12 17:51:51,612 - INFO - fl - client_local_train - client 9 is attacker, start poisoning model
+2025-05-12 17:51:55,141 - INFO - fl - start - end client 9 training
+2025-05-12 17:51:55,141 - INFO - fl - start - client 9 evaluation metrics: {'train_loss': 23.902195229822276, 'test_acc': 9.8}
+2025-05-12 17:51:55,141 - INFO - fl - aggregate_model - start model aggregation...fusion method: dual_defense
+2025-05-12 17:51:55,150 - INFO - fl - aggregate_model - start hyper-guard fusion with epsilon 0.01
+2025-05-12 17:51:55,150 - INFO - fl - aggregate_model - round 9 attackers: [8, 9]
+2025-05-12 17:52:05,995 - DEBUG - util_fusion - fusion_dual_defense - client 0 scores: {0: array([17.4428108]), 1: array([17.44289385]), 2: array([17.44311005]), 3: array([17.44297356]), 4: array([17.44280097]), 5: array([17.44268031]), 6: array([17.44304539]), 7: array([16.24531292]), 8: array([17.44292898]), 9: array([17.44313934])}
+2025-05-12 17:52:05,996 - DEBUG - util_fusion - fusion_dual_defense - client 0 norm scores: {0: array([0.99972572]), 1: array([0.99979506]), 2: array([0.99997554]), 3: array([0.9998616]), 4: array([0.99971751]), 5: array([0.99961678]), 6: array([0.99992157]), 7: array([0.]), 8: array([0.99982438]), 9: array([1.])}
+2025-05-12 17:52:05,996 - DEBUG - util_fusion - fusion_dual_defense - client 0 similarity threshold: 0.8998438164707319
+2025-05-12 17:52:05,996 - INFO - util_fusion - fusion_dual_defense - client 0 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:52:06,005 - DEBUG - util_fusion - fusion_dual_defense - client 1 scores: {0: array([17.4428108]), 1: array([17.44289385]), 2: array([17.44311005]), 3: array([17.44297356]), 4: array([17.44280097]), 5: array([17.44268031]), 6: array([17.44304539]), 7: array([16.24531292]), 8: array([17.44292898]), 9: array([17.44313934])}
+2025-05-12 17:52:06,005 - DEBUG - util_fusion - fusion_dual_defense - client 1 norm scores: {0: array([0.99972572]), 1: array([0.99979506]), 2: array([0.99997554]), 3: array([0.9998616]), 4: array([0.99971751]), 5: array([0.99961678]), 6: array([0.99992157]), 7: array([0.]), 8: array([0.99982438]), 9: array([1.])}
+2025-05-12 17:52:06,006 - DEBUG - util_fusion - fusion_dual_defense - client 1 similarity threshold: 0.8998438164707319
+2025-05-12 17:52:06,006 - INFO - util_fusion - fusion_dual_defense - client 1 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:52:06,014 - DEBUG - util_fusion - fusion_dual_defense - client 2 scores: {0: array([17.4428108]), 1: array([17.44289385]), 2: array([17.44311005]), 3: array([17.44297356]), 4: array([17.44280097]), 5: array([17.44268031]), 6: array([17.44304539]), 7: array([16.24531292]), 8: array([17.44292898]), 9: array([17.44313934])}
+2025-05-12 17:52:06,015 - DEBUG - util_fusion - fusion_dual_defense - client 2 norm scores: {0: array([0.99972572]), 1: array([0.99979506]), 2: array([0.99997554]), 3: array([0.9998616]), 4: array([0.99971751]), 5: array([0.99961678]), 6: array([0.99992157]), 7: array([0.]), 8: array([0.99982438]), 9: array([1.])}
+2025-05-12 17:52:06,015 - DEBUG - util_fusion - fusion_dual_defense - client 2 similarity threshold: 0.8998438164707319
+2025-05-12 17:52:06,015 - INFO - util_fusion - fusion_dual_defense - client 2 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:52:06,023 - DEBUG - util_fusion - fusion_dual_defense - client 3 scores: {0: array([17.4428108]), 1: array([17.44289385]), 2: array([17.44311005]), 3: array([17.44297356]), 4: array([17.44280097]), 5: array([17.44268031]), 6: array([17.44304539]), 7: array([16.24531292]), 8: array([17.44292898]), 9: array([17.44313934])}
+2025-05-12 17:52:06,024 - DEBUG - util_fusion - fusion_dual_defense - client 3 norm scores: {0: array([0.99972572]), 1: array([0.99979506]), 2: array([0.99997554]), 3: array([0.9998616]), 4: array([0.99971751]), 5: array([0.99961678]), 6: array([0.99992157]), 7: array([0.]), 8: array([0.99982438]), 9: array([1.])}
+2025-05-12 17:52:06,024 - DEBUG - util_fusion - fusion_dual_defense - client 3 similarity threshold: 0.8998438164707319
+2025-05-12 17:52:06,024 - INFO - util_fusion - fusion_dual_defense - client 3 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:52:06,032 - DEBUG - util_fusion - fusion_dual_defense - client 4 scores: {0: array([17.4428108]), 1: array([17.44289385]), 2: array([17.44311005]), 3: array([17.44297356]), 4: array([17.44280097]), 5: array([17.44268031]), 6: array([17.44304539]), 7: array([16.24531292]), 8: array([17.44292898]), 9: array([17.44313934])}
+2025-05-12 17:52:06,033 - DEBUG - util_fusion - fusion_dual_defense - client 4 norm scores: {0: array([0.99972572]), 1: array([0.99979506]), 2: array([0.99997554]), 3: array([0.9998616]), 4: array([0.99971751]), 5: array([0.99961678]), 6: array([0.99992157]), 7: array([0.]), 8: array([0.99982438]), 9: array([1.])}
+2025-05-12 17:52:06,033 - DEBUG - util_fusion - fusion_dual_defense - client 4 similarity threshold: 0.8998438164707319
+2025-05-12 17:52:06,033 - INFO - util_fusion - fusion_dual_defense - client 4 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:52:06,041 - DEBUG - util_fusion - fusion_dual_defense - client 5 scores: {0: array([17.4428108]), 1: array([17.44289385]), 2: array([17.44311005]), 3: array([17.44297356]), 4: array([17.44280097]), 5: array([17.44268031]), 6: array([17.44304539]), 7: array([16.24531292]), 8: array([17.44292898]), 9: array([17.44313934])}
+2025-05-12 17:52:06,042 - DEBUG - util_fusion - fusion_dual_defense - client 5 norm scores: {0: array([0.99972572]), 1: array([0.99979506]), 2: array([0.99997554]), 3: array([0.9998616]), 4: array([0.99971751]), 5: array([0.99961678]), 6: array([0.99992157]), 7: array([0.]), 8: array([0.99982438]), 9: array([1.])}
+2025-05-12 17:52:06,042 - DEBUG - util_fusion - fusion_dual_defense - client 5 similarity threshold: 0.8998438164707319
+2025-05-12 17:52:06,042 - INFO - util_fusion - fusion_dual_defense - client 5 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:52:06,050 - DEBUG - util_fusion - fusion_dual_defense - client 6 scores: {0: array([17.4428108]), 1: array([17.44289385]), 2: array([17.44311005]), 3: array([17.44297356]), 4: array([17.44280097]), 5: array([17.44268031]), 6: array([17.44304539]), 7: array([16.24531292]), 8: array([17.44292898]), 9: array([17.44313934])}
+2025-05-12 17:52:06,051 - DEBUG - util_fusion - fusion_dual_defense - client 6 norm scores: {0: array([0.99972572]), 1: array([0.99979506]), 2: array([0.99997554]), 3: array([0.9998616]), 4: array([0.99971751]), 5: array([0.99961678]), 6: array([0.99992157]), 7: array([0.]), 8: array([0.99982438]), 9: array([1.])}
+2025-05-12 17:52:06,051 - DEBUG - util_fusion - fusion_dual_defense - client 6 similarity threshold: 0.8998438164707319
+2025-05-12 17:52:06,051 - INFO - util_fusion - fusion_dual_defense - client 6 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:52:06,059 - DEBUG - util_fusion - fusion_dual_defense - client 7 scores: {0: array([17.4428108]), 1: array([17.44289385]), 2: array([17.44311005]), 3: array([17.44297356]), 4: array([17.44280097]), 5: array([17.44268031]), 6: array([17.44304539]), 7: array([16.24531292]), 8: array([17.44292898]), 9: array([17.44313934])}
+2025-05-12 17:52:06,060 - DEBUG - util_fusion - fusion_dual_defense - client 7 norm scores: {0: array([0.99972572]), 1: array([0.99979506]), 2: array([0.99997554]), 3: array([0.9998616]), 4: array([0.99971751]), 5: array([0.99961678]), 6: array([0.99992157]), 7: array([0.]), 8: array([0.99982438]), 9: array([1.])}
+2025-05-12 17:52:06,060 - DEBUG - util_fusion - fusion_dual_defense - client 7 similarity threshold: 0.8998438164707319
+2025-05-12 17:52:06,060 - INFO - util_fusion - fusion_dual_defense - client 7 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:52:06,068 - DEBUG - util_fusion - fusion_dual_defense - client 8 scores: {0: array([17.4428108]), 1: array([17.44289385]), 2: array([17.44311005]), 3: array([17.44297356]), 4: array([17.44280097]), 5: array([17.44268031]), 6: array([17.44304539]), 7: array([16.24531292]), 8: array([17.44292898]), 9: array([17.44313934])}
+2025-05-12 17:52:06,069 - DEBUG - util_fusion - fusion_dual_defense - client 8 norm scores: {0: array([0.99972572]), 1: array([0.99979506]), 2: array([0.99997554]), 3: array([0.9998616]), 4: array([0.99971751]), 5: array([0.99961678]), 6: array([0.99992157]), 7: array([0.]), 8: array([0.99982438]), 9: array([1.])}
+2025-05-12 17:52:06,069 - DEBUG - util_fusion - fusion_dual_defense - client 8 similarity threshold: 0.8998438164707319
+2025-05-12 17:52:06,069 - INFO - util_fusion - fusion_dual_defense - client 8 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:52:06,077 - DEBUG - util_fusion - fusion_dual_defense - client 9 scores: {0: array([17.4428108]), 1: array([17.44289385]), 2: array([17.44311005]), 3: array([17.44297356]), 4: array([17.44280097]), 5: array([17.44268031]), 6: array([17.44304539]), 7: array([16.24531292]), 8: array([17.44292898]), 9: array([17.44313934])}
+2025-05-12 17:52:06,078 - DEBUG - util_fusion - fusion_dual_defense - client 9 norm scores: {0: array([0.99972572]), 1: array([0.99979506]), 2: array([0.99997554]), 3: array([0.9998616]), 4: array([0.99971751]), 5: array([0.99961678]), 6: array([0.99992157]), 7: array([0.]), 8: array([0.99982438]), 9: array([1.])}
+2025-05-12 17:52:06,078 - DEBUG - util_fusion - fusion_dual_defense - client 9 similarity threshold: 0.8998438164707319
+2025-05-12 17:52:06,078 - INFO - util_fusion - fusion_dual_defense - client 9 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:52:06,078 - DEBUG - util_fusion - fusion_dual_defense - final fusion benigns: (0, 1, 2, 3, 4, 5, 6, 8, 9)
+2025-05-12 17:52:08,000 - INFO - fl - start - global side -  test accuracy: 9.8
+2025-05-12 17:52:08,000 - INFO - fl - start - global side iteration 9 -  test accuracy: 9.8
+2025-05-12 17:52:08,001 - INFO - fl - start - start training round 10
+2025-05-12 17:52:08,002 - INFO - fl - start - round 10 attackers: [0, 2]
+2025-05-12 17:52:08,002 - INFO - fl - start - start client 0 training
+2025-05-12 17:52:08,002 - INFO - fl - client_local_train - client 0 start local training ...
+2025-05-12 17:52:11,425 - INFO - fl - client_local_train - client 0 is attacker, start poisoning model
+2025-05-12 17:52:15,951 - INFO - fl - start - end client 0 training
+2025-05-12 17:52:15,951 - INFO - fl - start - client 0 evaluation metrics: {'train_loss': 3.8984081250316693, 'test_acc': 9.82}
+2025-05-12 17:52:15,951 - INFO - fl - start - start client 1 training
+2025-05-12 17:52:15,951 - INFO - fl - client_local_train - client 1 start local training ...
+2025-05-12 17:52:20,890 - INFO - fl - start - end client 1 training
+2025-05-12 17:52:20,890 - INFO - fl - start - client 1 evaluation metrics: {'train_loss': 1.5014371275901794, 'test_acc': 9.74}
+2025-05-12 17:52:20,890 - INFO - fl - start - start client 2 training
+2025-05-12 17:52:20,890 - INFO - fl - client_local_train - client 2 start local training ...
+2025-05-12 17:52:22,641 - INFO - fl - client_local_train - client 2 is attacker, start poisoning model
+2025-05-12 17:52:26,250 - INFO - fl - start - end client 2 training
+2025-05-12 17:52:26,250 - INFO - fl - start - client 2 evaluation metrics: {'train_loss': 5.1665197036884445, 'test_acc': 10.1}
+2025-05-12 17:52:26,250 - INFO - fl - start - start client 3 training
+2025-05-12 17:52:26,250 - INFO - fl - client_local_train - client 3 start local training ...
+2025-05-12 17:52:30,753 - INFO - fl - start - end client 3 training
+2025-05-12 17:52:30,753 - INFO - fl - start - client 3 evaluation metrics: {'train_loss': 5.587403358557285, 'test_acc': 9.82}
+2025-05-12 17:52:30,753 - INFO - fl - start - start client 4 training
+2025-05-12 17:52:30,753 - INFO - fl - client_local_train - client 4 start local training ...
+2025-05-12 17:52:36,506 - INFO - fl - start - end client 4 training
+2025-05-12 17:52:36,507 - INFO - fl - start - client 4 evaluation metrics: {'train_loss': 4.942607569473761, 'test_acc': 10.09}
+2025-05-12 17:52:36,507 - INFO - fl - start - start client 5 training
+2025-05-12 17:52:36,507 - INFO - fl - client_local_train - client 5 start local training ...
+2025-05-12 17:52:43,157 - INFO - fl - start - end client 5 training
+2025-05-12 17:52:43,157 - INFO - fl - start - client 5 evaluation metrics: {'train_loss': 1.3431172010510466, 'test_acc': 9.58}
+2025-05-12 17:52:43,157 - INFO - fl - start - start client 6 training
+2025-05-12 17:52:43,157 - INFO - fl - client_local_train - client 6 start local training ...
+2025-05-12 17:52:47,132 - INFO - fl - start - end client 6 training
+2025-05-12 17:52:47,132 - INFO - fl - start - client 6 evaluation metrics: {'train_loss': 1.9648175835609436, 'test_acc': 10.28}
+2025-05-12 17:52:47,132 - INFO - fl - start - start client 7 training
+2025-05-12 17:52:47,132 - INFO - fl - client_local_train - client 7 start local training ...
+2025-05-12 17:52:56,075 - INFO - fl - start - end client 7 training
+2025-05-12 17:52:56,075 - INFO - fl - start - client 7 evaluation metrics: {'train_loss': 12.591179606735066, 'test_acc': 8.92}
+2025-05-12 17:52:56,075 - INFO - fl - start - start client 8 training
+2025-05-12 17:52:56,075 - INFO - fl - client_local_train - client 8 start local training ...
+2025-05-12 17:53:00,687 - INFO - fl - start - end client 8 training
+2025-05-12 17:53:00,687 - INFO - fl - start - client 8 evaluation metrics: {'train_loss': 3.866450634598732, 'test_acc': 9.8}
+2025-05-12 17:53:00,687 - INFO - fl - start - start client 9 training
+2025-05-12 17:53:00,687 - INFO - fl - client_local_train - client 9 start local training ...
+2025-05-12 17:53:04,027 - INFO - fl - start - end client 9 training
+2025-05-12 17:53:04,028 - INFO - fl - start - client 9 evaluation metrics: {'train_loss': 6.051751657408111, 'test_acc': 9.8}
+2025-05-12 17:53:04,028 - INFO - fl - aggregate_model - start model aggregation...fusion method: dual_defense
+2025-05-12 17:53:04,028 - INFO - fl - aggregate_model - start hyper-guard fusion with epsilon 0.01
+2025-05-12 17:53:04,028 - INFO - fl - aggregate_model - round 10 attackers: [0, 2]
+2025-05-12 17:53:14,848 - DEBUG - util_fusion - fusion_dual_defense - client 0 scores: {0: array([8.56825673]), 1: array([8.56828642]), 2: array([8.56833861]), 3: array([8.5682967]), 4: array([8.56826041]), 5: array([8.56822545]), 6: array([8.56830714]), 7: array([0.72771142]), 8: array([8.56829289]), 9: array([8.56834298])}
+2025-05-12 17:53:14,849 - DEBUG - util_fusion - fusion_dual_defense - client 0 norm scores: {0: array([0.999989]), 1: array([0.99999279]), 2: array([0.99999944]), 3: array([0.9999941]), 4: array([0.99998947]), 5: array([0.99998501]), 6: array([0.99999543]), 7: array([0.]), 8: array([0.99999361]), 9: array([1.])}
+2025-05-12 17:53:14,849 - DEBUG - util_fusion - fusion_dual_defense - client 0 similarity threshold: 0.8999938844287492
+2025-05-12 17:53:14,849 - INFO - util_fusion - fusion_dual_defense - client 0 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:53:14,857 - DEBUG - util_fusion - fusion_dual_defense - client 1 scores: {0: array([8.56825673]), 1: array([8.56828642]), 2: array([8.56833861]), 3: array([8.5682967]), 4: array([8.56826041]), 5: array([8.56822545]), 6: array([8.56830714]), 7: array([0.72771142]), 8: array([8.56829289]), 9: array([8.56834298])}
+2025-05-12 17:53:14,858 - DEBUG - util_fusion - fusion_dual_defense - client 1 norm scores: {0: array([0.999989]), 1: array([0.99999279]), 2: array([0.99999944]), 3: array([0.9999941]), 4: array([0.99998947]), 5: array([0.99998501]), 6: array([0.99999543]), 7: array([0.]), 8: array([0.99999361]), 9: array([1.])}
+2025-05-12 17:53:14,858 - DEBUG - util_fusion - fusion_dual_defense - client 1 similarity threshold: 0.8999938844287492
+2025-05-12 17:53:14,858 - INFO - util_fusion - fusion_dual_defense - client 1 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:53:14,866 - DEBUG - util_fusion - fusion_dual_defense - client 2 scores: {0: array([8.56825673]), 1: array([8.56828642]), 2: array([8.56833861]), 3: array([8.5682967]), 4: array([8.56826041]), 5: array([8.56822545]), 6: array([8.56830714]), 7: array([0.72771142]), 8: array([8.56829289]), 9: array([8.56834298])}
+2025-05-12 17:53:14,867 - DEBUG - util_fusion - fusion_dual_defense - client 2 norm scores: {0: array([0.999989]), 1: array([0.99999279]), 2: array([0.99999944]), 3: array([0.9999941]), 4: array([0.99998947]), 5: array([0.99998501]), 6: array([0.99999543]), 7: array([0.]), 8: array([0.99999361]), 9: array([1.])}
+2025-05-12 17:53:14,867 - DEBUG - util_fusion - fusion_dual_defense - client 2 similarity threshold: 0.8999938844287492
+2025-05-12 17:53:14,867 - INFO - util_fusion - fusion_dual_defense - client 2 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:53:14,876 - DEBUG - util_fusion - fusion_dual_defense - client 3 scores: {0: array([8.56825673]), 1: array([8.56828642]), 2: array([8.56833861]), 3: array([8.5682967]), 4: array([8.56826041]), 5: array([8.56822545]), 6: array([8.56830714]), 7: array([0.72771142]), 8: array([8.56829289]), 9: array([8.56834298])}
+2025-05-12 17:53:14,876 - DEBUG - util_fusion - fusion_dual_defense - client 3 norm scores: {0: array([0.999989]), 1: array([0.99999279]), 2: array([0.99999944]), 3: array([0.9999941]), 4: array([0.99998947]), 5: array([0.99998501]), 6: array([0.99999543]), 7: array([0.]), 8: array([0.99999361]), 9: array([1.])}
+2025-05-12 17:53:14,876 - DEBUG - util_fusion - fusion_dual_defense - client 3 similarity threshold: 0.8999938844287492
+2025-05-12 17:53:14,876 - INFO - util_fusion - fusion_dual_defense - client 3 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:53:14,885 - DEBUG - util_fusion - fusion_dual_defense - client 4 scores: {0: array([8.56825673]), 1: array([8.56828642]), 2: array([8.56833861]), 3: array([8.5682967]), 4: array([8.56826041]), 5: array([8.56822545]), 6: array([8.56830714]), 7: array([0.72771142]), 8: array([8.56829289]), 9: array([8.56834298])}
+2025-05-12 17:53:14,885 - DEBUG - util_fusion - fusion_dual_defense - client 4 norm scores: {0: array([0.999989]), 1: array([0.99999279]), 2: array([0.99999944]), 3: array([0.9999941]), 4: array([0.99998947]), 5: array([0.99998501]), 6: array([0.99999543]), 7: array([0.]), 8: array([0.99999361]), 9: array([1.])}
+2025-05-12 17:53:14,885 - DEBUG - util_fusion - fusion_dual_defense - client 4 similarity threshold: 0.8999938844287492
+2025-05-12 17:53:14,885 - INFO - util_fusion - fusion_dual_defense - client 4 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:53:14,894 - DEBUG - util_fusion - fusion_dual_defense - client 5 scores: {0: array([8.56825673]), 1: array([8.56828642]), 2: array([8.56833861]), 3: array([8.5682967]), 4: array([8.56826041]), 5: array([8.56822545]), 6: array([8.56830714]), 7: array([0.72771142]), 8: array([8.56829289]), 9: array([8.56834298])}
+2025-05-12 17:53:14,894 - DEBUG - util_fusion - fusion_dual_defense - client 5 norm scores: {0: array([0.999989]), 1: array([0.99999279]), 2: array([0.99999944]), 3: array([0.9999941]), 4: array([0.99998947]), 5: array([0.99998501]), 6: array([0.99999543]), 7: array([0.]), 8: array([0.99999361]), 9: array([1.])}
+2025-05-12 17:53:14,894 - DEBUG - util_fusion - fusion_dual_defense - client 5 similarity threshold: 0.8999938844287492
+2025-05-12 17:53:14,894 - INFO - util_fusion - fusion_dual_defense - client 5 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:53:14,903 - DEBUG - util_fusion - fusion_dual_defense - client 6 scores: {0: array([8.56825673]), 1: array([8.56828642]), 2: array([8.56833861]), 3: array([8.5682967]), 4: array([8.56826041]), 5: array([8.56822545]), 6: array([8.56830714]), 7: array([0.72771142]), 8: array([8.56829289]), 9: array([8.56834298])}
+2025-05-12 17:53:14,903 - DEBUG - util_fusion - fusion_dual_defense - client 6 norm scores: {0: array([0.999989]), 1: array([0.99999279]), 2: array([0.99999944]), 3: array([0.9999941]), 4: array([0.99998947]), 5: array([0.99998501]), 6: array([0.99999543]), 7: array([0.]), 8: array([0.99999361]), 9: array([1.])}
+2025-05-12 17:53:14,903 - DEBUG - util_fusion - fusion_dual_defense - client 6 similarity threshold: 0.8999938844287492
+2025-05-12 17:53:14,903 - INFO - util_fusion - fusion_dual_defense - client 6 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:53:14,912 - DEBUG - util_fusion - fusion_dual_defense - client 7 scores: {0: array([8.56825673]), 1: array([8.56828642]), 2: array([8.56833861]), 3: array([8.5682967]), 4: array([8.56826041]), 5: array([8.56822545]), 6: array([8.56830714]), 7: array([0.72771142]), 8: array([8.56829289]), 9: array([8.56834298])}
+2025-05-12 17:53:14,912 - DEBUG - util_fusion - fusion_dual_defense - client 7 norm scores: {0: array([0.999989]), 1: array([0.99999279]), 2: array([0.99999944]), 3: array([0.9999941]), 4: array([0.99998947]), 5: array([0.99998501]), 6: array([0.99999543]), 7: array([0.]), 8: array([0.99999361]), 9: array([1.])}
+2025-05-12 17:53:14,912 - DEBUG - util_fusion - fusion_dual_defense - client 7 similarity threshold: 0.8999938844287492
+2025-05-12 17:53:14,913 - INFO - util_fusion - fusion_dual_defense - client 7 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:53:14,921 - DEBUG - util_fusion - fusion_dual_defense - client 8 scores: {0: array([8.56825673]), 1: array([8.56828642]), 2: array([8.56833861]), 3: array([8.5682967]), 4: array([8.56826041]), 5: array([8.56822545]), 6: array([8.56830714]), 7: array([0.72771142]), 8: array([8.56829289]), 9: array([8.56834298])}
+2025-05-12 17:53:14,921 - DEBUG - util_fusion - fusion_dual_defense - client 8 norm scores: {0: array([0.999989]), 1: array([0.99999279]), 2: array([0.99999944]), 3: array([0.9999941]), 4: array([0.99998947]), 5: array([0.99998501]), 6: array([0.99999543]), 7: array([0.]), 8: array([0.99999361]), 9: array([1.])}
+2025-05-12 17:53:14,922 - DEBUG - util_fusion - fusion_dual_defense - client 8 similarity threshold: 0.8999938844287492
+2025-05-12 17:53:14,922 - INFO - util_fusion - fusion_dual_defense - client 8 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:53:14,930 - DEBUG - util_fusion - fusion_dual_defense - client 9 scores: {0: array([8.56825673]), 1: array([8.56828642]), 2: array([8.56833861]), 3: array([8.5682967]), 4: array([8.56826041]), 5: array([8.56822545]), 6: array([8.56830714]), 7: array([0.72771142]), 8: array([8.56829289]), 9: array([8.56834298])}
+2025-05-12 17:53:14,931 - DEBUG - util_fusion - fusion_dual_defense - client 9 norm scores: {0: array([0.999989]), 1: array([0.99999279]), 2: array([0.99999944]), 3: array([0.9999941]), 4: array([0.99998947]), 5: array([0.99998501]), 6: array([0.99999543]), 7: array([0.]), 8: array([0.99999361]), 9: array([1.])}
+2025-05-12 17:53:14,931 - DEBUG - util_fusion - fusion_dual_defense - client 9 similarity threshold: 0.8999938844287492
+2025-05-12 17:53:14,931 - INFO - util_fusion - fusion_dual_defense - client 9 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:53:14,931 - DEBUG - util_fusion - fusion_dual_defense - final fusion benigns: (0, 1, 2, 3, 4, 5, 6, 8, 9)
+2025-05-12 17:53:16,856 - INFO - fl - start - global side -  test accuracy: 10.1
+2025-05-12 17:53:16,856 - INFO - fl - start - global side iteration 10 -  test accuracy: 10.1
+2025-05-12 17:53:16,856 - INFO - fl - start - start training round 11
+2025-05-12 17:53:16,858 - INFO - fl - start - round 11 attackers: [8, 6]
+2025-05-12 17:53:16,858 - INFO - fl - start - start client 0 training
+2025-05-12 17:53:16,858 - INFO - fl - client_local_train - client 0 start local training ...
+2025-05-12 17:53:22,570 - INFO - fl - start - end client 0 training
+2025-05-12 17:53:22,570 - INFO - fl - start - client 0 evaluation metrics: {'train_loss': 1.6422140170943063, 'test_acc': 9.82}
+2025-05-12 17:53:22,570 - INFO - fl - start - start client 1 training
+2025-05-12 17:53:22,571 - INFO - fl - client_local_train - client 1 start local training ...
+2025-05-12 17:53:27,506 - INFO - fl - start - end client 1 training
+2025-05-12 17:53:27,506 - INFO - fl - start - client 1 evaluation metrics: {'train_loss': 1.7215232402086258, 'test_acc': 9.74}
+2025-05-12 17:53:27,506 - INFO - fl - start - start client 2 training
+2025-05-12 17:53:27,506 - INFO - fl - client_local_train - client 2 start local training ...
+2025-05-12 17:53:31,036 - INFO - fl - start - end client 2 training
+2025-05-12 17:53:31,036 - INFO - fl - start - client 2 evaluation metrics: {'train_loss': 1.466995844134578, 'test_acc': 10.1}
+2025-05-12 17:53:31,036 - INFO - fl - start - start client 3 training
+2025-05-12 17:53:31,036 - INFO - fl - client_local_train - client 3 start local training ...
+2025-05-12 17:53:35,550 - INFO - fl - start - end client 3 training
+2025-05-12 17:53:35,550 - INFO - fl - start - client 3 evaluation metrics: {'train_loss': 11.641675603695404, 'test_acc': 9.82}
+2025-05-12 17:53:35,550 - INFO - fl - start - start client 4 training
+2025-05-12 17:53:35,550 - INFO - fl - client_local_train - client 4 start local training ...
+2025-05-12 17:53:41,311 - INFO - fl - start - end client 4 training
+2025-05-12 17:53:41,311 - INFO - fl - start - client 4 evaluation metrics: {'train_loss': 11.003274268574184, 'test_acc': 10.09}
+2025-05-12 17:53:41,311 - INFO - fl - start - start client 5 training
+2025-05-12 17:53:41,311 - INFO - fl - client_local_train - client 5 start local training ...
+2025-05-12 17:53:47,939 - INFO - fl - start - end client 5 training
+2025-05-12 17:53:47,939 - INFO - fl - start - client 5 evaluation metrics: {'train_loss': 1.618837370428928, 'test_acc': 9.58}
+2025-05-12 17:53:47,939 - INFO - fl - start - start client 6 training
+2025-05-12 17:53:47,939 - INFO - fl - client_local_train - client 6 start local training ...
+2025-05-12 17:53:50,010 - INFO - fl - client_local_train - client 6 is attacker, start poisoning model
+2025-05-12 17:53:53,791 - INFO - fl - start - end client 6 training
+2025-05-12 17:53:53,791 - INFO - fl - start - client 6 evaluation metrics: {'train_loss': 23.650920867919922, 'test_acc': 10.28}
+2025-05-12 17:53:53,791 - INFO - fl - start - start client 7 training
+2025-05-12 17:53:53,791 - INFO - fl - client_local_train - client 7 start local training ...
+2025-05-12 17:54:02,768 - INFO - fl - start - end client 7 training
+2025-05-12 17:54:02,768 - INFO - fl - start - client 7 evaluation metrics: {'train_loss': 41.90053528611378, 'test_acc': 8.92}
+2025-05-12 17:54:02,768 - INFO - fl - start - start client 8 training
+2025-05-12 17:54:02,768 - INFO - fl - client_local_train - client 8 start local training ...
+2025-05-12 17:54:05,349 - INFO - fl - client_local_train - client 8 is attacker, start poisoning model
+2025-05-12 17:54:09,406 - INFO - fl - start - end client 8 training
+2025-05-12 17:54:09,406 - INFO - fl - start - client 8 evaluation metrics: {'train_loss': 47.93420201539993, 'test_acc': 9.8}
+2025-05-12 17:54:09,406 - INFO - fl - start - start client 9 training
+2025-05-12 17:54:09,406 - INFO - fl - client_local_train - client 9 start local training ...
+2025-05-12 17:54:12,759 - INFO - fl - start - end client 9 training
+2025-05-12 17:54:12,759 - INFO - fl - start - client 9 evaluation metrics: {'train_loss': 12.863737364204562, 'test_acc': 9.8}
+2025-05-12 17:54:12,759 - INFO - fl - aggregate_model - start model aggregation...fusion method: dual_defense
+2025-05-12 17:54:12,760 - INFO - fl - aggregate_model - start hyper-guard fusion with epsilon 0.01
+2025-05-12 17:54:12,760 - INFO - fl - aggregate_model - round 11 attackers: [8, 6]
+2025-05-12 17:54:23,581 - DEBUG - util_fusion - fusion_dual_defense - client 0 scores: {0: array([48.60951105]), 1: array([48.61011266]), 2: array([48.6113963]), 3: array([48.61049421]), 4: array([48.60940154]), 5: array([48.60893901]), 6: array([48.61097025]), 7: array([0.02111294]), 8: array([48.61042792]), 9: array([48.61165737])}
+2025-05-12 17:54:23,582 - DEBUG - util_fusion - fusion_dual_defense - client 0 norm scores: {0: array([0.99995583]), 1: array([0.99996821]), 2: array([0.99999463]), 3: array([0.99997606]), 4: array([0.99995357]), 5: array([0.99994406]), 6: array([0.99998586]), 7: array([0.]), 8: array([0.9999747]), 9: array([1.])}
+2025-05-12 17:54:23,582 - DEBUG - util_fusion - fusion_dual_defense - client 0 similarity threshold: 0.8999752914585232
+2025-05-12 17:54:23,582 - INFO - util_fusion - fusion_dual_defense - client 0 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:54:23,590 - DEBUG - util_fusion - fusion_dual_defense - client 1 scores: {0: array([48.60951105]), 1: array([48.61011266]), 2: array([48.6113963]), 3: array([48.61049421]), 4: array([48.60940154]), 5: array([48.60893901]), 6: array([48.61097025]), 7: array([0.02111294]), 8: array([48.61042792]), 9: array([48.61165737])}
+2025-05-12 17:54:23,591 - DEBUG - util_fusion - fusion_dual_defense - client 1 norm scores: {0: array([0.99995583]), 1: array([0.99996821]), 2: array([0.99999463]), 3: array([0.99997606]), 4: array([0.99995357]), 5: array([0.99994406]), 6: array([0.99998586]), 7: array([0.]), 8: array([0.9999747]), 9: array([1.])}
+2025-05-12 17:54:23,591 - DEBUG - util_fusion - fusion_dual_defense - client 1 similarity threshold: 0.8999752914585232
+2025-05-12 17:54:23,591 - INFO - util_fusion - fusion_dual_defense - client 1 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:54:23,599 - DEBUG - util_fusion - fusion_dual_defense - client 2 scores: {0: array([48.60951105]), 1: array([48.61011266]), 2: array([48.6113963]), 3: array([48.61049421]), 4: array([48.60940154]), 5: array([48.60893901]), 6: array([48.61097025]), 7: array([0.02111294]), 8: array([48.61042792]), 9: array([48.61165737])}
+2025-05-12 17:54:23,600 - DEBUG - util_fusion - fusion_dual_defense - client 2 norm scores: {0: array([0.99995583]), 1: array([0.99996821]), 2: array([0.99999463]), 3: array([0.99997606]), 4: array([0.99995357]), 5: array([0.99994406]), 6: array([0.99998586]), 7: array([0.]), 8: array([0.9999747]), 9: array([1.])}
+2025-05-12 17:54:23,600 - DEBUG - util_fusion - fusion_dual_defense - client 2 similarity threshold: 0.8999752914585232
+2025-05-12 17:54:23,600 - INFO - util_fusion - fusion_dual_defense - client 2 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:54:23,608 - DEBUG - util_fusion - fusion_dual_defense - client 3 scores: {0: array([48.60951105]), 1: array([48.61011266]), 2: array([48.6113963]), 3: array([48.61049421]), 4: array([48.60940154]), 5: array([48.60893901]), 6: array([48.61097025]), 7: array([0.02111294]), 8: array([48.61042792]), 9: array([48.61165737])}
+2025-05-12 17:54:23,609 - DEBUG - util_fusion - fusion_dual_defense - client 3 norm scores: {0: array([0.99995583]), 1: array([0.99996821]), 2: array([0.99999463]), 3: array([0.99997606]), 4: array([0.99995357]), 5: array([0.99994406]), 6: array([0.99998586]), 7: array([0.]), 8: array([0.9999747]), 9: array([1.])}
+2025-05-12 17:54:23,609 - DEBUG - util_fusion - fusion_dual_defense - client 3 similarity threshold: 0.8999752914585232
+2025-05-12 17:54:23,609 - INFO - util_fusion - fusion_dual_defense - client 3 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:54:23,617 - DEBUG - util_fusion - fusion_dual_defense - client 4 scores: {0: array([48.60951105]), 1: array([48.61011266]), 2: array([48.6113963]), 3: array([48.61049421]), 4: array([48.60940154]), 5: array([48.60893901]), 6: array([48.61097025]), 7: array([0.02111294]), 8: array([48.61042792]), 9: array([48.61165737])}
+2025-05-12 17:54:23,618 - DEBUG - util_fusion - fusion_dual_defense - client 4 norm scores: {0: array([0.99995583]), 1: array([0.99996821]), 2: array([0.99999463]), 3: array([0.99997606]), 4: array([0.99995357]), 5: array([0.99994406]), 6: array([0.99998586]), 7: array([0.]), 8: array([0.9999747]), 9: array([1.])}
+2025-05-12 17:54:23,618 - DEBUG - util_fusion - fusion_dual_defense - client 4 similarity threshold: 0.8999752914585232
+2025-05-12 17:54:23,618 - INFO - util_fusion - fusion_dual_defense - client 4 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:54:23,626 - DEBUG - util_fusion - fusion_dual_defense - client 5 scores: {0: array([48.60951105]), 1: array([48.61011266]), 2: array([48.6113963]), 3: array([48.61049421]), 4: array([48.60940154]), 5: array([48.60893901]), 6: array([48.61097025]), 7: array([0.02111294]), 8: array([48.61042792]), 9: array([48.61165737])}
+2025-05-12 17:54:23,627 - DEBUG - util_fusion - fusion_dual_defense - client 5 norm scores: {0: array([0.99995583]), 1: array([0.99996821]), 2: array([0.99999463]), 3: array([0.99997606]), 4: array([0.99995357]), 5: array([0.99994406]), 6: array([0.99998586]), 7: array([0.]), 8: array([0.9999747]), 9: array([1.])}
+2025-05-12 17:54:23,627 - DEBUG - util_fusion - fusion_dual_defense - client 5 similarity threshold: 0.8999752914585232
+2025-05-12 17:54:23,627 - INFO - util_fusion - fusion_dual_defense - client 5 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:54:23,636 - DEBUG - util_fusion - fusion_dual_defense - client 6 scores: {0: array([48.60951105]), 1: array([48.61011266]), 2: array([48.6113963]), 3: array([48.61049421]), 4: array([48.60940154]), 5: array([48.60893901]), 6: array([48.61097025]), 7: array([0.02111294]), 8: array([48.61042792]), 9: array([48.61165737])}
+2025-05-12 17:54:23,636 - DEBUG - util_fusion - fusion_dual_defense - client 6 norm scores: {0: array([0.99995583]), 1: array([0.99996821]), 2: array([0.99999463]), 3: array([0.99997606]), 4: array([0.99995357]), 5: array([0.99994406]), 6: array([0.99998586]), 7: array([0.]), 8: array([0.9999747]), 9: array([1.])}
+2025-05-12 17:54:23,636 - DEBUG - util_fusion - fusion_dual_defense - client 6 similarity threshold: 0.8999752914585232
+2025-05-12 17:54:23,636 - INFO - util_fusion - fusion_dual_defense - client 6 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:54:23,645 - DEBUG - util_fusion - fusion_dual_defense - client 7 scores: {0: array([48.60951105]), 1: array([48.61011266]), 2: array([48.6113963]), 3: array([48.61049421]), 4: array([48.60940154]), 5: array([48.60893901]), 6: array([48.61097025]), 7: array([0.02111294]), 8: array([48.61042792]), 9: array([48.61165737])}
+2025-05-12 17:54:23,645 - DEBUG - util_fusion - fusion_dual_defense - client 7 norm scores: {0: array([0.99995583]), 1: array([0.99996821]), 2: array([0.99999463]), 3: array([0.99997606]), 4: array([0.99995357]), 5: array([0.99994406]), 6: array([0.99998586]), 7: array([0.]), 8: array([0.9999747]), 9: array([1.])}
+2025-05-12 17:54:23,645 - DEBUG - util_fusion - fusion_dual_defense - client 7 similarity threshold: 0.8999752914585232
+2025-05-12 17:54:23,645 - INFO - util_fusion - fusion_dual_defense - client 7 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:54:23,654 - DEBUG - util_fusion - fusion_dual_defense - client 8 scores: {0: array([48.60951105]), 1: array([48.61011266]), 2: array([48.6113963]), 3: array([48.61049421]), 4: array([48.60940154]), 5: array([48.60893901]), 6: array([48.61097025]), 7: array([0.02111294]), 8: array([48.61042792]), 9: array([48.61165737])}
+2025-05-12 17:54:23,654 - DEBUG - util_fusion - fusion_dual_defense - client 8 norm scores: {0: array([0.99995583]), 1: array([0.99996821]), 2: array([0.99999463]), 3: array([0.99997606]), 4: array([0.99995357]), 5: array([0.99994406]), 6: array([0.99998586]), 7: array([0.]), 8: array([0.9999747]), 9: array([1.])}
+2025-05-12 17:54:23,654 - DEBUG - util_fusion - fusion_dual_defense - client 8 similarity threshold: 0.8999752914585232
+2025-05-12 17:54:23,654 - INFO - util_fusion - fusion_dual_defense - client 8 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:54:23,663 - DEBUG - util_fusion - fusion_dual_defense - client 9 scores: {0: array([48.60951105]), 1: array([48.61011266]), 2: array([48.6113963]), 3: array([48.61049421]), 4: array([48.60940154]), 5: array([48.60893901]), 6: array([48.61097025]), 7: array([0.02111294]), 8: array([48.61042792]), 9: array([48.61165737])}
+2025-05-12 17:54:23,663 - DEBUG - util_fusion - fusion_dual_defense - client 9 norm scores: {0: array([0.99995583]), 1: array([0.99996821]), 2: array([0.99999463]), 3: array([0.99997606]), 4: array([0.99995357]), 5: array([0.99994406]), 6: array([0.99998586]), 7: array([0.]), 8: array([0.9999747]), 9: array([1.])}
+2025-05-12 17:54:23,663 - DEBUG - util_fusion - fusion_dual_defense - client 9 similarity threshold: 0.8999752914585232
+2025-05-12 17:54:23,663 - INFO - util_fusion - fusion_dual_defense - client 9 selected fusion benigns: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+2025-05-12 17:54:23,663 - DEBUG - util_fusion - fusion_dual_defense - final fusion benigns: (0, 1, 2, 3, 4, 5, 6, 8, 9)
+2025-05-12 17:54:25,590 - INFO - fl - start - global side -  test accuracy: 10.28
+2025-05-12 17:54:25,590 - INFO - fl - start - global side iteration 11 -  test accuracy: 10.28
+2025-05-12 17:54:25,590 - INFO - fl - start - start training round 12
+2025-05-12 17:54:25,592 - INFO - fl - start - round 12 attackers: [8, 7]
+2025-05-12 17:54:25,592 - INFO - fl - start - start client 0 training
+2025-05-12 17:54:25,592 - INFO - fl - client_local_train - client 0 start local training ...
+2025-05-12 17:54:31,301 - INFO - fl - start - end client 0 training
+2025-05-12 17:54:31,301 - INFO - fl - start - client 0 evaluation metrics: {'train_loss': 1.660569132498975, 'test_acc': 9.82}
+2025-05-12 17:54:31,301 - INFO - fl - start - start client 1 training
+2025-05-12 17:54:31,301 - INFO - fl - client_local_train - client 1 start local training ...
+2025-05-12 17:54:36,231 - INFO - fl - start - end client 1 training
+2025-05-12 17:54:36,231 - INFO - fl - start - client 1 evaluation metrics: {'train_loss': 2.1369428526271474, 'test_acc': 9.74}
+2025-05-12 17:54:36,231 - INFO - fl - start - start client 2 training
+2025-05-12 17:54:36,231 - INFO - fl - client_local_train - client 2 start local training ...
+2025-05-12 17:54:39,771 - INFO - fl - start - end client 2 training
+2025-05-12 17:54:39,772 - INFO - fl - start - client 2 evaluation metrics: {'train_loss': 1.4989682303534613, 'test_acc': 10.1}
+2025-05-12 17:54:39,772 - INFO - fl - start - start client 3 training
+2025-05-12 17:54:39,772 - INFO - fl - client_local_train - client 3 start local training ...
+2025-05-12 17:54:44,317 - INFO - fl - start - end client 3 training
+2025-05-12 17:54:44,317 - INFO - fl - start - client 3 evaluation metrics: {'train_loss': 25.874742031097412, 'test_acc': 9.82}
+2025-05-12 17:54:44,317 - INFO - fl - start - start client 4 training
+2025-05-12 17:54:44,317 - INFO - fl - client_local_train - client 4 start local training ...
+2025-05-12 17:54:50,049 - INFO - fl - start - end client 4 training
+2025-05-12 17:54:50,049 - INFO - fl - start - client 4 evaluation metrics: {'train_loss': 26.13617097006904, 'test_acc': 9.8}
+2025-05-12 17:54:50,049 - INFO - fl - start - start client 5 training
+2025-05-12 17:54:50,049 - INFO - fl - client_local_train - client 5 start local training ...
+2025-05-12 17:54:56,694 - INFO - fl - start - end client 5 training
+2025-05-12 17:54:56,694 - INFO - fl - start - client 5 evaluation metrics: {'train_loss': 2.0626146673232086, 'test_acc': 9.58}
+2025-05-12 17:54:56,694 - INFO - fl - start - start client 6 training
+2025-05-12 17:54:56,694 - INFO - fl - client_local_train - client 6 start local training ...
+2025-05-12 17:55:00,671 - INFO - fl - start - end client 6 training
+2025-05-12 17:55:00,672 - INFO - fl - start - client 6 evaluation metrics: {'train_loss': 5.544440882022564, 'test_acc': 10.28}
+2025-05-12 17:55:00,672 - INFO - fl - start - start client 7 training
+2025-05-12 17:55:00,672 - INFO - fl - client_local_train - client 7 start local training ...
